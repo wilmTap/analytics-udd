@@ -4,7 +4,7 @@
 * TENANT_NAME
 
 ##Student
-* [STUDENT_ID](#STUDENT_ID)
+* [STUDENT_ID](#student_id)
 * ULN
 * DOB
 * ETHNICITY
