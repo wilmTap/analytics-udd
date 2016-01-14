@@ -1,24 +1,24 @@
 ## Student (Additional Information)
 
-* [STUDENT_ID](*student_id)
-* [USERNAME](*username)
-* [LAST_NAME](*last_name)
-* [FIRST_NAME](*first_name)
-* [ADDRESS_LINE_1](*address_line_1)
-* [ADDRESS_LINE_2](*address_line_2)
-* [ADDRESS_LINE_3](*address_line_3)
-* [ADDRESS_LINE_4](*address_line_4)
-* [POSTCODE](*postcode)
-* [PRIMARY_EMAIL_ADDRESS](*primary_email_address)
-* [HOME_PHONE](*home_phone)
-* [MOBILE_PHONE](*mobile_phone)
-* [PHOTO_URL](*photo_url)
-* [COACH_SCHOOL_ID](*coach_school_id)
+* [STUDENT_ID](#student_id)
+* [USERNAME](#username)
+* [LAST_NAME](#last_name)
+* [FIRST_NAME](#first_name)
+* [ADDRESS_LINE_1](#address_line_1)
+* [ADDRESS_LINE_2](#address_line_2)
+* [ADDRESS_LINE_3](#address_line_3)
+* [ADDRESS_LINE_4](#address_line_4)
+* [POSTCODE](#postcode)
+* [PRIMARY_EMAIL_ADDRESS](#primary_email_address)
+* [HOME_PHONE](#home_phone)
+* [MOBILE_PHONE](#mobile_phone)
+* [PHOTO_URL](#photo_url)
+* [COACH_SCHOOL_ID](#coach_school_id)
 
 ## Staff teaching a module Instance
 
-*  [STAFF_ID](*staff_id)
-*  [MOD_INSTANCE_ID](*mod_instance_id)
+*  [STAFF_ID](#staff_id)
+*  [MOD_INSTANCE_ID](#mod_instance_id) - link to Module Instance in UDD 1.1
 
 ##STUDENT_ID
 ###Description
