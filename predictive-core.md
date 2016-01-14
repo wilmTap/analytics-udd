@@ -1,7 +1,7 @@
 
 ##Institution
-* TENANT_ID
-* TENANT_NAME
+* [TENANT_ID](#tenant_id)
+* [TENANT_NAME](#tenant_name)
 
 ##Student
 * [STUDENT_ID](#student_id)
@@ -92,6 +92,50 @@
 * [EVENT_DATE](#event_date)
 
 # Definitions
+
+#INSTITUTION ENTITY
+##TENANT_ID
+###Description
+This field records the unique identifier for the University College concerned - using the UK Provider Reference Number (UKRPN) which is the unique identifier allocated to institutions by the UK Register of Learning Providers (UKRLP).
+
+###Purpose
+To identify the organisation.
+
+###Derivation
+UK Register of Learning Providers (UKRLP).
+
+###References
+
+###Format
+String (8)
+
+###Compulsory
+Yes
+
+###Notes
+Further information (on UKPRN) available at www.ukrlp.co.uk
+
+##TENANT_NAME
+###Description
+Institution's official legal name. This should match the name indicated in the UKRLP database, as used for TENANT_ID
+
+###Purpose
+To identify the organisation.
+
+###Derivation
+Insitution
+
+###References
+
+###Format
+String (255)
+
+###Compulsory
+Yes
+
+###Notes
+
+#STUDENT ENTITY
 ##STUDENT_ID
 ###Description
 The institution's own unique identifier of the student. In the case or event of requiring to provide anonymous data for trial/ evaluation purposes with JISC, institutions should use a suitable method or algorithm (which can be reversed by that institution, for evaluation purposes thereafter) to ensure that this studentid provided is different to that actual ID held locally.
@@ -201,3 +245,33 @@ Yes
 
 ###Notes
 Where any ethnicity details are unknown, this field must be coded with '90'
+
+##GENDER
+###Description
+To record a Learner's current gender assignment, on the basis of their own self-assessment
+
+###Purpose
+For equal opportunities monitoring within learning analytics / data modelling
+
+###Derivation
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^SEXID.html
+
+###Format
+Int
+
+###Valid Values & Mappings
+
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH),HESA(SEXID),FEILR(SEX)
+1,Male,Gwryw,1,M
+2,Female,Beny,2,F
+3,Other,Arall,3,N/A
+4,Unknown,Anhysbys,NULL,NULL
+
+Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL) 
+
+###Compulsory
+Yes
+
+###Notes
+If the gender is unknown, return code '4' in all cases
+
