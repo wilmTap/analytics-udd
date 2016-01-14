@@ -93,7 +93,6 @@
 
 # Definitions
 
-#INSTITUTION ENTITY
 ##TENANT_ID
 ###Description
 This field records the unique identifier for the University College concerned - using the UK Provider Reference Number (UKRPN) which is the unique identifier allocated to institutions by the UK Register of Learning Providers (UKRLP).
@@ -135,7 +134,6 @@ Yes
 
 ###Notes
 
-#STUDENT ENTITY
 ##STUDENT_ID
 ###Description
 The institution's own unique identifier of the student. In the case or event of requiring to provide anonymous data for trial/ evaluation purposes with JISC, institutions should use a suitable method or algorithm (which can be reversed by that institution, for evaluation purposes thereafter) to ensure that this studentid provided is different to that actual ID held locally.
