@@ -5,7 +5,7 @@
 
 ##Student
 * [STUDENT_ID](#student_id)
-* ULN
+* [ULN](#ULN)
 * DOB
 * ETHNICITY
 * GENDER
@@ -117,3 +117,24 @@ String 255
 Yes
 
 ###Notes
+
+##ULN
+###Description
+Unique Learner Number. For initial trial and data model development for the predictive model, this field should be left NULL.
+
+###Purpose
+For future use, tracking student journey.
+
+###Derivation
+Skills Funding Agency: See https://www.gov.uk/government/publications/lrs-unique-learner-numbers
+
+###References
+
+###Format
+String (10)
+
+###Compulsory
+No
+
+###Notes
+The ULN can be provided as an additional point of reference, however the STUDENT_ID will always take precedence as the unique learner/ student identifier
