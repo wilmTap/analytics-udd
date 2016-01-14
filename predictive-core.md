@@ -262,10 +262,10 @@ Int
 ###Valid Values & Mappings
 
 ###CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH),HESA(SEXID),FEILR(SEX)
-###1,Male,Gwryw,1,M
-###2,Female,Beny,2,F
-###3,Other,Arall,3,N/A
-###4,Unknown,Anhysbys,NULL,NULL
+1,Male,Gwryw,1,M
+2,Female,Beny,2,F
+3,Other,Arall,3,N/A
+4,Unknown,Anhysbys,NULL,NULL
 
 Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL) 
 
@@ -275,3 +275,289 @@ Yes
 ###Notes
 If the gender is unknown, return code '4' in all cases
 
+##AGE
+###Description
+The current age of the learner/ student
+
+###Purpose
+To be used purely for display purposes within the Learning Analytics software suite
+
+###Format
+Int
+
+###Compulsory
+Yes - Learning Analytics system calculated field
+
+###Notes
+This will typically auto-calculated on a daily basis, based on field DOB. The LA system will provide this field.
+
+##LEARN_DIF
+###Description
+This field records whether the learner considers themselves to have a learning difficulty
+
+###Purpose
+For detailed analysis or intervention purposes within Learning Analytics eg. Data Insight Tool
+
+###Derivation
+https://www.hesa.ac.uk/component/studrec/show_file/14051/a%5E_%5ELEARNDIF.html
+
+###Valid Values & Mappings
+CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)	HESA - LEARNDIF	FE ILR - LLDDCAT
+1	Moderate learning difficulty		1	10
+2	Severe learning difficulty		2	11
+10	Dyslexia		10	12
+11	Dyscalculia		11	13
+19	Other specific learning difficulty		19	94
+20	Autism spectrum disorder		20	14
+90	Multiple learning difficulties		90	3
+97	Other		97	96
+98	No learning difficulty		98	N/A
+99	Not known / information not provided		99	N/A
+98	No learning difficulty		NULL	NULL
+
+Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)
+
+###Format
+Int
+
+###Compulsory
+Yes
+
+###Notes
+If a learner's learning difficulty is unknown, then code '99' should be used for those cases
+
+##DISABILITY1
+###Description
+Whether the student is indicated as being disabled, according to their own self-assessment. This will be their primary disability.
+
+###Purpose
+For equal opportunities monitoring within Learning Analytics/ Data Modelling
+
+###Derivation
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5eDISABLE.html
+
+###Valid Values & Mappings
+CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)	HESA - DISABLE	HE ILR - LLDDCat
+0	No known disability	Dim Anabledd	0	N/A
+58	Blind or a serious visual impairment uncorrected by glasses		2	N/A
+57	Deaf or a serious hearing impairment		3	N/A
+56	A physical impairment or mobility issues, such as difficulty using arms or using a wheelchair or crutches		4	N/A
+96	A disability, impairment or medical condition that is not listed above		5	N/A
+55	A mental health condition, such as depression, schizophrenia or anxiety disorder		6	N/A
+96	A disability, impairment or medical condition that is not listed above		7	N/A
+8	Two or more impairments and/or disabling medical conditions		8	2
+51	A specific learning difficulty such as dyslexia, dyspraxia or AD(H)D		11	12
+53	A social/communication impairment such as Asperger's syndrome/other autistic spectrum disorder		53	15
+53	A social/communication impairment such as Asperger's syndrome/other autistic spectrum disorder		N/A	1
+54	A long standing illness or health condition such as cancer, HIV, diabetes, chronic heart disease, or epilepsy		54	95
+55	A mental health condition, such as depression, schizophrenia or anxiety disorder		55	9
+56	A physical impairment or mobility issues, such as difficulty using arms or using a wheelchair or crutches		56	6
+56	A physical impairment or mobility issues, such as difficulty using arms or using a wheelchair or crutches		N/A	93
+57	Deaf or a serious hearing impairment		57	5
+58	Blind or a serious visual impairment uncorrected by glasses		58	4
+96	A disability, impairment or medical condition that is not listed above		96	7
+96	A disability, impairment or medical condition that is not listed above		N/A	8
+96	A disability, impairment or medical condition that is not listed above		N/A	16
+96	A disability, impairment or medical condition that is not listed above		N/A	97
+97	Information refused		97	98
+98	Information not sought		98	N/A
+99	Not known	Anhysbys	99	99
+0	No known disability	Dim Anabledd	NULL	NULL
+
+Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)
+
+###Format
+Int
+
+###Compulsory
+Yes
+
+###Notes
+If disability is unknown, code '0' or '99' should be provided
+
+##DISABILITY2
+###Description
+Whether the student is indicated as being disabled, according to their own self-assessment. This will be their secondary disability.
+
+###Purpose
+For equal opportunities monitoring within Learning Analytics/ Data Modelling
+
+###Derivation
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5eDISABLE.html
+
+###Valid Values & Mappings
+CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)	HESA - DISABLE	HE ILR - LLDDCat
+0	No known disability	Dim Anabledd	0	N/A
+58	Blind or a serious visual impairment uncorrected by glasses		2	N/A
+57	Deaf or a serious hearing impairment		3	N/A
+56	A physical impairment or mobility issues, such as difficulty using arms or using a wheelchair or crutches		4	N/A
+96	A disability, impairment or medical condition that is not listed above		5	N/A
+55	A mental health condition, such as depression, schizophrenia or anxiety disorder		6	N/A
+96	A disability, impairment or medical condition that is not listed above		7	N/A
+8	Two or more impairments and/or disabling medical conditions		8	2
+51	A specific learning difficulty such as dyslexia, dyspraxia or AD(H)D		11	12
+53	A social/communication impairment such as Asperger's syndrome/other autistic spectrum disorder		53	15
+53	A social/communication impairment such as Asperger's syndrome/other autistic spectrum disorder		N/A	1
+54	A long standing illness or health condition such as cancer, HIV, diabetes, chronic heart disease, or epilepsy		54	95
+55	A mental health condition, such as depression, schizophrenia or anxiety disorder		55	9
+56	A physical impairment or mobility issues, such as difficulty using arms or using a wheelchair or crutches		56	6
+56	A physical impairment or mobility issues, such as difficulty using arms or using a wheelchair or crutches		N/A	93
+57	Deaf or a serious hearing impairment		57	5
+58	Blind or a serious visual impairment uncorrected by glasses		58	4
+96	A disability, impairment or medical condition that is not listed above		96	7
+96	A disability, impairment or medical condition that is not listed above		N/A	8
+96	A disability, impairment or medical condition that is not listed above		N/A	16
+96	A disability, impairment or medical condition that is not listed above		N/A	97
+97	Information refused		97	98
+98	Information not sought		98	N/A
+99	Not known	Anhysbys	99	99
+0	No known disability	Dim Anabledd	NULL	NULL
+
+Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)
+
+###Format
+Int
+
+###Compulsory
+Yes
+
+###Notes
+If disability is unknown, code '0' or '99' should be provided
+
+##DOMICILE
+###Description
+This field holds the country code of the student's permanent home address prior to entry to the course. It is not necessarily the correspondence address of the student.
+
+###Purpose
+For detailed analysis within Learning Analytics/ Data Modelling
+
+###Derivation
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5eDOMICILE.html
+
+###Format
+String (2)
+
+###Valid Values (No Mappings)
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5eDOMICILE.html
+
+###Compulsory
+Yes
+
+###Notes
+If a domicile country is unknown, please use code 'ZZ'
+
+##TERMTIME_ACCOM
+###Description
+The current term time accomodation type of student
+
+###Purpose
+For detailed analysis within Learning Analytics/ Data Modelling
+
+###Derivation
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5eTTACCOM.html
+
+###Valid Values & Mappings
+CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)	HESA - TTACCOM	FE ILR - ACCOM
+1	Provider maintained property		1	5
+2	Parental/guardian home		2	N/A
+4	Other	Arall	4	NULL
+5	Not known	Anhysbys	5	N/A
+6	Not in attendance at the provider		6	N/A
+7	Own residence		7	N/A
+8	Other rented accommodation		8	N/A
+9	Private-sector halls		9	N/A
+5	Not known	Anhysbys	NULL	N/A
+Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)
+
+###Format
+Int
+
+###Compulsory
+Yes
+
+###Notes
+If the type is unknown, code '5' should be used
+
+##PARENTS_ED
+###Description
+Whether parents have higher education qualification
+
+###Purpose
+For detailed analysis within Learning Analytics/ Data Modelling
+
+###Derivation
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5ePARED.html
+
+###Valid Values
+CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)
+1	Yes	Ie
+2	No	Na
+7	No response given	Dim Ateb
+8	Don't know	Anhysbys
+9	Information refused	Gwybodaeth wedi ei ddal yn ol
+
+###Format
+Int
+
+###Compulsory
+Yes
+
+###Notes
+Where this is unknown, the code '8' should be provided. This information may not be available for FE/ ILR institutions, and only HE.
+
+##SOCIO_EC
+###Description
+This field collects the socio-economic classification of students participating in HE if 21 or over at the start of their course or parental classification if under 21
+
+###Purpose
+For detailed analysis within Learning Analytics/ Data Modelling
+
+###Derivation
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^SEC.html
+
+###Valid Values
+CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)
+1	Higher managerial & professional occupations	
+2	Lower managerial & professional occupations	
+3	Intermediate occupations	
+4	Small employers & own account workers	
+5	Lower supervisory & technical occupations	
+6	Semi-routine occupations	
+7	Routine occupations	
+8	Never worked & long-term unemployed	
+9	Not classified	Dim math
+
+###Format
+Int
+
+###Compulsory
+Yes for HE
+
+###Notes
+Where this is unknown, the code '9' should be provided. This information may not be available for FE/ ILR institutions, and only HE.
+
+##OVERSEAS
+###Description
+Whether the student is classified as a home student (UK), or European (EU) or as Overseas (rest of the world)
+
+###Purpose
+For detailed analysis within Learning Analytics/ Data Modelling
+
+###Derivation
+Jisc
+
+###Valid Values
+CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)
+1	United Kingdom	Deyrnas Unedig
+2	Europe (EU)	Ewrop (UE)
+3	Rest of the World (Overseas)	Gweddill y Byd
+99	Not Known	Anhysbys
+
+###Format
+Int
+
+###Compulsory
+Yes
+
+###Notes
+If this value is unknown, then code '99' should be used. The mapping for these fields could be done using the Nationality indicator, or other relevant source within the HESA/ student records system database.
