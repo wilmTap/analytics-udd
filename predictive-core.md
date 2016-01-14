@@ -7,7 +7,7 @@
 * [STUDENT_ID](#student_id)
 * [ULN](#ULN)
 * [DOB](#DOB)
-* ETHNICITY
+* [ETHNICITY](#ETHNICITY)
 * GENDER
 * AGE
 * LEARN_DIF
