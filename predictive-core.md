@@ -261,11 +261,11 @@ Int
 
 ###Valid Values & Mappings
 
-CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH),HESA(SEXID),FEILR(SEX)
-1,Male,Gwryw,1,M
-2,Female,Beny,2,F
-3,Other,Arall,3,N/A
-4,Unknown,Anhysbys,NULL,NULL
+###CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH),HESA(SEXID),FEILR(SEX)
+###1,Male,Gwryw,1,M
+###2,Female,Beny,2,F
+###3,Other,Arall,3,N/A
+###4,Unknown,Anhysbys,NULL,NULL
 
 Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL) 
 
