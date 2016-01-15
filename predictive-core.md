@@ -257,14 +257,13 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 Int
 
 ###Valid Values & Mappings
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH),HESA(SEXID),FEILR(SEX)
+1,Male,Gwryw,1,M  
+2,Female,Beny,2,F  
+3,Other,Arall,3,N/A  
+4,Unknown,Anhysbys,NULL,NULL  
 
-###CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH),HESA(SEXID),FEILR(SEX)
-1,Male,Gwryw,1,M
-2,Female,Beny,2,F
-3,Other,Arall,3,N/A
-4,Unknown,Anhysbys,NULL,NULL
-
-Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL) 
+Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)   
 
 ###Compulsory
 Yes
@@ -299,20 +298,20 @@ For detailed analysis or intervention purposes within Learning Analytics eg. Dat
 https://www.hesa.ac.uk/component/studrec/show_file/14051/a%5E_%5ELEARNDIF.html
 
 ###Valid Values & Mappings
-CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)	HESA - LEARNDIF	FE ILR - LLDDCAT
-1	Moderate learning difficulty		1	10
-2	Severe learning difficulty		2	11
-10	Dyslexia		10	12
-11	Dyscalculia		11	13
-19	Other specific learning difficulty		19	94
-20	Autism spectrum disorder		20	14
-90	Multiple learning difficulties		90	3
-97	Other		97	96
-98	No learning difficulty		98	N/A
-99	Not known / information not provided		99	N/A
-98	No learning difficulty		NULL	NULL
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH),HESA(LEARNDIF),FEILR(LLDDCAT)  
+1,Moderate learning difficulty,,1,10  
+2,Severe learning difficulty,,2,11  
+10,Dyslexia,,10,12  
+11,Dyscalculia,,11,13  
+19,Other specific learning difficulty,,19,94  
+20,Autism spectrum disorder,,20,14  
+90,Multiple learning difficulties,,90,3  
+97,Other,,97,96  
+98,No learning difficulty,,98,N/A  
+99,Not known / information not provided,,99,N/A  
+98,No learning difficulty,,NULL,NULL  
 
-Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)
+Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
 
 ###Format
 Int
@@ -334,34 +333,34 @@ For equal opportunities monitoring within Learning Analytics/ Data Modelling
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5eDISABLE.html
 
 ###Valid Values & Mappings
-CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)	HESA - DISABLE	HE ILR - LLDDCat
-0	No known disability	Dim Anabledd	0	N/A
-58	Blind or a serious visual impairment uncorrected by glasses		2	N/A
-57	Deaf or a serious hearing impairment		3	N/A
-56	A physical impairment or mobility issues, such as difficulty using arms or using a wheelchair or crutches		4	N/A
-96	A disability, impairment or medical condition that is not listed above		5	N/A
-55	A mental health condition, such as depression, schizophrenia or anxiety disorder		6	N/A
-96	A disability, impairment or medical condition that is not listed above		7	N/A
-8	Two or more impairments and/or disabling medical conditions		8	2
-51	A specific learning difficulty such as dyslexia, dyspraxia or AD(H)D		11	12
-53	A social/communication impairment such as Asperger's syndrome/other autistic spectrum disorder		53	15
-53	A social/communication impairment such as Asperger's syndrome/other autistic spectrum disorder		N/A	1
-54	A long standing illness or health condition such as cancer, HIV, diabetes, chronic heart disease, or epilepsy		54	95
-55	A mental health condition, such as depression, schizophrenia or anxiety disorder		55	9
-56	A physical impairment or mobility issues, such as difficulty using arms or using a wheelchair or crutches		56	6
-56	A physical impairment or mobility issues, such as difficulty using arms or using a wheelchair or crutches		N/A	93
-57	Deaf or a serious hearing impairment		57	5
-58	Blind or a serious visual impairment uncorrected by glasses		58	4
-96	A disability, impairment or medical condition that is not listed above		96	7
-96	A disability, impairment or medical condition that is not listed above		N/A	8
-96	A disability, impairment or medical condition that is not listed above		N/A	16
-96	A disability, impairment or medical condition that is not listed above		N/A	97
-97	Information refused		97	98
-98	Information not sought		98	N/A
-99	Not known	Anhysbys	99	99
-0	No known disability	Dim Anabledd	NULL	NULL
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH),HESA(DISABLE),FEILR(LLDDCat)  
+0,No known disability,Dim Anabledd,0,N/A  
+58,Blind or a serious visual impairment uncorrected by glasses,,2,N/A  
+57,Deaf or a serious hearing impairment,,3,N/A  
+56,A physical impairment or mobility issues such as difficulty using arms or using a wheelchair or crutches,,4,N/A  
+96,A disability impairment or medical condition that is not listed above,,5,N/A  
+55,A mental health condition such as depression schizophrenia or anxiety disorder,,6,N/A  
+96,A disability impairment or medical condition that is not listed above,,7,N/A  
+8,Two or more impairments and/or disabling medical conditions,,8,2  
+51,A specific learning difficulty such as dyslexia dyspraxia or AD(H)D,,11,12  
+53,A social/communication impairment such as Asperger's syndrome/other autistic spectrum disorder,,53,15  
+53,A social/communication impairment such as Asperger's syndrome/other autistic spectrum disorder,,N/A,1  
+54,A long standing illness or health condition such as cancer HIV diabetes chronic heart disease or epilepsy,,54,95  
+55,A mental health condition such as depression schizophrenia or anxiety disorder,,55,9  
+56,A physical impairment or mobility issues such as difficulty using arms or using a wheelchair or crutches,,56,6  
+56,A physical impairment or mobility issues such as difficulty using arms or using a wheelchair or crutches,,N/A,93  
+57,Deaf or a serious hearing impairment,,57,5  
+58,Blind or a serious visual impairment uncorrected by glasses,,58,4  
+96,A disability impairment or medical condition that is not listed above,,96,7  
+96,A disability impairment or medical condition that is not listed above,,N/A,8  
+96,A disability impairment or medical condition that is not listed above,,N/A,16  
+96,A disability impairment or medical condition that is not listed above,,N/A,97  
+97,Information refused,,97,98  
+98,Information not sought,,98,N/A  
+99,Not known,Anhysbys,99,99  
+0,No known disability,Dim Anabledd,NULL,NULL  
 
-Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)
+Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
 
 ###Format
 Int
@@ -383,34 +382,34 @@ For equal opportunities monitoring within Learning Analytics/ Data Modelling
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5eDISABLE.html
 
 ###Valid Values & Mappings
-CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)	HESA - DISABLE	HE ILR - LLDDCat
-0	No known disability	Dim Anabledd	0	N/A
-58	Blind or a serious visual impairment uncorrected by glasses		2	N/A
-57	Deaf or a serious hearing impairment		3	N/A
-56	A physical impairment or mobility issues, such as difficulty using arms or using a wheelchair or crutches		4	N/A
-96	A disability, impairment or medical condition that is not listed above		5	N/A
-55	A mental health condition, such as depression, schizophrenia or anxiety disorder		6	N/A
-96	A disability, impairment or medical condition that is not listed above		7	N/A
-8	Two or more impairments and/or disabling medical conditions		8	2
-51	A specific learning difficulty such as dyslexia, dyspraxia or AD(H)D		11	12
-53	A social/communication impairment such as Asperger's syndrome/other autistic spectrum disorder		53	15
-53	A social/communication impairment such as Asperger's syndrome/other autistic spectrum disorder		N/A	1
-54	A long standing illness or health condition such as cancer, HIV, diabetes, chronic heart disease, or epilepsy		54	95
-55	A mental health condition, such as depression, schizophrenia or anxiety disorder		55	9
-56	A physical impairment or mobility issues, such as difficulty using arms or using a wheelchair or crutches		56	6
-56	A physical impairment or mobility issues, such as difficulty using arms or using a wheelchair or crutches		N/A	93
-57	Deaf or a serious hearing impairment		57	5
-58	Blind or a serious visual impairment uncorrected by glasses		58	4
-96	A disability, impairment or medical condition that is not listed above		96	7
-96	A disability, impairment or medical condition that is not listed above		N/A	8
-96	A disability, impairment or medical condition that is not listed above		N/A	16
-96	A disability, impairment or medical condition that is not listed above		N/A	97
-97	Information refused		97	98
-98	Information not sought		98	N/A
-99	Not known	Anhysbys	99	99
-0	No known disability	Dim Anabledd	NULL	NULL
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH),HESA(DISABLE),FEILR(LLDDCat)  
+0,No known disability,Dim Anabledd,0,N/A  
+58,Blind or a serious visual impairment uncorrected by glasses,,2,N/A  
+57,Deaf or a serious hearing impairment,,3,N/A  
+56,A physical impairment or mobility issues such as difficulty using arms or using a wheelchair or crutches,,4,N/A  
+96,A disability impairment or medical condition that is not listed above,,5,N/A  
+55,A mental health condition such as depression schizophrenia or anxiety disorder,,6,N/A  
+96,A disability impairment or medical condition that is not listed above,,7,N/A  
+8,Two or more impairments and/or disabling medical conditions,,8,2  
+51,A specific learning difficulty such as dyslexia dyspraxia or AD(H)D,,11,12  
+53,A social/communication impairment such as Asperger's syndrome/other autistic spectrum disorder,,53,15  
+53,A social/communication impairment such as Asperger's syndrome/other autistic spectrum disorder,,N/A,1  
+54,A long standing illness or health condition such as cancer HIV diabetes chronic heart disease or epilepsy,,54,95  
+55,A mental health condition such as depression schizophrenia or anxiety disorder,,55,9  
+56,A physical impairment or mobility issues such as difficulty using arms or using a wheelchair or crutches,,56,6  
+56,A physical impairment or mobility issues such as difficulty using arms or using a wheelchair or crutches,,N/A,93  
+57,Deaf or a serious hearing impairment,,57,5  
+58,Blind or a serious visual impairment uncorrected by glasses,,58,4  
+96,A disability impairment or medical condition that is not listed above,,96,7  
+96,A disability impairment or medical condition that is not listed above,,N/A,8  
+96,A disability impairment or medical condition that is not listed above,,N/A,16  
+96,A disability impairment or medical condition that is not listed above,,N/A,97  
+97,Information refused,,97,98  
+98,Information not sought,,98,N/A  
+99,Not known,Anhysbys,99,99  
+0,No known disability,Dim Anabledd,NULL,NULL  
 
-Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)
+Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
 
 ###Format
 Int
@@ -454,17 +453,18 @@ For detailed analysis within Learning Analytics/ Data Modelling
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5eTTACCOM.html
 
 ###Valid Values & Mappings
-CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)	HESA - TTACCOM	FE ILR - ACCOM
-1	Provider maintained property		1	5
-2	Parental/guardian home		2	N/A
-4	Other	Arall	4	NULL
-5	Not known	Anhysbys	5	N/A
-6	Not in attendance at the provider		6	N/A
-7	Own residence		7	N/A
-8	Other rented accommodation		8	N/A
-9	Private-sector halls		9	N/A
-5	Not known	Anhysbys	NULL	N/A
-Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH),HESA(TTACCOM),FEILR(ACCOM)  
+1,Provider maintained property,,1,5  
+2,Parental/guardian home,,2,N/A  
+4,Other,Arall,4,NULL  
+5,Not known,Anhysbys,5,N/A  
+6,Not in attendance at the provider,,6,N/A  
+7,Own residence,,7,N/A  
+8,Other rented accommodation,,8,N/A  
+9,Private-sector halls,,9,N/A  
+5,Not known,Anhysbys,NULL,N/A    
+
+Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
 
 ###Format
 Int
@@ -486,12 +486,12 @@ For detailed analysis within Learning Analytics/ Data Modelling
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5ePARED.html
 
 ###Valid Values
-CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)
-1	Yes	Ie
-2	No	Na
-7	No response given	Dim Ateb
-8	Don't know	Anhysbys
-9	Information refused	Gwybodaeth wedi ei ddal yn ol
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH)  
+1,Yes,Ie  
+2,No,Na  
+7,No response given,Dim Ateb  
+8,Don't know,Anhysbys  
+9,Information refused,Gwybodaeth wedi ei ddal yn ol  
 
 ###Format
 Int
@@ -513,16 +513,16 @@ For detailed analysis within Learning Analytics/ Data Modelling
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^SEC.html
 
 ###Valid Values
-CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)
-1	Higher managerial & professional occupations	
-2	Lower managerial & professional occupations	
-3	Intermediate occupations	
-4	Small employers & own account workers	
-5	Lower supervisory & technical occupations	
-6	Semi-routine occupations	
-7	Routine occupations	
-8	Never worked & long-term unemployed	
-9	Not classified	Dim math
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH)  
+1,Higher managerial & professional occupations,  
+2,Lower managerial & professional occupations,   
+3,Intermediate occupations,  
+4,Small employers & own account workers,  
+5,Lower supervisory & technical occupations,  	
+6,Semi-routine occupations,  	
+7,Routine occupations,  	
+8,Never worked & long-term unemployed,  	
+9,Not classified,Dim math  
 
 ###Format
 Int
@@ -544,11 +544,11 @@ For detailed analysis within Learning Analytics/ Data Modelling
 Jisc
 
 ###Valid Values
-CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)
-1	United Kingdom	Deyrnas Unedig
-2	Europe (EU)	Ewrop (UE)
-3	Rest of the World (Overseas)	Gweddill y Byd
-99	Not Known	Anhysbys
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH)
+1,United Kingdom,Deyrnas Unedig  
+2,Europe (EU),Ewrop (UE)  
+3,Rest of the World (Overseas),Gweddill y Byd  
+99,Not Known,Anhysbys  
 
 ###Format
 Int
@@ -638,8 +638,8 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 
 ###Valid Values
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^COURSEAIM.html
-
-- plus additional codes X98 & X99 (see notes below)
+  
+- plus additional codes X98 & X99 (see notes below)  
 
 ###References
 
@@ -752,25 +752,25 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^RSNEND.html
 
 ###Valid Values & Mappings 
-CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)	HESA - WITHDRAWREASON	HESA - RSNEND	ILR - WITHDRAWREASON
-2	Learner has transferred to another provider		02	03	2
-3	Learner injury / illness		03	04	3
-5	Death		N/A	05	N/A
-7	Learner has transferred between providers due to intervention by the Skills Funding Agency		07	N/A	7
-10	Gone into employment		N/A	10	N/A
-28	OLASS learner withdrawn due to circumstances outside the providers’ control		N/A	N/A	28
-29	Learner has been made redundant		29	N/A	29
-40	Learner has transferred to a new learning aim with the same provider.		40	N/A	40
-41	Learner has transferred to another provider to undertake learning that meets a specific government strategy		41	N/A	41
-42	Academic failure/left in bad standing/not permitted to progress – HE learning aims only		N/A	02	42
-43	Financial reasons		N/A	06	43
-44	Other personal reasons		N/A	07	44
-45	Written off after lapse of time (HE learning aims only)		N/A	08	45
-46	Exclusion		N/A	09	46
-97	Other		97	11	97
-98	Reason not known		98	99	98
-98	Reason not known		NULL	N/A	NULL
-99	Completion of course - result unknown		N/A	98	N/A
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH),HESA(WITHDRAWREASON),HESA(RSNEND),FEILR(WITHDRAWREASON)  
+2,Learner has transferred to another provider,,02,03,2  
+3,Learner injury / illness,,03,04,3   
+5,Death,,N/A,05,N/A  
+7,Learner has transferred between providers due to intervention by the Skills Funding Agency,,07,N/A,7  
+10,Gone into employment,,N/A,10,N/A  
+28,OLASS learner withdrawn due to circumstances outside the providers’ control,,N/A,N/A,28  
+29,Learner has been made redundant,,29,N/A,29  
+40,Learner has transferred to a new learning aim with the same provider,,40,N/A,40  
+41,Learner has transferred to another provider to undertake learning that meets a specific government strategy,,41,N/A,41  
+42,Academic failure/left in bad standing/not permitted to progress – HE learning aims only,,N/A,02,42  
+43,Financial reasons,,N/A,06,43  
+44,Other personal reasons,,N/A,07,44  
+45,Written off after lapse of time (HE learning aims only),,N/A,08,45  
+46,Exclusion,,N/A,09,46  
+97,Other,,97,11,97  
+98,Reason not known,,98,99,98  
+98,Reason not known,,NULL,N/A,NULL  
+99,Completion of course - result unknown,,N/A,98,N/A  
 
 ###Format
 Int
@@ -814,33 +814,33 @@ For analytics
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^MODE.html
 
 ###Valid Values & Mappings
-CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)	HESA - MODE	ILR - PlanLearnHours
-1	Full-time according to funding council definitions		1	PlanLearnHours >= 540
-2	Other full-time		2	N/A
-12	FE students, full-time 30 weeks or more		12	N/A
-13	FE students, full-time 4-29 weeks		13	N/A
-14	FE students, full-time less than 4 weeks		14	N/A
-23	Sandwich (thick) according to funding council definitions		23	N/A
-24	Sandwich (thin) according to funding council definitions		24	N/A
-25	Other sandwich course/programme		25	N/A
-31	Part-time		31	PlanLearnHours < 540
-33	FE students, part-time, released from employment		33	N/A
-34	FE students, part-time, not released from employment		34	N/A
-35	FE students, evening only		35	N/A
-36	FE students - open or distance learning		36	N/A
-38	Structured part-time (providers in Scotland)		38	N/A
-39	Other part-time (providers in Scotland)		39	N/A
-43	Writing-up - previously full-time		43	N/A
-44	Writing-up - previously part-time		44	N/A
-51	Sabbatical		51	N/A
-63	Dormant - previously full-time		63	N/A
-64	Dormant - previously part-time		64	N/A
-65	FE students continuous delivery, day/daytime		65	N/A
-73	Change to dormant status - previously full-time		73	N/A
-74	Change to dormant status - previously part-time		74	N/A
-99	FE students in England		99	N/A
-98	Not Known/ Not in Early Statistics/HEIFES population		NULL	NULL
- 
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH),HESA(MODE),FEILR(PlanLearnHours)  
+1,Full-time according to funding council definitions,,1,PlanLearnHours >= 540  
+2,Other full-time,,2,N/A  
+12,FE students full-time 30 weeks or more,,12,N/A  
+13,FE students full-time 4-29 weeks,,13,N/A  
+14,FE students full-time less than 4 weeks,,14,N/A  
+23,Sandwich (thick) according to funding council definitions,,23,N/A  
+24,Sandwich (thin) according to funding council definitions,,24,N/A  
+25,Other sandwich course/programme,,25,N/A  
+31,Part-time,,31,PlanLearnHours < 540  
+33,FE students part-time released from employment,,33,N/A  
+34,FE students part-time not released from employment,,34,N/A  
+35,FE students evening only,,35,N/A  
+36,FE students open or distance learning,,36,N/A  
+38,Structured part-time (providers in Scotland),,38,N/A  
+39,Other part-time (providers in Scotland),,39,N/A  
+43,Writing-up - previously full-time,,43,N/A  
+44,Writing-up - previously part-time,,44,N/A  
+51,Sabbatical,,51,N/A  
+63,Dormant - previously full-time,,63,N/A  
+64,Dormant - previously part-time,,64,N/A  
+6,FE students continuous delivery day/daytime,,65,N/A  
+73,Change to dormant status - previously full-time,,73,N/A  
+74,Change to dormant status - previously part-time,,74,N/A  
+99,FE students in England,,99,N/A  
+98,Not Known/ Not in Early Statistics/HEIFES population,,NULL,NULL  
+
 ###Format
 Int
 
@@ -1099,48 +1099,48 @@ For analytics
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^CLASS.html
 
 ###Valid Values
-CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)
-1	First class honours	
-2	Upper second class honours	
-3	Lower second class honours	
-4	Undivided second class honours	
-5	Third class honours	
-6	Fourth class honours	
-7	Unclassified honours	
-8	Aegrotat (whether to honours or pass)	
-9	Pass - degree awarded without honours following an honours course	
-10	Ordinary (to include divisions of ordinary, if any) - degree awarded after following a non-honours course	
-11	General degree - degree awarded after following a non-honours course/degree that was not available to be classified	
-12	Distinction	
-13	Merit	
-14	Pass	
-51	A FE	
-52	B FE	
-53	C FE	
-54	D FE	
-55	E FE	
-56	F FE	
-57	G FE	
-61	N FE	
-62	U FE	
-63	X FE	
-64	A* FE	
-65	Y FE	
-71	Pass FE	
-72	Merit FE	
-73	Distinction FE	
-74	Fail FE	
-81	1 FE	
-82	2 FE	
-83	3 FE	
-84	4 FE	
-85	5 FE	
-86	6 FE	
-87	7 FE	
-88	8 FE	
-89	9 FE	
-90	10 FE	
-91	Not yet awarded	
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH)  
+1,First class honours,  	
+2,Upper second class honours,  	
+3,Lower second class honours, 	
+4,Undivided second class honours, 	
+5,Third class honours, 	
+6,Fourth class honours, 	
+7,Unclassified honours, 	
+8,Aegrotat (whether to honours or pass), 	
+9,Pass - degree awarded without honours following an honours course, 	
+10,Ordinary (to include divisions of ordinary, if any) - degree awarded after following a non-honours course, 	
+11,General degree - degree awarded after following a non-honours course/degree that was not available to be classified, 	
+12,Distinction, 	
+13,Merit, 	
+14,Pass, 	
+51,A FE, 	
+52,B FE, 	
+53,C FE, 	
+54,D FE, 	
+55,E FE, 	
+56,F FE, 	
+57,G FE, 	
+61,N FE, 	
+62,U FE, 	
+63,X FE, 	
+64,A* FE, 	
+65,Y FE, 	
+71,Pass FE, 	
+72,Merit FE, 	
+73,Distinction FE, 	
+74,Fail FE, 	
+81,1 FE, 	
+82,2 FE, 	
+83,3 FE, 	
+84,4 FE, 	
+85,5 FE, 	
+86,6 FE, 	
+87,7 FE, 	
+88,8 FE, 	
+89,9 FE,  
+90,10 FE,  
+91,Not yet awarded,  
 
 ###Format
 Int
@@ -1203,7 +1203,7 @@ For display purposes and analytics.
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^MODSBJ.html
 
 ###Valid Values
-Valid JACS3 subject code.
+Valid JACS3 subject code. See link above.
 
 ###Format
 String (255)
@@ -1311,13 +1311,14 @@ Analytics
 Jisc
 
 ###Valid Values
-1: Semester 1
-2: Semester 2
-3: All Year
-4: Term 1
-5: Term 2
-6: Term 3
-7: Other
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH)  
+1,Semester 1,  
+2,Semester 2,  
+3,All Year,  
+4,Term 1,  
+5,Term 2,  
+6,Term 3,  
+7,Other,  
 
 ###Format
 Int
@@ -1338,11 +1339,12 @@ Analytics
 Jisc
 
 ###Valid Values
-Int
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH)  
+1,Yes,Ie  
+2,No,Na  
 
 ###Format
-1: Yes / Ie (WELSH)
-2: No / Na (WELSH)
+Int
 
 ###Compulsory
 Yes (if applicable)
@@ -1400,8 +1402,9 @@ Analytics
 Jisc
 
 ###Valid Values
-1: Yes / Ie (WELSH)
-2: No / Na (WELSH)
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH)  
+1,Yes,Ie  
+2,No,Na  
 
 ###Format
 Int
@@ -1422,20 +1425,20 @@ Analytics
 Jisc
 
 ###Valid Values
-CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)
-0	Entry level	
-1	HE Certificate/NVQ Level 4 or equivalent	
-2	HE Intermediate	
-3	HE Honours	
-5	Undergraduate unspecified	
-6	HE Masters	
-7	HE Doctorate	
-9	Not applicable	
-A	NVQ level 1 or equivalent	
-B	NVQ level 2 or equivalent	
-C	NVQ level 3 or equivalent	
-D	HND/Diploma HE	
-E	Ordinary degrees	
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH)  
+0,Entry level,  
+1,HE Certificate/NVQ Level 4 or equivalent, 	
+2,HE Intermediate, 	
+3,HE Honours, 	
+5,Undergraduate unspecified, 	
+6,HE Masters, 	
+7,HE Doctorate, 	
+9,Not applicable, 	
+A,NVQ level 1 or equivalent, 	
+B,NVQ level 2 or equivalent, 	
+C,NVQ level 3 or equivalent, 	
+D,HND/Diploma HE, 	
+E,Ordinary degrees, 	
  
 ###Format
 String(1)
@@ -1456,18 +1459,18 @@ Analytics
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^MODOUT.html
 
 ###Valid Values
-CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)
-1	Completion - gained full credit	
-2	Completion - did not gain credit	
-3	Partial completion (HEFCW HESES Rules)	
-4	Student did not complete module	
-5	Module taken on a not-for-credit basis	
-6	Module outcome not yet known	
-7	Not coded	
-9	Module previously returned in error	
-A	Student did not complete module - gained credit	
-B	Student did not complete module - deferral	
-C	Completion - award of credit not known	
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH)  
+1,Completion - gained full credit, 	
+2,Completion - did not gain credit, 	
+3,Partial completion (HEFCW HESES Rules), 	
+4,Student did not complete module, 	
+5,Module taken on a not-for-credit basis, 	
+6,Module outcome not yet known, 	
+7,Not coded, 	
+9,Module previously returned in error, 	
+A,Student did not complete module - gained credit, 	
+B,Student did not complete module - deferral, 	
+C,Completion - award of credit not known, 	
 
 ###Format
 String(1)
@@ -1510,9 +1513,10 @@ Analytics
 Jisc
 
 ###Valid Values
-1: Yes / Ie (WELSH)
-2: No / Na (WELSH)
-3: Not completed yet / Dim wedi cwblhau (WELSH)
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH)  
+1,Yes,Ie  
+2,No,Na  
+3,Not completed yet,Dim wedi cwblhau  
 
 ###Format
 Int
@@ -1534,9 +1538,10 @@ Analytics
 Jisc
 
 ###Valid Values
-1: Yes / Ie (WELSH)
-2: No / Na (WELSH)
-3: Not completed yet / Dim wedi cwblhau (WELSH)
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH)  
+1,Yes,Ie  
+2,No,Na  
+3,Not completed yet,Dim wedi cwblhau  
 
 ###Format
 Int
