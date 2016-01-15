@@ -212,30 +212,30 @@ String (10)
 ###Valid Values & Mappings:  
 CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH),HESA(ETHNIC),FEILR(ETHNICITY)  
 10,White,Gwyn,10,31    
-13	White - Scottish	Gwyn - Alban	13	N/A
-51	Irish	Gwyddel	N/A	32
-14	Irish Traveller		14	N/A
-15	Gypsy or Traveller		15	33
-19	Other White background	Gwyn Arall	19	34
-21	Black or Black British - Caribbean		21	45
-22	Black or Black British - African		22	44
-29	Other Black background		29	46
-31	Asian or Asian British - Indian		31	39
-32	Asian or Asian British - Pakistani		32	40
-33	Asian or Asian British - Bangladeshi		33	41
-34	Chinese		34	42
-39	Other Asian background		39	43
-41	Mixed - White and Black Caribbean		41	35
-42	Mixed - White and Black African		42	36
-43	Mixed - White and Asian		43	37
-49	Other mixed background		49	38
-50	Arab		50	47
-80	Other ethnic background	Cefndir Ethnig Arall	80	98
-90	Not known	Anhysbys	90	N/A
-98	Information refused		98	99
-90	Not known	Anhysbys	NULL	NULL
+13,White - Scottish,Gwyn - Alban,13,N/A  
+51,Irish,Gwyddel,N/A,32  
+14,Irish Traveller,14,N/A  
+15,Gypsy or Traveller,,15,33  
+19,Other White background,Gwyn Arall,19,34  
+21,Black or Black British - Caribbean,,21,45  
+22,Black or Black British - African,,22,44  
+29,Other Black background,,29	46  
+31,Asian or Asian British - Indian,,31,39  
+32,Asian or Asian British - Pakistani,,32.40  
+33,Asian or Asian British - Bangladeshi,,33,41  
+34,Chinese,,34,42  
+39,Other Asian background,,39,43  
+41,Mixed - White and Black Caribbean,,41,35  
+42,Mixed - White and Black African,,42,36  
+43,Mixed - White and Asian,,43,37  
+49,Other mixed background,,49,38  
+50,Arab,,50,47  
+80,Other ethnic background,Cefndir Ethnig Arall,80,98  
+90,Not known,Anhysbys,90,N/A  
+98,Information refused,,98,99  
+90,Not known,Anhysbys,NULL,NULL  
  
-Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)
+Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
 
 ###Compulsory
 Yes
