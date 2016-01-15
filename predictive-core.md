@@ -971,71 +971,72 @@ https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^QUALENT3.html
 
 ###Valid Values & Mappings
-CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)	HESA - QUALENT3	ILR - PRIORATTAIN
-DUK	UK doctorate degree		DUK	
-DZZ	Non-UK doctorate degree		DZZ	
-D80	Other qualification at level D		D80	
-MUK	UK masters degree		MUK	
-MZZ	Non-UK masters degree		MZZ	
-M2X	Integrated undergraduate/postgraduate taught masters degree on the enhanced/extended pattern		M2X	
-M41	Diploma at level M		M41	
-M44	Certificate at level M		M44	
-M71	Postgraduate Certificate in Education or Professional Graduate Diploma in Education		M71	
-M80	Other taught qualification at level M		M80	
-M90	Taught work at level M for provider credit		M90	
-M91	(Other) Qualification at level 7 or above		N/A	13
-HUK	UK first degree with honours		HUK	
-HZZ	Non-UK first degree		HZZ	
-H11	First degree with honours leading to Qualified Teacher Status (QTS)/registration with a General Teaching Council (GTC)		H11	
-H71	Professional Graduate Certificate in Education		H71	
-H80	(Other) Qualification at level H or level 6		H80	12
-JUK	UK ordinary (non-honours) first degree		JUK	
-J10	Foundation degree		J10	
-J20	Diploma of Higher Education (DipHE)		J20	
-J30	Higher National Diploma (HND)		J30	
-J31	(Other) Qualification at level 5		J31	11
-(Other) Qualification at level 5 or above (DEPRECATED SINCE 01/08/2013)		J32	5
-J49	Foundation course at level J		J49	
-J48	Certificate in Education (CertEd) or Diploma in Education (DipEd) (i.e. non-graduate initial teacher training qualification)		J48	
-J80	Other qualification at level J		J80	
-C20	Certificate of Higher Education (CertHE)		C20	
-C30	Higher National Certificate (HNC)		C30	
-C44	Higher Apprenticeship (level 4)		C44	
-C80	(Other) Qualification at level C or level 4		C80	4
-C80	(Other) Qualification at level C or level 4		N/A	10
-C90	Undergraduate credits		C90	
-P41	Diploma at level 3		P41	
-P42	Certificate at level 3		P42	
-P46	Award at level 3		P46	
-P47	AQA Baccalaureate (Bacc)		P47	
-P50	A/AS level		P50	
-P51	14-19 Advanced Diploma (level 3)		P51	
-P53	Scottish Baccalaureate		P53	
-P54	Scottish Highers/Advanced Highers		P54	
-P62	International Baccalaureate (IB) Diploma		P62	
-P63	International Baccalaureate (IB) Certificate		P63	
-P64	Cambridge Pre-U Diploma		P64	
-P65	Cambridge Pre-U Certificate		P65	
-P68	Welsh Baccalaureate Advanced Diploma (level 3)		P68	
-P80	(Other) Qualification at level 3		P80	3
-P91	Level 3 qualifications of which some or all are subject to UCAS Tariff		P91	
-P92	Level 3 qualifications of which none are subject to UCAS Tariff		P92	
-P93	Level 3 qualifications of which all are subject to UCAS Tariff		P93	
-P94	Level 3 qualifications of which some are subject to UCAS Tariff		P94	
-Q51	14-19 Higher Diploma (level 2)		Q51	
-Q52	Welsh Baccalaureate Intermediate Diploma (level 2)		Q52	
-Q80	(Other) Qualification at level 2		Q80	2
-R51	14-19 Foundation Diploma (level 1)		R51	
-R52	Welsh Baccalaureate Foundation Diploma (level 1)		R52	
-R80	Other qualification at level 1		R80	1
-X07	(Other) Qualification below level 1		NULL	7
-X00	Higher education (HE) access course, Quality Assurance Agency (QAA) recognised		X00	
-X01	Higher education (HE) access course, not Quality Assurance Agency (QAA) recognised		X01	
-X02	Mature student admitted on basis of previous experience and/or admissions test		X02	
-X04	Other qualification level not known		X04	97
-X05	Student has no formal qualification		X05	99
-X06	Not known		X06	98
-X06	Not known		NULL	NULL
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH),HESA(QUALENT3),FEILR(PRIORATTAIN)   
+DUK,UK doctorate degree,,DUK, 	
+DZZ,Non-UK doctorate degree,,DZZ,  	
+D80,Other qualification at level D,,D80,  	
+MUK,UK masters degree,,MUK,  	
+MZZ,Non-UK masters degree,,MZZ,  	
+M2X,Integrated undergraduate/postgraduate taught masters degree on the enhanced/extended pattern,,M2X,  	
+M41,Diploma at level M,,M41,  	
+M44,Certificate at level M,,M44,  	
+M71,Postgraduate Certificate in Education or Professional Graduate Diploma in Education,,M71,  	
+M80,Other taught qualification at level M,,M80,  	
+M90,Taught work at level M for provider credit,,M90,  	
+M91,(Other) Qualification at level 7 or above,,N/A,13  
+HUK,UK first degree with honours,,HUK,  	
+HZZ,Non-UK first degree,,HZZ,  	
+H11,First degree with honours leading to Qualified Teacher Status (QTS)/registration with a General Teaching Council (GTC),,H11,  	
+H71,Professional Graduate Certificate in Education,,H71,  	
+H80,(Other) Qualification at level H or level 6,,H80,12  
+JUK,UK ordinary (non-honours) first degree,,JUK,  	
+J10,Foundation degree,,J10,  
+J20,Diploma of Higher Education (DipHE),J20,  	
+J30,Higher National Diploma (HND),J30,  	
+J31,(Other) Qualification at level 5,,  		
+J31,(Other) Qualification at level 5 or above (DEPRECATED SINCE 01/08/2013),J32,5  
+J49,Foundation course at level J,J49,  	
+J48,Certificate in Education (CertEd) or Diploma in Education (DipEd) (i.e. non-graduate initial teacher training qualification),,J48,  	
+
+J80,Other qualification at level J,,J80,  	
+C20,Certificate of Higher Education (CertHE),,C20,  	
+C30,Higher National Certificate (HNC),,C30, 	
+C44,Higher Apprenticeship (level 4),,C44,  	
+C80,(Other) Qualification at level C or level 4,,C80,4  
+C80,(Other) Qualification at level C or level 4,,N/A,10  
+C90,Undergraduate credits,,C90,  	
+P41,Diploma at level 3,,P41,  	
+P42,Certificate at level 3,,P42,  	
+P46,Award at level 3,,P46,  	
+P47,AQA Baccalaureate (Bacc),,P47,  	
+P50,A/AS level,,P50,  	
+P51,14-19 Advanced Diploma (level 3),,P51,  	
+P53,Scottish Baccalaureate,,P53,  	
+P54,Scottish Highers/Advanced Highers,,P54,  	
+P62,International Baccalaureate (IB) Diploma,,P62,  	
+P63,International Baccalaureate (IB) Certificate,,P63,  	
+P64,Cambridge Pre-U Diploma,,P64,  	
+P65,Cambridge Pre-U Certificate,,P65,  	
+P68,Welsh Baccalaureate Advanced Diploma (level 3),,P68,  	
+P80,(Other) Qualification at level 3,,P80,3  
+P91,Level 3 qualifications of which some or all are subject to UCAS Tariff,,P91,  	
+P92,Level 3 qualifications of which none are subject to UCAS Tariff,,P92,  	
+P93,Level 3 qualifications of which all are subject to UCAS Tariff,,P93,  	
+P94,Level 3 qualifications of which some are subject to UCAS Tariff,,P94,  	
+Q51,14-19 Higher Diploma (level 2),,Q51,  	
+Q52,Welsh Baccalaureate Intermediate Diploma (level 2),,Q52,  	
+Q80,(Other) Qualification at level 2,,Q80,2  
+R51,14-19 Foundation Diploma (level 1),,R51,  	
+R52,Welsh Baccalaureate Foundation Diploma (level 1),,R52,  	
+R80,Other qualification at level 1,,R80,1  
+X07,(Other) Qualification below level 1,,NULL,7  
+X00,Higher education (HE) access course Quality Assurance Agency (QAA) recognised,,X00,  	
+X01,Higher education (HE) access course not Quality Assurance Agency (QAA) recognised,,X01,  	
+X02,Mature student admitted on basis of previous experience and/or admissions test,,X02,  	
+X04,Other qualification level not known,,X04,97  
+X05,Student has no formal qualification,,X05,99  
+X06,Not known,,X06,98  
+X06,Not known,,NULL,NULL  
 
 ###Format
 Int
