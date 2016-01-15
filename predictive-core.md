@@ -209,9 +209,9 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###Format
 String (10)
 
-###Valid Values & Mappings:
-CODE	DESCRIPTION (ENGLISH)	DESCRIPTION (WELSH)	HESA - ETHNIC	FE ILR - ETHNICITY
-10	White	Gwyn	10	31
+###Valid Values & Mappings:  
+CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH),HESA(ETHNIC),FEILR(ETHNICITY)  
+10,White,Gwyn,10,31    
 13	White - Scottish	Gwyn - Alban	13	N/A
 51	Irish	Gwyddel	N/A	32
 14	Irish Traveller		14	N/A
