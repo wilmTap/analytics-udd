@@ -997,7 +997,6 @@ J31,(Other) Qualification at level 5,,
 J31,(Other) Qualification at level 5 or above (DEPRECATED SINCE 01/08/2013),J32,5  
 J49,Foundation course at level J,J49,  	
 J48,Certificate in Education (CertEd) or Diploma in Education (DipEd) (i.e. non-graduate initial teacher training qualification),,J48,  	
-
 J80,Other qualification at level J,,J80,  	
 C20,Certificate of Higher Education (CertHE),,C20,  	
 C30,Higher National Certificate (HNC),,C30, 	
@@ -1039,7 +1038,7 @@ X06,Not known,,X06,98
 X06,Not known,,NULL,NULL  
 
 ###Format
-Int
+Alphanumeric
 
 ###Compulsory
 Yes (if applicable)
