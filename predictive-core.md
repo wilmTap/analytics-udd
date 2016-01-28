@@ -991,11 +991,11 @@ H71,Professional Graduate Certificate in Education,,H71,
 H80,(Other) Qualification at level H or level 6,,H80,12  
 JUK,UK ordinary (non-honours) first degree,,JUK,  	
 J10,Foundation degree,,J10,  
-J20,Diploma of Higher Education (DipHE),J20,  	
-J30,Higher National Diploma (HND),J30,  	
-J31,(Other) Qualification at level 5,,  		
-J31,(Other) Qualification at level 5 or above (DEPRECATED SINCE 01/08/2013),J32,5  
-J49,Foundation course at level J,J49,  	
+J20,Diploma of Higher Education (DipHE),,J20,  	
+J30,Higher National Diploma (HND),,J30,  	
+J31,(Other) Qualification at level 5,,,  		
+J31,(Other) Qualification at level 5 or above (DEPRECATED SINCE 01/08/2013),,J32,5  
+J49,Foundation course at level J,,J49,  	
 J48,Certificate in Education (CertEd) or Diploma in Education (DipEd) (i.e. non-graduate initial teacher training qualification),,J48,  	
 J80,Other qualification at level J,,J80,  	
 C20,Certificate of Higher Education (CertHE),,C20,  	
