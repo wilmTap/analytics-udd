@@ -19,6 +19,7 @@
 * [SOCIO_EC](#socio_ec)
 * [OVERSEAS](#overseas)
 * [AIM_ID](#aim_id)
+* [VLE_ID](#vle_id)
 
 ##Course
 * [COURSE_ID](#course_id)
@@ -559,6 +560,50 @@ Yes
 
 ###Notes
 If this value is unknown, then code '99' should be used. The mapping for these fields could be done using the Nationality indicator, or other relevant source within the HESA/ student records system database.
+
+##AIM_ID
+###Description.
+The person identifier used by Shibboleth / The UK Access Management Federation. The ID is specific to the particular service or resource the user is trying to access.
+
+###Purpose
+Analytics 
+
+###Derivation
+https://www.internet2.edu/media/medialibrary/2013/09/04/internet2-mace-dir-eduperson-200604.html
+
+###Valid Values
+Not specified
+
+###Format
+String (256)
+
+###Compulsory
+No
+
+###Notes
+Not yet clear whether AIM_ID is scoped to just the JWT gateway or to any UK Federation service provider.
+
+##VLE_ID
+###Description.
+The ID assigned to a student by the VLE.
+
+###Purpose
+Analytics 
+
+###Derivation
+Jisc 
+
+###Valid Values
+Not specified
+
+###Format
+String (256)
+
+###Compulsory
+No
+
+###Notes
+Note that this is not a universal user ID; there maybe several VLEs, or records from other types of tools.
 
 ##COURSE_ID
 ###Description
@@ -1725,23 +1770,3 @@ Yes
 
 ###Notes
 
-##AIM_ID
-###Description.
-The person identifier used by Shibboleth / The UK Access Management Federation. The ID is specific to the particular service or resource the user is trying to access.
-
-###Purpose
-Analytics 
-
-###Derivation
-https://www.internet2.edu/media/medialibrary/2013/09/04/internet2-mace-dir-eduperson-200604.html
-
-###Valid Values
-Not specified
-
-###Format
-String (256)
-
-###Compulsory
-No
-
-###Notes
