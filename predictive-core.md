@@ -18,6 +18,7 @@
 * [PARENTS_ED](#parents_ed)
 * [SOCIO_EC](#socio_ec)
 * [OVERSEAS](#overseas)
+* [AIM_ID](#aim_id)
 
 ##Course
 * [COURSE_ID](#course_id)
@@ -1724,3 +1725,23 @@ Yes
 
 ###Notes
 
+##AIM_ID
+###Description.
+The person identifier used by Shibboleth / The UK Access Management Federation. The ID is specific to the particular service or resource the user is trying to access.
+
+###Purpose
+Analytics 
+
+###Derivation
+https://www.internet2.edu/media/medialibrary/2013/09/04/internet2-mace-dir-eduperson-200604.html
+
+###Valid Values
+Not specified
+
+###Format
+String (256)
+
+###Compulsory
+No
+
+###Notes
