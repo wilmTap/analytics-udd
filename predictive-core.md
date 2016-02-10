@@ -55,6 +55,7 @@
 * [MOD_NAME](#mod_name)
 * [MOD_SUBJECT](#mod_subject)
 * [MOD_CREDITS](#mod_credits)
+* [MOD_LEVEL](#mod_level)
 
 ##Module Instance
 * [MOD_ID](#mod_id)
@@ -66,7 +67,6 @@
 * [MOD_ENROLLMENT](#mod_enrollment)
 * [MOD_ACADEMIC_YEAR](#mod_academic_year)
 * [MOD_OPTIONAL](#mod_optional)
-* [MOD_LEVEL](#mod_level)
 
 ##Student on a module Instance
 * [STUDENT_ID](#student_id)
