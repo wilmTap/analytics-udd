@@ -8,7 +8,7 @@
 * [ULN](#uln)
 * [DOB](#dob)
 * [ETHNICITY](#ethnicity)
-* [GENDER](#gender)
+* [SEXID](#gender)
 * [AGE](#age)
 * [LEARN_DIF](#learn_dif)
 * [DISABILITY1](#disability1)
@@ -246,9 +246,9 @@ Yes
 ###Notes
 Where any ethnicity details are unknown, this field must be coded with '90'
 
-##GENDER
+##SEXID
 ###Description
-To record a Learner's current gender assignment, on the basis of their own self-assessment
+To record a Learner's current sex, on the basis of their own self-assessment
 
 ###Purpose
 For equal opportunities monitoring within learning analytics / data modelling
@@ -272,7 +272,7 @@ Please Note - N/A denotes that no mapping value is applicable (and should not be
 Yes
 
 ###Notes
-If the gender is unknown, return code '4' in all cases
+If the sex is unknown, return code '4' in all cases
 
 ##AGE
 ###Description
