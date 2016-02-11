@@ -48,7 +48,8 @@
 * [ENTRY_QUALS](#entry_quals)
 * [ENTRY_POINTS](#entry_points)
 * [COURSE_OUTCOME](#course_outcome)
-* [COURSE_GRADE](#cpurse_grade)
+* [COURSE_GRADE](#course_grade)
+* [CAMPUS](#campus)
 
 ##Module
 * [MOD_ID](#mod_id)
@@ -1190,6 +1191,27 @@ CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH)
 
 ###Format
 Int
+
+###Compulsory
+Yes (if applicable)
+
+###Notes
+
+##CAMPUS
+###Description
+Identifies the campus with which a student on course instance is associated
+
+###Purpose
+For analytics (predictive model building) and for presenting analytics.
+
+Derivation
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=15051&href=a^_^CAMPID.html
+
+###Valid Values
+Any
+
+###Format
+String (255)
 
 ###Compulsory
 Yes (if applicable)
