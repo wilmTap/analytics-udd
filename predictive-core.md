@@ -1379,22 +1379,16 @@ Analytics
 Jisc
 
 ###Valid Values
-CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH)  
-1,Semester 1,  
-2,Semester 2,  
-3,All Year,  
-4,Term 1,  
-5,Term 2,  
-6,Term 3,  
-7,Other,  
+Any
 
 ###Format
-Int
+String (256)
 
 ###Compulsory
 No (if applicable)
 
 ###Notes
+It is expected that sites / organisations will have their own code lists for MOD_PERIOD values.
 
 ##MOD_ONLINE
 ###Description
