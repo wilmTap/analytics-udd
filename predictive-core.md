@@ -1603,7 +1603,6 @@ Jisc
 CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH)  
 1,Yes,Ie  
 2,No,Na  
-3,Not completed yet,Dim wedi cwblhau  
 
 ###Format
 Int
