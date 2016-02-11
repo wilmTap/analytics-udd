@@ -1550,7 +1550,7 @@ Where the module is grades as percentage then the an integer value (0-100) shoul
 
 ##MOD_PASS
 ###Description.
-Whether the student passed or not.
+Indicates whether the student passed the module, didn't pass the module, or whether this information is not known because the module hasn't been completed yet.
 
 ###Purpose
 Analytics 
@@ -1571,7 +1571,7 @@ Int
 Yes
 
 ###Notes
-This can be calculated and derived from MOD_OUTCOME if required.
+Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example. The value can be calculated and derived from MOD_OUTCOME if required. Note that MOD_OUTCOME has a richer vocabulary for indicating the completion statuses of modules.
 
 ##MOD_RETAKE
 ###Description.
