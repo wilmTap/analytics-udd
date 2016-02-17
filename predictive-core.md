@@ -18,7 +18,7 @@
 * [PARENTS_ED](#parents_ed)
 * [SOCIO_EC](#socio_ec)
 * [OVERSEAS](#overseas)
-* [AIM_ID](#aim_id)
+* [APPSHIB_ID](#APPSHIB_id)
 * [VLE_ID](#vle_id)
 
 ##Course
@@ -562,9 +562,9 @@ Yes
 ###Notes
 If this value is unknown, then code '99' should be used. The mapping for these fields could be done using the Nationality indicator, or other relevant source within the HESA/ student records system database.
 
-##AIM_ID
+##APPSHIB_ID
 ###Description.
-The person identifier used by Shibboleth / The UK Access Management Federation. The ID is specific to the particular service or resource the user is trying to access.
+The person identifier used by Shibboleth / The UK Access Management Federation to grant access to the Jisc analytics student app via the Shibboleth - JWT gateway.
 
 ###Purpose
 Analytics 
@@ -582,7 +582,7 @@ String (256)
 No
 
 ###Notes
-Not yet clear whether AIM_ID is scoped to just the JWT gateway or to any UK Federation service provider.
+There may be a more general AIM_ID property later that can be used for any UK Federation service provider ID, not just the Jisc analytics student app Shibboleth - JWT gateway.
 
 ##VLE_ID
 ###Description.
