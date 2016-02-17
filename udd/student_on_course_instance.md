@@ -1,4 +1,19 @@
 #Student on Course Instance
+* [STUDENT_ID](#student_id)
+* [COURSE_INSTANCE_ID](#course_instance_id)
+* [WITHDRAWAL_REASON](#withdrawal_reason)
+* [WITHDRAWAL_DATE](#withdrawal_date)
+* [MODE](#mode)
+* [YEAR_COM](#year_com)
+* [YEAR_PRG](#year_prg)
+* [YEAR_STU](#year_stu)
+* [COURSE_AVERAGE_GRADE](#course_average_grade)
+* [YEAR_AVERAGE_GRADE](#year_average_grade)
+* [ENTRY_QUALS](#entry_quals)
+* [ENTRY_POINTS](#entry_points)
+* [COURSE_OUTCOME](#course_outcome)
+* [COURSE_GRADE](#course_grade)
+* [CAMPUS](#campus)
 
 ##STUDENT_ID
 ###Description
