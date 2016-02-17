@@ -8,7 +8,7 @@
 * [ULN](#uln)
 * [DOB](#dob)
 * [ETHNICITY](#ethnicity)
-* [GENDER](#gender)
+* [SEXID](#gender)
 * [AGE](#age)
 * [LEARN_DIF](#learn_dif)
 * [DISABILITY1](#disability1)
@@ -18,6 +18,8 @@
 * [PARENTS_ED](#parents_ed)
 * [SOCIO_EC](#socio_ec)
 * [OVERSEAS](#overseas)
+* [APPSHIB_ID](#APPSHIB_id)
+* [VLE_ID](#vle_id)
 
 ##Course
 * [COURSE_ID](#course_id)
@@ -46,13 +48,15 @@
 * [ENTRY_QUALS](#entry_quals)
 * [ENTRY_POINTS](#entry_points)
 * [COURSE_OUTCOME](#course_outcome)
-* [COURSE_GRADE](#cpurse_grade)
+* [COURSE_GRADE](#course_grade)
+* [CAMPUS](#campus)
 
 ##Module
 * [MOD_ID](#mod_id)
 * [MOD_NAME](#mod_name)
 * [MOD_SUBJECT](#mod_subject)
 * [MOD_CREDITS](#mod_credits)
+* [MOD_LEVEL](#mod_level)
 
 ##Module Instance
 * [MOD_ID](#mod_id)
@@ -64,7 +68,6 @@
 * [MOD_ENROLLMENT](#mod_enrollment)
 * [MOD_ACADEMIC_YEAR](#mod_academic_year)
 * [MOD_OPTIONAL](#mod_optional)
-* [MOD_LEVEL](#mod_level)
 
 ##Student on a module Instance
 * [STUDENT_ID](#student_id)
@@ -243,9 +246,9 @@ Yes
 ###Notes
 Where any ethnicity details are unknown, this field must be coded with '90'
 
-##GENDER
+##SEXID
 ###Description
-To record a Learner's current gender assignment, on the basis of their own self-assessment
+To record a Learner's current sex, on the basis of their own self-assessment
 
 ###Purpose
 For equal opportunities monitoring within learning analytics / data modelling
@@ -269,7 +272,7 @@ Please Note - N/A denotes that no mapping value is applicable (and should not be
 Yes
 
 ###Notes
-If the gender is unknown, return code '4' in all cases
+If the sex is unknown, return code '4' in all cases
 
 ##AGE
 ###Description
@@ -558,6 +561,50 @@ Yes
 
 ###Notes
 If this value is unknown, then code '99' should be used. The mapping for these fields could be done using the Nationality indicator, or other relevant source within the HESA/ student records system database.
+
+##APPSHIB_ID
+###Description.
+The person identifier used by Shibboleth / The UK Access Management Federation to grant access to the Jisc analytics student app via the Shibboleth - JWT gateway.
+
+###Purpose
+Analytics 
+
+###Derivation
+https://www.internet2.edu/media/medialibrary/2013/09/04/internet2-mace-dir-eduperson-200604.html
+
+###Valid Values
+Not specified
+
+###Format
+String (256)
+
+###Compulsory
+No
+
+###Notes
+There may be a more general AIM_ID property later that can be used for any UK Federation service provider ID, not just the Jisc analytics student app Shibboleth - JWT gateway.
+
+##VLE_ID
+###Description.
+The ID assigned to a student by the VLE.
+
+###Purpose
+Analytics 
+
+###Derivation
+Jisc 
+
+###Valid Values
+Not specified
+
+###Format
+String (256)
+
+###Compulsory
+No
+
+###Notes
+Note that this is not a universal user ID; there maybe several VLEs, or records from other types of tools.
 
 ##COURSE_ID
 ###Description
@@ -1150,6 +1197,27 @@ Yes (if applicable)
 
 ###Notes
 
+##CAMPUS
+###Description
+Identifies the campus with which a student on course instance is associated
+
+###Purpose
+For analytics (predictive model building) and for presenting analytics.
+
+Derivation
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=15051&href=a^_^CAMPID.html
+
+###Valid Values
+Any
+
+###Format
+String (255)
+
+###Compulsory
+Yes (if applicable)
+
+###Notes
+
 ##MOD_ID
 ###Description
 The unique identifier standard across SRS and LMS for the course.
@@ -1311,22 +1379,16 @@ Analytics
 Jisc
 
 ###Valid Values
-CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH)  
-1,Semester 1,  
-2,Semester 2,  
-3,All Year,  
-4,Term 1,  
-5,Term 2,  
-6,Term 3,  
-7,Other,  
+Any
 
 ###Format
-Int
+String (256)
 
 ###Compulsory
 No (if applicable)
 
 ###Notes
+It is expected that sites / organisations will have their own code lists for MOD_PERIOD values.
 
 ##MOD_ONLINE
 ###Description
@@ -1504,7 +1566,7 @@ Where the module is grades as percentage then the an integer value (0-100) shoul
 
 ##MOD_PASS
 ###Description.
-Whether the student passed or not.
+Indicates whether the student passed the module, didn't pass the module, or whether this information is not known because the module hasn't been completed yet.
 
 ###Purpose
 Analytics 
@@ -1525,7 +1587,7 @@ Int
 Yes
 
 ###Notes
-This can be calculated and derived from MOD_OUTCOME if required.
+Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example. The value can be calculated and derived from MOD_OUTCOME if required. Note that MOD_OUTCOME has a richer vocabulary for indicating the completion statuses of modules.
 
 ##MOD_RETAKE
 ###Description.
@@ -1541,7 +1603,6 @@ Jisc
 CODE,DESCRIPTION(ENGLISH),DESCRIPTION(WELSH)  
 1,Yes,Ie  
 2,No,Na  
-3,Not completed yet,Dim wedi cwblhau  
 
 ###Format
 Int
