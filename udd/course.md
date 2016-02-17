@@ -1,4 +1,8 @@
 #Course
+* [COURSE_ID](#course_id)
+* [SUBJECT](#subject)
+* [TITLE](#title)
+* [COURSE_AIM](#course_aim)
 
 ##COURSE_ID
 ###Description
