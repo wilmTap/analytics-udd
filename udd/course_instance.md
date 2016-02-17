@@ -1,4 +1,9 @@
 #Course instance
+* [COURSE_ID](#course_id)
+* [COURSE_INSTANCE_ID](#course_instance_id)
+* [START_DATE](#start_date)
+* [END_DATE](#end_date)
+* [ACADEMIC_YEAR](#academic_year)
 
 ##COURSE_ID
 ###Description
