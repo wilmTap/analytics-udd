@@ -1,4 +1,6 @@
 #Institution
+* [TENANT_ID](#tenant_id)
+* [TENANT_NAME](#tenant_name)
 
 ##TENANT_ID
 ###Description
