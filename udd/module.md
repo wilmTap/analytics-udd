@@ -1,3 +1,10 @@
+#Module
+* [MOD_ID](#mod_id)
+* [MOD_NAME](#mod_name)
+* [MOD_SUBJECT](#mod_subject)
+* [MOD_CREDITS](#mod_credits)
+* [MOD_LEVEL](#mod_level)
+
 ##MOD_ID
 ###Description
 The unique identifier standard across SRS and LMS for the course.
