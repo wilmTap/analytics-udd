@@ -1,4 +1,12 @@
 #Grade
+* [STUDENT_ID](#student_id)
+* [MOD_INSTANCE_ID](#mod_instance_id)
+* [GRADABLE_OBJECT](#gradable_object)
+* [CATEGORY](#category)
+* [MAX_POINTS](#max_points)
+* [EARNED_POINTS](#earned_points)
+* [WEIGHT](#weight)
+* [GRADE_DATE](#grade_date)
 
 ##STUDENT_ID
 ###Description
