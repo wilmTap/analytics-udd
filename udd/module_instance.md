@@ -1,5 +1,5 @@
 #Module instance
-* [MOD_ID](#mod_id)
+* [MOD_ID](module.md#mod_id)
 * [MOD_INSTANCE_ID](#mod_instance_id)
 * [MOD_START_DATE](#mod_start_date)
 * [MOD_END_DATE](#mod_end_date)
@@ -8,27 +8,6 @@
 * [MOD_ENROLLMENT](#mod_enrollment)
 * [MOD_ACADEMIC_YEAR](#mod_academic_year)
 * [MOD_OPTIONAL](#mod_optional)
-
-##MOD_ID
-###Description
-The unique identifier standard across SRS and LMS for the course.
-
-###Purpose
-For analytics and to link Module to Module Instance
-
-Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^Module_MODID.html
-
-###Valid Values
-Any
-
-###Format
-String (255)
-
-###Compulsory
-Yes (if applicable)
-
-###Notes
 
 ##MOD_INSTANCE_ID
 ###Description
