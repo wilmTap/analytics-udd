@@ -1,6 +1,6 @@
 #Student on Course Instance
-* [STUDENT_ID](#student_id)
-* [COURSE_INSTANCE_ID](#course_instance_id)
+* [STUDENT_ID](student.md#student_id)
+* [COURSE_INSTANCE_ID](course_instance.md#course_instance_id)
 * [WITHDRAWAL_REASON](#withdrawal_reason)
 * [WITHDRAWAL_DATE](#withdrawal_date)
 * [MODE](#mode)
@@ -15,46 +15,6 @@
 * [COURSE_GRADE](#course_grade)
 * [CAMPUS](#campus)
 
-##STUDENT_ID
-###Description
-The institution's own unique identifier of the student. In the case or event of requiring to provide anonymous data for trial/ evaluation purposes with JISC, institutions should use a suitable method or algorithm (which can be reversed by that institution, for evaluation purposes thereafter) to ensure that this studentid provided is different to that actual ID held locally.
-
-###Purpose
-To identify the student across multiple records within an institution
-
-###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^OWNSTU.html
-
-###References
-
-###Format
-String 255
-
-###Compulsory
-Yes
-
-###Notes
-
-##COURSE_INSTANCE_ID
-###Description
-Institution's identifier for this course instance
-
-###Purpose
-To link student to course, and course to course instance
-
-###Derivation
-Jisc
-
-###Valid Values
-Any
-
-###Format
-String (255)
-
-###Compulsory
-Yes
-
-###Notes
 
 ##WITHDRAWAL_REASON
 ###Description
