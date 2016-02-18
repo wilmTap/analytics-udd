@@ -1,32 +1,9 @@
 #Course instance
-* [COURSE_ID](#course_id)
+* [COURSE_ID](course.md#course_id)
 * [COURSE_INSTANCE_ID](#course_instance_id)
 * [START_DATE](#start_date)
 * [END_DATE](#end_date)
 * [ACADEMIC_YEAR](#academic_year)
-
-##COURSE_ID
-###Description
-The providers own ID for the course
-
-###Purpose
-To link relational database tables
-
-###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^OWNCOURSEID.html
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^Course_COURSEID.html
-
-###Valid Values
-Any
-
-###Format
-String (255)
-
-###Compulsory
-Yes
-
-###Notes
-HE guidance - this field could relate to actual HESA COURSEID field or the HR institution's OWNCOURSEID field for cross-referencing purposes.
 
 ##COURSE_INSTANCE_ID
 ###Description
