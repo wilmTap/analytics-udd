@@ -1,4 +1,4 @@
-# analytics-udd
+# Analytics Universal Data Definitions
 
 ##Introduction
 The Unified Data Definitions (UDD) of the Jisc analytics project is a vocabulary of the chief data entities of interest to learning analytics: students, courses, modules, etc. as well as their characteristics. The data coded with this vocabulary is typically extracted from the student record system of a particular college or university.
