@@ -48,15 +48,15 @@ If the need arises, particular versions will get their own branches, but until t
 * [COURSE_AIM](udd/course.md#course_aim)
 
 ###[Course Instance](udd/course_instance.md)
-* [COURSE_ID](udd/course_instance.md#course_id)
+* [COURSE_ID](udd/course.md#course_id)
 * [COURSE_INSTANCE_ID](udd/course_instance.md#course_instance_id)
 * [START_DATE](udd/course_instance.md#start_date)
 * [END_DATE](udd/course_instance.md#end_date)
 * [ACADEMIC_YEAR](udd/course_instance.md#academic_year)
 
 ###[Student on Course Instance](udd/student_on_course_instance.md)
-* [STUDENT_ID](udd/student_on_course_instance.md#student_id)
-* [COURSE_INSTANCE_ID](udd/student_on_course_instance.md#course_instance_id)
+* [STUDENT_ID](udd/student.md#student_id)
+* [COURSE_INSTANCE_ID](udd/course_instance.md#course_instance_id)
 * [WITHDRAWAL_REASON](udd/student_on_course_instance.md#withdrawal_reason)
 * [WITHDRAWAL_DATE](udd/student_on_course_instance.md#withdrawal_date)
 * [MODE](udd/student_on_course_instance.md#mode)
@@ -79,7 +79,7 @@ If the need arises, particular versions will get their own branches, but until t
 * [MOD_LEVEL](udd/module.md#mod_level)
 
 ###[Module Instance](udd/module_instance.md)
-* [MOD_ID](udd/module_instance.md#mod_id)
+* [MOD_ID](udd/module.md#mod_id)
 * [MOD_INSTANCE_ID](udd/module_instance.md#mod_instance_id)
 * [MOD_START_DATE](udd/module_instance.md#mod_start_date)
 * [MOD_END_DATE](udd/module_instance.md#mod_end_date)
@@ -90,17 +90,17 @@ If the need arises, particular versions will get their own branches, but until t
 * [MOD_OPTIONAL](udd/module_instance.md#mod_optional)
 
 ###[Student on a module Instance](udd/student_on_a_module_instance.md)
-* [STUDENT_ID](udd/student_on_a_module_instance.md#student_id)
-* [COURSE_INSTANCE_ID](udd/student_on_a_module_instance.md#course_instance_id)
-* [MOD_INSTANCE_ID](udd/student_on_a_module_instance.md#mod_instance_id)
+* [STUDENT_ID](udd/student.md#student_id)
+* [COURSE_INSTANCE_ID](udd/course_instance.md#course_instance_id)
+* [MOD_INSTANCE_ID](udd/module_instance.md#mod_instance_id)
 * [MOD_OUTCOME](udd/student_on_a_module_instance.md#mod_outcome)
 * [MOD_GRADE](udd/student_on_a_module_instance.md#mod_grade)
 * [MOD_PASS](udd/student_on_a_module_instance.md#mod_pass)
 * [MOD_RETAKE](udd/student_on_a_module_instance.md#mod_retake)
 
 ###[Grade](udd/grade.md)
-* [STUDENT_ID](udd/grade.md#student_id)
-* [MOD_INSTANCE_ID](udd/grade.md#mod_instance_id)
+* [STUDENT_ID](udd/student.md#student_id)
+* [MOD_INSTANCE_ID](udd/module_instance.md#mod_instance_id)
 * [GRADABLE_OBJECT](udd/grade.md#gradable_object)
 * [CATEGORY](udd/grade.md#category)
 * [MAX_POINTS](udd/grade.md#max_points)
@@ -109,14 +109,14 @@ If the need arises, particular versions will get their own branches, but until t
 * [GRADE_DATE](udd/grade.md#grade_date)
 
 ###[Activity](udd/activity.md)
-* [STUDENT_ID](udd/activity.md#student_id)
-* [MOD_ID](udd/activity.md#mod_id)
+* [STUDENT_ID](udd/student.md#student_id)
+* [MOD_ID](udd/module.md#mod_id)
 * [EVENT](udd/activity.md#event)
 * [EVENT_DATE](udd/activity.md#event_date)
 
 ##Additional sections 
 ###[Student (Additional Information)](udd/student_additional.md)
-* [STUDENT_ID](udd/student_additional.md#student_id) - link to Student Instance in UDD 1.1
+* [STUDENT_ID](udd/student.md#student_id)
 * [USERNAME](udd/student_additional.md#username)
 * [LAST_NAME](udd/student_additional.md#last_name)
 * [FIRST_NAME](udd/student_additional.md#first_name)
@@ -133,4 +133,4 @@ If the need arises, particular versions will get their own branches, but until t
 
 ###[Staff teaching a module Instance](staff_on_mod_instance.md)
 *  [STAFF_ID](udd/staff_on_mod_instance.md#staff_id)
-*  [MOD_INSTANCE_ID](udd/staff_on_mod_instance.md#mod_instance_id) - link to Module Instance in UDD 1.1
+*  [MOD_INSTANCE_ID](udd/module_instance.md#mod_instance_id)
