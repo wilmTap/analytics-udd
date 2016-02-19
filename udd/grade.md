@@ -1,53 +1,12 @@
 #Grade
-* [STUDENT_ID](#student_id)
-* [MOD_INSTANCE_ID](#mod_instance_id)
+* [STUDENT_ID](student.md#student_id)
+* [MOD_INSTANCE_ID](module_instance.md#mod_instance_id)
 * [GRADABLE_OBJECT](#gradable_object)
 * [CATEGORY](#category)
 * [MAX_POINTS](#max_points)
 * [EARNED_POINTS](#earned_points)
 * [WEIGHT](#weight)
 * [GRADE_DATE](#grade_date)
-
-##STUDENT_ID
-###Description
-The institution's own unique identifier of the student. In the case or event of requiring to provide anonymous data for trial/ evaluation purposes with JISC, institutions should use a suitable method or algorithm (which can be reversed by that institution, for evaluation purposes thereafter) to ensure that this studentid provided is different to that actual ID held locally.
-
-###Purpose
-To identify the student across multiple records within an institution
-
-###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^OWNSTU.html
-
-###References
-
-###Format
-String 255
-
-###Compulsory
-Yes
-
-###Notes
-
-##MOD_INSTANCE_ID
-###Description
-Institutions unique identifier for this module instance
-
-###Purpose
-For link a module instance to a student
-
-###Derivation
-Jisc
-
-###Valid Values
-Any
-
-###Format
-String (255)
-
-###Compulsory
-Yes (if applicable)
-
-###Notes
 
 ##GRADABLE_OBJECT
 ###Description.
