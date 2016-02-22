@@ -1,6 +1,6 @@
-## Student (Additional Information)
+# Student (Additional Information)
 
-* [STUDENT_ID](#student_id) - link to Student Instance in UDD 1.1
+* [STUDENT_ID](student.md#student_id)
 * [USERNAME](#username)
 * [LAST_NAME](#last_name)
 * [FIRST_NAME](#first_name)
@@ -14,31 +14,6 @@
 * [MOBILE_PHONE](#mobile_phone)
 * [PHOTO_URL](#photo_url)
 * [COACH_SCHOOL_ID](#coach_school_id)
-
-## Staff teaching a module Instance
-
-*  [STAFF_ID](#staff_id)
-*  [MOD_INSTANCE_ID](#mod_instance_id) - link to Module Instance in UDD 1.1
-
-##STUDENT_ID
-###Description
-The institution's own unique identifier of the student. In the case or event of requiring to provide anonymous data for trial/ evaluation purposes with JISC, institutions should use a suitable method or algorithm (which can be reversed by that institution, for evaluation purposes thereafter) to ensure that this studentid provided is different to that actual ID held locally.
-
-###Purpose
-To identify the student across multiple records within an institution
-
-###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^OWNSTU.html
-
-###References
-
-###Format
-String 255
-
-###Compulsory
-Yes
-
-###Notes
 
 ##USERNAME
 ###Description
@@ -317,44 +292,3 @@ Yes
 
 ###Notes
 This will be the unique identifier/ primary key for the member of staff who is responsible for the student (course/ year tutor) or the person responsible for receiving alerts and notifications from the Learning Analytics software suite/ tools. This will typically be the staff/ HR/ payroll number for the member of academic staff, which links to their email address in the institutions identity management system.
-
-##STAFF_ID
-###Description
-An institutions unique ID for their staff member. This could be their username.
-
-###Purpose
-To show the staff member's name within SSP, SSP Dashboards, or Student Insight.
-
-###Derivation
-
-###References
-
-###Format
-String(255)
-
-###Compulsory
-Yes
-
-###Notes
-This will be the unique identifier/ primary key for the member of staff who is responsible for the student (course/ year tutor) or the person responsible for managing cases or analysing dashboards which involve the student. This will typically be the staff/ HR/ payroll number for the member of academic staff, which links to their email address in the institutions identity management system.
-
-##MOD_INSTANCE_ID (link from Module Instance in UDD 1.1)
-###Description
-Institutions unique identifier for this module instance
-
-###Purpose
-For link a module instance to a student
-
-###Derivation
-Jisc
-
-###Valid Values
-Any
-
-###Format
-String (255)
-
-###Compulsory
-Yes (if applicable)
-
-###Notes
