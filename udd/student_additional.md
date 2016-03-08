@@ -13,7 +13,7 @@
 * [HOME_PHONE](#home_phone)
 * [MOBILE_PHONE](#mobile_phone)
 * [PHOTO_URL](#photo_url)
-* [COACH_SCHOOL_ID](#coach_school_id)
+* [TUTOR_STAFF_ID](#tutor_staff_id)
 
 ##USERNAME
 ###Description
