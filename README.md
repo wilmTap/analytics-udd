@@ -50,6 +50,6 @@ If the need arises, particular versions will get their own branches, but until t
 ##Additional sections 
 ###[Staff](udd/staff.md)
 
-###[Staff teaching a module Instance](staff_on_mod_instance.md)
+###[Staff teaching a module Instance](udd/staff_on_mod_instance.md)
 
 ###[Student (Additional Information)](udd/student_additional.md)
