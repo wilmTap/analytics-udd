@@ -11,8 +11,8 @@
 * [ASSESS_ACTUAL_MARK](#assess_actual_mark)
 * [ASSESS_AGREED_GRADE](#assess_agreed_grade)
 * [ASSESS_ACTUAL_GRADE](#assess_actual_grade)
-* [ASSESS_CURRENT_ATTEMPT](#assess_current_attempt)
-* [ASSESS_COMPLETED_ATTEMPT](#assess_completed_attempt)
+* [ASSESSMENT_CURRENT_ATTEMPT](#assessment_current_attempt)
+* [ASSESSMENT_COMPLETED_ATTEMPT](#assessment_completed_attempt)
 
 ##ASSESS_SEQ_ID
 ###Description.
