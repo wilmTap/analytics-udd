@@ -29,6 +29,8 @@ If the need arises, particular versions will get their own branches, but until t
 
 ###[Student on Course Instance](udd/student_on_course_instance.md)
 
+###[Student Course Membership](udd/student_course_membership.md)
+
 ###[Module](udd/module.md)
 
 ###[Module Instance](udd/module_instance.md)
