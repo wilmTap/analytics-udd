@@ -92,7 +92,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###References
 
 ###Format
-String(255)
+String (255)
 
 ###Compulsory
 Yes
@@ -115,7 +115,7 @@ https://www.hesa.ac.uk/component/studrec/show_file/13041/a%5E_%5ETIER1.html
 ###References
 
 ###Format
-String(255)
+String (255)
 
 ###Compulsory
 No
@@ -137,7 +137,7 @@ https://www.hesa.ac.uk/component/studrec/show_file/13041/a%5E_%5ETIER2.html
 ###References
 
 ###Format
-String(255)
+String (255)
 
 ###Compulsory
 No
@@ -159,7 +159,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=13041&hre
 ###References
 
 ###Format
-String(255)
+String (255)
 
 ###Compulsory
 No
