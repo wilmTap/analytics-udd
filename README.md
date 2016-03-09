@@ -19,29 +19,37 @@ You can do all this through the Github GUI, but you're welcome to use any other 
 If the need arises, particular versions will get their own branches, but until that time, everything is merged into the main branche. Releases will be made after the group has come to an agreement.
 
 ## Core sections
-###[Institution](udd/institution.md)
+###[Activity](udd/activity.md)
 
-###[Student](udd/student.md)
+###[Assessment instance](udd/assessment_instance.md)
 
 ###[Course](udd/course.md)
 
 ###[Course Instance](udd/course_instance.md)
 
-###[Student on Course Instance](udd/student_on_course_instance.md)
-
-###[Student Course Membership](udd/student_course_membership.md)
+###[Institution](udd/institution.md)
 
 ###[Module](udd/module.md)
 
 ###[Module Instance](udd/module_instance.md)
 
-###[Student on a module Instance](udd/student_on_a_module_instance.md)
+###[Staff on course instance](udd/staff_on_course_instance.md)
 
-###[Grade](udd/grade.md)
+###[Staff on module instance](udd/staff_on_mod_instance.md)
 
-###[Activity](udd/activity.md)
+###[Student](udd/student.md)
+
+###[Student Course Membership](udd/student_course_membership.md)
+
+###[Student on an assessment instance](udd/student_on_assessment_instance.md)
+
+###[Student on a module instance](udd/student_on_a_module_instance.md)
+
+###[Student on Course instance](udd/student_on_course_instance.md)
 
 ##Additional sections 
-###[Student (Additional Information)](udd/student_additional.md)
+###[Staff](udd/staff.md)
 
 ###[Staff teaching a module Instance](staff_on_mod_instance.md)
+
+###[Student (Additional Information)](udd/student_additional.md)
