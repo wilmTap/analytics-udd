@@ -5,6 +5,7 @@
 * [LAST_NAME](#last_name)
 * [TITLE](#title)
 * [PRIMARY_EMAIL_ADDRESS](#primary_email_address)
+* [HESA_STAFF_ID](#hesa_staff_id)
 
 ##FIRST_NAME
 ###Description
@@ -73,7 +74,7 @@ Any
 String (255)
 
 ###Compulsory
-Yes
+No
 
 ###Notes
 
@@ -100,3 +101,28 @@ String (255)
 Yes
 
 ###Notes
+
+
+##HESA_STAFF_ID
+###Description
+A unique code allocated to staff when they are first entered onto the HESA Staff record. The code remains with the member of staff for the whole of their career within higher education
+
+###Purpose
+Analytics
+
+###Derivation
+https://www.hesa.ac.uk/component/studrec/show_file/14025/a%5E_%5ESTAFFID.html
+
+###Valid values
+A 13 digit number, or an eleven digit number preceded by 'XX'
+
+###References
+
+###Format
+String (13)
+
+###Compulsory
+No
+
+###Notes
+The values have a specific generation algorithm. See https://www.hesa.ac.uk/component/studrec/show_file/14025/a%5E_%5ESTAFFID.html
