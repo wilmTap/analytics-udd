@@ -1,12 +1,12 @@
 #Assessment instance
 * [MOD_INSTANCE_ID](module_instance.md#mod_instance_id)
-* [ASSESS_ID](#assess_id)
+* [ASSESS_INSTANCE_ID](#assess_instance_id)
 * [ASSESS_TYPE_ID](#assess_type_id)
 * [ASSESS_TYPE_NAME](#assess_type_name)
 * [ASSESS_DETAIL](#assess_detail)
 * [ASSESS_WEIGHT](#assess_weight)
 
-##ASSESS_ID
+##ASSESS_INSTANCE_ID
 ###Description.
 An institution's unique identifier for an assessment instance
 

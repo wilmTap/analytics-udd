@@ -3,7 +3,7 @@
 * [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id)
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq)
 * [MOD_INSTANCE_ID](module_instance.md#mod_instance_id)
-* [ASSESS_ID](assessment_instance.md#assess_id)
+* [ASSESS_INSTANCE_ID](assessment_instance.md#assess_instance_id)
 * [ASSESS_SEQ_ID](#assess_seq_id)
 * [ASSESS_DUE_DATE](#assess_due_date)
 * [ASSESS_RETAKE](#assess_retake)
@@ -39,7 +39,7 @@ Yes (if applicable)
 
 ##ASSESS_DUE_DATE
 ###Description.
-The date an assessment instance for a student was due for submisson.
+The date an assessment instance for a student was due for submission.
 
 ###Purpose
 Analytics and display
@@ -54,7 +54,7 @@ YYYY-MM-DD
 ISO 8601 
 
 ###Compulsory
-Yes (if applicable)
+No
 
 ###Notes
 
@@ -87,7 +87,7 @@ No
 
 ##ASSESS_ACTUAL_MARK
 ###Description.
-The actual mark for the assessment attempt.
+The initial mark given for the assessment attempt.
 
 ###Purpose
 Analytics
