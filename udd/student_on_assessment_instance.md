@@ -73,8 +73,8 @@ Jisc
 
 |code|description (English)|description (Welsh)|
 |---|---|---|
-|1|Yes|"welsh translation forthcoming”|
-|2|No|"welsh translation forthcoming”|
+|1|Yes|Ie|
+|2|No|Na|
 
 ###Format
 Integer
