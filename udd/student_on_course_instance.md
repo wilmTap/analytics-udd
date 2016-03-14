@@ -6,7 +6,6 @@
 * [YEAR_COM](#year_com)
 * [YEAR_PRG](#year_prg)
 * [YEAR_STU](#year_stu)
-* [COURSE_AVERAGE_GRADE](#course_average_grade)
 * [YEAR_AVERAGE_GRADE](#year_average_grade)
 * [COURSE_LOCATION](#course_location)
 
@@ -124,28 +123,6 @@ Int
 Yes (if applicable)
 
 ###Notes
-
-##COURSE_AVERAGE_GRADE
-###Description
-The current (LIVE) course grade of the learner
-
-###Purpose
-For display & analytics
-
-###Derivation
-Jisc
-
-###Valid Values
-Codeset to be confirmed - specific per institution
-
-###Format
-Int
-
-###Compulsory
-Yes (if applicable)
-
-###Notes
-This can either be implemented on the LA sides (via a suitable algorithm provided by the institution) or derived on the instituion's side, and provided in real time (push operation) to the Learning Analytics data warehouse.
 
 ##YEAR_AVERAGE_GRADE
 ###Description
