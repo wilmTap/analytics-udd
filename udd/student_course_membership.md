@@ -10,7 +10,7 @@
 * [ENTRY_POINTS](#entry_points)
 * [COURSE_OUTCOME](#course_outcome)
 * [COURSE_GRADE](#course_grade)
-* [COURSE_AIM_ACTUAL](#course_aim_actual)
+* [COURSE_AIM_ATTAINED](#COURSE_AIM_ATTAINED)
 * [COURSE_MARK](#course_mark)
 * [COURSE_EXPECTED_END_DATE](#course_expected_end_date)
 * [COURSE_END_DATE](#course_end_date)
@@ -323,7 +323,7 @@ Yes (if applicable)
 
 ###Notes
 
-##COURSE_AIM_ACTUAL
+##COURSE_AIM_ATTAINED
 ###Description
 The Course Aim the student attained on the course of which they are a member.
 
