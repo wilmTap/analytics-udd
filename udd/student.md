@@ -15,6 +15,7 @@
 * [OVERSEAS](#overseas)
 * [APPSHIB_ID](#appshib_id)
 * [VLE_ID](#vle_id)
+* [HUSID](#husid)
 
 ##STUDENT_ID
 ###Description
@@ -675,3 +676,31 @@ No
 
 ###Notes
 Note that this is not a universal user ID; there maybe several VLEs, or records from other types of tools.
+
+
+##HUSID
+###Description.
+A HESA student identifier unique to each student. It is intended that the identifier is to be transferred with the student to each provider of higher education he or she may attend. The objective is that the use of this number will facilitate the accurate tracking of students throughout their experience within the sector for which HESA collects data.
+
+###Purpose
+Analytics 
+
+###Derivation
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=15051&href=a^_^HUSID.html
+
+###Valid Values
+<table>
+<tbody><tr><td>First 2 digits:</td><td>Year of entry into provider (last 2 digits of year)</td></tr>
+<tr><td>Next 4 digits:</td><td>HESA institution identifier + 1000</td></tr>
+<tr><td>Next 6 digits:</td><td>6 digit reference number internally allocated by provider.</td></tr>
+<tr><td>Last digit:</td><td>Check digit.</td></tr>
+</tbody>
+</table>
+
+###Format
+String (13)
+
+###Compulsory
+No
+
+###Notes

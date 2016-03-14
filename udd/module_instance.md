@@ -1,13 +1,11 @@
 #Module instance
 * [MOD_ID](module.md#mod_id)
 * [MOD_INSTANCE_ID](#mod_instance_id)
-* [MOD_START_DATE](#mod_start_date)
-* [MOD_END_DATE](#mod_end_date)
 * [MOD_PERIOD](#mod_period)
 * [MOD_ONLINE](#mod_online)
-* [MOD_ENROLLMENT](#mod_enrollment)
 * [MOD_ACADEMIC_YEAR](#mod_academic_year)
 * [MOD_OPTIONAL](#mod_optional)
+* [MOD_LOCATION](#mod_location)
 
 ##MOD_INSTANCE_ID
 ###Description
@@ -30,49 +28,6 @@ Yes (if applicable)
 
 ###Notes
 
-##MOD_START_DATE
-###Description
-Start date of this module instance
-
-###Purpose
-Analytics and display
-
-###Derivation
-Jisc
-
-###Valid Values
-ISO 8601 - YYYY-MM-DD
-
-###Format
-Date
-
-###Compulsory
-Yes (if applicable)
-
-###Notes
-The start and end date of a module instance MUST align with the start and end date of a course instance.
-
-##MOD_END_DATE
-###Description
-End date of this module instance
-
-###Purpose
-Analytics and display
-
-###Derivation
-Jisc
-
-###Valid Values
-ISO 8601 - YYYY-MM-DD
-
-###Format
-Date
-
-###Compulsory
-Yes (if applicable)
-
-###Notes
-The start and end date of a module instance MUST align with the start and end date of a course instance.
 
 ##MOD_PERIOD
 ###Description
@@ -121,24 +76,6 @@ Yes (if applicable)
 
 ###Notes
 
-##MOD_ENROLLMENT
-###Description
-This field will be an auto-calculated field which will provide (in real-time) the number of students/ learners enrolled onto the particular instance of this module instance
-
-###Purpose
-Analytics 
-
-###Derivation
-Jisc
-
-###Valid Values
-Int
-
-###Compulsory
-Yes (if applicable) - default will be zero (0)
-
-###Notes
-
 ##MOD_ACADEMIC_YEAR
 ###Description
 Academic year that this module runs within - this must represent the start year of that specific academic year eg. for 2014-15 this would be 2014
@@ -184,5 +121,26 @@ Int
 
 ###Compulsory
 No (if applicable)
+
+###Notes
+
+##MOD_LOCATION
+###Description
+Identifies where a module is to be run. This could be campus, country, or building depending on the needs of the institutions config. Allows modules to be have a different location from the one identified at the course level detail (COURSE_LOCATION).
+
+###Purpose
+To provide details about a module and how it may differ from similar coded modules.
+
+###Derivation
+As defined by the institution and their SRS
+
+###Valid Values
+Any
+
+###Format
+String (255)
+
+###Compulsory
+No
 
 ###Notes

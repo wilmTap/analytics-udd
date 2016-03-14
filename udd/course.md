@@ -3,6 +3,9 @@
 * [SUBJECT](#subject)
 * [TITLE](#title)
 * [COURSE_AIM](#course_aim)
+* [INST_TIER_1](#inst_tier_1)
+* [INST_TIER_2](#inst_tier_2)
+* [INST_TIER_3](#inst_tier_3)
 
 ##COURSE_ID
 ###Description
@@ -89,10 +92,76 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###References
 
 ###Format
-String(255)
+String (255)
 
 ###Compulsory
 Yes
 
 ###Notes
 This field uses the HESA "COURSEAIM" codeset initially - with the addition of new code 'X98' to denote 'No formal qualification aim, below FE level' for FE equivalent denotation to HE code 'X99'. All course levels are denoted here (TBC with FE college, for final implementation). Specific use of the LARS codeset for FE (from ILR) may need to be considered, or a mapping/ amalgamation with the HESA codeset. This is to be discussed in consultation with the FE sector.
+
+##INST_TIER_1
+Details the top level of an institutional structure (e.g. Faculty Details)
+
+###Purpose
+For display purposes and further analysis
+
+###Derivation
+https://www.hesa.ac.uk/component/studrec/show_file/13041/a%5E_%5ETIER1.html
+
+###Valid Values
+https://www.hesa.ac.uk/component/studrec/show_file/13041/a%5E_%5ETIER1.html
+
+###References
+
+###Format
+String (255)
+
+###Compulsory
+No
+
+###Notes
+
+##INST_TIER_2
+Details the middle level of an institutional structure (e.g. department details)
+
+###Purpose
+For display purposes and further analysis
+
+###Derivation
+https://www.hesa.ac.uk/component/studrec/show_file/13041/a%5E_%5ETIER2.html
+
+###Valid Values
+https://www.hesa.ac.uk/component/studrec/show_file/13041/a%5E_%5ETIER2.html
+
+###References
+
+###Format
+String (255)
+
+###Compulsory
+No
+
+###Notes
+
+##INST_TIER_3
+Details the lower level of an institutional structure (e.g. department details)
+
+###Purpose
+For display purposes and further analysis
+
+###Derivation
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=13041&href=^_^A^_^DEPARTMENT.html
+
+###Valid Values
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=13041&href=^_^A^_^DEPARTMENT.html
+
+###References
+
+###Format
+String (255)
+
+###Compulsory
+No
+
+###Notes
