@@ -1,4 +1,5 @@
 # Staff
+An additional data entity
 
 * [STAFF_ID](staff_on_mod_instance.md#staff_id)
 * [FIRST_NAME](#first_name)

@@ -123,7 +123,7 @@ Int
 Yes (if applicable)
 
 ###Notes
-
+	
 ##YEAR_AVERAGE_GRADE
 ###Description
 The current (LIVE) annual (current year) grade of the learner

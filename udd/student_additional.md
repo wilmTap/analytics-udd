@@ -1,4 +1,5 @@
 # Student (Additional Information)
+An additional data entity.
 
 * [STUDENT_ID](student.md#student_id)
 * [USERNAME](#username)

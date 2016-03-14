@@ -33,10 +33,6 @@ If the need arises, particular versions will get their own branches, but until t
 
 ###[Module instance](udd/module_instance.md)
 
-###[Staff on course instance](udd/staff_on_course_instance.md)
-
-###[Staff on module instance](udd/staff_on_mod_instance.md)
-
 ###[Student](udd/student.md)
 
 ###[Student course membership](udd/student_course_membership.md)
@@ -50,6 +46,8 @@ If the need arises, particular versions will get their own branches, but until t
 ##Additional sections 
 ###[Staff](udd/staff.md)
 
-###[Staff teaching a module Instance](udd/staff_on_mod_instance.md)
+###[Staff on course instance](udd/staff_on_course_instance.md)
+
+###[Staff on module Instance](udd/staff_on_mod_instance.md)
 
 ###[Student (Additional Information)](udd/student_additional.md)
