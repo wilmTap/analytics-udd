@@ -25,13 +25,13 @@ If the need arises, particular versions will get their own branches, but until t
 
 ###[Course](udd/course.md)
 
-###[Course Instance](udd/course_instance.md)
+###[Course instance](udd/course_instance.md)
 
 ###[Institution](udd/institution.md)
 
 ###[Module](udd/module.md)
 
-###[Module Instance](udd/module_instance.md)
+###[Module instance](udd/module_instance.md)
 
 ###[Staff on course instance](udd/staff_on_course_instance.md)
 
@@ -39,13 +39,13 @@ If the need arises, particular versions will get their own branches, but until t
 
 ###[Student](udd/student.md)
 
-###[Student Course Membership](udd/student_course_membership.md)
+###[Student course membership](udd/student_course_membership.md)
 
-###[Student on an assessment instance](udd/student_on_assessment_instance.md)
+###[Student on assessment instance](udd/student_on_assessment_instance.md)
 
-###[Student on a module instance](udd/student_on_a_module_instance.md)
+###[Student on module instance](udd/student_on_a_module_instance.md)
 
-###[Student on Course instance](udd/student_on_course_instance.md)
+###[Student on course instance](udd/student_on_course_instance.md)
 
 ##Additional sections 
 ###[Staff](udd/staff.md)
