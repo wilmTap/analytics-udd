@@ -272,7 +272,7 @@ No
 ###Notes
 This assumes that there is a way of securing access to the photo.
 
-##COACH_SCHOOL_ID
+##TUTOR_STAFF_ID
 ###Description
 This is the unique identification number for the learner's academic or course year supervisor/ tutor, or alternatively the id of the contact who will be responsible for handling Learning Analytics alerts and notification regarding the student
 
