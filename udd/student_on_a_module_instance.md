@@ -57,7 +57,7 @@ Jisc
 <tr><td>1</td><td>Yes</td><td>Ie  </td></tr>
 <tr><td>2</td><td>No</td><td>Na  </td></tr>
 <tr><td>3</td><td>Not completed yet</td><td>Dim wedi cwblhau</td></tr>
-<tr><td>4</td><td>Deferred</td><td>welsh translation forthcoming</td></tr>
+<tr><td>4</td><td>Deferred</td><td>Gohiriedig</td></tr>
 </table>  
 
 ###Format
