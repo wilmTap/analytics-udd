@@ -67,7 +67,7 @@ Int
 Yes
 
 ###Notes
-Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example. The value can be calculated and derived from MOD_OUTCOME if required. Note that MOD_OUTCOME has a richer vocabulary for indicating the completion statuses of modules.
+Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example.
 
 ##MOD_RETAKE
 ###Description.
