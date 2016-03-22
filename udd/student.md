@@ -99,7 +99,7 @@ String (10)
 <tr><td>10</td><td>White</td><td>Gwyn</td><td>10</td><td>31</td></tr>
 <tr><td>13</td><td>White - Scottish</td><td>Gwyn - Alban</td><td>13</td><td>N/A</td></tr>
 <tr><td>51</td><td>Irish</td><td>Gwyddel</td><td>N/A</td><td>32</td></tr>
-<tr><td>14</td><td>Irish Traveller</td><td>14</td><td>N/A</td></tr>
+<tr><td>14</td><td>Irish Traveller</td><td></td><td>14</td><td>N/A</td></tr>
 <tr><td>15</td><td>Gypsy or Traveller</td><td></td><td>15</td><td>33</td></tr>
 <tr><td>19</td><td>Other White background</td><td>Gwyn Arall</td><td>19</td><td>34</td></tr>
 <tr><td>21</td><td>Black or Black British - Caribbean</td><td></td><td>21</td><td>45</td></tr>
