@@ -13,6 +13,9 @@
 * [ASSESS_ACTUAL_GRADE](#assess_actual_grade)
 * [ASSESSMENT_CURRENT_ATTEMPT](#assessment_current_attempt)
 * [ASSESSMENT_RESULT](#assessment_result)
+* [X_ASSESS_DETAIL](#x_assess_detail)
+* [X_MOD_NAME](student_on_a_module_instance.md#x_mod_name)
+* [X_MOD_ID](#X_MOD_ID)
 
 ##ASSESS_SEQ_ID
 ###Description.
@@ -222,3 +225,47 @@ Yes (if applicable)
 
 ###Notes
 Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example.
+
+##X_ASSESS_DETAIL
+###Description.
+An extra implementation optimisation that isn't part of the UDD model. It's value is identical to that of the relevant assessment_instance.ASSESS_DETAIL.
+
+###Purpose
+Implementation optimisation
+
+###Derivation
+Jisc; assessment_instance.ASSESS_DETAIL
+
+###Valid Values
+Any 
+
+###Format
+String (255)
+
+###Compulsory
+No
+
+###Notes
+This data is generated internally from existing data, and does not need to be supplied by an institution.
+
+##X_MOD_ID
+###Description.
+An extra implementation optimisation that isn't part of the UDD model. Its value is identical to that of the relevant module.MOD_ID.
+
+###Purpose
+Implementation optimisation
+
+###Derivation
+Jisc; module.MOD_ID
+
+###Valid Values
+Any 
+
+###Format
+String (255)
+
+###Compulsory
+No
+
+###Notes
+This data is generated internally from existing data, and does not need to be supplied by an institution.

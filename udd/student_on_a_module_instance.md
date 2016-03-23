@@ -332,13 +332,13 @@ Yes (if applicable)
 
 ##X_MOD_NAME
 ###Description
-An extra implementation optimisation that isn't part of the UDD model. It records the MOD_NAME of the MODULE identified by MOD_ID identified by the MOD_INSTANCE_ID of this, the student on a module instance entity.
+An extra implementation optimisation that isn't part of the UDD model. Its value is identical to that of the relevant module.MOD_NAME.
 
 ###Purpose
 Implementation optimisation
 
 ###Derivation
-Jisc
+Jisc; module.MOD_NAME
 
 ###Valid Values
 Any
@@ -350,3 +350,4 @@ String (255)
 No
 
 ###Notes
+This data is generated internally from existing data, and does not need to be supplied by an institution.
