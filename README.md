@@ -36,6 +36,8 @@ If the need arises, particular versions will get their own branches, but until t
 
 ###[Module instance](udd/module_instance.md)
 
+###[Module to VLE map](udd/module_vle_map.md)
+
 ###[Student](udd/student.md)
 
 ###[Student course membership](udd/student_course_membership.md)
