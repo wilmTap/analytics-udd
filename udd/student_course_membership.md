@@ -91,8 +91,8 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 <tr><td>46</td><td>Exclusion</td><td></td><td>N/A</td><td>09</td><td>46  </td></tr>
 <tr><td>97</td><td>Other</td><td></td><td>97</td><td>11</td><td>97  </td></tr>
 <tr><td>98</td><td>Reason not known</td><td></td><td>98</td><td>99</td><td>98  </td></tr>
-<tr><td>98</td><td>Reason not known</td><td></td><td>NULL</td><td>N/A</td><td>NULL  </td></tr>
 <tr><td>99</td><td>Completion of course - result unknown</td><td></td><td>N/A</td><td>98</td><td>N/A</td></tr>
+<tr><td>NULL</td><td>No data</td><td></td><td>NULL</td><td>N/A</td><td>NULL  </td></tr>
 </table>  
 
 ###Format
@@ -204,7 +204,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 <tr><td>X04</td><td>Other qualification level not known</td><td></td><td>X04</td><td>97  </td></tr>
 <tr><td>X05</td><td>Student has no formal qualification</td><td></td><td>X05</td><td>99  </td></tr>
 <tr><td>X06</td><td>Not known</td><td></td><td>X06</td><td>98  </td></tr>
-<tr><td>X06</td><td>Not known</td><td></td><td>NULL</td><td>NULL </td></tr>
+<tr><td>NULL</td><td>No data</td><td></td><td>NULL</td><td>NULL </td></tr>
 </table> 
 
 ###Format
