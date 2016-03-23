@@ -17,6 +17,7 @@
 * [MOD_CREDITS_ACHIEVED](#mod_credits_achieved)
 * [MOD_CURRENT_ATTEMPT](#mod_current_attempt)
 * [MOD_COMPLETED_ATTEMPT](#mod_completed_attempt)
+* [X_MOD_NAME](#x_mod_name)
 
 ##MOD_GRADE
 ###Description.
@@ -326,5 +327,26 @@ Integer
 
 ###Compulsory
 Yes (if applicable)
+
+###Notes
+
+##X_MOD_NAME
+###Description
+An extra implementation optimisation that isn't part of the UDD model. It records the MOD_NAME of the MODULE identified by MOD_ID identified by the MOD_INSTANCE_ID of this, the student on a module instance entity.
+
+###Purpose
+Implementation optimisation
+
+###Derivation
+Jisc
+
+###Valid Values
+Any
+
+###Format
+String (255)
+
+###Compulsory
+No
 
 ###Notes
