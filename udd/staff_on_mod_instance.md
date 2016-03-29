@@ -6,12 +6,16 @@ An additional data entity
 
 ##STAFF_ID
 ###Description
-An institutions unique ID for their staff member. This could be their username.
+An institution's unique identifier for a staff member. This could be their username.
 
 ###Purpose
 To show the staff member's name within SSP, SSP Dashboards, or Student Insight.
 
 ###Derivation
+Jisc
+
+###Valid values
+Any
 
 ###References
 

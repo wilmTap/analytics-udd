@@ -93,29 +93,6 @@ Yes (if applicable)
 
 ###Notes
 
-
-##ASSESS_DETAIL
-###Description.
-A textual description of the assessment component and type. For example "Lab Report (1000 words)"
-
-###Purpose
-To provide information about the type of assessment.
-
-###Derivation
-Jisc
-
-###Valid Values
-Any
-
-###Format
-String (255)
-
-###Compulsory
-Yes (if applicable)
-
-###Notes
-
-
 ##ASSESS_WEIGHT
 ###Description.
 The weighting percentage that the assessment component counts towards the module mark.

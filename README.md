@@ -5,7 +5,10 @@ The Unified Data Definitions (UDD) of the Jisc analytics project is a vocabulary
 
 Along with xAPI recipes, the UDD makes up the core data specification of the Jisc learning analytics architecture.
 
-##Workflow
+##Data format
+No particular data format is prescribed yet for UDD data sets, but both JSON and CSV are popular have been used. Regardless of the fileformat, any UDD dataset needs to be UTF8 encoded.
+
+##Specification development workflow
 The simplest way of contributing to the UDD works as follows:
 
 1. add an issue to the issue tracker to alert everyone to what you are working on and why
@@ -32,6 +35,8 @@ If the need arises, particular versions will get their own branches, but until t
 ###[Module](udd/module.md)
 
 ###[Module instance](udd/module_instance.md)
+
+###[Module to VLE map](udd/module_vle_map.md)
 
 ###[Student](udd/student.md)
 

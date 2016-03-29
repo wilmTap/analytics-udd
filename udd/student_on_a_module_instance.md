@@ -17,6 +17,7 @@
 * [MOD_CREDITS_ACHIEVED](#mod_credits_achieved)
 * [MOD_CURRENT_ATTEMPT](#mod_current_attempt)
 * [MOD_COMPLETED_ATTEMPT](#mod_completed_attempt)
+* [X_MOD_NAME](#x_mod_name)
 
 ##MOD_GRADE
 ###Description.
@@ -67,7 +68,7 @@ Int
 Yes
 
 ###Notes
-Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example. The value can be calculated and derived from MOD_OUTCOME if required. Note that MOD_OUTCOME has a richer vocabulary for indicating the completion statuses of modules.
+Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example.
 
 ##MOD_RETAKE
 ###Description.
@@ -328,3 +329,25 @@ Integer
 Yes (if applicable)
 
 ###Notes
+
+##X_MOD_NAME
+###Description
+An extra implementation optimisation that isn't part of the UDD model. Its value is identical to that of the relevant module.MOD_NAME.
+
+###Purpose
+Implementation optimisation
+
+###Derivation
+Jisc; module.MOD_NAME
+
+###Valid Values
+Any
+
+###Format
+String (255)
+
+###Compulsory
+No
+
+###Notes
+This data is generated internally from existing data, and does not need to be supplied by an institution.

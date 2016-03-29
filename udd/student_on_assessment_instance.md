@@ -12,7 +12,10 @@
 * [ASSESS_AGREED_GRADE](#assess_agreed_grade)
 * [ASSESS_ACTUAL_GRADE](#assess_actual_grade)
 * [ASSESSMENT_CURRENT_ATTEMPT](#assessment_current_attempt)
-* [ASSESSMENT_COMPLETED_ATTEMPT](#assessment_completed_attempt)
+* [ASSESSMENT_RESULT](#assessment_result)
+* [X_ASSESS_DETAIL](#x_assess_detail)
+* [X_MOD_NAME](student_on_a_module_instance.md#x_mod_name)
+* [X_MOD_ID](#X_MOD_ID)
 
 ##ASSESS_SEQ_ID
 ###Description.
@@ -195,18 +198,24 @@ Yes (if applicable)
 ###Notes
 
 
-##ASSESSMENT_COMPLETED_ATTEMPT
+##ASSESSMENT_RESULT
 ###Description.
-Number of attempts taken by a student to complete an assessment instance.
+Indicates whether the student passed the assessment, didn't pass the assessment, deferred the assessment or whether this information is not known because the assessment hasn't been due yet.
 
 ###Purpose
 Analytics
 
 ###Derivation
-Jisc
+Jisc; student_on_a_module_instance.MOD_RESULT
 
 ###Valid Values
-Any
+<table>
+<tr><td>CODE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
+<tr><td>1</td><td>Yes</td><td>Ie  </td></tr>
+<tr><td>2</td><td>No</td><td>Na  </td></tr>
+<tr><td>3</td><td>Not completed yet</td><td>Dim wedi cwblhau</td></tr>
+<tr><td>4</td><td>Deferred</td><td>Gohiriedig</td></tr>
+</table>  
 
 ###Format
 Integer
@@ -215,4 +224,48 @@ Integer
 Yes (if applicable)
 
 ###Notes
+Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example.
 
+##X_ASSESS_DETAIL
+###Description.
+An extra implementation optimisation that isn't part of the UDD model. It's value is identical to that of the relevant assessment_instance.ASSESS_DETAIL.
+
+###Purpose
+Implementation optimisation
+
+###Derivation
+Jisc; assessment_instance.ASSESS_DETAIL
+
+###Valid Values
+Any 
+
+###Format
+String (255)
+
+###Compulsory
+No
+
+###Notes
+This data is generated internally from existing data, and does not need to be supplied by an institution.
+
+##X_MOD_ID
+###Description.
+An extra implementation optimisation that isn't part of the UDD model. Its value is identical to that of the relevant module.MOD_ID.
+
+###Purpose
+Implementation optimisation
+
+###Derivation
+Jisc; module.MOD_ID
+
+###Valid Values
+Any 
+
+###Format
+String (255)
+
+###Compulsory
+No
+
+###Notes
+This data is generated internally from existing data, and does not need to be supplied by an institution.

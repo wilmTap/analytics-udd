@@ -47,7 +47,8 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 <tr><td>73</td><td>Change to dormant status - previously full-time</td><td></td><td>73</td><td>N/A  </td></tr>
 <tr><td>74</td><td>Change to dormant status - previously part-time</td><td></td><td>74</td><td>N/A  </td></tr>
 <tr><td>99</td><td>FE students in England</td><td></td><td>99</td><td>N/A  </td></tr>
-<tr><td>98</td><td>Not Known/ Not in Early Statistics/HEIFES population</td><td></td><td>NULL</td><td>NULL</td></tr>
+<tr><td>98</td><td>Not Known/ Not in Early Statistics/HEIFES population</td><td></td><td>N/A</td><td>N/A</td></tr>
+<tr><td>NULL</td><td>No data</td><td></td><td>NULL</td><td>NULL</td></tr>
 </table>  
 
 ###Format

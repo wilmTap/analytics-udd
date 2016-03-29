@@ -7,6 +7,7 @@ An additional data entity
 * [TITLE](#title)
 * [PRIMARY_EMAIL_ADDRESS](#primary_email_address)
 * [HESA_STAFF_ID](#hesa_staff_id)
+* [DASH_SHIB_ID](#dash_shib_id)
 
 ##FIRST_NAME
 ###Description
@@ -127,3 +128,25 @@ No
 
 ###Notes
 The values have a specific generation algorithm. See https://www.hesa.ac.uk/component/studrec/show_file/14025/a%5E_%5ESTAFFID.html
+
+##DASH_SHIB_ID
+###Description.
+The person identifier used by Shibboleth / The UK Access Management Federation to grant access to the Jisc analytics staff dashboard.
+
+###Purpose
+Analytics 
+
+###Derivation
+https://www.internet2.edu/media/medialibrary/2013/09/04/internet2-mace-dir-eduperson-200604.html
+
+###Valid Values
+Not specified
+
+###Format
+String (256)
+
+###Compulsory
+No
+
+###Notes
+There may be a more general AIM_ID property later that can be used for any UK Federation service provider ID, not just the Jisc staff dashboard.
