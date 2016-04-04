@@ -252,7 +252,7 @@ This is the date when a grade has been moderated and agreed, but before exam boa
 
 ##MAX_POINTS
 ###Description.
-Denotes the maximum number of mark points that an instructor can allocated to an assessment 
+The maximum points that an instructor can allocate to an assessment. Used to indicate the marking scale used for an assignment.
 
 ###Purpose
 Analytics 
@@ -264,12 +264,13 @@ Jisc
 Not specified
 
 ###Format
-Integer
+String (256)
 
 ###Compulsory
 No
 
 ###Notes
+The value can be any alphanumeric used by any type of marking scale. E.g. 80%, B11 or 'excellent'.
 
 ##X_ASSESS_DETAIL
 ###Description.
