@@ -6,9 +6,9 @@
 * [YEAR_COM](#year_com)
 * [YEAR_PRG](#year_prg)
 * [YEAR_STU](#year_stu)
-* [COURSE_AVERAGE_GRADE](#course_average_grade)
-* [YEAR_AVERAGE_GRADE](#year_average_grade)
 * [COURSE_LOCATION](#course_location)
+* [X_COURSE_AVERAGE_MARK](#course_average_mark)
+* [X_YEAR_AVERAGE_MARK](#year_average_mark)
 
 ###MODE
 ###Description
@@ -126,50 +126,6 @@ Yes (if applicable)
 
 ###Notes
 
-##COURSE_AVERAGE_GRADE
-###Description
-The current (LIVE) average grade of the learner's whole course.
-
-###Purpose
-For display & analytics
-
-###Derivation
-Jisc
-
-###Valid Values
-Codeset to be confirmed - specific per institution
-
-###Format
-Int
-
-###Compulsory
-Yes (if applicable)
-
-###Notes
-This can either be implemented on the Learning Analytics data warehouse (via a suitable algorithm provided by the institution) or derived on the institution's side, and provided in real time (push operation) to the Learning Analytics data warehouse.
-
-##YEAR_AVERAGE_GRADE
-###Description
-The current (LIVE) average grade of the learner's whole course this academic year.
-
-###Purpose
-For display & analytics
-
-###Derivation
-Jisc
-
-###Valid Values
-Codeset to be confirmed - specific per institution
-
-###Format
-Int
-
-###Compulsory
-Yes (if applicable)
-
-###Notes
-This can either be implemented on the Learning Analytics data warehouse (via a suitable algorithm provided by the institution) or derived on the institution's side, and provided in real time (push operation) to the Learning Analytics data warehouse.
-
 ##COURSE_LOCATION
 ###Description
 Identifies the location with which a student on a course instance is associated, be it a building, a site or a campus.
@@ -191,3 +147,47 @@ String (255)
 Yes (if applicable)
 
 ###Notes
+
+##X_COURSE_AVERAGE_MARK
+###Description
+The current (LIVE) average of all module marks from across a learner's whole course.
+
+###Purpose
+For analytics
+
+###Derivation
+Jisc
+
+###Valid Values
+0-1
+
+###Format
+Float
+
+###Compulsory
+Yes (if applicable)
+
+###Notes
+This data is generated internally to the learning record warehouse from existing data, and does not need to be supplied by an institution.
+
+##YEAR_AVERAGE_GRADE
+###Description
+The current (LIVE) average of all of this academic year's module marks from across a learner's whole course.
+
+###Purpose
+For analytics
+
+###Derivation
+Jisc
+
+###Valid Values
+0-1
+
+###Format
+Float
+
+###Compulsory
+Yes (if applicable)
+
+###Notes
+This data is generated internally to the learning record warehouse from existing data, and does not need to be supplied by an institution.
