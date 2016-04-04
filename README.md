@@ -22,8 +22,6 @@ You can do all this through the Github GUI, but you're welcome to use any other 
 If the need arises, particular versions will get their own branches, but until that time, everything is merged into the main branche. Releases will be made after the group has come to an agreement.
 
 ## Core sections
-###[Activity](udd/activity.md)
-
 ###[Assessment instance](udd/assessment_instance.md)
 
 ###[Course](udd/course.md)

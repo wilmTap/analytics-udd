@@ -13,6 +13,8 @@
 * [ASSESS_ACTUAL_GRADE](#assess_actual_grade)
 * [ASSESSMENT_CURRENT_ATTEMPT](#assessment_current_attempt)
 * [ASSESSMENT_RESULT](#assessment_result)
+* [GRADE_DATE](#grade_date)
+* [MAX_POINTS](#max_points)
 * [X_ASSESS_DETAIL](#x_assess_detail)
 * [X_MOD_NAME](student_on_a_module_instance.md#x_mod_name)
 * [X_MOD_ID](#X_MOD_ID)
@@ -225,6 +227,50 @@ Yes (if applicable)
 
 ###Notes
 Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example.
+
+##GRADE_DATE
+###Description.
+The date at which the grade result has been confirmed and awarded.
+
+###Purpose
+Analytics 
+
+###Derivation
+Jisc
+
+###Valid Values
+Not specified
+
+###Format
+Date (ISO format) - YYYY-MM-DD
+
+###Compulsory
+No
+
+###Notes
+This is the date when a grade has been moderated and agreed, but before exam board confirmation. It is typically the date at which the grade is entered in a SRS.
+
+##MAX_POINTS
+###Description.
+The maximum points that an instructor can allocate to an assessment. Used to indicate the marking scale used for an assignment.
+
+###Purpose
+Analytics 
+
+###Derivation
+Jisc
+
+###Valid Values
+Not specified
+
+###Format
+String (256)
+
+###Compulsory
+No
+
+###Notes
+The value can be any alphanumeric used by any type of marking scale. E.g. 80%, B11 or 'excellent'.
 
 ##X_ASSESS_DETAIL
 ###Description.

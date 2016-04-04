@@ -15,6 +15,7 @@ An additional data entity.
 * [MOBILE_PHONE](#mobile_phone)
 * [PHOTO_URL](#photo_url)
 * [TUTOR_STAFF_ID](#tutor_staff_id)
+* [ENTRY_POSTCODE](#entry_postcode)
 
 ##USERNAME
 ###Description
@@ -174,10 +175,10 @@ Jisc
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^TTPCODE.html
 
 ###Valid Values
-Any
+See HESA definition
 
 ###Format
-String
+String (8)
 
 ###Compulsory
 No 
@@ -293,3 +294,24 @@ Yes
 
 ###Notes
 This will be the unique identifier/ primary key for the member of staff who is responsible for the student (course/ year tutor) or the person responsible for receiving alerts and notifications from the Learning Analytics software suite/ tools. This will typically be the staff/ HR/ payroll number for the member of academic staff, which links to their email address in the institutions identity management system.
+
+##ENTRY_POSTCODE
+###Description.
+Identifies the postcode of the student's permanent or home address prior to entry to the course. It is not necessarily the correspondence address of the student.
+
+###Purpose
+Analytics 
+
+###Derivation
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=15051&href=a^_^POSTCODE.html
+
+###Valid Values
+See HESA definition
+
+###Format
+String (8)
+
+###Compulsory
+No
+
+###Notes
