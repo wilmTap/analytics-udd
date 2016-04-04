@@ -5,13 +5,15 @@
 * [ASSESS_TYPE_NAME](#assess_type_name)
 * [ASSESS_DETAIL](#assess_detail)
 * [ASSESS_WEIGHT](#assess_weight)
+###Description
+An assessment instance is any assessed learning activity that is part of a wider module or course that gets a grade and/or mark. The assumption is that an assessment instance is summative.
 
 ##ASSESS_INSTANCE_ID
 ###Description.
 An institution's unique identifier for an assessment instance
 
 ###Purpose
-To link a assessment instance to a module instance
+To uniquely identify an assessment instance, and to link it to other entities such as module instances.
 
 ###Derivation
 Jisc
