@@ -13,7 +13,8 @@
 * [ASSESS_ACTUAL_GRADE](#assess_actual_grade)
 * [ASSESSMENT_CURRENT_ATTEMPT](#assessment_current_attempt)
 * [ASSESSMENT_RESULT](#assessment_result)
-* [GRADE_DATE](udd/grade.md#grade_date)
+* [GRADE_DATE](#grade_date)
+* [MAX_POINTS](#max_points)
 * [X_ASSESS_DETAIL](#x_assess_detail)
 * [X_MOD_NAME](student_on_a_module_instance.md#x_mod_name)
 * [X_MOD_ID](#X_MOD_ID)
@@ -227,6 +228,49 @@ Yes (if applicable)
 ###Notes
 Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example.
 
+##GRADE_DATE
+###Description.
+The date at which the grade result has been confirmed and awarded.
+
+###Purpose
+Analytics 
+
+###Derivation
+Jisc
+
+###Valid Values
+Not specified
+
+###Format
+Date (ISO format) - YYYY-MM-DD
+
+###Compulsory
+No
+
+###Notes
+This is the date when a grade has been moderated and agreed, but before exam board confirmation. It is typically the date at which the grade is entered in a SRS.
+
+##MAX_POINTS
+###Description.
+Denotes the maximum number of mark points that an instructor can allocated to an assessment 
+
+###Purpose
+Analytics 
+
+###Derivation
+Jisc
+
+###Valid Values
+Not specified
+
+###Format
+Integer
+
+###Compulsory
+No
+
+###Notes
+
 ##X_ASSESS_DETAIL
 ###Description.
 An extra implementation optimisation that isn't part of the UDD model. It's value is identical to that of the relevant assessment_instance.ASSESS_DETAIL.
@@ -270,25 +314,3 @@ No
 
 ###Notes
 This data is generated internally from existing data, and does not need to be supplied by an institution.
-
-##GRADE_DATE
-###Description.
-The date at which the grade result has been confirmed and awarded.
-
-###Purpose
-Analytics 
-
-###Derivation
-Jisc
-
-###Valid Values
-Not specified
-
-###Format
-Date (ISO format) - YYYY-MM-DD
-
-###Compulsory
-No
-
-###Notes
-This is the date when a grade has been moderated and agreed, but before exam board confirmation. It is typically the date at which the grade is entered in a SRS.
