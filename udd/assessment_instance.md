@@ -5,6 +5,7 @@
 * [ASSESS_TYPE_NAME](#assess_type_name)
 * [ASSESS_DETAIL](#assess_detail)
 * [ASSESS_WEIGHT](#assess_weight)
+
 ###Description
 An assessment instance is any assessed learning activity that is part of a wider module or course that gets a grade and/or mark. The assumption is that an assessment instance is summative.
 
