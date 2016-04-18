@@ -11,18 +11,8 @@ The development of 1.2 involved a number of additions and changes. [This overvie
 ##Data format
 No particular data format is prescribed yet for UDD data sets, but both JSON and CSV are popular have been used. Regardless of the fileformat, any UDD dataset needs to be UTF8 encoded.
 
-##Specification development workflow
-The simplest way of contributing to the UDD works as follows:
-
-1. add an issue to the issue tracker to alert everyone to what you are working on and why
-2. tag the issue with the version milestone you'd like the patch to be a part of
-3. make an edit or add a file in this repository, and save it to your own branch. If you prefer, you can fork the whole repository and work in your own repository
-4. send a pull request once you're done
-5. the pull request will be discussed at our weekly meeting and either merged, or kept in the queue, depending on whether more work is required
-
-You can do all this through the Github GUI, but you're welcome to use any other git tool you prefer.
-
-Particular release versions will get their own branches, but the main branch will always contain the latest agreed release. Releases will be made after the group has come to an agreement.
+##Diagram
+An [entity relation diagram of the whole UDD 1.2](diagram.md) provides a one page overview of the specification.
 
 ## Core sections
 ###[Assessment instance](udd/assessment_instance.md)
@@ -57,3 +47,16 @@ Particular release versions will get their own branches, but the main branch wil
 ###[Staff on module Instance](udd/staff_on_mod_instance.md)
 
 ###[Student (Additional Information)](udd/student_additional.md)
+
+##Specification development workflow
+The simplest way of contributing to the UDD works as follows:
+
+1. add an issue to the issue tracker to alert everyone to what you are working on and why
+2. tag the issue with the version milestone you'd like the patch to be a part of
+3. make an edit or add a file in this repository, and save it to your own branch. If you prefer, you can fork the whole repository and work in your own repository
+4. send a pull request once you're done
+5. the pull request will be discussed at our weekly meeting and either merged, or kept in the queue, depending on whether more work is required
+
+You can do all this through the Github GUI, but you're welcome to use any other git tool you prefer.
+
+Particular release versions will get their own branches, but the main branch will always contain the latest agreed release. Releases will be made after the group has come to an agreement.
