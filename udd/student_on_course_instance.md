@@ -10,7 +10,7 @@
 * [X_COURSE_AVERAGE_MARK](#course_average_mark)
 * [X_YEAR_AVERAGE_MARK](#year_average_mark)
 
-###MODE
+##MODE
 ###Description
 Mode of study (eg part-time or full time)
 
@@ -24,7 +24,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 
 <table>
 <tr><td>CODE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)</td><td>HESA(MODE)</td><td>FEILR(PlanLearnHours)  </td></tr>
-<tr><td>1</td><td>Full-time according to funding council definitions</td><td></td><td>1</td><td>PlanLearnHours >= 540  </td></tr>
+<tr><td>1</td><td>Full-time according to funding council definitions</td><td></td><td>1</td><td>PlanLearnHours > 540  </td></tr>
 <tr><td>2</td><td>Other full-time</td><td></td><td>2</td><td>N/A  </td></tr>
 <tr><td>12</td><td>FE students full-time 30 weeks or more</td><td></td><td>12</td><td>N/A  </td></tr>
 <tr><td>13</td><td>FE students full-time 4-29 weeks</td><td></td><td>13</td><td>N/A  </td></tr>
