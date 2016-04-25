@@ -4,6 +4,7 @@
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq)
 * [COURSE_INSTANCE_ID](course_instance.md#course_instance_id)
 * [MOD_INSTANCE_ID](module_instance.md#mod_instance_id)
+* [MOD_GRADE](#mod_grade)
 * [MOD_RESULT](#mod_result)
 * [MOD_RETAKE](#mod_retake)
 * [MOD_START_DATE](#mod_start_date)
@@ -30,16 +31,15 @@ Analytics
 Jisc
 
 ###Valid Values
-1-100
+Any
 
 ###Format
-Int
+String (256)
 
 ###Compulsory
 Yes
 
 ###Notes
-Where the module is grades as percentage then the an integer value (0-100) should be used.  Where a non-percentage marking scheme is used (eg A,B,C) this should be encoded numerically, with 1 being the lowest mark.
 
 ##MOD_RESULT
 ###Description.
