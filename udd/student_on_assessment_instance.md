@@ -14,7 +14,6 @@
 * [ASSESSMENT_CURRENT_ATTEMPT](#assessment_current_attempt)
 * [ASSESSMENT_RESULT](#assessment_result)
 * [GRADE_DATE](#grade_date)
-* [MAX_POINTS](#max_points)
 * [X_ASSESS_DETAIL](#x_assess_detail)
 * [X_MOD_NAME](student_on_a_module_instance.md#x_mod_name)
 * [X_MOD_ID](#X_MOD_ID)
@@ -249,28 +248,6 @@ No
 
 ###Notes
 This is the date when a grade has been moderated and agreed, but before exam board confirmation. It is typically the date at which the grade is entered in a SRS.
-
-##MAX_POINTS
-###Description.
-The maximum points that an instructor can allocate to an assessment. Used to indicate the marking scale used for an assignment.
-
-###Purpose
-Analytics 
-
-###Derivation
-Jisc
-
-###Valid Values
-Not specified
-
-###Format
-String (256)
-
-###Compulsory
-No
-
-###Notes
-The value can be any alphanumeric used by any type of marking scale. E.g. 80%, B11 or 'excellent'.
 
 ##X_ASSESS_DETAIL
 ###Description.

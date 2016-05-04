@@ -5,6 +5,7 @@
 * [ASSESS_TYPE_NAME](#assess_type_name)
 * [ASSESS_DETAIL](#assess_detail)
 * [ASSESS_WEIGHT](#assess_weight)
+* [MAX_POINTS](#max_points)
 
 ###Description
 An assessment instance is any assessed learning activity that is part of a wider module or course that gets a grade and/or mark. The assumption is that an assessment instance is summative.
@@ -116,3 +117,25 @@ Decimal
 Yes (if applicable)
 
 ###Notes
+
+##MAX_POINTS
+###Description.
+The maximum points that an instructor can allocate to an assessment. Used to indicate the marking scale used for an assignment.
+
+###Purpose
+Analytics 
+
+###Derivation
+Jisc
+
+###Valid Values
+Not specified
+
+###Format
+String (256)
+
+###Compulsory
+No
+
+###Notes
+The value can be any alphanumeric used by any type of marking scale. E.g. 80%, B11 or 'excellent'.
