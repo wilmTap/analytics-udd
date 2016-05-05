@@ -26,7 +26,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2016-05-05 13:21:09 +0000</string>
+	<string>2016-05-05 17:18:16 +0000</string>
 	<key>Modifier</key>
 	<string>wilbert</string>
 	<key>NotesVisible</key>
@@ -3839,7 +3839,7 @@ Student on a module Instance}</string>
 							<key>g</key>
 							<string>0.501961</string>
 							<key>r</key>
-							<string>0.501961</string>
+							<string>0.25098</string>
 						</dict>
 						<key>Font</key>
 						<string>Helvetica-Bold</string>
@@ -3882,7 +3882,7 @@ Student on a module Instance}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf460
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red128\green128\blue0;}
+{\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_ACTUAL_GRADE}</string>
@@ -13218,7 +13218,7 @@ Student}</string>
 							<key>g</key>
 							<string>0.501961</string>
 							<key>r</key>
-							<string>0</string>
+							<string>0.25098</string>
 						</dict>
 						<key>Font</key>
 						<string>Helvetica-Bold</string>
@@ -13261,7 +13261,7 @@ Student}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf460
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 VLE_MOD_ID}</string>
@@ -13289,7 +13289,7 @@ Student}</string>
 							<key>g</key>
 							<string>0.501961</string>
 							<key>r</key>
-							<string>0</string>
+							<string>0.25098</string>
 						</dict>
 						<key>Font</key>
 						<string>Helvetica-Bold</string>
@@ -13332,7 +13332,7 @@ Student}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf460
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_INSTANCE_ID}</string>
@@ -22644,7 +22644,7 @@ COHORT_ID}</string>
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>2</integer>
+		<integer>0</integer>
 		<key>ExpandedCanvases</key>
 		<array>
 			<dict>
@@ -22667,9 +22667,9 @@ COHORT_ID}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{418.66666666666669, 41.333333333333336}, {1041.3333333333333, 817.33333333333326}}</string>
+		<string>{{3, 3745}, {781, 613}}</string>
 		<key>Zoom</key>
-		<real>0.75</real>
+		<real>1</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
