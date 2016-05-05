@@ -8,9 +8,9 @@ The following diagrams give an overview of all the changes that were introduced 
 ##Core
 ![diagram of core 1.1 to 1.2 changes][core]
 
-[core]: https://github.com/jiscdev/analytics-udd/blob/v1.2.1/media/core.png "core"
+[core]: media/core.png "core"
 
 ##Additional
 ![diagram of additional 1.1 to 1.2 changes][additional]
 
-[additional]: https://github.com/jiscdev/analytics-udd/blob/v1.2.1/media/additional.png "additional"
+[additional]: media/additional.png "additional"
