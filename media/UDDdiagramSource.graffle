@@ -26,7 +26,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2016-05-05 11:58:41 +0000</string>
+	<string>2016-05-05 13:21:09 +0000</string>
 	<key>Modifier</key>
 	<string>wilbert</string>
 	<key>NotesVisible</key>
@@ -22653,7 +22653,7 @@ COHORT_ID}</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{86, 7}, {930, 770}}</string>
+		<string>{{-6, 7}, {930, 770}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -22667,7 +22667,7 @@ COHORT_ID}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, 41.333333333333336}, {1041.3333333333333, 817.33333333333326}}</string>
+		<string>{{418.66666666666669, 41.333333333333336}, {1041.3333333333333, 817.33333333333326}}</string>
 		<key>Zoom</key>
 		<real>0.75</real>
 		<key>ZoomValues</key>
