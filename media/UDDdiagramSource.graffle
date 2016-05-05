@@ -26,7 +26,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2016-05-05 11:17:57 +0000</string>
+	<string>2016-05-05 11:58:41 +0000</string>
 	<key>Modifier</key>
 	<string>wilbert</string>
 	<key>NotesVisible</key>
@@ -20126,14 +20126,161 @@ Staff}</string>
 					<key>Head</key>
 					<dict>
 						<key>ID</key>
+						<integer>295</integer>
+					</dict>
+					<key>ID</key>
+					<integer>336</integer>
+					<key>OrthogonalBarAutomatic</key>
+					<false/>
+					<key>OrthogonalBarPoint</key>
+					<string>{0, 0}</string>
+					<key>OrthogonalBarPosition</key>
+					<real>30.666666030883789</real>
+					<key>Points</key>
+					<array>
+						<string>{288.1511663532238, 488.44974886339952}</string>
+						<string>{340.84880821546091, 501.88361891786673}</string>
+					</array>
+					<key>Style</key>
+					<dict>
+						<key>stroke</key>
+						<dict>
+							<key>Cap</key>
+							<integer>0</integer>
+							<key>HeadArrow</key>
+							<string>0</string>
+							<key>HopLines</key>
+							<true/>
+							<key>HopType</key>
+							<integer>1</integer>
+							<key>Join</key>
+							<integer>0</integer>
+							<key>Legacy</key>
+							<true/>
+							<key>LineType</key>
+							<integer>2</integer>
+							<key>TailArrow</key>
+							<string>CrowsFeet</string>
+						</dict>
+					</dict>
+					<key>Tail</key>
+					<dict>
+						<key>ID</key>
+						<integer>40</integer>
+					</dict>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>LineGraphic</string>
+					<key>Head</key>
+					<dict>
+						<key>ID</key>
+						<integer>294</integer>
+					</dict>
+					<key>ID</key>
+					<integer>335</integer>
+					<key>OrthogonalBarAutomatic</key>
+					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{0, 0}</string>
+					<key>OrthogonalBarPosition</key>
+					<real>12.5</real>
+					<key>Points</key>
+					<array>
+						<string>{287.66666666666663, 242.52482269503548}</string>
+						<string>{326.66666666666669, 261.33333333333331}</string>
+						<string>{326.66666666666669, 462.66666666666669}</string>
+						<string>{340.83333560454287, 462.80142983491822}</string>
+					</array>
+					<key>Style</key>
+					<dict>
+						<key>stroke</key>
+						<dict>
+							<key>Cap</key>
+							<integer>0</integer>
+							<key>HeadArrow</key>
+							<string>0</string>
+							<key>HopLines</key>
+							<true/>
+							<key>HopType</key>
+							<integer>1</integer>
+							<key>Join</key>
+							<integer>0</integer>
+							<key>Legacy</key>
+							<true/>
+							<key>LineType</key>
+							<integer>2</integer>
+							<key>TailArrow</key>
+							<string>CrowsFeet</string>
+						</dict>
+					</dict>
+					<key>Tail</key>
+					<dict>
+						<key>ID</key>
+						<integer>33</integer>
+					</dict>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>LineGraphic</string>
+					<key>Head</key>
+					<dict>
+						<key>ID</key>
+						<integer>291</integer>
+					</dict>
+					<key>ID</key>
+					<integer>334</integer>
+					<key>OrthogonalBarAutomatic</key>
+					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{0, 0}</string>
+					<key>OrthogonalBarPosition</key>
+					<real>7.1666665077209473</real>
+					<key>Points</key>
+					<array>
+						<string>{287.66666666666663, 292.40736728060671}</string>
+						<string>{316, 317.33333333333331}</string>
+						<string>{314.66666666666669, 336}</string>
+						<string>{340.83331664798243, 335.89968927093724}</string>
+					</array>
+					<key>Style</key>
+					<dict>
+						<key>stroke</key>
+						<dict>
+							<key>Cap</key>
+							<integer>0</integer>
+							<key>HeadArrow</key>
+							<string>0</string>
+							<key>Join</key>
+							<integer>0</integer>
+							<key>Legacy</key>
+							<true/>
+							<key>LineType</key>
+							<integer>2</integer>
+							<key>TailArrow</key>
+							<string>CrowsFeet</string>
+						</dict>
+					</dict>
+					<key>Tail</key>
+					<dict>
+						<key>ID</key>
+						<integer>33</integer>
+					</dict>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>LineGraphic</string>
+					<key>Head</key>
+					<dict>
+						<key>ID</key>
 						<integer>327</integer>
 					</dict>
 					<key>ID</key>
 					<integer>333</integer>
 					<key>Points</key>
 					<array>
-						<string>{1076.1667590818588, 471.83336894476884}</string>
-						<string>{1076.1665862561965, 389.1041908187326}</string>
+						<string>{1076.1667590860868, 471.83336894476935}</string>
+						<string>{1076.1665863070596, 389.10419081882458}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -20169,8 +20316,8 @@ Staff}</string>
 					<integer>332</integer>
 					<key>Points</key>
 					<array>
-						<string>{950.16649757316929, 346.56146817558505}</string>
-						<string>{897.49987801782663, 346.5436105755989}</string>
+						<string>{950.16649768585285, 346.51364966558549}</string>
+						<string>{897.49987855573863, 346.47580445258257}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -20560,8 +20707,8 @@ VLE_MOD_ID}</string>
 					<array>
 						<string>{645.50116255927787, 568.3833680429334}</string>
 						<string>{621.33333333333337, 566.66666666666663}</string>
-						<string>{621.33333333333337, 370.66666666666669}</string>
-						<string>{592.83280597928501, 371.91183458140165}</string>
+						<string>{621.33333333333337, 374.66666666666669}</string>
+						<string>{592.83320328456955, 375.17394994882432}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -20597,8 +20744,8 @@ VLE_MOD_ID}</string>
 					<integer>320</integer>
 					<key>Points</key>
 					<array>
-						<string>{771.49988965140813, 282.77086193449628}</string>
-						<string>{771.49993711256957, 248.7083307992643}</string>
+						<string>{771.49988960158521, 282.77086193449634}</string>
+						<string>{771.4999368364671, 248.70833079926945}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -20634,8 +20781,8 @@ VLE_MOD_ID}</string>
 					<integer>319</integer>
 					<key>Points</key>
 					<array>
-						<string>{771.49989492959276, 429.83337401437086}</string>
-						<string>{771.49989492959276, 395.77086195260534}</string>
+						<string>{771.49989492959276, 429.8333740143712}</string>
+						<string>{771.49989492959276, 395.77086195262916}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -21189,8 +21336,8 @@ MOD_LEVEL}</string>
 					<integer>304</integer>
 					<key>Points</key>
 					<array>
-						<string>{466.83312762858861, 671.33331171671557}</string>
-						<string>{466.83325433377314, 716.16663233439726}</string>
+						<string>{466.8331276175507, 671.33331171671546}</string>
+						<string>{466.83325428860661, 716.1666323343959}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -21226,10 +21373,10 @@ MOD_LEVEL}</string>
 					<integer>14</integer>
 					<key>Points</key>
 					<array>
-						<string>{340.83311978976485, 657.24021897721354}</string>
-						<string>{312, 657.33333333333337}</string>
-						<string>{312, 378.00003560384272}</string>
-						<string>{340.83331653202566, 377.89139918781297}</string>
+						<string>{340.83316783829906, 655.03924243106314}</string>
+						<string>{314.66666666666669, 654.66666666666663}</string>
+						<string>{314.66666666666669, 378.66666666666669}</string>
+						<string>{340.83332984391939, 378.45171549578043}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -21239,6 +21386,10 @@ MOD_LEVEL}</string>
 							<integer>0</integer>
 							<key>HeadArrow</key>
 							<string>0</string>
+							<key>HopLines</key>
+							<true/>
+							<key>HopType</key>
+							<integer>1</integer>
 							<key>Join</key>
 							<integer>0</integer>
 							<key>Legacy</key>
@@ -21265,8 +21416,8 @@ MOD_LEVEL}</string>
 					<integer>303</integer>
 					<key>Points</key>
 					<array>
-						<string>{466.83328040127094, 456.50002863162075}</string>
-						<string>{466.83328040127094, 412.9166641019828}</string>
+						<string>{466.83328040127094, 456.50002863162263}</string>
+						<string>{466.83328040127094, 412.91666410214674}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -21302,8 +21453,8 @@ MOD_LEVEL}</string>
 					<integer>302</integer>
 					<key>Points</key>
 					<array>
-						<string>{466.83330140968872, 327.91666412353862}</string>
-						<string>{466.83332653725608, 276.70832443248736}</string>
+						<string>{466.83330064504963, 327.9166641235376}</string>
+						<string>{466.83332055183041, 276.70832443237504}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -21580,7 +21731,7 @@ COURSE_INSTANCE_ID}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{341.33331298828119, 471.00002861023177}, {250.99993896484375, 112}}</string>
+							<string>{{341.33331298828119, 471.00002861023177}, {250.99993896484375, 126}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -21621,7 +21772,8 @@ MODE\
 YEAR_COM\
 YEAR_PRG\
 YEAR_STU\
-COURSE_LOCATION}</string>
+COURSE_LOCATION\
+COURSE_INSTANCE_ID}</string>
 								<key>VerticalPad</key>
 								<integer>0</integer>
 							</dict>
@@ -21744,17 +21896,12 @@ ACADEMIC_YEAR}</string>
 				<dict>
 					<key>Class</key>
 					<string>LineGraphic</string>
-					<key>Head</key>
-					<dict>
-						<key>ID</key>
-						<integer>48</integer>
-					</dict>
 					<key>ID</key>
 					<integer>289</integer>
 					<key>Points</key>
 					<array>
-						<string>{288.165537095167, 180.51619476868851}</string>
-						<string>{340.83386098932573, 176.96991058171048}</string>
+						<string>{288.1666588833524, 188.29674338100295}</string>
+						<string>{341.33311716715491, 188}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -21790,8 +21937,8 @@ ACADEMIC_YEAR}</string>
 					<integer>288</integer>
 					<key>Points</key>
 					<array>
-						<string>{466.8333387231616, 163.70832443237512}</string>
-						<string>{466.8333387231616, 112.50000000000156}</string>
+						<string>{466.8333387231616, 163.70832443237506}</string>
+						<string>{466.8333387231616, 112.50000000000038}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -22032,8 +22179,8 @@ TENANT_NAME}</string>
 					<integer>12</integer>
 					<key>Points</key>
 					<array>
-						<string>{162.16737573435756, 604.16664569669013}</string>
-						<string>{162.17007845099315, 575.83333332364862}</string>
+						<string>{162.16678170740343, 604.16664569667012}</string>
+						<string>{162.16724032386904, 575.83333332249731}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -22182,8 +22329,8 @@ ENTRY_POSTCODE}</string>
 					<integer>13</integer>
 					<key>Points</key>
 					<array>
-						<string>{162.1267056979664, 294.49999995569249}</string>
-						<string>{162.1159736799039, 322.83334476547662}</string>
+						<string>{162.16007502209987, 294.49999999431503}</string>
+						<string>{162.15830475418707, 322.83333364126946}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -22432,6 +22579,8 @@ COHORT_ID}</string>
 						<integer>35</integer>
 						<array/>
 					</array>
+					<key>GroupConnect</key>
+					<string>YES</string>
 					<key>ID</key>
 					<integer>33</integer>
 				</dict>
@@ -22504,7 +22653,7 @@ COHORT_ID}</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{86, -3}, {930, 770}}</string>
+		<string>{{86, 7}, {930, 770}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -22518,7 +22667,7 @@ COHORT_ID}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{180, 38.666666666666664}, {1041.3333333333333, 817.33333333333337}}</string>
+		<string>{{0, 41.333333333333336}, {1041.3333333333333, 817.33333333333326}}</string>
 		<key>Zoom</key>
 		<real>0.75</real>
 		<key>ZoomValues</key>
