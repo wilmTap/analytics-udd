@@ -36,14 +36,14 @@ String (255)
 Yes (if applicable)
 
 ###Notes
-
+The student course membership is designed to deal with the fact that some students are enrolled on more than one course in their time at a provider. Drawing together data on their student ID alone could therefore be misleading, or at least be significantly different from students who have only ever been registered on one course. STUDENT_COURSE_MEMBERSHIP_ID partitions the study careers of those who are on multiple courses, and makes them comparable to those who have only ever been enrolled on one course.
 
 ##STUDENT_COURSE_MEMBERSHIP_SEQ
 ###Description
-A unique identifier for movements within in a course due to transfers, study breaks etc.
+The institution's own unique identifier for the student and the course instance they are assigned to.
 
 ###Purpose
-To provide a means of tracking the relation of a student to a course.
+To provide a unique course instance code for a student, for use in joining a student to course instance/enrolment records
 
 ###Derivation
 As defined by the Student Record System.
@@ -57,6 +57,7 @@ String (255)
 Yes (if applicable)
 
 ###Notes
+The student course membership sequence ID is designed to deal with the fact that some students drop out off or enroll on more than one instance of the same course.
 
 ##WITHDRAWAL_REASON
 ###Description

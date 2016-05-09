@@ -7,6 +7,7 @@
 * [YEAR_PRG](#year_prg)
 * [YEAR_STU](#year_stu)
 * [COURSE_LOCATION](#course_location)
+* [COURSE_INSTANCE_ID](course_instance.md#course_instance_id)
 * [X_COURSE_AVERAGE_MARK](#course_average_mark)
 * [X_YEAR_AVERAGE_MARK](#year_average_mark)
 
