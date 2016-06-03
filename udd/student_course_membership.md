@@ -14,6 +14,7 @@
 * [COURSE_MARK](#course_mark)
 * [COURSE_EXPECTED_END_DATE](#course_expected_end_date)
 * [COURSE_END_DATE](#course_end_date)
+* [COURSE_JOIN_DATE](#course_join_date) [0 1]
 * [COHORT_ID](#cohort_id)
 
 
@@ -415,6 +416,27 @@ ISO 8601
 
 ###Compulsory
 Yes (if applicable)
+
+###Notes
+
+##COURSE_JOIN_DATE
+###Description
+This field indicates the date of the student's initial commencement of studies for this student course membership and may relate to a date prior to the current academic/financial year. Exchange-in students should have the date they commenced their studies at the reporting provider.
+
+###Purpose
+Analytics
+
+###Derivation
+HESA COMDATE
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=15051&href=a^_^COMDATE.html
+
+###Valid values
+YYYY-MM-DD
+
+###References
+
+###Format
+ISO 8601
 
 ###Notes
 
