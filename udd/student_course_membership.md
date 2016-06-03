@@ -5,7 +5,6 @@
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](#student_course_membership_seq)
 * [COURSE_ID](course.md#course_id)
 * [WITHDRAWAL_REASON](#withdrawal_reason)
-* [WITHDRAWAL_DATE](#withdrawal_date)
 * [ENTRY_QUALS](#entry_quals)
 * [ENTRY_POINTS](#entry_points)
 * [COURSE_OUTCOME](#course_outcome)
@@ -13,7 +12,7 @@
 * [COURSE_AIM_ATTAINED](#COURSE_AIM_ATTAINED)
 * [COURSE_MARK](#course_mark)
 * [COURSE_EXPECTED_END_DATE](#course_expected_end_date)
-* [COURSE_END_DATE](#course_end_date)
+* [COURSE_END_DATE](#course_end_date) [1 1]
 * [COURSE_JOIN_DATE](#course_join_date) [0 1]
 * [COHORT_ID](#cohort_id)
 
@@ -104,28 +103,6 @@ Yes (if applicable)
 
 ###Notes
 
-##WITHDRAWAL_DATE
-###Description
-The date a student has withdrawn from a course (if they have)
-
-###Purpose
-For analytics
-
-###Derivation
-https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779/ILRSpecification2015_16_v3_July2015.pdf
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^ENDDATE.html
-
-###Valid Values
-ISO Date - YYYY-MM-DD
-
-###Format
-Int
-
-###Compulsory
-Yes (if applicable)
-
-###Notes
-Would normally utilise ENDDATE (HE/ HESA) or potentially LearnActEndDate (FE/ ILR - to be confirmed) when relevant fields denote that the learner/ student has withdrawn from the learning aim/ course.
 
 ##ENTRY_QUALS
 ###Description
@@ -398,7 +375,7 @@ Yes (if applicable)
 
 ##COURSE_END_DATE
 ###Description
-The date on which the student completed their course. This allows information to be captured on the number of students who complete within the expected time frame of a course.
+The date on which the student left their course.
 
 ###Purpose
 Analytics and display
@@ -414,10 +391,8 @@ YYYY-MM-DD
 ###Format
 ISO 8601
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+Note that there may be many reasons why a student leaves a course. This is recorded in WITHDRAWAL_REASON.
 
 ##COURSE_JOIN_DATE
 ###Description
