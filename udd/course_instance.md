@@ -4,6 +4,7 @@
 * [START_DATE](#start_date)
 * [END_DATE](#end_date)
 * [ACADEMIC_YEAR](#academic_year)
+* [COURSE_LOCATION](#course_location) [0..1]
 
 ##COURSE_INSTANCE_ID
 ###Description
@@ -89,3 +90,22 @@ Yes
 
 ###Notes
 Could be derived, but academic year calendars may be different between institutions. This field could also be sourced directly from the SRS.
+
+##COURSE_LOCATION
+###Description
+Identifies the location with which a student on a course instance is associated, be it a building, a site or a campus.
+
+###Purpose
+For analytics (predictive model building) and for presenting analytics.
+
+###Derivation
+Loosely based on
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=15051&href=a^_^CAMPID.html
+
+###Valid Values
+Any
+
+###Format
+String (255)
+
+###Notes
