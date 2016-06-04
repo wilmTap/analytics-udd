@@ -4,7 +4,7 @@
 * [STUDENT_COURSE_MEMBERSHIP_ID](#student_course_membership_id)
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](#student_course_membership_seq)
 * [COURSE_ID](course.md#course_id)
-* [WITHDRAWAL_REASON](#withdrawal_reason)
+* [WITHDRAWAL_REASON](#withdrawal_reason) [0..1]
 * [ENTRY_QUALS](#entry_quals)
 * [ENTRY_POINTS](#entry_points)
 * [COURSE_OUTCOME](#course_outcome)
@@ -13,7 +13,7 @@
 * [COURSE_MARK](#course_mark)
 * [COURSE_EXPECTED_END_DATE](#course_expected_end_date)
 * [COURSE_END_DATE](#course_end_date) [1 1]
-* [COURSE_JOIN_DATE](#course_join_date) [0 1]
+* [COURSE_JOIN_DATE](#course_join_date) [0..1]
 * [COHORT_ID](#cohort_id)
 
 
@@ -98,8 +98,6 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###Format
 Int
 
-###Compulsory
-Yes (if applicable)
 
 ###Notes
 

@@ -106,27 +106,6 @@ Yes (if applicable)
 
 ###Notes
 
-##COURSE_LOCATION
-###Description
-Identifies the location with which a student on a course instance is associated, be it a building, a site or a campus.
-
-###Purpose
-For analytics (predictive model building) and for presenting analytics.
-
-###Derivation
-Loosely based on
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=15051&href=a^_^CAMPID.html
-
-###Valid Values
-Any
-
-###Format
-String (255)
-
-###Compulsory
-Yes (if applicable)
-
-###Notes
 
 ##X_COURSE_AVERAGE_MARK
 ###Description
