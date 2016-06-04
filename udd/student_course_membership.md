@@ -9,7 +9,7 @@
 * [ENTRY_POINTS](#entry_points)
 * [COURSE_OUTCOME](#course_outcome)
 * [COURSE_GRADE](#course_grade)
-* [COURSE_AIM_ATTAINED](#COURSE_AIM_ATTAINED)
+* [COURSE_AIM_ATTAINED](#course_aim_attained)
 * [COURSE_MARK](#course_mark)
 * [COURSE_EXPECTED_END_DATE](#course_expected_end_date)
 * [COURSE_END_DATE](#course_end_date) [1 1]
