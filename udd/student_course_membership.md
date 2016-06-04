@@ -338,7 +338,7 @@ For display purposes and further analysis
 SRS Systems
 
 ###Valid values
-1-100
+0-100
 
 ###References
 

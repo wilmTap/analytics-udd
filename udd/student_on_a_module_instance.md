@@ -151,7 +151,7 @@ Analytics
 Jisc
 
 ###Valid Values
-1-100
+0-100
 
 ###Format
 Decimal
@@ -172,7 +172,7 @@ Analytics
 Jisc
 
 ###Valid Values
-1-100
+0-100
 
 ###Format
 Decimal
@@ -193,7 +193,7 @@ Analytics
 Jisc
 
 ###Valid Values
-1-100
+0-100
 
 ###Format
 Decimal
