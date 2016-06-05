@@ -1,20 +1,20 @@
 #Student course membership
 
-* [STUDENT_ID](student.md#student_id)
-* [STUDENT_COURSE_MEMBERSHIP_ID](#student_course_membership_id)
-* [STUDENT_COURSE_MEMBERSHIP_SEQ](#student_course_membership_seq)
-* [COURSE_ID](course.md#course_id)
+* [STUDENT_ID](student.md#student_id) [1]
+* [STUDENT_COURSE_MEMBERSHIP_ID](#student_course_membership_id) [1]
+* [STUDENT_COURSE_MEMBERSHIP_SEQ](#student_course_membership_seq) [1]
+* [COURSE_ID](course.md#course_id) [1]
 * [WITHDRAWAL_REASON](#withdrawal_reason) [0..1]
-* [ENTRY_QUALS](#entry_quals)
-* [ENTRY_POINTS](#entry_points)
-* [COURSE_OUTCOME](#course_outcome)
-* [COURSE_GRADE](#course_grade)
-* [COURSE_AIM_ATTAINED](#course_aim_attained)
-* [COURSE_MARK](#course_mark)
-* [COURSE_EXPECTED_END_DATE](#course_expected_end_date)
-* [COURSE_END_DATE](#course_end_date) [1 1]
+* [ENTRY_QUALS](#entry_quals) [1]
+* [ENTRY_POINTS](#entry_points) [0..1]
+* [COURSE_OUTCOME](#course_outcome) [1]
+* [COURSE_GRADE](#course_grade) [1]
+* [COURSE_AIM_ATTAINED](#course_aim_attained) [1]
+* [COURSE_MARK](#course_mark) [1]
+* [COURSE_EXPECTED_END_DATE](#course_expected_end_date) [1]
+* [COURSE_END_DATE](#course_end_date) [1]
 * [COURSE_JOIN_DATE](#course_join_date) [0..1]
-* [COHORT_ID](#cohort_id)
+* [COHORT_ID](#cohort_id) [0..1]
 
 
 ##STUDENT_COURSE_MEMBERSHIP_ID
@@ -31,9 +31,6 @@ As defined by the Student Record System.
 
 ###Format
 String (255)
-
-###Compulsory
-Yes (if applicable)
 
 ###Notes
 
@@ -53,10 +50,8 @@ As defined by the Student Record System.
 ###Format
 String (255)
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##WITHDRAWAL_REASON
 ###Description
@@ -97,7 +92,6 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 
 ###Format
 Int
-
 
 ###Notes
 
@@ -186,10 +180,8 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###Format
 Alphanumeric
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##ENTRY_POINTS
 ###Description
@@ -207,10 +199,8 @@ Any
 ###Format
 Int
 
-###Compulsory
-No
-
 ###Notes
+
 
 ##COURSE_OUTCOME
 ###Description
@@ -229,10 +219,8 @@ Any integer
 ###Format
 Int
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##COURSE_GRADE
 ###Description
@@ -294,10 +282,8 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###Format
 Int
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##COURSE_AIM_ATTAINED
 ###Description
@@ -319,11 +305,9 @@ Plus additional codes X98 & X99 (see notes below)
 ###Format
 String(255)
 
-###Compulsory
-Yes
-
 ###Notes
 This field uses the HESA "COURSEAIM" codeset initially - with the addition of new code 'X98' to denote 'No formal qualification aim, below FE level' for FE equivalent denotation to HE code 'X99'. All course levels are denoted here (TBC with FE college, for final implementation). Specific use of the LARS codeset for FE (from ILR) may need to be considered, or a mapping/ amalgamation with the HESA codeset. This is to be discussed in consultation with the FE sector.
+
 
 ##COURSE_MARK
 ###Description
@@ -343,10 +327,8 @@ SRS Systems
 ###Format
 Decimal (IEEE 754)
 
-###Compulsory
-Yes
-
 ###Notes
+
 
 ##COURSE_EXPECTED_END_DATE
 ###Description
@@ -366,10 +348,8 @@ YYYY-MM-DD
 ###Format
 ISO 8601
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##COURSE_END_DATE
 ###Description
@@ -431,8 +411,5 @@ Any
 
 ###Format
 String (255)
-
-###Compulsory
-No
 
 ###Notes

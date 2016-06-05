@@ -1,24 +1,24 @@
 #Student on a module Instance
-* [STUDENT_ID](student.md#student_id)
-* [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id)
-* [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq)
-* [COURSE_INSTANCE_ID](course_instance.md#course_instance_id)
-* [MOD_INSTANCE_ID](module_instance.md#mod_instance_id)
-* [MOD_GRADE](#mod_grade)
-* [MOD_RESULT](#mod_result)
-* [MOD_RETAKE](#mod_retake)
-* [MOD_START_DATE](#mod_start_date)
-* [MOD_END_DATE](#mod_end_date)
-* [MOD_FIRST_MARK](#mod_first_mark)
-* [MOD_ACTUAL_MARK](#mod_actual_mark)
-* [MOD_AGREED_MARK](#mod_agreed_mark)
-* [MOD_FIRST_GRADE](#mod_first_grade)
-* [MOD_ACTUAL_GRADE](#mod_actual_grade)
-* [MOD_AGREED_GRADE](#mod_agreed_grade)
-* [MOD_CREDITS_ACHIEVED](#mod_credits_achieved)
-* [MOD_CURRENT_ATTEMPT](#mod_current_attempt)
-* [MOD_COMPLETED_ATTEMPT](#mod_completed_attempt)
-* [X_MOD_NAME](#x_mod_name)
+* [STUDENT_ID](student.md#student_id) [1]
+* [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1]
+* [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
+* [COURSE_INSTANCE_ID](course_instance.md#course_instance_id) [1]
+* [MOD_INSTANCE_ID](module_instance.md#mod_instance_id) [1]
+* [MOD_GRADE](#mod_grade) [1]
+* [MOD_RESULT](#mod_result) [1]
+* [MOD_RETAKE](#mod_retake) [0..1]
+* [MOD_START_DATE](#mod_start_date) [1]
+* [MOD_END_DATE](#mod_end_date) [1]
+* [MOD_FIRST_MARK](#mod_first_mark) [0..1]
+* [MOD_ACTUAL_MARK](#mod_actual_mark) [0..1]
+* [MOD_AGREED_MARK](#mod_agreed_mark) [0..1]
+* [MOD_FIRST_GRADE](#mod_first_grade) [0..1]
+* [MOD_ACTUAL_GRADE](#mod_actual_grade) [0..1]
+* [MOD_AGREED_GRADE](#mod_agreed_grade) [1]
+* [MOD_CREDITS_ACHIEVED](#mod_credits_achieved) [1]
+* [MOD_CURRENT_ATTEMPT](#mod_current_attempt) [1]
+* [MOD_COMPLETED_ATTEMPT](#mod_completed_attempt) [1]
+* [X_MOD_NAME](#x_mod_name) [0..1]
 
 ##MOD_GRADE
 ###Description.
@@ -36,10 +36,8 @@ Any
 ###Format
 String (256)
 
-###Compulsory
-Yes
-
 ###Notes
+
 
 ##MOD_RESULT
 ###Description.
@@ -64,11 +62,9 @@ Jisc
 ###Format
 Int
 
-###Compulsory
-Yes
-
 ###Notes
 Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example.
+
 
 ##MOD_RETAKE
 ###Description.
@@ -91,10 +87,8 @@ Jisc
 ###Format
 Int
 
-###Compulsory
-No
-
 ###Notes
+
 
 ##MOD_START_DATE
 ###Description
@@ -112,11 +106,9 @@ ISO 8601 - YYYY-MM-DD
 ###Format
 Date
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
 The start and end date of a module instance MUST align with the start and end date of a course instance.
+
 
 ##MOD_END_DATE
 ###Description
@@ -134,11 +126,9 @@ ISO 8601 - YYYY-MM-DD
 ###Format
 Date
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
 The start and end date of a module instance MUST align with the start and end date of a course instance.
+
 
 ##MOD_FIRST_MARK
 ###Description
@@ -156,10 +146,8 @@ Jisc
 ###Format
 Decimal
 
-###Compulsory
-No
-
 ###Notes
+
 
 ##MOD_ACTUAL_MARK
 ###Description
@@ -177,10 +165,8 @@ Jisc
 ###Format
 Decimal
 
-###Compulsory
-No
-
 ###Notes
+
 
 ##MOD_AGREED_MARK
 ###Description
@@ -198,10 +184,8 @@ Jisc
 ###Format
 Decimal
 
-###Compulsory
-No
-
 ###Notes
+
 
 ##MOD_FIRST_GRADE
 ###Description
@@ -219,11 +203,9 @@ Any
 ###Format
 String (255)
 
-###Compulsory
-No
-
 ###Notes
 The first grade a student receives on the module is used to help monitor what changes to marks are made during the re-assessment process.
+
 
 ##MOD_ACTUAL_GRADE
 ###Description
@@ -241,10 +223,8 @@ Any
 ###Format
 String (255)
 
-###Compulsory
-No
-
 ###Notes
+
 
 ##MOD_AGREED_GRADE
 ###Description
@@ -262,10 +242,8 @@ Any
 ###Format
 String (255)
 
-###Compulsory
-Yes
-
 ###Notes
+
 
 ##MOD_CREDITS_ACHIEVED
 ###Description
@@ -283,10 +261,8 @@ Any
 ###Format
 Integer
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##MOD_CURRENT_ATTEMPT
 ###Description
@@ -304,10 +280,8 @@ Any
 ###Format
 Integer
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##MOD_COMPLETED_ATTEMPT
 ###Description
@@ -325,10 +299,8 @@ Any
 ###Format
 Integer
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##X_MOD_NAME
 ###Description
@@ -345,9 +317,6 @@ Any
 
 ###Format
 String (255)
-
-###Compulsory
-No
 
 ###Notes
 This data is generated internally from existing data, and does not need to be supplied by an institution.

@@ -1,12 +1,12 @@
 #Course
-* [COURSE_ID](#course_id)
-* [SUBJECT](#subject)
-* [TITLE](#title)
-* [COURSE_AIM](#course_aim)
-* [INST_TIER_1](#inst_tier_1)
-* [INST_TIER_2](#inst_tier_2)
-* [INST_TIER_3](#inst_tier_3)
-* [TENANT_ID](institution.md#tenant_id)
+* [COURSE_ID](#course_id) [1]
+* [SUBJECT](#subject) [1]
+* [TITLE](#title) [1]
+* [COURSE_AIM](#course_aim) [1]
+* [INST_TIER_1](#inst_tier_1) [0..1]
+* [INST_TIER_2](#inst_tier_2) [0..1]
+* [INST_TIER_3](#inst_tier_3) [0..1]
+* [TENANT_ID](institution.md#tenant_id) [1]
 
 ##COURSE_ID
 ###Description
@@ -24,9 +24,6 @@ Any
 
 ###Format
 String (255)
-
-###Compulsory
-Yes
 
 ###Notes
 HE guidance - this field could relate to actual HESA COURSEID field or the HR institution's OWNCOURSEID field for cross-referencing purposes.
@@ -48,9 +45,6 @@ https://www.hesa.ac.uk/jacs3
 ###Format
 String (10) - Usually 4 characters, number followed by three digits
 
-###Compulsory
-Yes
-
 ###Notes
 The JACS3 coding will be used here initially, from the HE (HESA) model. Further discussion will be required around this, to discuss subject classifications for FE/ ILR.y
 
@@ -69,9 +63,6 @@ Any
 
 ###Format
 String (255)
-
-###Compulsory
-Yes
 
 ###Notes
 
@@ -95,11 +86,9 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###Format
 String (255)
 
-###Compulsory
-Yes
-
 ###Notes
 This field uses the HESA "COURSEAIM" codeset initially - with the addition of new code 'X98' to denote 'No formal qualification aim, below FE level' for FE equivalent denotation to HE code 'X99'. All course levels are denoted here (TBC with FE college, for final implementation). Specific use of the LARS codeset for FE (from ILR) may need to be considered, or a mapping/ amalgamation with the HESA codeset. This is to be discussed in consultation with the FE sector.
+
 
 ##INST_TIER_1
 Details the top level of an institutional structure (e.g. Faculty Details)
@@ -118,10 +107,8 @@ https://www.hesa.ac.uk/component/studrec/show_file/13041/a%5E_%5ETIER1.html
 ###Format
 String (255)
 
-###Compulsory
-No
-
 ###Notes
+
 
 ##INST_TIER_2
 Details the middle level of an institutional structure (e.g. department details)
@@ -140,10 +127,8 @@ https://www.hesa.ac.uk/component/studrec/show_file/13041/a%5E_%5ETIER2.html
 ###Format
 String (255)
 
-###Compulsory
-No
-
 ###Notes
+
 
 ##INST_TIER_3
 Details the lower level of an institutional structure (e.g. department details)
@@ -161,8 +146,5 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=13041&hre
 
 ###Format
 String (255)
-
-###Compulsory
-No
 
 ###Notes

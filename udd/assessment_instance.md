@@ -1,11 +1,11 @@
 #Assessment instance
-* [MOD_INSTANCE_ID](module_instance.md#mod_instance_id)
-* [ASSESS_INSTANCE_ID](#assess_instance_id)
-* [ASSESS_TYPE_ID](#assess_type_id)
-* [ASSESS_TYPE_NAME](#assess_type_name)
-* [ASSESS_DETAIL](#assess_detail)
-* [ASSESS_WEIGHT](#assess_weight)
-* [MAX_POINTS](#max_points)
+* [MOD_INSTANCE_ID](module_instance.md#mod_instance_id) [1]
+* [ASSESS_INSTANCE_ID](#assess_instance_id) [1]
+* [ASSESS_TYPE_ID](#assess_type_id) [1]
+* [ASSESS_TYPE_NAME](#assess_type_name) [1]
+* [ASSESS_DETAIL](#assess_detail) [1]
+* [ASSESS_WEIGHT](#assess_weight) [1]
+* [MAX_POINTS](#max_points) [0..1]
 
 ###Description
 An assessment instance is any assessed learning activity that is part of a wider module or course that gets a grade and/or mark. The assumption is that an assessment instance is summative.
@@ -26,9 +26,6 @@ Any
 ###Format
 String (255)
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
 
 
@@ -47,9 +44,6 @@ Any
 
 ###Format
 String (255)
-
-###Compulsory
-Yes (if applicable)
 
 ###Notes
 
@@ -70,9 +64,6 @@ Any
 ###Format
 String (255)
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
 
 
@@ -92,9 +83,6 @@ Any
 ###Format
 String (255)
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
 
 ##ASSESS_WEIGHT
@@ -113,9 +101,6 @@ Jisc
 ###Format
 Decimal
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
 
 ##MAX_POINTS
@@ -133,9 +118,6 @@ Not specified
 
 ###Format
 String (256)
-
-###Compulsory
-No
 
 ###Notes
 The value can be any alphanumeric used by any type of marking scale. E.g. 80%, B11 or 'excellent'.

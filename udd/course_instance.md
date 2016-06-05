@@ -1,9 +1,9 @@
 #Course instance
-* [COURSE_ID](course.md#course_id)
-* [COURSE_INSTANCE_ID](#course_instance_id)
-* [START_DATE](#start_date)
-* [END_DATE](#end_date)
-* [ACADEMIC_YEAR](#academic_year)
+* [COURSE_ID](course.md#course_id) [1]
+* [COURSE_INSTANCE_ID](#course_instance_id) [1]
+* [START_DATE](#start_date) [1]
+* [END_DATE](#end_date) [1]
+* [ACADEMIC_YEAR](#academic_year) [1]
 * [COURSE_LOCATION](#course_location) [0..1]
 
 ##COURSE_INSTANCE_ID
@@ -21,9 +21,6 @@ Any
 
 ###Format
 String (255)
-
-###Compulsory
-Yes
 
 ###Notes
 
@@ -43,9 +40,6 @@ Date in ISO8601 format - YYYY-MM-DD
 ###Format
 String (255)
 
-###Compulsory
-Yes
-
 ###Notes
 
 ##END_DATE
@@ -64,9 +58,6 @@ Date in ISO8601 format - YYYY-MM-DD
 ###Format
 String (255)
 
-###Compulsory
-Yes
-
 ###Notes
 
 ##ACADEMIC_YEAR
@@ -84,9 +75,6 @@ Year as four digit - ie year that the academic year starts in.
 
 ###Format
 Int
-
-###Compulsory
-Yes
 
 ###Notes
 Could be derived, but academic year calendars may be different between institutions. This field could also be sourced directly from the SRS.

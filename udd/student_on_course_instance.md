@@ -1,14 +1,13 @@
 #Student on Course Instance
-* [STUDENT_ID](student.md#student_id)
-* [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id)
-* [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq)
-* [MODE](#mode)
-* [YEAR_COM](#year_com)
-* [YEAR_PRG](#year_prg)
-* [YEAR_STU](#year_stu)
-* [COURSE_LOCATION](#course_location)
-* [X_COURSE_AVERAGE_MARK](#course_average_mark)
-* [X_YEAR_AVERAGE_MARK](#year_average_mark)
+* [STUDENT_ID](student.md#student_id) [1]
+* [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1]
+* [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
+* [MODE](#mode) [1]
+* [YEAR_COM](#year_com) [1]
+* [YEAR_PRG](#year_prg) [1]
+* [YEAR_STU](#year_stu) [1]
+* [X_COURSE_AVERAGE_MARK](#course_average_mark) [1]
+* [X_YEAR_AVERAGE_MARK](#year_average_mark) [1]
 
 ##MODE
 ###Description
@@ -35,9 +34,6 @@ Jisc
 ###Format
 Int
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
 Mapping based on HESA codeset, and ILE (FE) initial mapping suggested above on ILR field 'PlanLearnHours'. See https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^MODE.html
 
@@ -58,11 +54,9 @@ Any
 ###Format
 Int
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
 This can be extracted from the actual commencement date of the learning aim/ student (on course) instance.
+
 
 ##YEAR_PRG
 ###Description
@@ -80,10 +74,8 @@ Any
 ###Format
 Int
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##YEAR_STU
 ###Description
@@ -100,9 +92,6 @@ Any
 
 ###Format
 Int
-
-###Compulsory
-Yes (if applicable)
 
 ###Notes
 
@@ -123,11 +112,9 @@ Jisc
 ###Format
 Float
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
 This data is generated internally to the learning record warehouse from existing data, and does not need to be supplied by an institution.
+
 
 ##YEAR_AVERAGE_GRADE
 ###Description
@@ -144,9 +131,6 @@ Jisc
 
 ###Format
 Float
-
-###Compulsory
-Yes (if applicable)
 
 ###Notes
 This data is generated internally to the learning record warehouse from existing data, and does not need to be supplied by an institution.

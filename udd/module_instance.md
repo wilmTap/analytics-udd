@@ -1,11 +1,11 @@
 #Module instance
-* [MOD_ID](module.md#mod_id)
-* [MOD_INSTANCE_ID](#mod_instance_id)
-* [MOD_PERIOD](#mod_period)
-* [MOD_ONLINE](#mod_online)
-* [MOD_ACADEMIC_YEAR](#mod_academic_year)
-* [MOD_OPTIONAL](#mod_optional)
-* [MOD_LOCATION](#mod_location)
+* [MOD_ID](module.md#mod_id) [1]
+* [MOD_INSTANCE_ID](#mod_instance_id) [1]
+* [MOD_PERIOD](#mod_period) [0..1]
+* [MOD_ONLINE](#mod_online) [1]
+* [MOD_ACADEMIC_YEAR](#mod_academic_year) [1]
+* [MOD_OPTIONAL](#mod_optional) [0..1]
+* [MOD_LOCATION](#mod_location) [0..1]
 
 ##MOD_INSTANCE_ID
 ###Description
@@ -22,9 +22,6 @@ Any
 
 ###Format
 String (255)
-
-###Compulsory
-Yes (if applicable)
 
 ###Notes
 
@@ -44,9 +41,6 @@ Any
 
 ###Format
 String (256)
-
-###Compulsory
-No (if applicable)
 
 ###Notes
 It is expected that sites / organisations will have their own code lists for MOD_PERIOD values.
@@ -71,9 +65,6 @@ Jisc
 ###Format
 Int
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
 
 ##MOD_ACADEMIC_YEAR
@@ -91,9 +82,6 @@ Int
 
 ###Format
 4 digit year
-
-###Compulsory
-Yes (if applicable)
 
 ###Notes
 This is the starting year for the academic year.
@@ -119,10 +107,8 @@ Jisc
 ###Format
 Int
 
-###Compulsory
-No (if applicable)
-
 ###Notes
+
 
 ##MOD_LOCATION
 ###Description
@@ -139,8 +125,5 @@ Any
 
 ###Format
 String (255)
-
-###Compulsory
-No
 
 ###Notes

@@ -1,9 +1,9 @@
 #Module
-* [MOD_ID](#mod_id)
-* [MOD_NAME](#mod_name)
-* [MOD_SUBJECT](#mod_subject)
-* [MOD_CREDITS](#mod_credits)
-* [MOD_LEVEL](#mod_level)
+* [MOD_ID](#mod_id) [1]
+* [MOD_NAME](#mod_name) [1]
+* [MOD_SUBJECT](#mod_subject) [1]
+* [MOD_CREDITS](#mod_credits) [1]
+* [MOD_LEVEL](#mod_level) [0..1]
 
 ##MOD_ID
 ###Description
@@ -21,10 +21,8 @@ Any
 ###Format
 String (255)
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##MOD_NAME
 ###Description
@@ -41,9 +39,6 @@ Any
 
 ###Format
 String (255)
-
-###Compulsory
-Yes (if applicable)
 
 ###Notes
 
@@ -63,11 +58,9 @@ Valid JACS3 subject code. See link above.
 ###Format
 String (255)
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
 For FE purposes, it will need be adapted to work with institutions specific codeset for Learning Activities. Details to be confirmed.
+
 
 ##MOD_CREDITS
 ###Description
@@ -85,10 +78,8 @@ Any
 ###Format
 Int
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##MOD_LEVEL
 ###Description
@@ -121,8 +112,5 @@ Jisc
  
 ###Format
 String(1)
-
-###Compulsory
-No (if applicable)
 
 ###Notes

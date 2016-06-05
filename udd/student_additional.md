@@ -1,21 +1,21 @@
 # Student (additional Information)
 An additional data entity.
 
-* [STUDENT_ID](student.md#student_id)
-* [USERNAME](#username)
-* [LAST_NAME](#last_name)
-* [FIRST_NAME](#first_name)
-* [ADDRESS_LINE_1](#address_line_1)
-* [ADDRESS_LINE_2](#address_line_2)
-* [ADDRESS_LINE_3](#address_line_3)
-* [ADDRESS_LINE_4](#address_line_4)
-* [POSTCODE](#postcode)
-* [PRIMARY_EMAIL_ADDRESS](#primary_email_address)
-* [HOME_PHONE](#home_phone)
-* [MOBILE_PHONE](#mobile_phone)
-* [PHOTO_URL](#photo_url)
-* [TUTOR_STAFF_ID](#tutor_staff_id) [0  1]
-* [ENTRY_POSTCODE](#entry_postcode)
+* [STUDENT_ID](student.md#student_id) [1]
+* [USERNAME](#username) [1]
+* [LAST_NAME](#last_name) [1]
+* [FIRST_NAME](#first_name) [1]
+* [ADDRESS_LINE_1](#address_line_1) [0..1]
+* [ADDRESS_LINE_2](#address_line_2) [0..1]
+* [ADDRESS_LINE_3](#address_line_3) [0..1]
+* [ADDRESS_LINE_4](#address_line_4) [0..1]
+* [POSTCODE](#postcode) [0..1]
+* [PRIMARY_EMAIL_ADDRESS](#primary_email_address) [0..1]
+* [HOME_PHONE](#home_phone) [0..1]
+* [MOBILE_PHONE](#mobile_phone) [0..1]
+* [PHOTO_URL](#photo_url) [0..1]
+* [TUTOR_STAFF_ID](#tutor_staff_id) [0..1]
+* [ENTRY_POSTCODE](#entry_postcode) [0..1]
 
 ##USERNAME
 ###Description
@@ -27,11 +27,9 @@ To be used for user login/ account lookup purposes
 ###Format
 String (255)
 
-###Compulsory
-Yes
-
 ###Notes
 This will typically be imported and updated continuously from Institution identity management systems.
+
 
 ##LAST_NAME
 ###Description
@@ -49,10 +47,8 @@ Any
 ###Format
 String
 
-###Compulsory
-Yes
-
 ###Notes
+
 
 ##FIRST_NAME
 ###Description
@@ -70,10 +66,8 @@ Any
 ###Format
 String
 
-###Compulsory
-Yes 
-
 ###Notes
+
 
 ##ADDRESS_LINE_1
 ###Description
@@ -91,11 +85,9 @@ Any
 ###Format
 String
 
-Compulsory
-No 
-
 ###Notes
 This is usually imported from the Institution's SRS.
+
 
 ##ADDRESS_LINE_2
 ###Description
@@ -113,11 +105,9 @@ Any
 ###Format
 String
 
-Compulsory
-No 
-
 ###Notes
 This is usually imported from the Institution's SRS.
+
 
 ##ADDRESS_LINE_3
 ###Description
@@ -135,11 +125,9 @@ Any
 ###Format
 String
 
-Compulsory
-No 
-
 ###Notes
 This is usually imported from the Institution's SRS.
+
 
 ##ADDRESS_LINE_4
 ###Description
@@ -157,11 +145,9 @@ Any
 ###Format
 String
 
-Compulsory
-No 
-
 ###Notes
 This is usually imported from the Institution's SRS.
+
 
 ##POSTCODE
 ###Description
@@ -180,11 +166,9 @@ See HESA definition
 ###Format
 String (8)
 
-###Compulsory
-No 
-
 ###Notes
 This should relate to the term-time postcode of the student's residency, and NOT the entry postcode onto the student's learning instance
+
 
 ##PRIMARY_EMAIL_ADDRESS
 ###Description
@@ -202,11 +186,9 @@ Any
 ###Format
 String(255)
 
-###Compulsory
-No (TO BE CONFIRMED)
-
 ###Notes
 Will be input/ batched directly from central IT or identification management systems at the institution
+
 
 ##HOME_PHONE
 ###Description
@@ -224,11 +206,9 @@ Any
 ###Format
 String(255)
 
-###Compulsory
-No
-
 ###Notes
 This is usually imported from the Institution's SRS.
+
 
 ##MOBILE_PHONE
 ###Description
@@ -246,11 +226,9 @@ Any
 ###Format
 String(255)
 
-###Compulsory
-No
-
 ###Notes
 This is usually imported from the Institution's SRS.
+
 
 ##PHOTO_URL
 ###Description
@@ -268,11 +246,9 @@ Any
 ###Format
 GIF or JPG (exact list of formats, and ideal (minimum) photo resolution, to be confirmed)
 
-###Compulsory
-No
-
 ###Notes
 This assumes that there is a way of securing access to the photo.
+
 
 ##TUTOR_STAFF_ID
 ###Description
@@ -292,6 +268,7 @@ String(255)
 ###Notes
 This will be the unique identifier/ primary key for the member of staff who is responsible for the student (course/ year tutor) or the person responsible for receiving alerts and notifications from the Learning Analytics software suite/ tools. This will typically be the staff/ HR/ payroll number for the member of academic staff, which links to their email address in the institutions identity management system.
 
+
 ##ENTRY_POSTCODE
 ###Description.
 Identifies the postcode of the student's permanent or home address prior to entry to the course. It is not necessarily the correspondence address of the student.
@@ -307,8 +284,5 @@ See HESA definition
 
 ###Format
 String (8)
-
-###Compulsory
-No
 
 ###Notes
