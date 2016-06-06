@@ -5,6 +5,7 @@
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](#student_course_membership_seq) [1]
 * [COURSE_ID](course.md#course_id) [1]
 * [WITHDRAWAL_REASON](#withdrawal_reason) [0..1]
+* [WITHDRAWAL_DATE](#withdrawal_date) [0..1]
 * [ENTRY_QUALS](#entry_quals) [1]
 * [ENTRY_POINTS](#entry_points) [0..1]
 * [COURSE_OUTCOME](#course_outcome) [1]
@@ -96,6 +97,25 @@ Int
 
 ###Notes
 
+##WITHDRAWAL_DATE
+###Description
+The date a student has withdrawn from a course (if they have)
+
+###Purpose
+For analytics
+
+###Derivation
+https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779/ILRSpecification2015_16_v3_July2015.pdf
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^ENDDATE.html
+
+###Valid Values
+ISO Date - YYYY-MM-DD
+
+###Format
+Int
+
+###Notes
+Would normally utilise ENDDATE (HE/ HESA) or potentially LearnActEndDate (FE/ ILR - to be confirmed) when relevant fields denote that the learner/ student has withdrawn from the learning aim/ course.
 
 ##ENTRY_QUALS
 ###Description
