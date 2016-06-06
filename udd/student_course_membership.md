@@ -9,11 +9,12 @@
 * [ENTRY_POINTS](#entry_points) [0..1]
 * [COURSE_OUTCOME](#course_outcome) [1]
 * [COURSE_GRADE](#course_grade) [1]
-* [COURSE_AIM_ATTAINED](#course_aim_attained) [1]
+* [COURSE_AIM_ATTAINED](#course_aim_attained) [0..1]
 * [COURSE_MARK](#course_mark) [1]
 * [COURSE_EXPECTED_END_DATE](#course_expected_end_date) [1]
 * [COURSE_END_DATE](#course_end_date) [1]
-* [COURSE_JOIN_DATE](#course_join_date) [0..1]
+* [COURSE_JOIN_DATE](#course_join_date) [1]
+* [COURSE_JOIN_AGE](#course_join_age) [1]
 * [COHORT_ID](#cohort_id) [0..1]
 
 
@@ -392,6 +393,28 @@ YYYY-MM-DD
 ISO 8601
 
 ###Notes
+
+
+##COURSE_JOIN_AGE
+###Description
+The age of the student when they initially commenced their studies for this student course membership. Exchange-in students should have the age they commenced their studies at the reporting provider.
+
+###Purpose
+Analytics
+
+###Derivation
+Jisc
+
+###Valid values
+0-200
+
+###References
+
+###Format
+Int
+
+###Notes
+This value is designed to be a secondary source to check COURSE_JOIN_DATE minus DOB. In cases where COURSE_JOIN_AGE is not stored separately, it should be calculated at the ETL stage.
 
 
 ##COHORT_ID
