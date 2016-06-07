@@ -6,7 +6,7 @@
 * [INST_TIER_1](#inst_tier_1) [0..1]
 * [INST_TIER_2](#inst_tier_2) [0..1]
 * [INST_TIER_3](#inst_tier_3) [0..1]
-* [TENANT_ID](institution.md#tenant_id) [1]
+* [TENANT_ID](institution.md#tenant_id) [0..1]
 
 ##COURSE_ID
 ###Description
