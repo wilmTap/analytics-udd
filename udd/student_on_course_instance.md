@@ -6,6 +6,8 @@
 * [YEAR_COM](#year_com) [1]
 * [YEAR_PRG](#year_prg) [1]
 * [YEAR_STU](#year_stu) [1]
+* [COURSE_LOCATION](#course_location) [0..1]
+* [COURSE_INSTANCE_ID](course_instance.md#course_instance_id) [1]
 * [X_COURSE_AVERAGE_MARK](#course_average_mark) [1]
 * [X_YEAR_AVERAGE_MARK](#year_average_mark) [1]
 
@@ -119,6 +121,26 @@ Int
 ###Notes
 
 
+##COURSE_LOCATION
+###Description
+Identifies the location with which a student on a course instance is associated, be it a building, a site or a campus.
+
+###Purpose
+For analytics (predictive model building) and for presenting analytics.
+
+###Derivation
+Loosely based on
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=15051&href=a^_^CAMPID.html
+
+###Valid Values
+Any
+
+###Format
+String (255)
+
+###Notes
+
+
 ##X_COURSE_AVERAGE_MARK
 ###Description
 The current (LIVE) average of all module marks from across a learner's whole course.
@@ -139,7 +161,7 @@ Float
 This data is generated internally to the learning record warehouse from existing data, and does not need to be supplied by an institution.
 
 
-##YEAR_AVERAGE_GRADE
+##X_YEAR_AVERAGE_GRADE
 ###Description
 The current (LIVE) average of all of this academic year's module marks from across a learner's whole course.
 
