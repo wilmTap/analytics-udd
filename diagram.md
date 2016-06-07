@@ -1,3 +1,3 @@
-#UDD 1.3 Diagram
+#UDD 1.2.4 Diagram
 
-![UDD 1.3 entity relation diagram](media/UDD1_3.png "UDD 1.3 entity relation diagram")
+![UDD entity relation diagram](media/UDDdiagram.png "UDD entity relation diagram")
