@@ -1,17 +1,4 @@
 #Student on Course Instance
-<<<<<<< HEAD
-* [STUDENT_ID](student.md#student_id)
-* [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id)
-* [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq)
-* [MODE](#mode)
-* [YEAR_COM](#year_com)
-* [YEAR_PRG](#year_prg)
-* [YEAR_STU](#year_stu)
-* [COURSE_LOCATION](#course_location)
-* [COURSE_INSTANCE_ID](course_instance.md#course_instance_id)
-* [X_COURSE_AVERAGE_MARK](#course_average_mark)
-* [X_YEAR_AVERAGE_MARK](#year_average_mark)
-=======
 * [STUDENT_ID](student.md#student_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
@@ -23,7 +10,6 @@
 * [COURSE_INSTANCE_ID](course_instance.md#course_instance_id) [1]
 * [X_COURSE_AVERAGE_MARK](#course_average_mark) [1]
 * [X_YEAR_AVERAGE_MARK](#year_average_mark) [1]
->>>>>>> v1.2.4
 
 ##MODE
 ###Description
