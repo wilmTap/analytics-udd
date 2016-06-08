@@ -1,23 +1,23 @@
 #Student on assessment instance
-* [STUDENT_ID](student.md#student_id)
-* [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id)
-* [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq)
-* [MOD_INSTANCE_ID](module_instance.md#mod_instance_id)
-* [ASSESS_INSTANCE_ID](assessment_instance.md#assess_instance_id)
-* [ASSESS_SEQ_ID](#assess_seq_id)
-* [ASSESS_DUE_DATE](#assess_due_date)
-* [ASSESS_RETAKE](#assess_retake)
-* [ASSESS_AGREED_MARK](#assess_agreed_mark)
-* [ASSESS_ACTUAL_MARK](#assess_actual_mark)
-* [ASSESS_AGREED_GRADE](#assess_agreed_grade)
-* [ASSESS_ACTUAL_GRADE](#assess_actual_grade)
-* [ASSESSMENT_CURRENT_ATTEMPT](#assessment_current_attempt)
-* [ASSESSMENT_RESULT](#assessment_result)
-* [GRADE_DATE](#grade_date)
-* [MAX_POINTS](#max_points)
-* [X_ASSESS_DETAIL](#x_assess_detail)
-* [X_MOD_NAME](student_on_a_module_instance.md#x_mod_name)
-* [X_MOD_ID](#X_MOD_ID)
+* [STUDENT_ID](student.md#student_id) [1]
+* [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1]
+* [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
+* [MOD_INSTANCE_ID](module_instance.md#mod_instance_id) [1]
+* [ASSESS_INSTANCE_ID](assessment_instance.md#assess_instance_id) [1]
+* [ASSESS_SEQ_ID](#assess_seq_id) [1]
+* [ASSESS_DUE_DATE](#assess_due_date) [0..1]
+* [ASSESS_RETAKE](#assess_retake) [0..1]
+* [ASSESS_AGREED_MARK](#assess_agreed_mark) [0..1]
+* [ASSESS_ACTUAL_MARK](#assess_actual_mark) [0..1]
+* [ASSESS_AGREED_GRADE](#assess_agreed_grade) [1]
+* [ASSESS_ACTUAL_GRADE](#assess_actual_grade) [1]
+* [ASSESSMENT_CURRENT_ATTEMPT](#assessment_current_attempt) [1]
+* [ASSESSMENT_RESULT](#assessment_result) [1]
+* [GRADE_DATE](#grade_date) [0..1]
+* [MAX_POINTS](#max_points) [0..1]
+* [X_ASSESS_DETAIL](#x_assess_detail) [0..1]
+* [X_MOD_NAME](student_on_a_module_instance.md#x_mod_name) [0..1]
+* [X_MOD_ID](#X_MOD_ID) [0..1]
 
 ##ASSESS_SEQ_ID
 ###Description.
@@ -35,9 +35,6 @@ Any
 
 ###Format
 Integer
-
-###Compulsory
-Yes (if applicable)
 
 ###Notes
 
@@ -57,9 +54,6 @@ YYYY-MM-DD
 
 ###Format
 ISO 8601 
-
-###Compulsory
-No
 
 ###Notes
 
@@ -84,9 +78,6 @@ Jisc
 ###Format
 Integer
 
-###Compulsory
-No
-
 ###Notes
 
 
@@ -101,13 +92,10 @@ Analytics
 Jisc
 
 ###Valid Values
-1-100
+0-100
 
 ###Format
 Decimal
-
-###Compulsory
-No
 
 ###Notes
 
@@ -123,13 +111,10 @@ Analytics
 Jisc
 
 ###Valid Values
-1-100
+0-100
 
 ###Format
 Decimal
-
-###Compulsory
-No
 
 ###Notes
 
@@ -150,9 +135,6 @@ Any
 ###Format
 String (255)
 
-###Compulsory
-No
-
 ###Notes
 
 
@@ -172,9 +154,6 @@ Any
 ###Format
 String (255)
 
-###Compulsory
-Yes
-
 ###Notes
 
 
@@ -193,9 +172,6 @@ Any
 
 ###Format
 Integer
-
-###Compulsory
-Yes (if applicable)
 
 ###Notes
 
@@ -222,11 +198,9 @@ Jisc; student_on_a_module_instance.MOD_RESULT
 ###Format
 Integer
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
 Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example.
+
 
 ##GRADE_DATE
 ###Description.
@@ -244,11 +218,9 @@ Not specified
 ###Format
 Date (ISO format) - YYYY-MM-DD
 
-###Compulsory
-No
-
 ###Notes
 This is the date when a grade has been moderated and agreed, but before exam board confirmation. It is typically the date at which the grade is entered in a SRS.
+
 
 ##MAX_POINTS
 ###Description.
@@ -266,11 +238,9 @@ Not specified
 ###Format
 String (256)
 
-###Compulsory
-No
-
 ###Notes
 The value can be any alphanumeric used by any type of marking scale. E.g. 80%, B11 or 'excellent'.
+
 
 ##X_ASSESS_DETAIL
 ###Description.
@@ -288,11 +258,9 @@ Any
 ###Format
 String (255)
 
-###Compulsory
-No
-
 ###Notes
 This data is generated internally from existing data, and does not need to be supplied by an institution.
+
 
 ##X_MOD_ID
 ###Description.
@@ -309,9 +277,6 @@ Any
 
 ###Format
 String (255)
-
-###Compulsory
-No
 
 ###Notes
 This data is generated internally from existing data, and does not need to be supplied by an institution.

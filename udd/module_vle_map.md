@@ -1,8 +1,8 @@
 # Module to VLE map
 This entity connects a course area in a VLE or LMS with a module.
 
-*  [MOD_INSTANCE_ID](module_instance.md#mod_instance_id)
-*  [VLE_MOD_ID](#vle_mod_id)
+*  [MOD_INSTANCE_ID](module_instance.md#mod_instance_id) [1]
+*  [VLE_MOD_ID](#vle_mod_id) [1]
 
 ##VLE_MOD_ID
 ###Description
@@ -21,9 +21,6 @@ Any
 
 ###Format
 String(255)
-
-###Compulsory
-Yes
 
 ###Notes
 The VLE course area may or may not correspond to one module.

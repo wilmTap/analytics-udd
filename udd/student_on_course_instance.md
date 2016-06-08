@@ -1,4 +1,5 @@
 #Student on Course Instance
+<<<<<<< HEAD
 * [STUDENT_ID](student.md#student_id)
 * [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id)
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq)
@@ -10,6 +11,19 @@
 * [COURSE_INSTANCE_ID](course_instance.md#course_instance_id)
 * [X_COURSE_AVERAGE_MARK](#course_average_mark)
 * [X_YEAR_AVERAGE_MARK](#year_average_mark)
+=======
+* [STUDENT_ID](student.md#student_id) [1]
+* [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1]
+* [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
+* [MODE](#mode) [1]
+* [YEAR_COM](#year_com) [1]
+* [YEAR_PRG](#year_prg) [1]
+* [YEAR_STU](#year_stu) [1]
+* [COURSE_LOCATION](#course_location) [0..1]
+* [COURSE_INSTANCE_ID](course_instance.md#course_instance_id) [1]
+* [X_COURSE_AVERAGE_MARK](#course_average_mark) [1]
+* [X_YEAR_AVERAGE_MARK](#year_average_mark) [1]
+>>>>>>> v1.2.4
 
 ##MODE
 ###Description
@@ -79,11 +93,9 @@ Any
 ###Format
 Int
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
 This can be extracted from the actual commencement date of the learning aim/ student (on course) instance.
+
 
 ##YEAR_PRG
 ###Description
@@ -101,10 +113,8 @@ Any
 ###Format
 Int
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##YEAR_STU
 ###Description
@@ -122,10 +132,8 @@ Any
 ###Format
 Int
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##COURSE_LOCATION
 ###Description
@@ -144,10 +152,8 @@ Any
 ###Format
 String (255)
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##X_COURSE_AVERAGE_MARK
 ###Description
@@ -165,13 +171,11 @@ Jisc
 ###Format
 Float
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
 This data is generated internally to the learning record warehouse from existing data, and does not need to be supplied by an institution.
 
-##YEAR_AVERAGE_GRADE
+
+##X_YEAR_AVERAGE_GRADE
 ###Description
 The current (LIVE) average of all of this academic year's module marks from across a learner's whole course.
 
@@ -186,9 +190,6 @@ Jisc
 
 ###Format
 Float
-
-###Compulsory
-Yes (if applicable)
 
 ###Notes
 This data is generated internally to the learning record warehouse from existing data, and does not need to be supplied by an institution.

@@ -1,20 +1,22 @@
 #Student course membership
 
-* [STUDENT_ID](student.md#student_id)
-* [STUDENT_COURSE_MEMBERSHIP_ID](#student_course_membership_id)
-* [STUDENT_COURSE_MEMBERSHIP_SEQ](#student_course_membership_seq)
-* [COURSE_ID](course.md#course_id)
-* [WITHDRAWAL_REASON](#withdrawal_reason)
-* [WITHDRAWAL_DATE](#withdrawal_date)
-* [ENTRY_QUALS](#entry_quals)
-* [ENTRY_POINTS](#entry_points)
-* [COURSE_OUTCOME](#course_outcome)
-* [COURSE_GRADE](#course_grade)
-* [COURSE_AIM_ATTAINED](#COURSE_AIM_ATTAINED)
-* [COURSE_MARK](#course_mark)
-* [COURSE_EXPECTED_END_DATE](#course_expected_end_date)
-* [COURSE_END_DATE](#course_end_date)
-* [COHORT_ID](#cohort_id)
+* [STUDENT_ID](student.md#student_id) [1]
+* [STUDENT_COURSE_MEMBERSHIP_ID](#student_course_membership_id) [1]
+* [STUDENT_COURSE_MEMBERSHIP_SEQ](#student_course_membership_seq) [1]
+* [COURSE_ID](course.md#course_id) [1]
+* [WITHDRAWAL_REASON](#withdrawal_reason) [0..1]
+* [WITHDRAWAL_DATE](#withdrawal_date) [0..1]
+* [ENTRY_QUALS](#entry_quals) [1]
+* [ENTRY_POINTS](#entry_points) [0..1]
+* [COURSE_OUTCOME](#course_outcome) [1]
+* [COURSE_GRADE](#course_grade) [1]
+* [COURSE_AIM_ATTAINED](#course_aim_attained) [0..1]
+* [COURSE_MARK](#course_mark) [1]
+* [COURSE_EXPECTED_END_DATE](#course_expected_end_date) [1]
+* [COURSE_END_DATE](#course_end_date) [1]
+* [COURSE_JOIN_DATE](#course_join_date) [0..1]
+* [COURSE_JOIN_AGE](#course_join_age) [0..1]
+* [COHORT_ID](#cohort_id) [0..1]
 
 
 ##STUDENT_COURSE_MEMBERSHIP_ID
@@ -31,9 +33,6 @@ As defined by the Student Record System.
 
 ###Format
 String (255)
-
-###Compulsory
-Yes (if applicable)
 
 ###Notes
 The student course membership is designed to deal with the fact that some students are enrolled on more than one course in their time at a provider. Drawing together data on their student ID alone could therefore be misleading, or at least be significantly different from students who have only ever been registered on one course. STUDENT_COURSE_MEMBERSHIP_ID partitions the study careers of those who are on multiple courses, and makes them comparable to those who have only ever been enrolled on one course.
@@ -53,11 +52,9 @@ As defined by the Student Record System.
 ###Format
 String (255)
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
 The student course membership sequence ID is designed to deal with the fact that some students drop out off or enroll on more than one instance of the same course.
+
 
 ##WITHDRAWAL_REASON
 ###Description
@@ -99,9 +96,6 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###Format
 Int
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
 
 ##WITHDRAWAL_DATE
@@ -120,9 +114,6 @@ ISO Date - YYYY-MM-DD
 
 ###Format
 Int
-
-###Compulsory
-Yes (if applicable)
 
 ###Notes
 Would normally utilise ENDDATE (HE/ HESA) or potentially LearnActEndDate (FE/ ILR - to be confirmed) when relevant fields denote that the learner/ student has withdrawn from the learning aim/ course.
@@ -211,10 +202,8 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###Format
 Alphanumeric
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##ENTRY_POINTS
 ###Description
@@ -232,10 +221,8 @@ Any
 ###Format
 Int
 
-###Compulsory
-No
-
 ###Notes
+
 
 ##COURSE_OUTCOME
 ###Description
@@ -254,10 +241,8 @@ Any integer
 ###Format
 Int
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##COURSE_GRADE
 ###Description
@@ -319,10 +304,8 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###Format
 Int
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##COURSE_AIM_ATTAINED
 ###Description
@@ -344,11 +327,9 @@ Plus additional codes X98 & X99 (see notes below)
 ###Format
 String(255)
 
-###Compulsory
-Yes
-
 ###Notes
 This field uses the HESA "COURSEAIM" codeset initially - with the addition of new code 'X98' to denote 'No formal qualification aim, below FE level' for FE equivalent denotation to HE code 'X99'. All course levels are denoted here (TBC with FE college, for final implementation). Specific use of the LARS codeset for FE (from ILR) may need to be considered, or a mapping/ amalgamation with the HESA codeset. This is to be discussed in consultation with the FE sector.
+
 
 ##COURSE_MARK
 ###Description
@@ -361,17 +342,15 @@ For display purposes and further analysis
 SRS Systems
 
 ###Valid values
-1-100
+0-100
 
 ###References
 
 ###Format
 Decimal (IEEE 754)
 
-###Compulsory
-Yes
-
 ###Notes
+
 
 ##COURSE_EXPECTED_END_DATE
 ###Description
@@ -391,14 +370,12 @@ YYYY-MM-DD
 ###Format
 ISO 8601
 
-###Compulsory
-Yes (if applicable)
-
 ###Notes
+
 
 ##COURSE_END_DATE
 ###Description
-The date on which the student completed their course. This allows information to be captured on the number of students who complete within the expected time frame of a course.
+The date on which the student left their course.
 
 ###Purpose
 Analytics and display
@@ -414,10 +391,51 @@ YYYY-MM-DD
 ###Format
 ISO 8601
 
-###Compulsory
-Yes (if applicable)
+###Notes
+Note that there may be many reasons why a student leaves a course. This is recorded in WITHDRAWAL_REASON.
+
+##COURSE_JOIN_DATE
+###Description
+This field indicates the date of the student's initial commencement of studies for this student course membership and may relate to a date prior to the current academic/financial year. Exchange-in students should have the date they commenced their studies at the reporting provider.
+
+###Purpose
+Analytics
+
+###Derivation
+HESA COMDATE
+https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=15051&href=a^_^COMDATE.html
+
+###Valid values
+YYYY-MM-DD
+
+###References
+
+###Format
+ISO 8601
 
 ###Notes
+
+
+##COURSE_JOIN_AGE
+###Description
+The age of the student when they initially commenced their studies for this student course membership. Exchange-in students should have the age they commenced their studies at the reporting provider.
+
+###Purpose
+Analytics
+
+###Derivation
+Jisc
+
+###Valid values
+0-200
+
+###References
+
+###Format
+Int
+
+###Notes
+This value is designed to be a secondary source to check COURSE_JOIN_DATE minus DOB. In cases where COURSE_JOIN_AGE is not stored separately, it should be calculated at the ETL stage.
 
 
 ##COHORT_ID
@@ -437,8 +455,5 @@ Any
 
 ###Format
 String (255)
-
-###Compulsory
-No
 
 ###Notes

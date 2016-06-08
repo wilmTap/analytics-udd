@@ -1,6 +1,6 @@
 #Institution
-* [TENANT_ID](#tenant_id)
-* [TENANT_NAME](#tenant_name)
+* [TENANT_ID](#tenant_id) [1]
+* [TENANT_NAME](#tenant_name) [1]
 
 ##TENANT_ID
 ###Description
@@ -17,11 +17,9 @@ UK Register of Learning Providers (UKRLP).
 ###Format
 String (8)
 
-###Compulsory
-Yes
-
 ###Notes
 Further information (on UKPRN) available at www.ukrlp.co.uk
+
 
 ##TENANT_NAME
 ###Description
@@ -37,8 +35,5 @@ Insitution
 
 ###Format
 String (255)
-
-###Compulsory
-Yes
 
 ###Notes

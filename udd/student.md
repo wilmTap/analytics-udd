@@ -1,21 +1,21 @@
 #Student
-* [STUDENT_ID](#student_id)
-* [ULN](#uln)
-* [DOB](#dob)
-* [ETHNICITY](#ethnicity)
-* [SEXID](#sexid)
-* [AGE](#age)
-* [LEARN_DIF](#learn_dif)
-* [DISABILITY1](#disability1)
-* [DISABILITY2](#disability2)
-* [DOMICILE](#domicile)
-* [TERMTIME_ACCOM](#termtime_accom)
-* [PARENTS_ED](#parents_ed)
-* [SOCIO_EC](#socio_ec)
-* [OVERSEAS](#overseas)
-* [APPSHIB_ID](#appshib_id)
-* [VLE_ID](#vle_id)
-* [HUSID](#husid)
+* [STUDENT_ID](#student_id) [1]
+* [ULN](#uln) [0..1]
+* [DOB](#dob) [1]
+* [ETHNICITY](#ethnicity) [1]
+* [SEXID](#sexid) [1]
+* [AGE](#age) [1]
+* [LEARN_DIF](#learn_dif) [1]
+* [DISABILITY1](#disability1) [1]
+* [DISABILITY2](#disability2) [1]
+* [DOMICILE](#domicile) [1]
+* [TERMTIME_ACCOM](#termtime_accom) [1]
+* [PARENTS_ED](#parents_ed) [1]
+* [SOCIO_EC](#socio_ec) [1]
+* [OVERSEAS](#overseas) [1]
+* [APPSHIB_ID](#appshib_id) [0..1]
+* [VLE_ID](#vle_id) [0..*]
+* [HUSID](#husid) [0..1]
 
 ##STUDENT_ID
 ###Description
@@ -32,10 +32,8 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###Format
 String 255
 
-###Compulsory
-Yes
-
 ###Notes
+
 
 ##ULN
 ###Description
@@ -52,11 +50,9 @@ Skills Funding Agency: See https://www.gov.uk/government/publications/lrs-unique
 ###Format
 String (10)
 
-###Compulsory
-No
-
 ###Notes
 The ULN can be provided as an additional point of reference, however the STUDENT_ID will always take precedence as the unique learner/ student identifier
+
 
 ##DOB
 ###Description
@@ -73,11 +69,9 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###Format
 ISO8601 format of YYYY-MM-DD
 
-###Compulsory
-Yes
-
 ###Notes
 Cannot be NULL - a valid date of birth must be provided for all learners. A date of birth of 2099-12-31 can be provided on a temporary basis.
+
 
 ##ETHNICITY
 ###Description
@@ -123,11 +117,9 @@ String (10)
  
 Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
 
-###Compulsory
-Yes
-
 ###Notes
 Where any ethnicity details are unknown, this field must be coded with '90'
+
 
 ##SEXID
 ###Description
@@ -155,11 +147,9 @@ Int
 
 Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)   
 
-###Compulsory
-Yes
-
 ###Notes
 If the sex is unknown, return code '4' in all cases
+
 
 ##AGE
 ###Description
@@ -171,11 +161,9 @@ To be used purely for display purposes within the Learning Analytics software su
 ###Format
 Int
 
-###Compulsory
-Yes - Learning Analytics system calculated field
-
 ###Notes
 This will typically auto-calculated on a daily basis, based on field DOB. The LA system will provide this field.
+
 
 ##LEARN_DIF
 ###Description
@@ -209,11 +197,9 @@ Please Note - N/A denotes that no mapping value is applicable (and should not be
 ###Format
 Int
 
-###Compulsory
-Yes
-
 ###Notes
 If a learner's learning difficulty is unknown, then code '99' should be used for those cases
+
 
 ##DISABILITY1
 ###Description
@@ -432,11 +418,9 @@ Please Note - N/A denotes that no mapping value is applicable (and should not be
 ###Format
 Int
 
-###Compulsory
-Yes
-
 ###Notes
 If disability is unknown, code '0' or '99' should be provided
+
 
 ##DISABILITY2
 ###Description
@@ -491,11 +475,9 @@ Please Note - N/A denotes that no mapping value is applicable (and should not be
 ###Format
 Int
 
-###Compulsory
-Yes
-
 ###Notes
 If disability is unknown, code '0' or '99' should be provided
+
 
 ##DOMICILE
 ###Description
@@ -513,11 +495,9 @@ String (2)
 ###Valid Values (No Mappings)
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5eDOMICILE.html
 
-###Compulsory
-Yes
-
 ###Notes
 If a domicile country is unknown, please use code 'ZZ'
+
 
 ##TERMTIME_ACCOM
 ###Description
@@ -556,11 +536,9 @@ Please Note - N/A denotes that no mapping value is applicable (and should not be
 ###Format
 Int
 
-###Compulsory
-Yes
-
 ###Notes
 If the type is unknown, code '5' should be used
+
 
 ##PARENTS_ED
 ###Description
@@ -591,11 +569,9 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###Format
 Int
 
-###Compulsory
-Yes
-
 ###Notes
 Where this is unknown, the code '8' should be provided. This information may not be available for FE/ ILR institutions, and only HE.
+
 
 ##SOCIO_EC
 ###Description
@@ -630,11 +606,9 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###Format
 Int
 
-###Compulsory
-Yes for HE
-
 ###Notes
 Where this is unknown, the code '9' should be provided. This information may not be available for FE/ ILR institutions, and only HE.
+
 
 ##OVERSEAS
 ###Description
@@ -664,11 +638,9 @@ Jisc
 ###Format
 Int
 
-###Compulsory
-Yes
-
 ###Notes
 If this value is unknown, then code '99' should be used. The mapping for these fields could be done using the Nationality indicator, or other relevant source within the HESA/ student records system database.
+
 
 ##APPSHIB_ID
 ###Description.
@@ -686,11 +658,9 @@ Not specified
 ###Format
 String (256)
 
-###Compulsory
-No
-
 ###Notes
 There may be a more general AIM_ID property later that can be used for any UK Federation service provider ID, not just the Jisc analytics student app Shibboleth - JWT gateway.
+
 
 ##VLE_ID
 ###Description.
@@ -707,9 +677,6 @@ Not specified
 
 ###Format
 String (256)
-
-###Compulsory
-No
 
 ###Notes
 Note that this is not a universal user ID; there maybe several VLEs, or records from other types of tools.
@@ -736,8 +703,5 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=15051&hre
 
 ###Format
 String (13)
-
-###Compulsory
-No
 
 ###Notes

@@ -1,13 +1,35 @@
 # Staff
 An additional data entity
 
-* [STAFF_ID](staff_on_mod_instance.md#staff_id)
-* [FIRST_NAME](#first_name)
-* [LAST_NAME](#last_name)
-* [TITLE](#title)
-* [PRIMARY_EMAIL_ADDRESS](#primary_email_address)
-* [HESA_STAFF_ID](#hesa_staff_id)
-* [DASH_SHIB_ID](#dash_shib_id)
+* [STAFF_ID](#staff_id) [1]
+* [FIRST_NAME](#first_name) [1]
+* [LAST_NAME](#last_name) [1]
+* [TITLE](#title) [0..*]
+* [PRIMARY_EMAIL_ADDRESS](#primary_email_address) [1]
+* [HESA_STAFF_ID](#hesa_staff_id) [0..1]
+* [DASH_SHIB_ID](#dash_shib_id) [0..1]
+
+##STAFF_ID
+###Description
+An institution's unique identifier for a staff member. This could be their username.
+
+###Purpose
+To show the staff member's name within SSP, SSP Dashboards, or Student Insight.
+
+###Derivation
+Jisc
+
+###Valid values
+Any
+
+###References
+
+###Format
+String(255)
+
+###Notes
+This will be the unique identifier/ primary key for the member of staff who is responsible for the student (course/year tutor) or the person responsible for managing cases or analysing dashboards which involve the student. This will typically be the staff/ HR/ payroll number for the member of academic staff, which links to their email address in the institutions identity management system.
+
 
 ##FIRST_NAME
 ###Description
@@ -26,9 +48,6 @@ Any
 
 ###Format
 String (255)
-
-###Compulsory
-Yes
 
 ###Notes
 
@@ -51,9 +70,6 @@ Any
 ###Format
 String (255)
 
-###Compulsory
-Yes
-
 ###Notes
 
 
@@ -74,9 +90,6 @@ Any
 
 ###Format
 String (255)
-
-###Compulsory
-No
 
 ###Notes
 
@@ -99,9 +112,6 @@ Any
 ###Format
 String (255)
 
-###Compulsory
-Yes
-
 ###Notes
 
 
@@ -123,11 +133,9 @@ A 13 digit number, or an eleven digit number preceded by 'XX'
 ###Format
 String (13)
 
-###Compulsory
-No
-
 ###Notes
 The values have a specific generation algorithm. See https://www.hesa.ac.uk/component/studrec/show_file/14025/a%5E_%5ESTAFFID.html
+
 
 ##DASH_SHIB_ID
 ###Description.
@@ -144,9 +152,6 @@ Not specified
 
 ###Format
 String (256)
-
-###Compulsory
-No
 
 ###Notes
 There may be a more general AIM_ID property later that can be used for any UK Federation service provider ID, not just the Jisc staff dashboard.
