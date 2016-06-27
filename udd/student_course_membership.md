@@ -154,7 +154,6 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 <tr><td>J10</td><td>Foundation degree</td><td></td><td>J10</td><td>  </td></tr>
 <tr><td>J20</td><td>Diploma of Higher Education (DipHE)</td><td></td><td>J20</td><td>  	</td></tr>
 <tr><td>J30</td><td>Higher National Diploma (HND)</td><td></td><td>J30</td><td>  	</td></tr>
-<tr><td>J31</td><td>(Other) Qualification at level 5</td><td></td><td></td><td>  		</td></tr>
 <tr><td>J31</td><td>(Other) Qualification at level 5 or above (DEPRECATED SINCE 01/08/2013)</td><td></td><td>J32</td><td>5  </td></tr>
 <tr><td>J49</td><td>Foundation course at level J</td><td></td><td>J49</td><td>  	</td></tr>
 <tr><td>J48</td><td>Certificate in Education (CertEd) or Diploma in Education (DipEd) (i.e. non-graduate initial teacher training qualification)</td><td></td><td>J48</td><td>  	</td></tr>
@@ -162,8 +161,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 <tr><td>C20</td><td>Certificate of Higher Education (CertHE)</td><td></td><td>C20</td><td>  	</td></tr>
 <tr><td>C30</td><td>Higher National Certificate (HNC)</td><td></td><td>C30</td><td> 	</td></tr>
 <tr><td>C44</td><td>Higher Apprenticeship (level 4)</td><td></td><td>C44</td><td>  	</td></tr>
-<tr><td>C80</td><td>(Other) Qualification at level C or level 4</td><td></td><td>C80</td><td>4  </td></tr>
-<tr><td>C80</td><td>(Other) Qualification at level C or level 4</td><td></td><td>N/A</td><td>10  </td></tr>
+<tr><td>C80</td><td>(Other) Qualification at level C or level 4</td><td></td><td>C80</td><td>4, 10  </td></tr>
 <tr><td>C90</td><td>Undergraduate credits</td><td></td><td>C90</td><td>  	</td></tr>
 <tr><td>P41</td><td>Diploma at level 3</td><td></td><td>P41</td><td>  	</td></tr>
 <tr><td>P42</td><td>Certificate at level 3</td><td></td><td>P42</td><td>  	</td></tr>
