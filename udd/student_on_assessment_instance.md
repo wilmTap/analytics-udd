@@ -239,7 +239,7 @@ Not specified
 String (256)
 
 ###Notes
-The value can be any alphanumeric used by any type of marking scale. E.g. 80%, B11 or 'excellent'.
+The value can be any alphanumeric used by any type of marking scale. E.g. 80%, B11 or 'excellent'. There is also the similar MAX_MARKS property on assessment_instance, which is for analytic purposes. It only accepts decimal data.
 
 
 ##X_ASSESS_DETAIL
