@@ -10,7 +10,7 @@
 The unique identifier standard across SRS and LMS for the course.
 
 ###Purpose
-For analytics and to link Module to Module Instance
+For analytics and to link module to module_instance
 
 Derivation
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^Module_MODID.html

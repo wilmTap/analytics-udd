@@ -1,4 +1,4 @@
-#Student on assessment instance
+#student_on_assessment_instance
 * [STUDENT_ID](student.md#student_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]

@@ -1,4 +1,4 @@
-#Student course membership
+#student_course_membership
 
 * [STUDENT_ID](student.md#student_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_ID](#student_course_membership_id) [1]
@@ -35,14 +35,14 @@ As defined by the Student Record System.
 String (255)
 
 ###Notes
-The student course membership is designed to deal with the fact that some students are enrolled on more than one course in their time at a provider. Drawing together data on their student ID alone could therefore be misleading, or at least be significantly different from students who have only ever been registered on one course. STUDENT_COURSE_MEMBERSHIP_ID partitions the study careers of those who are on multiple courses, and makes them comparable to those who have only ever been enrolled on one course.
+The student_course_membership is designed to deal with the fact that some students are enrolled on more than one course in their time at a provider. Drawing together data on their student ID alone could therefore be misleading, or at least be significantly different from students who have only ever been registered on one course. STUDENT_COURSE_MEMBERSHIP_ID partitions the study careers of those who are on multiple courses, and makes them comparable to those who have only ever been enrolled on one course.
 
 ##STUDENT_COURSE_MEMBERSHIP_SEQ
 ###Description
-The institution's own unique identifier for the student and the course instance they are assigned to.
+The institution's own unique identifier for the student and the course_instance they are assigned to.
 
 ###Purpose
-To provide a unique course instance code for a student, for use in joining a student to course instance/enrolment records
+To provide a unique course_instance code for a student, for use in joining a student to course_instance/enrolment records
 
 ###Derivation
 As defined by the Student Record System.
@@ -53,7 +53,7 @@ As defined by the Student Record System.
 String (255)
 
 ###Notes
-The student course membership sequence ID is designed to deal with the fact that some students drop out off or enroll on more than one instance of the same course.
+The student_course_membership sequence ID is designed to deal with the fact that some students drop out off or enroll on more than one instance of the same course.
 
 
 ##WITHDRAWAL_REASON
@@ -244,7 +244,7 @@ Int
 
 ##COURSE_GRADE
 ###Description
-Class of award achieved by the student on this course instance. Based on HESA codeset for CLASS (HE conformity to be confirmed)
+Class of award achieved by the student on this course_instance. Based on HESA codeset for CLASS (HE conformity to be confirmed)
 
 ###Purpose
 For analytics
@@ -394,7 +394,7 @@ Note that there may be many reasons why a student leaves a course. This is recor
 
 ##COURSE_JOIN_DATE
 ###Description
-This field indicates the date of the student's initial commencement of studies for this student course membership and may relate to a date prior to the current academic/financial year. Exchange-in students should have the date they commenced their studies at the reporting provider.
+This field indicates the date of the student's initial commencement of studies for this student_course_membership and may relate to a date prior to the current academic/financial year. Exchange-in students should have the date they commenced their studies at the reporting provider.
 
 ###Purpose
 Analytics
@@ -416,7 +416,7 @@ ISO 8601
 
 ##COURSE_JOIN_AGE
 ###Description
-The age of the student when they initially commenced their studies for this student course membership. Exchange-in students should have the age they commenced their studies at the reporting provider.
+The age of the student when they initially commenced their studies for this student_course_membership. Exchange-in students should have the age they commenced their studies at the reporting provider.
 
 ###Purpose
 Analytics

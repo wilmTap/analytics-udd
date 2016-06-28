@@ -1,4 +1,4 @@
-#Course instance
+#course_instance
 * [COURSE_ID](course.md#course_id) [1]
 * [COURSE_INSTANCE_ID](#course_instance_id) [1]
 * [START_DATE](#start_date) [1]
@@ -7,10 +7,10 @@
 
 ##COURSE_INSTANCE_ID
 ###Description
-Institution's identifier for this course instance
+Institution's identifier for this course_instance
 
 ###Purpose
-To link student to course, and course to course instance
+To link student to course, and course to course_instance
 
 ###Derivation
 Jisc
@@ -25,7 +25,7 @@ String (255)
 
 ##START_DATE
 ###Description
-Start date for this course instance
+Start date for this course_instance
 
 ###Purpose
 For analytics
@@ -43,7 +43,7 @@ String (255)
 
 ##END_DATE
 ###Description
-End date for this course instance
+End date for this course_instance
 
 ##Purpose
 For analytics
@@ -61,7 +61,7 @@ String (255)
 
 ##ACADEMIC_YEAR
 ###Description
-Academic year to which the course instance relates. 
+Academic year to which the course_instance relates. 
 
 ###Purpose
 For display and analysis purposes

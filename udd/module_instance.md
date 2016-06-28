@@ -1,4 +1,4 @@
-#Module instance
+#module_instance
 * [MOD_ID](module.md#mod_id) [1]
 * [MOD_INSTANCE_ID](#mod_instance_id) [1]
 * [MOD_PERIOD](#mod_period) [0..1]
@@ -9,10 +9,10 @@
 
 ##MOD_INSTANCE_ID
 ###Description
-Institutions unique identifier for this module instance
+Institutions unique identifier for this module_instance
 
 ###Purpose
-For link a module instance to a student
+For link a module_instance to a student
 
 ###Derivation
 Jisc
@@ -28,7 +28,7 @@ String (255)
 
 ##MOD_PERIOD
 ###Description
-Period to which module instance relates (e.g. semester 1)
+Period to which module_instance relates (e.g. semester 1)
 
 ###Purpose
 Analytics
@@ -47,7 +47,7 @@ It is expected that sites / organisations will have their own code lists for MOD
 
 ##MOD_ONLINE
 ###Description
-Whether this module instance is delivered wholly online
+Whether this module_instance is delivered wholly online
 
 ###Purpose
 Analytics

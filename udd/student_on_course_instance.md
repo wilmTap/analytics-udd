@@ -1,4 +1,4 @@
-#Student on Course Instance
+#student_on_course_instance
 * [STUDENT_ID](student.md#student_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
@@ -123,7 +123,7 @@ Int
 
 ##COURSE_LOCATION
 ###Description
-Identifies the location with which a student on a course instance is associated, be it a building, a site or a campus.
+Identifies the location with which a student on a course_instance is associated, be it a building, a site or a campus.
 
 ###Purpose
 For analytics (predictive model building) and for presenting analytics.

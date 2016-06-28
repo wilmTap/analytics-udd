@@ -1,4 +1,4 @@
-#Student on a module Instance
+#student_on_a_module_instance
 * [STUDENT_ID](student.md#student_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
@@ -92,7 +92,7 @@ Int
 
 ##MOD_START_DATE
 ###Description
-Start date of this module instance
+Start date of this module_instance
 
 ###Purpose
 Analytics and display
@@ -107,12 +107,12 @@ ISO 8601 - YYYY-MM-DD
 Date
 
 ###Notes
-The start and end date of a module instance MUST align with the start and end date of a course instance.
+The start and end date of a module_instance MUST align with the start and end date of a course_instance.
 
 
 ##MOD_END_DATE
 ###Description
-End date of this module instance
+End date of this module_instance
 
 ###Purpose
 Analytics and display
@@ -127,7 +127,7 @@ ISO 8601 - YYYY-MM-DD
 Date
 
 ###Notes
-The start and end date of a module instance MUST align with the start and end date of a course instance.
+The start and end date of a module_instance MUST align with the start and end date of a course_instance.
 
 
 ##MOD_FIRST_MARK
@@ -266,7 +266,7 @@ Integer
 
 ##MOD_CURRENT_ATTEMPT
 ###Description
-Number of attempts taken by a student so far on a module instance.
+Number of attempts taken by a student so far on a module_instance.
 
 ###Purpose
 Analytics
@@ -285,7 +285,7 @@ Integer
 
 ##MOD_COMPLETED_ATTEMPT
 ###Description
-Number of attempts taken by a student to complete a module instance.
+Number of attempts taken by a student to complete a module_instance.
 
 ###Purpose
 Analytics
