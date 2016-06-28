@@ -21,7 +21,7 @@
 
 ##ASSESS_SEQ_ID
 ###Description.
-A unique ID to indicate the order of assessments taken by a student on the assessment instance.
+A unique sequence number to indicate the order of assessments taken by a student on the assessment instance.
 
 ###Purpose
 To help identify the latest assessment and the order of assessments for a student, especially for those in reassessment.
@@ -37,7 +37,7 @@ Any
 Integer
 
 ###Notes
-
+The ASSESS_SEQ_ID number needs to increment with the chronological order of assessments.
 
 ##ASSESS_DUE_DATE
 ###Description.
