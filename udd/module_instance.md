@@ -78,10 +78,10 @@ Analytics
 Jisc
 
 ###Valid Values
-Int
+4 digit year
 
 ###Format
-4 digit year
+Int
 
 ###Notes
 This is the starting year for the academic year.

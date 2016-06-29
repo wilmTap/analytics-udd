@@ -17,7 +17,8 @@
 * [MAX_POINTS](#max_points) [0..1]
 * [X_ASSESS_DETAIL](#x_assess_detail) [0..1]
 * [X_MOD_NAME](student_on_a_module_instance.md#x_mod_name) [0..1]
-* [X_MOD_ID](#X_MOD_ID) [0..1]
+* [X_MOD_ID](#x_mod_id) [0..1]
+* [X_MOD_ACADEMIC_YEAR](#x_mod_academic_year) [0..1]
 
 ##ASSESS_SEQ_ID
 ###Description.
@@ -280,3 +281,23 @@ String (255)
 
 ###Notes
 This data is generated internally from existing data, and does not need to be supplied by an institution.
+
+
+##X_MOD_ACADEMIC_YEAR
+###Description
+An extra implementation optimisation that isn't part of the UDD model. Its value is identical to that of the mod_instance identified by the relevant MOD_INSTANCE_ID.
+
+###Purpose
+Analytics
+
+###Derivation
+Jisc
+
+###Valid Values
+4 digit year
+
+###Format
+Int
+
+###Notes
+This is the starting year for the academic year.
