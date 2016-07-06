@@ -3,7 +3,7 @@
 * [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
 * [MODE](#mode) [1]
-* [YEAR_COM](#year_com) [1]
+* [YEAR_COM](#year_com) [0..1] (deprecated)
 * [YEAR_PRG](#year_prg) [1]
 * [YEAR_STU](#year_stu) [1]
 * [COURSE_LOCATION](#course_location) [0..1]
@@ -63,9 +63,9 @@ Yes (if applicable)
 Mapping based on HESA codeset, and ILE (FE) initial mapping suggested above on ILR field 'PlanLearnHours'.
 
 
-##YEAR_COM
+##YEAR_COM (deprecated)
 ###Description
-This field indicates the year number that the learning aim/ course started
+This field indicates the year number that the learning aim/ course started. It duplicates COURSE_JOIN_DATE on student_course_membership.
 
 ###Purpose
 For analytics
@@ -80,8 +80,7 @@ Any
 Int
 
 ###Notes
-This can be extracted from the actual commencement date of the learning aim/ student (on course) instance.
-
+Use [COURSE_JOIN_DATE on student_course_membership](student_course_membership.md#course_join_date) instead.
 
 ##YEAR_PRG
 ###Description
