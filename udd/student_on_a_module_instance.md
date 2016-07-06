@@ -19,6 +19,7 @@
 * [MOD_CURRENT_ATTEMPT](#mod_current_attempt) [1]
 * [MOD_COMPLETED_ATTEMPT](#mod_completed_attempt) [1]
 * [X_MOD_NAME](#x_mod_name) [0..1]
+* [X_MOD_ACADEMIC_YEAR](#x_mod_academic_year) [0..1]
 
 ##MOD_GRADE
 ###Description.
@@ -320,3 +321,22 @@ String (255)
 
 ###Notes
 This data is generated internally from existing data, and does not need to be supplied by an institution.
+
+##X_MOD_ACADEMIC_YEAR
+###Description
+An extra implementation optimisation that isn't part of the UDD model. Its value is identical to that of MOD_ACADEMIC_YEAR on the mod_instance identified by the relevant MOD_INSTANCE_ID.
+
+###Purpose
+Analytics
+
+###Derivation
+Jisc
+
+###Valid Values
+4 digit year
+
+###Format
+Int
+
+###Notes
+This is the starting year for the academic year.

@@ -284,7 +284,7 @@ This data is generated internally from existing data, and does not need to be su
 
 ##X_MOD_ACADEMIC_YEAR
 ###Description
-An extra implementation optimisation that isn't part of the UDD model. Its value is identical to that of the mod_instance identified by the relevant MOD_INSTANCE_ID.
+An extra implementation optimisation that isn't part of the UDD model. Its value is identical to that of MOD_ACADEMIC_YEAR on the mod_instance identified by the relevant MOD_INSTANCE_ID.
 
 ###Purpose
 Analytics
