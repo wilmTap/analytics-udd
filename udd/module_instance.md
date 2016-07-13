@@ -1,4 +1,4 @@
-#Module instance
+#module_instance
 * [MOD_ID](module.md#mod_id) [1]
 * [MOD_INSTANCE_ID](#mod_instance_id) [1]
 * [MOD_PERIOD](#mod_period) [0..1]
@@ -9,10 +9,10 @@
 
 ##MOD_INSTANCE_ID
 ###Description
-Institutions unique identifier for this module instance
+Institutions unique identifier for this module_instance
 
 ###Purpose
-For link a module instance to a student
+For link a module_instance to a student
 
 ###Derivation
 Jisc
@@ -28,10 +28,10 @@ String (255)
 
 ##MOD_PERIOD
 ###Description
-Period to which module instance relates (e.g. semester 1)
+Period to which module_instance relates (e.g. semester 1)
 
 ###Purpose
-Analytics 
+Analytics
 
 ###Derivation
 Jisc
@@ -47,17 +47,17 @@ It is expected that sites / organisations will have their own code lists for MOD
 
 ##MOD_ONLINE
 ###Description
-Whether this module instance is delivered wholly online
+Whether this module_instance is delivered wholly online
 
 ###Purpose
-Analytics 
+Analytics
 
 ###Derivation
 Jisc
 
 ###Valid Values
 <table>
-<tr><td>CODE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
+<tr><td>MOD_ONLINE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
 <tr><td>1</td><td>Yes</td><td>Ie  </td></tr>
 <tr><td>2</td><td>No</td><td>Na</td></tr>
 </table>  
@@ -72,16 +72,16 @@ Int
 Academic year that this module runs within - this must represent the start year of that specific academic year eg. for 2014-15 this would be 2014
 
 ###Purpose
-Analytics 
+Analytics
 
 ###Derivation
 Jisc
 
 ###Valid Values
-Int
+4 digit year
 
 ###Format
-4 digit year
+Int
 
 ###Notes
 This is the starting year for the academic year.
@@ -91,7 +91,7 @@ This is the starting year for the academic year.
 Whether this instance relates to an optional module or not.
 
 ###Purpose
-Analytics 
+Analytics
 
 ###Derivation
 Jisc
@@ -99,7 +99,7 @@ Jisc
 ###Valid Values
 
 <table>
-<tr><td>CODE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
+<tr><td>MOD_OPTIONAL</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
 <tr><td>1</td><td>Yes</td><td>Ie  </td></tr>
 <tr><td>2</td><td>No</td><td>Na</td></tr>
 </table>  

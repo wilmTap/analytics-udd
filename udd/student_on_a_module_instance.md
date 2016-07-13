@@ -1,4 +1,4 @@
-#Student on a module Instance
+#student_on_a_module_instance
 * [STUDENT_ID](student.md#student_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
@@ -19,13 +19,14 @@
 * [MOD_CURRENT_ATTEMPT](#mod_current_attempt) [1]
 * [MOD_COMPLETED_ATTEMPT](#mod_completed_attempt) [1]
 * [X_MOD_NAME](#x_mod_name) [0..1]
+* [X_MOD_ACADEMIC_YEAR](#x_mod_academic_year) [0..1]
 
 ##MOD_GRADE
 ###Description.
 Final grade student achieved on the module.
 
 ###Purpose
-Analytics 
+Analytics
 
 ###Derivation
 Jisc
@@ -44,7 +45,7 @@ String (256)
 Indicates whether the student passed the module, didn't pass the module, deferred the module or whether this information is not known because the module hasn't been completed yet.
 
 ###Purpose
-Analytics 
+Analytics
 
 ###Derivation
 Jisc
@@ -52,18 +53,18 @@ Jisc
 ###Valid Values
 
 <table>
-<tr><td>CODE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
-<tr><td>1</td><td>Yes</td><td>Ie  </td></tr>
-<tr><td>2</td><td>No</td><td>Na  </td></tr>
-<tr><td>3</td><td>Not completed yet</td><td>Dim wedi cwblhau</td></tr>
-<tr><td>4</td><td>Deferred</td><td>Gohiriedig</td></tr>
+<tr><td>MOD_RESULT</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
+<tr><td>1</td><td>Pass</td><td>  </td></tr>
+<tr><td>2</td><td>Fail</td><td>  </td></tr>
+<tr><td>3</td><td>Not known</td><td> </td></tr>
+<tr><td>4</td><td>deprecated (was: 'deferred')</td><td> </td></tr>
 </table>  
 
 ###Format
 Int
 
 ###Notes
-Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example.
+Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply because the student hasn't been assessed yet. Code 4 is deprecated because deferral or withdrawal is indicated by WITHDRAWAL_REASON in student_course_membership.
 
 
 ##MOD_RETAKE
@@ -71,7 +72,7 @@ Code 3 is applied in all cases where the outcome is either not known (yet), or d
 Whether this is a retake of the module for that student.
 
 ###Purpose
-Analytics 
+Analytics
 
 ###Derivation
 Jisc
@@ -79,9 +80,9 @@ Jisc
 ###Valid Values
 
 <table>
-<tr><td>    CODE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
-<tr><td>    1</td><td>Yes</td><td>Ie  </td></tr>
-<tr><td>    2</td><td>No</td><td>Na</td></tr>
+<tr><td>MOD_RETAKE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
+<tr><td>1</td><td>Yes</td><td>Ie  </td></tr>
+<tr><td>2</td><td>No</td><td>Na</td></tr>
 </table>  
 
 ###Format
@@ -92,7 +93,7 @@ Int
 
 ##MOD_START_DATE
 ###Description
-Start date of this module instance
+Start date of this module_instance
 
 ###Purpose
 Analytics and display
@@ -107,12 +108,12 @@ ISO 8601 - YYYY-MM-DD
 Date
 
 ###Notes
-The start and end date of a module instance MUST align with the start and end date of a course instance.
+The start and end date of a module_instance MUST align with the start and end date of a course_instance.
 
 
 ##MOD_END_DATE
 ###Description
-End date of this module instance
+End date of this module_instance
 
 ###Purpose
 Analytics and display
@@ -127,7 +128,7 @@ ISO 8601 - YYYY-MM-DD
 Date
 
 ###Notes
-The start and end date of a module instance MUST align with the start and end date of a course instance.
+The start and end date of a module_instance MUST align with the start and end date of a course_instance.
 
 
 ##MOD_FIRST_MARK
@@ -266,7 +267,7 @@ Integer
 
 ##MOD_CURRENT_ATTEMPT
 ###Description
-Number of attempts taken by a student so far on a module instance.
+Number of attempts taken by a student so far on a module_instance.
 
 ###Purpose
 Analytics
@@ -285,7 +286,7 @@ Integer
 
 ##MOD_COMPLETED_ATTEMPT
 ###Description
-Number of attempts taken by a student to complete a module instance.
+Number of attempts taken by a student to complete a module_instance.
 
 ###Purpose
 Analytics
@@ -320,3 +321,22 @@ String (255)
 
 ###Notes
 This data is generated internally from existing data, and does not need to be supplied by an institution.
+
+##X_MOD_ACADEMIC_YEAR
+###Description
+An extra implementation optimisation that isn't part of the UDD model. Its value is identical to that of MOD_ACADEMIC_YEAR on the mod_instance identified by the relevant MOD_INSTANCE_ID.
+
+###Purpose
+Analytics
+
+###Derivation
+Jisc
+
+###Valid Values
+4 digit year
+
+###Format
+Int
+
+###Notes
+This is the starting year for the academic year.

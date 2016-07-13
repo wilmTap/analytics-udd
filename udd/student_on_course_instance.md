@@ -1,9 +1,9 @@
-#Student on Course Instance
+#student_on_course_instance
 * [STUDENT_ID](student.md#student_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
 * [MODE](#mode) [1]
-* [YEAR_COM](#year_com) [1]
+* [YEAR_COM](#year_com) [0..1] (deprecated)
 * [YEAR_PRG](#year_prg) [1]
 * [YEAR_STU](#year_stu) [1]
 * [COURSE_LOCATION](#course_location) [0..1]
@@ -24,7 +24,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###Valid Values & Mappings
 
 <table>
-<tr><td>CODE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)</td><td>HESA(MODE)</td><td>FEILR(PlanLearnHours)  </td></tr>
+<tr><td>MODE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)</td><td>HESA(MODE)</td><td>FEILR(PlanLearnHours)  </td></tr>
 <tr><td>1</td><td>Full-time according to funding council definitions</td><td></td><td>1</td><td>PlanLearnHours > 540  </td></tr>
 <tr><td>2</td><td>Other full-time</td><td></td><td>2</td><td>N/A  </td></tr>
 <tr><td>12</td><td>FE students full-time 30 weeks or more</td><td></td><td>12</td><td>N/A  </td></tr>
@@ -63,9 +63,9 @@ Yes (if applicable)
 Mapping based on HESA codeset, and ILE (FE) initial mapping suggested above on ILR field 'PlanLearnHours'.
 
 
-##YEAR_COM
+##YEAR_COM (deprecated)
 ###Description
-This field indicates the year number that the learning aim/ course started
+This field indicates the year number that the learning aim/ course started. It duplicates COURSE_JOIN_DATE on student_course_membership.
 
 ###Purpose
 For analytics
@@ -80,8 +80,7 @@ Any
 Int
 
 ###Notes
-This can be extracted from the actual commencement date of the learning aim/ student (on course) instance.
-
+Use [COURSE_JOIN_DATE on student_course_membership](student_course_membership.md#course_join_date) instead.
 
 ##YEAR_PRG
 ###Description
@@ -123,7 +122,7 @@ Int
 
 ##COURSE_LOCATION
 ###Description
-Identifies the location with which a student on a course instance is associated, be it a building, a site or a campus.
+Identifies the location with which a student on a course_instance is associated, be it a building, a site or a campus.
 
 ###Purpose
 For analytics (predictive model building) and for presenting analytics.

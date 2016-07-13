@@ -1,4 +1,4 @@
-#Student course membership
+#student_course_membership
 
 * [STUDENT_ID](student.md#student_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_ID](#student_course_membership_id) [1]
@@ -35,14 +35,14 @@ As defined by the Student Record System.
 String (255)
 
 ###Notes
-The student course membership is designed to deal with the fact that some students are enrolled on more than one course in their time at a provider. Drawing together data on their student ID alone could therefore be misleading, or at least be significantly different from students who have only ever been registered on one course. STUDENT_COURSE_MEMBERSHIP_ID partitions the study careers of those who are on multiple courses, and makes them comparable to those who have only ever been enrolled on one course.
+The student_course_membership is designed to deal with the fact that some students are enrolled on more than one course in their time at a provider. Drawing together data on their student ID alone could therefore be misleading, or at least be significantly different from students who have only ever been registered on one course. STUDENT_COURSE_MEMBERSHIP_ID partitions the study careers of those who are on multiple courses, and makes them comparable to those who have only ever been enrolled on one course.
 
 ##STUDENT_COURSE_MEMBERSHIP_SEQ
 ###Description
-The institution's own unique identifier for the student and the course instance they are assigned to.
+The institution's own unique identifier for the student and the course_instance they are assigned to.
 
 ###Purpose
-To provide a unique course instance code for a student, for use in joining a student to course instance/enrolment records
+To provide a unique course_instance code for a student, for use in joining a student to course_instance/enrolment records
 
 ###Derivation
 As defined by the Student Record System.
@@ -53,7 +53,7 @@ As defined by the Student Record System.
 String (255)
 
 ###Notes
-The student course membership sequence ID is designed to deal with the fact that some students drop out off or enroll on more than one instance of the same course.
+The student_course_membership sequence ID is designed to deal with the fact that some students drop out off or enroll on more than one instance of the same course.
 
 
 ##WITHDRAWAL_REASON
@@ -70,9 +70,9 @@ https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^WITHDRAWREASON.html
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^RSNEND.html
 
-###Valid Values & Mappings 
+###Valid Values & Mappings
 <table>
-<tr><td>CODE</td><td>DESCRIPTION (ENGLISH)</td><td>DESCRIPTION (WELSH)</td><td>HESA (WITHDRAWREASON)</td><td>HESA (RSNEND)</td><td>FEILR (WITHDRAWREASON)  </td></tr>
+<tr><td>WITHDRAWAL_REASON</td><td>DESCRIPTION (ENGLISH)</td><td>DESCRIPTION (WELSH)</td><td>HESA (WITHDRAWREASON)</td><td>HESA (RSNEND)</td><td>FEILR (WITHDRAWREASON)  </td></tr>
 <tr><td>2</td><td>Learner has transferred to another provider</td><td></td><td>02</td><td>03</td><td>2  </td></tr>
 <tr><td>3</td><td>Learner injury / illness</td><td></td><td>03</td><td>04</td><td>3   </td></tr>
 <tr><td>5</td><td>Death</td><td></td><td>N/A</td><td>05</td><td>N/A  </td></tr>
@@ -132,7 +132,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 
 ###Valid Values & Mappings
 <table>
-<tr><td>CODE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)</td><td>HESA(QUALENT3)</td><td>FEILR(PRIORATTAIN)   </td></tr>
+<tr><td>ENTRY_QUALS</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)</td><td>HESA(QUALENT3)</td><td>FEILR(PRIORATTAIN)   </td></tr>
 <tr><td>DUK</td><td>UK doctorate degree</td><td></td><td>DUK</td><td> 	</td></tr>
 <tr><td>DZZ</td><td>Non-UK doctorate degree</td><td></td><td>DZZ</td><td>  	</td></tr>
 <tr><td>D80</td><td>Other qualification at level D</td><td></td><td>D80</td><td>  	</td></tr>
@@ -154,7 +154,6 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 <tr><td>J10</td><td>Foundation degree</td><td></td><td>J10</td><td>  </td></tr>
 <tr><td>J20</td><td>Diploma of Higher Education (DipHE)</td><td></td><td>J20</td><td>  	</td></tr>
 <tr><td>J30</td><td>Higher National Diploma (HND)</td><td></td><td>J30</td><td>  	</td></tr>
-<tr><td>J31</td><td>(Other) Qualification at level 5</td><td></td><td></td><td>  		</td></tr>
 <tr><td>J31</td><td>(Other) Qualification at level 5 or above (DEPRECATED SINCE 01/08/2013)</td><td></td><td>J32</td><td>5  </td></tr>
 <tr><td>J49</td><td>Foundation course at level J</td><td></td><td>J49</td><td>  	</td></tr>
 <tr><td>J48</td><td>Certificate in Education (CertEd) or Diploma in Education (DipEd) (i.e. non-graduate initial teacher training qualification)</td><td></td><td>J48</td><td>  	</td></tr>
@@ -162,8 +161,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 <tr><td>C20</td><td>Certificate of Higher Education (CertHE)</td><td></td><td>C20</td><td>  	</td></tr>
 <tr><td>C30</td><td>Higher National Certificate (HNC)</td><td></td><td>C30</td><td> 	</td></tr>
 <tr><td>C44</td><td>Higher Apprenticeship (level 4)</td><td></td><td>C44</td><td>  	</td></tr>
-<tr><td>C80</td><td>(Other) Qualification at level C or level 4</td><td></td><td>C80</td><td>4  </td></tr>
-<tr><td>C80</td><td>(Other) Qualification at level C or level 4</td><td></td><td>N/A</td><td>10  </td></tr>
+<tr><td>C80</td><td>(Other) Qualification at level C or level 4</td><td></td><td>C80</td><td>4, 10  </td></tr>
 <tr><td>C90</td><td>Undergraduate credits</td><td></td><td>C90</td><td>  	</td></tr>
 <tr><td>P41</td><td>Diploma at level 3</td><td></td><td>P41</td><td>  	</td></tr>
 <tr><td>P42</td><td>Certificate at level 3</td><td></td><td>P42</td><td>  	</td></tr>
@@ -197,7 +195,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 <tr><td>X05</td><td>Student has no formal qualification</td><td></td><td>X05</td><td>99  </td></tr>
 <tr><td>X06</td><td>Not known</td><td></td><td>X06</td><td>98  </td></tr>
 <tr><td>NULL</td><td>No data</td><td></td><td>NULL</td><td>NULL </td></tr>
-</table> 
+</table>
 
 ###Format
 Alphanumeric
@@ -246,7 +244,7 @@ Int
 
 ##COURSE_GRADE
 ###Description
-Class of award achieved by the student on this course instance. Based on HESA codeset for CLASS (HE conformity to be confirmed)
+Class of award achieved by the student on this course_instance. Based on HESA codeset for CLASS (HE conformity to be confirmed)
 
 ###Purpose
 For analytics
@@ -257,7 +255,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###Valid Values
 
 <table>
-<tr><td>CODE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
+<tr><td>COURSE_GRADE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
 <tr><td>1</td><td>First class honours</td><td>  	</td></tr>
 <tr><td>2</td><td>Upper second class honours</td><td>  	</td></tr>
 <tr><td>3</td><td>Lower second class honours</td><td> 	</td></tr>
@@ -396,7 +394,7 @@ Note that there may be many reasons why a student leaves a course. This is recor
 
 ##COURSE_JOIN_DATE
 ###Description
-This field indicates the date of the student's initial commencement of studies for this student course membership and may relate to a date prior to the current academic/financial year. Exchange-in students should have the date they commenced their studies at the reporting provider.
+This field indicates the date of the student's initial commencement of studies for this student_course_membership and may relate to a date prior to the current academic/financial year. Exchange-in students should have the date they commenced their studies at the reporting provider.
 
 ###Purpose
 Analytics
@@ -418,7 +416,7 @@ ISO 8601
 
 ##COURSE_JOIN_AGE
 ###Description
-The age of the student when they initially commenced their studies for this student course membership. Exchange-in students should have the age they commenced their studies at the reporting provider.
+The age of the student when they initially commenced their studies for this student_course_membership. Exchange-in students should have the age they commenced their studies at the reporting provider.
 
 ###Purpose
 Analytics

@@ -1,4 +1,4 @@
-#Student on assessment instance
+#student_on_assessment_instance
 * [STUDENT_ID](student.md#student_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
@@ -17,11 +17,12 @@
 * [MAX_POINTS](#max_points) [0..1]
 * [X_ASSESS_DETAIL](#x_assess_detail) [0..1]
 * [X_MOD_NAME](student_on_a_module_instance.md#x_mod_name) [0..1]
-* [X_MOD_ID](#X_MOD_ID) [0..1]
+* [X_MOD_ID](#x_mod_id) [0..1]
+* [X_MOD_ACADEMIC_YEAR](#x_mod_academic_year) [0..1]
 
 ##ASSESS_SEQ_ID
 ###Description.
-A unique ID to indicate the order of assessments taken by a student on the assessment instance.
+A unique sequence number to indicate the order of assessments taken by a student on the assessment instance.
 
 ###Purpose
 To help identify the latest assessment and the order of assessments for a student, especially for those in reassessment.
@@ -37,7 +38,7 @@ Any
 Integer
 
 ###Notes
-
+The ASSESS_SEQ_ID number needs to increment with the chronological order of assessments.
 
 ##ASSESS_DUE_DATE
 ###Description.
@@ -53,7 +54,7 @@ Jisc
 YYYY-MM-DD
 
 ###Format
-ISO 8601 
+ISO 8601
 
 ###Notes
 
@@ -69,11 +70,11 @@ Analytics
 Jisc
 
 ###Valid Values
-
-|code|description (English)|description (Welsh)|
-|---|---|---|
-|1|Yes|Ie|
-|2|No|Na|
+<table>
+<tr><td>ASSESS_RETAKE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
+<tr><td>1</td><td>Yes</td><td>Ie  </td></tr>
+<tr><td>2</td><td>No</td><td>Na</td></tr>
+</table>  
 
 ###Format
 Integer
@@ -186,20 +187,19 @@ Analytics
 ###Derivation
 Jisc; student_on_a_module_instance.MOD_RESULT
 
-###Valid Values
 <table>
-<tr><td>CODE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
-<tr><td>1</td><td>Yes</td><td>Ie  </td></tr>
-<tr><td>2</td><td>No</td><td>Na  </td></tr>
-<tr><td>3</td><td>Not completed yet</td><td>Dim wedi cwblhau</td></tr>
-<tr><td>4</td><td>Deferred</td><td>Gohiriedig</td></tr>
+<tr><td>MOD_RESULT</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
+<tr><td>1</td><td>Pass</td><td>  </td></tr>
+<tr><td>2</td><td>Fail</td><td>  </td></tr>
+<tr><td>3</td><td>Not known</td><td> </td></tr>
+<tr><td>4</td><td>deprecated (was: 'deferred')</td><td> </td></tr>
 </table>  
 
 ###Format
-Integer
+Int
 
 ###Notes
-Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example.
+Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply because the student hasn't been assessed yet. Code 4 is deprecated because deferral or withdrawal is indicated by WITHDRAWAL_REASON in student_course_membership. 
 
 
 ##GRADE_DATE
@@ -207,7 +207,7 @@ Code 3 is applied in all cases where the outcome is either not known (yet), or d
 The date at which the grade result has been confirmed and awarded.
 
 ###Purpose
-Analytics 
+Analytics
 
 ###Derivation
 Jisc
@@ -227,7 +227,7 @@ This is the date when a grade has been moderated and agreed, but before exam boa
 The maximum points that an instructor can allocate to an assessment. Used to indicate the marking scale used for an assignment.
 
 ###Purpose
-Analytics 
+Analytics
 
 ###Derivation
 Jisc
@@ -239,7 +239,7 @@ Not specified
 String (256)
 
 ###Notes
-The value can be any alphanumeric used by any type of marking scale. E.g. 80%, B11 or 'excellent'.
+The value can be any alphanumeric used by any type of marking scale. E.g. 80%, B11 or 'excellent'. There is also the similar MAX_MARKS property on assessment_instance, which is for analytic purposes. It only accepts decimal data.
 
 
 ##X_ASSESS_DETAIL
@@ -253,7 +253,7 @@ Implementation optimisation
 Jisc; assessment_instance.ASSESS_DETAIL
 
 ###Valid Values
-Any 
+Any
 
 ###Format
 String (255)
@@ -273,10 +273,30 @@ Implementation optimisation
 Jisc; module.MOD_ID
 
 ###Valid Values
-Any 
+Any
 
 ###Format
 String (255)
 
 ###Notes
 This data is generated internally from existing data, and does not need to be supplied by an institution.
+
+
+##X_MOD_ACADEMIC_YEAR
+###Description
+An extra implementation optimisation that isn't part of the UDD model. Its value is identical to that of MOD_ACADEMIC_YEAR on the mod_instance identified by the relevant MOD_INSTANCE_ID.
+
+###Purpose
+Analytics
+
+###Derivation
+Jisc
+
+###Valid Values
+4 digit year
+
+###Format
+Int
+
+###Notes
+This is the starting year for the academic year.

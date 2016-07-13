@@ -1,4 +1,4 @@
-# Jisc Learning Analytics Unified Data Definitions v1.2.4
+# Jisc Learning Analytics Unified Data Definitions v1.2.5
 
 ##Introduction
 The Unified Data Definitions (UDD) of the Jisc analytics project is a vocabulary of the chief data entities of interest to learning analytics: students, courses, modules, etc. as well as their characteristics. The data coded with this vocabulary is typically extracted from the student record system of a particular college or university.
@@ -15,38 +15,38 @@ No particular data format is prescribed yet for UDD data sets, but both JSON and
 An [entity relation diagram of the whole UDD 1.2](diagram.md) provides a one page overview of the specification.
 
 ## Core sections
-###[Assessment instance](udd/assessment_instance.md)
+###[assessment_instance](udd/assessment_instance.md)
 
-###[Course](udd/course.md)
+###[course](udd/course.md)
 
-###[Course instance](udd/course_instance.md)
+###[course_instance](udd/course_instance.md)
 
-###[Institution](udd/institution.md)
+###[institution](udd/institution.md)
 
-###[Module](udd/module.md)
+###[module](udd/module.md)
 
-###[Module instance](udd/module_instance.md)
+###[module_instance](udd/module_instance.md)
 
-###[Module to VLE map](udd/module_vle_map.md)
+###[module_vle_map](udd/module_vle_map.md)
 
-###[Student](udd/student.md)
+###[student](udd/student.md)
 
-###[Student course membership](udd/student_course_membership.md)
+###[student_course_membership](udd/student_course_membership.md)
 
-###[Student on assessment instance](udd/student_on_assessment_instance.md)
+###[student_on_assessment_instance](udd/student_on_assessment_instance.md)
 
-###[Student on module instance](udd/student_on_a_module_instance.md)
+###[student_on_a_module_instance](udd/student_on_a_module_instance.md)
 
-###[Student on course instance](udd/student_on_course_instance.md)
+###[student_on_course_instance](udd/student_on_course_instance.md)
 
 ##Additional sections 
-###[Staff](udd/staff.md)
+###[staff](udd/staff.md)
 
-###[Staff on course instance](udd/staff_on_course_instance.md)
+###[staff_on_course_instance](udd/staff_on_course_instance.md)
 
-###[Staff on module Instance](udd/staff_on_mod_instance.md)
+###[staff_on_mod_instance](udd/staff_on_mod_instance.md)
 
-###[Student (Additional Information)](udd/student_additional.md)
+###[student_additional](udd/student_additional.md)
 
 ##Specification development workflow
 The simplest way of contributing to the UDD works as follows:
