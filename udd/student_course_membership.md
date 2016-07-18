@@ -11,7 +11,7 @@
 * [COURSE_OUTCOME](#course_outcome) [1]
 * [COURSE_GRADE](#course_grade) [1]
 * [COURSE_AIM_ATTAINED](#course_aim_attained) [0..1]
-* [COURSE_MARK](#course_mark) [1]
+* [COURSE_MARK](#course_mark) [0..1]
 * [COURSE_EXPECTED_END_DATE](#course_expected_end_date) [1]
 * [COURSE_END_DATE](#course_end_date) [1]
 * [COURSE_JOIN_DATE](#course_join_date) [0..1]
