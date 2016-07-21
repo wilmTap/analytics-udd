@@ -17,7 +17,7 @@
 * [MOD_AGREED_GRADE](#mod_agreed_grade) [0..1]
 * [MOD_CREDITS_ACHIEVED](#mod_credits_achieved) [0..1]
 * [MOD_CURRENT_ATTEMPT](#mod_current_attempt) [1]
-* [MOD_COMPLETED_ATTEMPT](#mod_completed_attempt) [1]
+* [MOD_COMPLETED_ATTEMPT](#mod_completed_attempt) [0..1]
 * [X_MOD_NAME](#x_mod_name) [0..1]
 * [X_MOD_ACADEMIC_YEAR](#x_mod_academic_year) [0..1]
 
