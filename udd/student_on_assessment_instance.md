@@ -9,7 +9,7 @@
 * [ASSESS_RETAKE](#assess_retake) [0..1]
 * [ASSESS_AGREED_MARK](#assess_agreed_mark) [0..1]
 * [ASSESS_ACTUAL_MARK](#assess_actual_mark) [0..1]
-* [ASSESS_AGREED_GRADE](#assess_agreed_grade) [1]
+* [ASSESS_AGREED_GRADE](#assess_agreed_grade) [0..1]
 * [ASSESS_ACTUAL_GRADE](#assess_actual_grade) [1]
 * [ASSESSMENT_CURRENT_ATTEMPT](#assessment_current_attempt) [1]
 * [ASSESSMENT_RESULT](#assessment_result) [1]
