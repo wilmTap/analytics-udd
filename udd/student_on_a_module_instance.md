@@ -4,7 +4,7 @@
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
 * [COURSE_INSTANCE_ID](course_instance.md#course_instance_id) [1]
 * [MOD_INSTANCE_ID](module_instance.md#mod_instance_id) [1]
-* [MOD_GRADE](#mod_grade) [1]
+* [MOD_GRADE](#mod_grade) [1] (deprecated)
 * [MOD_RESULT](#mod_result) [1]
 * [MOD_RETAKE](#mod_retake) [0..1]
 * [MOD_START_DATE](#mod_start_date) [1]
@@ -21,7 +21,7 @@
 * [X_MOD_NAME](#x_mod_name) [0..1]
 * [X_MOD_ACADEMIC_YEAR](#x_mod_academic_year) [0..1]
 
-##MOD_GRADE
+##MOD_GRADE (deprecated)
 ###Description.
 Final grade student achieved on the module.
 
@@ -38,6 +38,7 @@ Any
 String (256)
 
 ###Notes
+Use MOD_AGREED_GRADE instead of MOD_GRADE
 
 
 ##MOD_RESULT
