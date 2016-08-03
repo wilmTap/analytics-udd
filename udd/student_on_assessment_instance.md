@@ -9,8 +9,8 @@
 * [ASSESS_RETAKE](#assess_retake) [0..1]
 * [ASSESS_AGREED_MARK](#assess_agreed_mark) [0..1]
 * [ASSESS_ACTUAL_MARK](#assess_actual_mark) [0..1]
-* [ASSESS_AGREED_GRADE](#assess_agreed_grade) [1]
-* [ASSESS_ACTUAL_GRADE](#assess_actual_grade) [1]
+* [ASSESS_AGREED_GRADE](#assess_agreed_grade) [0..1]
+* [ASSESS_ACTUAL_GRADE](#assess_actual_grade) [0..1]
 * [ASSESSMENT_CURRENT_ATTEMPT](#assessment_current_attempt) [1]
 * [ASSESSMENT_RESULT](#assessment_result) [1]
 * [GRADE_DATE](#grade_date) [0..1]
@@ -84,7 +84,7 @@ Integer
 
 ##ASSESS_ACTUAL_MARK
 ###Description.
-The initial mark given for the assessment attempt.
+The initial mark given for the assessment attempt prior to moderation.
 
 ###Purpose
 Analytics
@@ -103,7 +103,7 @@ Decimal
 
 ##ASSESS_AGREED_MARK
 ###Description.
-The agreed mark for the assessment attempt.
+The mark agreed for the assessment attempt after moderation.
 
 ###Purpose
 Analytics
@@ -122,7 +122,7 @@ Decimal
 
 ##ASSESS_ACTUAL_GRADE
 ###Description.
-The actual grade for the assessment attempt.
+The initial grade given for the assessment attempt before moderation.
 
 ###Purpose
 Analytics
@@ -141,7 +141,7 @@ String (255)
 
 ##ASSESS_AGREED_GRADE
 ###Description.
-The agreed grade for the assessment attempt.
+The grade agreed for the assessment attempt after moderation.
 
 ###Purpose
 Analytics
