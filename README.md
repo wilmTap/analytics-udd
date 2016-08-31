@@ -1,18 +1,18 @@
-# Jisc Learning Analytics Unified Data Definitions v1.2.2
+# Jisc Learning Analytics Unified Data Definitions v1.3
 
 ##Introduction
 The Unified Data Definitions (UDD) of the Jisc analytics project is a vocabulary of the chief data entities of interest to learning analytics: students, courses, modules, etc. as well as their characteristics. The data coded with this vocabulary is typically extracted from the student record system of a particular college or university.
 
 Along with xAPI recipes, the UDD makes up the core data specification of the Jisc learning analytics architecture.
 
-##Differences between 1.1 and 1.2
-The development of 1.2 involved a number of additions and changes. [This overview page](differences.md) provides a mapped listing of each change, with links through to the relevant pages in the UDD 1.1 and 1.2 documentation.
+##Differences between 1.2 and 1.3
+The development of 1.3 involved a number of additions and changes. [This overview page](differences.md) provides a mapped listing of each change, with links through to the relevant pages in the UDD 1.2 and 1.3 documentation.
 
 ##Data format
 No particular data format is prescribed yet for UDD data sets, but both JSON and CSV are popular have been used. Regardless of the fileformat, any UDD dataset needs to be UTF8 encoded.
 
 ##Diagram
-An [entity relation diagram of the whole UDD 1.2](diagram.md) provides a one page overview of the specification.
+An [entity relation diagram of the whole UDD 1.3](diagram.md) provides a one page overview of the specification.
 
 ## Core sections
 ###[Assessment instance](udd/assessment_instance.md)
