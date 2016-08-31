@@ -48,7 +48,7 @@ An [entity relation diagram of the whole UDD 1.3](diagram.md) provides a one pag
 
 ###[Student (Additional Information)](udd/student_additional.md)
 
-##Specification development workflow
+###Specification development workflow
 The simplest way of contributing to the UDD works as follows:
 
 1. add an issue to the issue tracker to alert everyone to what you are working on and why
@@ -61,4 +61,5 @@ You can do all this through the Github GUI, but you're welcome to use any other 
 
 Particular release versions will get their own branches, but the main branch will always contain the latest agreed release. Releases will be made after the group has come to an agreement.
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+###License
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />All work in this repository is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
