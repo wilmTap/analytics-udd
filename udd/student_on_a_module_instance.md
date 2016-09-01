@@ -60,7 +60,7 @@ Jisc
 </table>  
 
 ###Format
-Int
+String (256)
 
 ###Notes
 Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example.
@@ -85,7 +85,7 @@ Jisc
 </table>  
 
 ###Format
-Int
+String (256)
 
 ###Notes
 
@@ -101,10 +101,10 @@ Analytics and display
 Jisc
 
 ###Valid Values
-ISO 8601 - YYYY-MM-DD
+YYYY-MM-DD
 
 ###Format
-Date
+ISO 8601 Full
 
 ###Notes
 The start and end date of a module instance MUST align with the start and end date of a course instance.
@@ -121,10 +121,10 @@ Analytics and display
 Jisc
 
 ###Valid Values
-ISO 8601 - YYYY-MM-DD
+YYYY-MM-DD
 
 ###Format
-Date
+ISO 8601 Full
 
 ###Notes
 The start and end date of a module instance MUST align with the start and end date of a course instance.

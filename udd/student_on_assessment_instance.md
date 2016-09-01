@@ -75,7 +75,7 @@ Jisc
 |2|No|Na|
 
 ###Format
-Integer
+String (256)
 
 ###Notes
 
@@ -195,7 +195,7 @@ Jisc; student_on_a_module_instance.MOD_RESULT
 </table>  
 
 ###Format
-Integer
+String (256)
 
 ###Notes
 Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example.
@@ -212,10 +212,10 @@ Analytics
 Jisc
 
 ###Valid Values
-Not specified
+YYYY-MM-DD
 
 ###Format
-Date (ISO format) - YYYY-MM-DD
+ISO 8601
 
 ###Notes
 This is the date when a grade has been moderated and agreed, but before exam board confirmation. It is typically the date at which the grade is entered in a SRS.

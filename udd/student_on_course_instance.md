@@ -32,7 +32,7 @@ Jisc
         </table>
 
 ###Format
-Int
+String (256)
 
 ###Notes
 Mapping based on HESA codeset, and ILE (FE) initial mapping suggested above on ILR field 'PlanLearnHours'. See https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^MODE.html
@@ -49,10 +49,10 @@ For analytics
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^COMDATE.html
 
 ###Valid Values
-Any
+YYYY-MM-DD
 
 ###Format
-Int
+ISO 8601
 
 ###Notes
 This can be extracted from the actual commencement date of the learning aim/ student (on course) instance.
@@ -72,7 +72,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 Any
 
 ###Format
-Int
+String (256)
 
 ###Notes
 
@@ -91,7 +91,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 Any
 
 ###Format
-Int
+String (256)
 
 ###Notes
 

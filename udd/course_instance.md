@@ -74,7 +74,7 @@ Jisc
 Year as four digit - ie year that the academic year starts in.
 
 ###Format
-Int
+ISO 8601 Year
 
 ###Notes
 Could be derived, but academic year calendars may be different between institutions. This field could also be sourced directly from the SRS.
