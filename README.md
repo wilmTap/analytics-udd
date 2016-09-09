@@ -1,4 +1,4 @@
-# Jisc Learning Analytics Unified Data Definitions v1.2.6
+# Jisc Learning Analytics Unified Data Definitions v1.3
 
 ##Introduction
 The Unified Data Definitions (UDD) of the Jisc analytics project is a vocabulary of the chief data entities of interest to learning analytics: students, courses, modules, etc. as well as their characteristics. The data coded with this vocabulary is typically extracted from the student record system of a particular college or university.
@@ -47,10 +47,10 @@ An [entity relation diagram of the whole UDD 1.2](diagram.md) provides a one pag
 ###[staff_on_mod_instance](udd/staff_on_mod_instance.md)
 
 ##Specification development workflow
-The simplest way of contributing to the UDD works as follows:
+The simplest way of contributing to the UDD is as follows:
 
 1. add an issue to the issue tracker to alert everyone to what you are working on and why
-2. tag the issue with the version milestone you'd like the patch to be a part of
+2. tag the issue with the version milestone of which you'd like the patch to be a part
 3. make an edit or add a file in this repository, and save it to your own branch. If you prefer, you can fork the whole repository and work in your own repository
 4. send a pull request once you're done
 5. the pull request will be discussed at our weekly meeting and either merged, or kept in the queue, depending on whether more work is required
