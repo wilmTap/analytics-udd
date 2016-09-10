@@ -44,7 +44,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###References
 
 ###Format
-String 255
+String (255)
 
 ###Notes
 
@@ -80,8 +80,11 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 
 ###References
 
+###Valid Values
+YYYY-MM-DD
+
 ###Format
-ISO8601 format of YYYY-MM-DD
+ISO8601
 
 ###Notes
 Cannot be NULL - a valid date of birth must be provided for all learners. A date of birth of 2099-12-31 can be provided on a temporary basis.
@@ -146,7 +149,7 @@ For equal opportunities monitoring within learning analytics / data modelling
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^SEXID.html
 
 ###Format
-Int
+String (256)
 
 ###Valid Values & Mappings
 
@@ -209,7 +212,7 @@ https://www.hesa.ac.uk/component/studrec/show_file/14051/a%5E_%5ELEARNDIF.html
 Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
 
 ###Format
-Int
+String (256)
 
 ###Notes
 If a learner's learning difficulty is unknown, then code '99' should be used for those cases
@@ -356,7 +359,7 @@ a wheelchair or crutches</td>
 Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
 
 ###Format
-Int
+String (256)
 
 ###Notes
 If disability is unknown, code '0' or '99' should be provided
@@ -503,7 +506,7 @@ a wheelchair or crutches</td>
 Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
 
 ###Format
-Int
+String (256)
 
 ###Notes
 If disability is unknown, code '0' or '99' should be provided
@@ -563,7 +566,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
 
 ###Format
-Int
+String (256)
 
 ###Notes
 If the type is unknown, code '5' should be used
@@ -596,7 +599,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 </table>
 
 ###Format
-Int
+String (256)
 
 ###Notes
 Where this is unknown, the code '8' should be provided. This information may not be available for FE/ ILR institutions, and only HE.
@@ -633,7 +636,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 </table>  
 
 ###Format
-Int
+String (256)
 
 ###Notes
 Where this is unknown, the code '9' should be provided. This information may not be available for FE/ ILR institutions, and only HE.
@@ -665,7 +668,7 @@ Jisc
 </table>  
 
 ###Format
-Int
+String (256)
 
 ###Notes
 If this value is unknown, then code '99' should be used. The mapping for these fields could be done using the Nationality indicator, or other relevant source within the HESA/ student records system database.

@@ -62,7 +62,7 @@ Jisc
 </table>  
 
 ###Format
-Int
+String (256)
 
 ###Notes
 Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply because the student hasn't been assessed yet. Code 4 is deprecated because deferral or withdrawal is indicated by WITHDRAWAL_REASON in student_course_membership.
@@ -87,7 +87,7 @@ Jisc
 </table>  
 
 ###Format
-Int
+String (256)
 
 ###Notes
 
@@ -103,10 +103,10 @@ Analytics and display
 Jisc
 
 ###Valid Values
-ISO 8601 - YYYY-MM-DD
+YYYY-MM-DD
 
 ###Format
-Date
+ISO 8601 Full
 
 ###Notes
 The start and end date of a module_instance MUST align with the start and end date of a course_instance.
@@ -123,10 +123,10 @@ Analytics and display
 Jisc
 
 ###Valid Values
-ISO 8601 - YYYY-MM-DD
+YYYY-MM-DD
 
 ###Format
-Date
+ISO 8601 Full
 
 ###Notes
 The start and end date of a module_instance MUST align with the start and end date of a course_instance.

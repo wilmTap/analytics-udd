@@ -54,7 +54,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 </table>  
 
 ###Format
-Int
+String (256)
 
 ###Compulsory
 Yes (if applicable)
@@ -74,10 +74,10 @@ For analytics
 https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^COMDATE.html
 
 ###Valid Values
-Any
+YYYY-MM-DD
 
 ###Format
-Int
+ISO 8601
 
 ###Notes
 Use [COURSE_JOIN_DATE on student_course_membership](student_course_membership.md#course_join_date) instead.
@@ -96,7 +96,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 Any
 
 ###Format
-Int
+String (256)
 
 ###Notes
 
@@ -115,7 +115,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 Any
 
 ###Format
-Int
+String (256)
 
 ###Notes
 

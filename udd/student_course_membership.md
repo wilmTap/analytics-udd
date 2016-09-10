@@ -94,7 +94,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 </table>  
 
 ###Format
-Int
+String (256)
 
 ###Notes
 
@@ -198,7 +198,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 </table>
 
 ###Format
-Alphanumeric
+String (256)
 
 ###Notes
 
@@ -237,7 +237,7 @@ https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779
 Any integer
 
 ###Format
-Int
+String (256)
 
 ###Notes
 
@@ -300,7 +300,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 </table>
 
 ###Format
-Int
+String (256)
 
 ###Notes
 
@@ -323,7 +323,7 @@ Plus additional codes X98 & X99 (see notes below)
 ###References
 
 ###Format
-String(255)
+String (255)
 
 ###Notes
 This field uses the HESA "COURSEAIM" codeset initially - with the addition of new code 'X98' to denote 'No formal qualification aim, below FE level' for FE equivalent denotation to HE code 'X99'. All course levels are denoted here (TBC with FE college, for final implementation). Specific use of the LARS codeset for FE (from ILR) may need to be considered, or a mapping/ amalgamation with the HESA codeset. This is to be discussed in consultation with the FE sector.
@@ -366,7 +366,7 @@ YYYY-MM-DD
 ###References
 
 ###Format
-ISO 8601
+ISO 8601 full
 
 ###Notes
 
@@ -387,7 +387,7 @@ YYYY-MM-DD
 ###References
 
 ###Format
-ISO 8601
+ISO 8601 Full
 
 ###Notes
 Note that there may be many reasons why a student leaves a course. This is recorded in WITHDRAWAL_REASON.
@@ -409,7 +409,7 @@ YYYY-MM-DD
 ###References
 
 ###Format
-ISO 8601
+ISO 8601 Full
 
 ###Notes
 
