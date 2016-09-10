@@ -63,7 +63,7 @@ Jisc
 </table>  
 
 ###Format
-Int
+String (256)
 
 ###Notes
 
@@ -78,10 +78,10 @@ Analytics
 Jisc
 
 ###Valid Values
-4 digit year
+Int
 
 ###Format
-Int
+ISO 8601 year
 
 ###Notes
 This is the starting year for the academic year.
@@ -105,7 +105,7 @@ Jisc
 </table>  
 
 ###Format
-Int
+String (256)
 
 ###Notes
 
