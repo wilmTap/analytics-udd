@@ -46,13 +46,9 @@ An [entity relation diagram of the whole UDD 1.3](diagram.md) provides a one pag
 
 ###[staff_on_mod_instance](udd/staff_on_mod_instance.md)
 
-<<<<<<< HEAD
+
 ##Specification development workflow
 The simplest way of contributing to the UDD is as follows:
-=======
-###Specification development workflow
-The simplest way of contributing to the UDD works as follows:
->>>>>>> v1.3
 
 1. add an issue to the issue tracker to alert everyone to what you are working on and why
 2. tag the issue with the version milestone of which you'd like the patch to be a part
