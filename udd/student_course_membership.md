@@ -231,11 +231,130 @@ This field indicates the outcome/ status of the learner's current course or lear
 For analytics
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^RSNEND.html
+https://www.hesa.ac.uk/collection/c15051/a/rsnend/
 https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779/ILRSpecification2015_16_v3_July2015.pdf
 
 ###Valid Values
-Any integer
+ <table>
+            <tr>
+                <td>CODE</td>
+                <td>DESCRIPTION (ENGLISH)</td>
+                <td>DESCRIPTION (WELSH)</td>
+                <td>HESA RSNEND code</td>
+                <td>FEILR CompStatus code</td>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Successful completion of course</td>
+                <td> </td>
+                <td>01</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Academic failure/left in bad standing/not permitted to
+                    progress</td>
+                <td> </td>
+                <td>02</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Transferred to another provider</td>
+                <td> </td>
+                <td>03</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Health reasons</td>
+                <td> </td>
+                <td>04</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Death</td>
+                <td> </td>
+                <td>05</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>Financial reasons</td>
+                <td> </td>
+                <td>06</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>07</td>
+                <td>Other personal reasons &amp; dropped out</td>
+                <td> </td>
+                <td>07</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>08</td>
+                <td>Written off after lapse of time</td>
+                <td> </td>
+                <td>08</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>09</td>
+                <td>Exclusion</td>
+                <td> </td>
+                <td>09</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Gone into employment</td>
+                <td> </td>
+                <td>10</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Other</td>
+                <td> </td>
+                <td>11</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Transferred out as part of collaborative supervision arrangements</td>
+                <td> </td>
+                <td>12</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>The learner is continuing or intending to continue the learning activities leading to the learning aim</td>
+                <td>N/A</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Learner has temporarily withdrawn from the aim due to an agreed break in learning</td>
+                <td>N/A</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>98</td>
+                <td>Completion of course - result unknown</td>
+                <td> </td>
+                <td>98</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>99</td>
+                <td>Unknown</td>
+                <td> </td>
+                <td>99</td>
+                <td>N/A</td>
+            </tr>
+        </table>
 
 ###Format
 Int
@@ -256,7 +375,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 ###Valid Values
 
 <table>
-<tr><td>COURSE_GRADE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
+<tr><td>COURSE_GRADE</td><td>DESCRIPTION (ENGLISH)</td><td>DESCRIPTION (WELSH)  </td></tr>
 <tr><td>1</td><td>First class honours</td><td>  	</td></tr>
 <tr><td>2</td><td>Upper second class honours</td><td>  	</td></tr>
 <tr><td>3</td><td>Lower second class honours</td><td> 	</td></tr>
