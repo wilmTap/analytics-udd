@@ -17,6 +17,7 @@
 * [COURSE_JOIN_DATE](#course_join_date) [0..1]
 * [COURSE_JOIN_AGE](#course_join_age) [0..1]
 * [COHORT_ID](#cohort_id) [0..1]
+* [ACTIVE_MEMBERSHIP](#active_membership) [0..1]
 
 
 ##STUDENT_COURSE_MEMBERSHIP_ID
@@ -53,7 +54,7 @@ As defined by the Student Record System.
 String (255)
 
 ###Notes
-The student_course_membership sequence ID is designed to deal with the fact that some students drop out off or enroll on more than one instance of the same course.
+The student_course_membership sequence ID is designed to deal with the fact that some students drop out off or enroll on more than one instance of the same course. Note that the ACTIVE_MEMBERSHIP property indicates whether this student_course_membership record is the current one.
 
 
 ##WITHDRAWAL_REASON
@@ -455,3 +456,67 @@ Any
 String (255)
 
 ###Notes
+
+
+##COHORT_ID
+###Description
+An identifier for a group of students in a year cohort.
+
+###Purpose
+Display and grouping purposes, and but analysis.
+
+###Derivation
+Jisc
+
+###Valid values
+Any
+
+###References
+
+###Format
+String (255)
+
+###Notes
+
+
+##ACTIVE_MEMBERSHIP
+###Description
+Indicates whether the student_course_membership record of which this property is a part is the current student course membership.
+
+###Purpose
+Display purposes.
+
+###Derivation
+Jisc
+
+###Valid values
+ <table>
+            <tr>
+                <td>CODE</td>
+                <td>DESCRIPTION (ENGLISH)</td>
+                <td>DESCRIPTION (WELSH)</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>current</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>not current</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>unknown</td>
+                <td> </td>
+            </tr>
+        </table>
+
+###References
+
+###Format
+String (1)
+
+###Notes
+The student_course_membership record with ACTIVE_MEMBERSHIP=1 also needs to have a STUDENT_COURSE_MEMBERSHIP_SEQ of the highest value of all student_course_membership records with the same STUDENT_ID + STUDENT_COURSE_MEMBERSHIP_ID combination. This record will generally also be the record with the most recent COURSE_JOIN_DATE.
