@@ -11,6 +11,8 @@
 * [X_COURSE_AVERAGE_MARK](#course_average_mark) [0..1]
 * [X_YEAR_AVERAGE_MARK](#year_average_mark) [0..1]
 
+Primary key: ('STUDENT_COURSE_MEMBERSHIP_ID', 'STUDENT_COURSE_MEMBERSHIP_SEQ', 'COURSE_INSTANCE_ID')
+
 ##MODE
 ###Description
 Mode of study (eg part-time or full time)

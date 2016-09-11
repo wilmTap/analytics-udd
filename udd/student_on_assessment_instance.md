@@ -20,6 +20,8 @@
 * [X_MOD_ID](#x_mod_id) [0..1]
 * [X_MOD_ACADEMIC_YEAR](#x_mod_academic_year) [0..1]
 
+Primary key: ('STUDENT_COURSE_MEMBERSHIP_ID', 'STUDENT_COURSE_MEMBERSHIP_SEQ', 'ASSESS_INSTANCE_ID', 'ASSESS_SEQ_ID')
+
 ##ASSESS_SEQ_ID
 ###Description.
 A unique sequence number to indicate the order of assessments taken by a student on the assessment instance.

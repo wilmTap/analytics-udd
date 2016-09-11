@@ -21,6 +21,8 @@
 * [X_MOD_NAME](#x_mod_name) [0..1]
 * [X_MOD_ACADEMIC_YEAR](#x_mod_academic_year) [0..1]
 
+Primary key: ('STUDENT_COURSE_MEMBERSHIP_ID', 'STUDENT_COURSE_MEMBERSHIP_SEQ', 'COURSE_INSTANCE_ID', 'MOD_INSTANCE_ID')
+
 ##MOD_GRADE (deprecated)
 ###Description.
 Final grade student achieved on the module.

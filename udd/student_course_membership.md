@@ -19,6 +19,7 @@
 * [COHORT_ID](#cohort_id) [0..1]
 * [ACTIVE_MEMBERSHIP](#active_membership) [0..1]
 
+Primary key: ('STUDENT_COURSE_MEMBERSHIP_ID', 'STUDENT_COURSE_MEMBERSHIP_SEQ')
 
 ##STUDENT_COURSE_MEMBERSHIP_ID
 ###Description
