@@ -41,13 +41,16 @@ The student_course_membership is designed to deal with the fact that some studen
 
 ##STUDENT_COURSE_MEMBERSHIP_SEQ
 ###Description
-The institution's own unique identifier for the student and the course_instance they are assigned to.
+A sequence indicator that uniquely identifies the combination of the student and the course_instance they are assigned to.
 
 ###Purpose
 To provide a unique course_instance code for a student, for use in joining a student to course_instance/enrolment records
 
 ###Derivation
 As defined by the Student Record System.
+
+###Valid Values
+Either a letter or digit that increments for each student - course_instance pair.
 
 ###References
 
