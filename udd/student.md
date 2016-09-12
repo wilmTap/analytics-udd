@@ -190,14 +190,14 @@ This field records whether the learner considers themselves to have a learning d
 For detailed analysis or intervention purposes within Learning Analytics eg. Data Insight Tool
 
 ###Derivation
-https://www.hesa.ac.uk/component/studrec/show_file/14051/a%5E_%5ELEARNDIF.html
+https://www.hesa.ac.uk/collection/c15051/a/learndif/
 
 ###Valid Values & Mappings
 
 <table>
 <tr><td>LEARN_DIF</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)</td><td>HESA(LEARNDIF)</td><td>FEILR(LLDDCAT)  </td></tr>
-<tr><td>1</td><td>Moderate learning difficulty</td><td></td><td>1</td><td>10  </td></tr>
-<tr><td>2</td><td>Severe learning difficulty</td><td></td><td>2</td><td>11  </td></tr>
+<tr><td>01</td><td>Moderate learning difficulty</td><td></td><td>1</td><td>10  </td></tr>
+<tr><td>02</td><td>Severe learning difficulty</td><td></td><td>2</td><td>11  </td></tr>
 <tr><td>10</td><td>Dyslexia</td><td></td><td>10</td><td>12  </td></tr>
 <tr><td>11</td><td>Dyscalculia</td><td></td><td>11</td><td>13  </td></tr>
 <tr><td>19</td><td>Other specific learning difficulty</td><td></td><td>19</td><td>94  </td></tr>
