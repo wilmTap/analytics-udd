@@ -26,7 +26,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2016-07-06 14:52:06 +0000</string>
+	<string>2016-09-12 11:09:27 +0000</string>
 	<key>Modifier</key>
 	<string>wilbert</string>
 	<key>NotesVisible</key>
@@ -116,6 +116,77 @@
 			<string>1.000 cm = 1.000 cm</string>
 			<key>GraphicsList</key>
 			<array>
+				<dict>
+					<key>Bounds</key>
+					<string>{{385, 334.5}, {88, 27}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>FitText</key>
+					<string>YES</string>
+					<key>Flow</key>
+					<string>Resize</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>b</key>
+							<string>0</string>
+							<key>g</key>
+							<string>0.501961</string>
+							<key>r</key>
+							<string>0</string>
+						</dict>
+						<key>Font</key>
+						<string>Helvetica-Bold</string>
+						<key>Size</key>
+						<real>14</real>
+					</dict>
+					<key>ID</key>
+					<integer>413</integer>
+					<key>Magnets</key>
+					<array>
+						<string>{0, 1}</string>
+						<string>{0, -1}</string>
+						<string>{1, 0}</string>
+						<string>{-1, 0}</string>
+					</array>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Align</key>
+						<integer>0</integer>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
+
+\f0\fs28 \cf2 TENANT_ID}</string>
+					</dict>
+					<key>TextPlacement</key>
+					<integer>0</integer>
+					<key>Wrap</key>
+					<string>NO</string>
+				</dict>
 				<dict>
 					<key>Bounds</key>
 					<string>{{27, 2347}, {351, 68}}</string>
@@ -19899,8 +19970,8 @@ staff}</string>
 					<real>30.666666030883789</real>
 					<key>Points</key>
 					<array>
-						<string>{288.15945126795611, 532.70171293114038}</string>
-						<string>{340.83498888574695, 523.65787709085816}</string>
+						<string>{288.16316253999361, 539.34854286539542}</string>
+						<string>{340.83332619503727, 533.08446242073251}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -20041,7 +20112,7 @@ staff}</string>
 					<key>Points</key>
 					<array>
 						<string>{1076.1667590862094, 471.83336894476935}</string>
-						<string>{1076.1665863085348, 389.10419081882458}</string>
+						<string>{1076.1665863085359, 389.10419081882458}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -20077,8 +20148,8 @@ staff}</string>
 					<integer>332</integer>
 					<key>Points</key>
 					<array>
-						<string>{950.16649779585555, 346.47803974524516}</string>
-						<string>{897.49987880861306, 346.42530997588011}</string>
+						<string>{950.16649783240848, 346.4721572878459}</string>
+						<string>{897.49987888070655, 346.41696871577858}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -20505,8 +20576,8 @@ VLE_MOD_ID}</string>
 					<integer>320</integer>
 					<key>Points</key>
 					<array>
-						<string>{771.49988959657458, 282.77086193449634}</string>
-						<string>{771.49993680869932, 248.70833079926945}</string>
+						<string>{771.49988959653558, 282.77086193449634}</string>
+						<string>{771.49993680848377, 248.70833079926945}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -21097,8 +21168,8 @@ MOD_LEVEL}</string>
 					<integer>304</integer>
 					<key>Points</key>
 					<array>
-						<string>{466.83312761715064, 671.33331171671546}</string>
-						<string>{466.83325428696935, 716.1666323343959}</string>
+						<string>{466.83312761715013, 671.33331171671546}</string>
+						<string>{466.83325428696747, 716.1666323343959}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -21214,8 +21285,8 @@ MOD_LEVEL}</string>
 					<integer>302</integer>
 					<key>Points</key>
 					<array>
-						<string>{466.83330059402198, 327.9166641235376}</string>
-						<string>{466.83332015239705, 276.70832443237509}</string>
+						<string>{466.83331586558211, 327.9166641235376}</string>
+						<string>{466.83331586558211, 290.70832443237509}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -21771,7 +21842,7 @@ ACADEMIC_YEAR}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{341.33333905537921, 178.20832443237512}, {251, 98}}</string>
+							<string>{{341.33333905537921, 178.20832443237512}, {251, 112}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -21811,7 +21882,8 @@ TITLE\
 COURSE_AIM\
 INST_TIER_1\
 INST_TIER_2\
-INST_TIER_3}</string>
+INST_TIER_3\
+TENANT_ID}</string>
 								<key>VerticalPad</key>
 								<integer>0</integer>
 							</dict>
@@ -21940,8 +22012,8 @@ TENANT_NAME}</string>
 					<integer>13</integer>
 					<key>Points</key>
 					<array>
-						<string>{162.16648907377203, 294.49999998916303}</string>
-						<string>{162.16644137899775, 322.83333334417136}</string>
+						<string>{162.1666389504442, 294.49999998916303}</string>
+						<string>{162.16663150690894, 322.83333334417136}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -22292,7 +22364,7 @@ COHORT_ID}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, 2312}, {781, 613}}</string>
+		<string>{{0, 17}, {781, 613}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
