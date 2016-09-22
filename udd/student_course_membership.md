@@ -642,4 +642,4 @@ Jisc
 String (1)
 
 ###Notes
-The student_course_membership record with ACTIVE_MEMBERSHIP=1 also needs to have a STUDENT_COURSE_MEMBERSHIP_SEQ of the highest value of all student_course_membership records with the same STUDENT_ID + STUDENT_COURSE_MEMBERSHIP_ID combination. This record will generally also be the record with the most recent COURSE_JOIN_DATE.
+The student_course_membership record with ACTIVE_MEMBERSHIP=1 also needs to have a STUDENT_COURSE_MEMBERSHIP_SEQ of the highest sequential value of all student_course_membership records with the same STUDENT_ID + STUDENT_COURSE_MEMBERSHIP_ID combination. This record will generally also be the record with the most recent COURSE_JOIN_DATE. This attribute will be compulsory in UDD v1.3.
