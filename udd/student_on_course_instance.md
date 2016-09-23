@@ -3,7 +3,7 @@
 * [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
 * [MODE](#mode) [1]
-* [YEAR_COM](#year_com) [0..1] (deprecated)
+* [YEAR_COM](#year_com) [0..1] deprecated
 * [YEAR_PRG](#year_prg) [1]
 * [YEAR_STU](#year_stu) [1]
 * [COURSE_LOCATION](#course_location) [0..1]
