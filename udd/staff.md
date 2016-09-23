@@ -123,10 +123,24 @@ A unique code allocated to staff when they are first entered onto the HESA Staff
 Analytics
 
 ###Derivation
-https://www.hesa.ac.uk/component/studrec/show_file/14025/a%5E_%5ESTAFFID.html
+https://www.hesa.ac.uk/collection/c15025/a/staffid/
 
 ###Valid values
-A 13 digit number, or an eleven digit number preceded by 'XX'
+First 2 characters:
+
+Year of entry into HEP (last 2 digits of calendar year). Those entering before 1 August 2003 and whose year of entry is unknown should use 'XX'.
+
+Next 4 characters:
+
+HEP identifier from (as in field 2, HEP identifier), PLUS 1000 (e.g. if the HEP identifier is 0134, the digits in the Staff identifier are 1134).
+
+Next 6 characters:
+
+6 digit reference number internally allocated by the HEP.
+
+Last character:
+
+Check digit. 
 
 ###References
 
@@ -134,7 +148,7 @@ A 13 digit number, or an eleven digit number preceded by 'XX'
 String (13)
 
 ###Notes
-The values have a specific generation algorithm. See https://www.hesa.ac.uk/component/studrec/show_file/14025/a%5E_%5ESTAFFID.html
+
 
 
 ##DASH_SHIB_ID

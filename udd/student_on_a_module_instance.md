@@ -260,7 +260,7 @@ The number of credits awarded for the module.
 Analytics
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^CRDTPTS.html
+https://www.hesa.ac.uk/collection/c16051/a/crdtpts/
 
 ###Valid Values
 Any

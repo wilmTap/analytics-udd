@@ -39,7 +39,7 @@ The institution's own unique identifier of the student. In the case or event of 
 To identify the student across multiple records within an institution
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^OWNSTU.html
+https://www.hesa.ac.uk/collection/c16051/a/OWNSTU
 
 ###References
 
@@ -76,7 +76,7 @@ Student's date of birth
 For analytics comparisons.
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^BIRTHDTE.html
+https://www.hesa.ac.uk/collection/c16051/a/BIRTHDTE
 
 ###References
 
@@ -95,7 +95,7 @@ This field records the ethnicity of the student, on the basis of their own self-
 To allow equal opportunities monitoring, within detailed learning analytics/ data modelling.
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^ETHNIC.html
+https://www.hesa.ac.uk/collection/c16051/a/ETHNIC
 
 ###Format
 String (10)
@@ -142,7 +142,7 @@ To record a Learner's current sex, on the basis of their own self-assessment
 For equal opportunities monitoring within learning analytics / data modelling
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^SEXID.html
+https://www.hesa.ac.uk/collection/c16051/a/SEXID
 
 ###Format
 Int
@@ -185,7 +185,7 @@ This field records whether the learner considers themselves to have a learning d
 For detailed analysis or intervention purposes within Learning Analytics eg. Data Insight Tool
 
 ###Derivation
-https://www.hesa.ac.uk/component/studrec/show_file/14051/a%5E_%5ELEARNDIF.html
+https://www.hesa.ac.uk/collection/c16051/a/LLDDHEALTHPROB
 
 ###Valid Values & Mappings
 
@@ -220,7 +220,7 @@ Whether the student is indicated as being disabled, according to their own self-
 For equal opportunities monitoring within Learning Analytics/ Data Modelling
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5eDISABLE.html
+https://www.hesa.ac.uk/collection/c16051/a/DISABLE
 
 ###Valid Values & Mappings
 
@@ -360,7 +360,7 @@ Whether the student is indicated as being disabled, according to their own self-
 For equal opportunities monitoring within Learning Analytics/ Data Modelling
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5eDISABLE.html
+https://www.hesa.ac.uk/collection/c16051/a/DISABLE
 
 ###Valid Values & Mappings
 
@@ -500,13 +500,1074 @@ This field holds the country code of the student's permanent home address prior 
 For detailed analysis within Learning Analytics/ Data Modelling
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5eDOMICILE.html
+https://www.hesa.ac.uk/collection/c16051/a/DOMICILE
 
 ###Format
 String (2)
 
 ###Valid Values (No Mappings)
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5eDOMICILE.html
+<table>
+	<tr>
+		<td>Code</td>
+		<td>Label</td>
+	</tr>
+	<tr>
+		<td>AF</td>
+		<td>Afghanistan</td>
+	</tr>
+	<tr>
+		<td>XQ</td>
+		<td>Africa not otherwise specified</td>
+	</tr>
+	<tr>
+		<td>AX</td>
+		<td>Åland Islands {Ahvenamaa}</td>
+	</tr>
+	<tr>
+		<td>AL</td>
+		<td>Albania</td>
+	</tr>
+	<tr>
+		<td>DZ</td>
+		<td>Algeria</td>
+	</tr>
+	<tr>
+		<td>AS</td>
+		<td>American Samoa</td>
+	</tr>
+	<tr>
+		<td>AD</td>
+		<td>Andorra</td>
+	</tr>
+	<tr>
+		<td>AO</td>
+		<td>Angola</td>
+	</tr>
+	<tr>
+		<td>AI</td>
+		<td>Anguilla</td>
+	</tr>
+	<tr>
+		<td>XX</td>
+		<td>Antarctica and Oceania not otherwise specified</td>
+	</tr>
+	<tr>
+		<td>AG</td>
+		<td>Antigua and Barbuda</td>
+	</tr>
+	<tr>
+		<td>AR</td>
+		<td>Argentina</td>
+	</tr>
+	<tr>
+		<td>AM</td>
+		<td>Armenia</td>
+	</tr>
+	<tr>
+		<td>AW</td>
+		<td>Aruba</td>
+	</tr>
+	<tr>
+		<td>XS</td>
+		<td>Asia (Except Middle East) not otherwise specified</td>
+	</tr>
+	<tr>
+		<td>AU</td>
+		<td>Australia</td>
+	</tr>
+	<tr>
+		<td>AT</td>
+		<td>Austria</td>
+	</tr>
+	<tr>
+		<td>AZ</td>
+		<td>Azerbaijan</td>
+	</tr>
+	<tr>
+		<td>BS</td>
+		<td>Bahamas, The</td>
+	</tr>
+	<tr>
+		<td>BH</td>
+		<td>Bahrain</td>
+	</tr>
+	<tr>
+		<td>BD</td>
+		<td>Bangladesh</td>
+	</tr>
+	<tr>
+		<td>BB</td>
+		<td>Barbados</td>
+	</tr>
+	<tr>
+		<td>BY</td>
+		<td>Belarus</td>
+	</tr>
+	<tr>
+		<td>BE</td>
+		<td>Belgium</td>
+	</tr>
+	<tr>
+		<td>BZ</td>
+		<td>Belize</td>
+	</tr>
+	<tr>
+		<td>BJ</td>
+		<td>Benin</td>
+	</tr>
+	<tr>
+		<td>BM</td>
+		<td>Bermuda</td>
+	</tr>
+	<tr>
+		<td>BT</td>
+		<td>Bhutan</td>
+	</tr>
+	<tr>
+		<td>BO</td>
+		<td>Bolivia [Bolivia, Plurinational State of]</td>
+	</tr>
+	<tr>
+		<td>BQ</td>
+		<td>Bonaire, Sint Eustatius and Saba</td>
+	</tr>
+	<tr>
+		<td>BA</td>
+		<td>Bosnia and Herzegovina</td>
+	</tr>
+	<tr>
+		<td>BW</td>
+		<td>Botswana</td>
+	</tr>
+	<tr>
+		<td>BR</td>
+		<td>Brazil</td>
+	</tr>
+	<tr>
+		<td>VG</td>
+		<td>British Virgin Islands [Virgin Islands, British]</td>
+	</tr>
+	<tr>
+		<td>BN</td>
+		<td>Brunei [Brunei Darussalam]</td>
+	</tr>
+	<tr>
+		<td>BG</td>
+		<td>Bulgaria</td>
+	</tr>
+	<tr>
+		<td>BF</td>
+		<td>Burkina [Burkina Faso]</td>
+	</tr>
+	<tr>
+		<td>MM</td>
+		<td>Burma [Myanmar]</td>
+	</tr>
+	<tr>
+		<td>BI</td>
+		<td>Burundi</td>
+	</tr>
+	<tr>
+		<td>KH</td>
+		<td>Cambodia</td>
+	</tr>
+	<tr>
+		<td>CM</td>
+		<td>Cameroon</td>
+	</tr>
+	<tr>
+		<td>CA</td>
+		<td>Canada</td>
+	</tr>
+	<tr>
+		<td>IC</td>
+		<td>Canary Islands</td>
+	</tr>
+	<tr>
+		<td>CV</td>
+		<td>Cape Verde</td>
+	</tr>
+	<tr>
+		<td>XW</td>
+		<td>Caribbean not otherwise specified</td>
+	</tr>
+	<tr>
+		<td>KY</td>
+		<td>Cayman Islands</td>
+	</tr>
+	<tr>
+		<td>CF</td>
+		<td>Central African Republic</td>
+	</tr>
+	<tr>
+		<td>XU</td>
+		<td>Central America not otherwise specified</td>
+	</tr>
+	<tr>
+		<td>TD</td>
+		<td>Chad</td>
+	</tr>
+	<tr>
+		<td>XL</td>
+		<td>Channel Islands not otherwise specified</td>
+	</tr>
+	<tr>
+		<td>CL</td>
+		<td>Chile</td>
+	</tr>
+	<tr>
+		<td>CN</td>
+		<td>China</td>
+	</tr>
+	<tr>
+		<td>CX</td>
+		<td>Christmas Island</td>
+	</tr>
+	<tr>
+		<td>CC</td>
+		<td>Cocos (Keeling) Islands</td>
+	</tr>
+	<tr>
+		<td>CO</td>
+		<td>Colombia</td>
+	</tr>
+	<tr>
+		<td>KM</td>
+		<td>Comoros</td>
+	</tr>
+	<tr>
+		<td>CG</td>
+		<td>Congo</td>
+	</tr>
+	<tr>
+		<td>CD</td>
+		<td>Congo (Democratic Republic) [Congo (The Democratic Republic of the)] {formerly Zaire}</td>
+	</tr>
+	<tr>
+		<td>CK</td>
+		<td>Cook Islands</td>
+	</tr>
+	<tr>
+		<td>CR</td>
+		<td>Costa Rica</td>
+	</tr>
+	<tr>
+		<td>HR</td>
+		<td>Croatia</td>
+	</tr>
+	<tr>
+		<td>CU</td>
+		<td>Cuba</td>
+	</tr>
+	<tr>
+		<td>CW</td>
+		<td>Curaçao</td>
+	</tr>
+	<tr>
+		<td>XA</td>
+		<td>Cyprus (European Union)</td>
+	</tr>
+	<tr>
+		<td>XB</td>
+		<td>Cyprus (Non-European Union)</td>
+	</tr>
+	<tr>
+		<td>XC</td>
+		<td>Cyprus not otherwise specified</td>
+	</tr>
+	<tr>
+		<td>CZ</td>
+		<td>Czech Republic</td>
+	</tr>
+	<tr>
+		<td>DK</td>
+		<td>Denmark</td>
+	</tr>
+	<tr>
+		<td>DJ</td>
+		<td>Djibouti</td>
+	</tr>
+	<tr>
+		<td>DM</td>
+		<td>Dominica</td>
+	</tr>
+	<tr>
+		<td>DO</td>
+		<td>Dominican Republic</td>
+	</tr>
+	<tr>
+		<td>TL</td>
+		<td>East Timor [Timor Leste]</td>
+	</tr>
+	<tr>
+		<td>EC</td>
+		<td>Ecuador</td>
+	</tr>
+	<tr>
+		<td>EG</td>
+		<td>Egypt</td>
+	</tr>
+	<tr>
+		<td>SV</td>
+		<td>El Salvador</td>
+	</tr>
+	<tr>
+		<td>XF</td>
+		<td>England</td>
+	</tr>
+	<tr>
+		<td>GQ</td>
+		<td>Equatorial Guinea</td>
+	</tr>
+	<tr>
+		<td>ER</td>
+		<td>Eritrea</td>
+	</tr>
+	<tr>
+		<td>EE</td>
+		<td>Estonia</td>
+	</tr>
+	<tr>
+		<td>ET</td>
+		<td>Ethiopia</td>
+	</tr>
+	<tr>
+		<td>XP</td>
+		<td>Europe not otherwise specified</td>
+	</tr>
+	<tr>
+		<td>EU</td>
+		<td>European Union not otherwise specified</td>
+	</tr>
+	<tr>
+		<td>FK</td>
+		<td>Falkland Islands [Falkland Islands (Malvinas)]</td>
+	</tr>
+	<tr>
+		<td>FO</td>
+		<td>Faroe Islands</td>
+	</tr>
+	<tr>
+		<td>FJ</td>
+		<td>Fiji</td>
+	</tr>
+	<tr>
+		<td>FI</td>
+		<td>Finland</td>
+	</tr>
+	<tr>
+		<td>FR</td>
+		<td>France {includes Corsica}</td>
+	</tr>
+	<tr>
+		<td>GF</td>
+		<td>French Guiana</td>
+	</tr>
+	<tr>
+		<td>PF</td>
+		<td>French Polynesia</td>
+	</tr>
+	<tr>
+		<td>GA</td>
+		<td>Gabon</td>
+	</tr>
+	<tr>
+		<td>GM</td>
+		<td>Gambia, The</td>
+	</tr>
+	<tr>
+		<td>GE</td>
+		<td>Georgia</td>
+	</tr>
+	<tr>
+		<td>DE</td>
+		<td>Germany</td>
+	</tr>
+	<tr>
+		<td>GH</td>
+		<td>Ghana</td>
+	</tr>
+	<tr>
+		<td>GI</td>
+		<td>Gibraltar</td>
+	</tr>
+	<tr>
+		<td>GR</td>
+		<td>Greece</td>
+	</tr>
+	<tr>
+		<td>GL</td>
+		<td>Greenland</td>
+	</tr>
+	<tr>
+		<td>GD</td>
+		<td>Grenada</td>
+	</tr>
+	<tr>
+		<td>GP</td>
+		<td>Guadeloupe</td>
+	</tr>
+	<tr>
+		<td>GU</td>
+		<td>Guam</td>
+	</tr>
+	<tr>
+		<td>GT</td>
+		<td>Guatemala</td>
+	</tr>
+	<tr>
+		<td>GG</td>
+		<td>Guernsey</td>
+	</tr>
+	<tr>
+		<td>GN</td>
+		<td>Guinea</td>
+	</tr>
+	<tr>
+		<td>GW</td>
+		<td>Guinea-Bissau</td>
+	</tr>
+	<tr>
+		<td>GY</td>
+		<td>Guyana</td>
+	</tr>
+	<tr>
+		<td>HT</td>
+		<td>Haiti</td>
+	</tr>
+	<tr>
+		<td>HN</td>
+		<td>Honduras</td>
+	</tr>
+	<tr>
+		<td>HK</td>
+		<td>Hong Kong (Special Administrative Region of China) [Hong Kong]</td>
+	</tr>
+	<tr>
+		<td>HU</td>
+		<td>Hungary</td>
+	</tr>
+	<tr>
+		<td>IS</td>
+		<td>Iceland</td>
+	</tr>
+	<tr>
+		<td>IN</td>
+		<td>India</td>
+	</tr>
+	<tr>
+		<td>ID</td>
+		<td>Indonesia</td>
+	</tr>
+	<tr>
+		<td>IR</td>
+		<td>Iran [Iran, Islamic Republic of]</td>
+	</tr>
+	<tr>
+		<td>IQ</td>
+		<td>Iraq</td>
+	</tr>
+	<tr>
+		<td>IE</td>
+		<td>Ireland</td>
+	</tr>
+	<tr>
+		<td>IM</td>
+		<td>Isle of Man</td>
+	</tr>
+	<tr>
+		<td>IL</td>
+		<td>Israel</td>
+	</tr>
+	<tr>
+		<td>IT</td>
+		<td>Italy {Includes Sardinia, Sicily}</td>
+	</tr>
+	<tr>
+		<td>CI</td>
+		<td>Ivory Coast [Côte D'ivoire]</td>
+	</tr>
+	<tr>
+		<td>JM</td>
+		<td>Jamaica</td>
+	</tr>
+	<tr>
+		<td>JP</td>
+		<td>Japan</td>
+	</tr>
+	<tr>
+		<td>JE</td>
+		<td>Jersey</td>
+	</tr>
+	<tr>
+		<td>JO</td>
+		<td>Jordan</td>
+	</tr>
+	<tr>
+		<td>KZ</td>
+		<td>Kazakhstan</td>
+	</tr>
+	<tr>
+		<td>KE</td>
+		<td>Kenya</td>
+	</tr>
+	<tr>
+		<td>KI</td>
+		<td>Kiribati</td>
+	</tr>
+	<tr>
+		<td>KP</td>
+		<td>Korea (North) [Korea, Democratic People's Republic of]</td>
+	</tr>
+	<tr>
+		<td>KR</td>
+		<td>Korea (South) [Korea, Republic of]</td>
+	</tr>
+	<tr>
+		<td>QO</td>
+		<td>Kosovo</td>
+	</tr>
+	<tr>
+		<td>KW</td>
+		<td>Kuwait</td>
+	</tr>
+	<tr>
+		<td>KG</td>
+		<td>Kyrgyzstan</td>
+	</tr>
+	<tr>
+		<td>LA</td>
+		<td>Laos [Lao People's Democratic Republic]</td>
+	</tr>
+	<tr>
+		<td>LV</td>
+		<td>Latvia</td>
+	</tr>
+	<tr>
+		<td>LB</td>
+		<td>Lebanon</td>
+	</tr>
+	<tr>
+		<td>LS</td>
+		<td>Lesotho</td>
+	</tr>
+	<tr>
+		<td>LR</td>
+		<td>Liberia</td>
+	</tr>
+	<tr>
+		<td>LY</td>
+		<td>Libya</td>
+	</tr>
+	<tr>
+		<td>LI</td>
+		<td>Liechtenstein</td>
+	</tr>
+	<tr>
+		<td>LT</td>
+		<td>Lithuania</td>
+	</tr>
+	<tr>
+		<td>LU</td>
+		<td>Luxembourg</td>
+	</tr>
+	<tr>
+		<td>MO</td>
+		<td>Macao (Special Administrative Region of China) [Macao]</td>
+	</tr>
+	<tr>
+		<td>MK</td>
+		<td>Macedonia [Macedonia, The Former Yugoslav Republic of]</td>
+	</tr>
+	<tr>
+		<td>MG</td>
+		<td>Madagascar</td>
+	</tr>
+	<tr>
+		<td>MW</td>
+		<td>Malawi</td>
+	</tr>
+	<tr>
+		<td>MY</td>
+		<td>Malaysia</td>
+	</tr>
+	<tr>
+		<td>MV</td>
+		<td>Maldives</td>
+	</tr>
+	<tr>
+		<td>ML</td>
+		<td>Mali</td>
+	</tr>
+	<tr>
+		<td>MT</td>
+		<td>Malta</td>
+	</tr>
+	<tr>
+		<td>MH</td>
+		<td>Marshall Islands</td>
+	</tr>
+	<tr>
+		<td>MQ</td>
+		<td>Martinique</td>
+	</tr>
+	<tr>
+		<td>MR</td>
+		<td>Mauritania</td>
+	</tr>
+	<tr>
+		<td>MU</td>
+		<td>Mauritius</td>
+	</tr>
+	<tr>
+		<td>YT</td>
+		<td>Mayotte</td>
+	</tr>
+	<tr>
+		<td>MX</td>
+		<td>Mexico</td>
+	</tr>
+	<tr>
+		<td>FM</td>
+		<td>Micronesia [Micronesia, Federated States of]</td>
+	</tr>
+	<tr>
+		<td>XR</td>
+		<td>Middle East not otherwise specified</td>
+	</tr>
+	<tr>
+		<td>MD</td>
+		<td>Moldova [Moldova, Republic of]</td>
+	</tr>
+	<tr>
+		<td>MC</td>
+		<td>Monaco</td>
+	</tr>
+	<tr>
+		<td>MN</td>
+		<td>Mongolia</td>
+	</tr>
+	<tr>
+		<td>ME</td>
+		<td>Montenegro</td>
+	</tr>
+	<tr>
+		<td>MS</td>
+		<td>Montserrat</td>
+	</tr>
+	<tr>
+		<td>MA</td>
+		<td>Morocco</td>
+	</tr>
+	<tr>
+		<td>MZ</td>
+		<td>Mozambique</td>
+	</tr>
+	<tr>
+		<td>NA</td>
+		<td>Namibia</td>
+	</tr>
+	<tr>
+		<td>NR</td>
+		<td>Nauru</td>
+	</tr>
+	<tr>
+		<td>NP</td>
+		<td>Nepal</td>
+	</tr>
+	<tr>
+		<td>NL</td>
+		<td>Netherlands</td>
+	</tr>
+	<tr>
+		<td>AN</td>
+		<td>Netherlands Antilles</td>
+	</tr>
+	<tr>
+		<td>NC</td>
+		<td>New Caledonia</td>
+	</tr>
+	<tr>
+		<td>NZ</td>
+		<td>New Zealand</td>
+	</tr>
+	<tr>
+		<td>NI</td>
+		<td>Nicaragua</td>
+	</tr>
+	<tr>
+		<td>NE</td>
+		<td>Niger</td>
+	</tr>
+	<tr>
+		<td>NG</td>
+		<td>Nigeria</td>
+	</tr>
+	<tr>
+		<td>NU</td>
+		<td>Niue</td>
+	</tr>
+	<tr>
+		<td>NF</td>
+		<td>Norfolk Island</td>
+	</tr>
+	<tr>
+		<td>XT</td>
+		<td>North America not otherwise specified</td>
+	</tr>
+	<tr>
+		<td>XG</td>
+		<td>Northern Ireland</td>
+	</tr>
+	<tr>
+		<td>MP</td>
+		<td>Northern Mariana Islands</td>
+	</tr>
+	<tr>
+		<td>NO</td>
+		<td>Norway</td>
+	</tr>
+	<tr>
+		<td>ZZ</td>
+		<td>Not known</td>
+	</tr>
+	<tr>
+		<td>PS</td>
+		<td>Occupied Palestinian Territories [Palestine, State of] {formerly West Bank (including East Jerusalem) and Gaza Strip}</td>
+	</tr>
+	<tr>
+		<td>OM</td>
+		<td>Oman</td>
+	</tr>
+	<tr>
+		<td>PK</td>
+		<td>Pakistan</td>
+	</tr>
+	<tr>
+		<td>PW</td>
+		<td>Palau</td>
+	</tr>
+	<tr>
+		<td>PA</td>
+		<td>Panama</td>
+	</tr>
+	<tr>
+		<td>PG</td>
+		<td>Papua New Guinea</td>
+	</tr>
+	<tr>
+		<td>PY</td>
+		<td>Paraguay</td>
+	</tr>
+	<tr>
+		<td>PE</td>
+		<td>Peru</td>
+	</tr>
+	<tr>
+		<td>PH</td>
+		<td>Philippines</td>
+	</tr>
+	<tr>
+		<td>PN</td>
+		<td>Pitcairn, Henderson, Ducie and Oeno Islands [Pitcairn]</td>
+	</tr>
+	<tr>
+		<td>PL</td>
+		<td>Poland</td>
+	</tr>
+	<tr>
+		<td>PT</td>
+		<td>Portugal {includes Madeira, Azores}</td>
+	</tr>
+	<tr>
+		<td>PR</td>
+		<td>Puerto Rico</td>
+	</tr>
+	<tr>
+		<td>QA</td>
+		<td>Qatar</td>
+	</tr>
+	<tr>
+		<td>RE</td>
+		<td>Réunion</td>
+	</tr>
+	<tr>
+		<td>RO</td>
+		<td>Romania</td>
+	</tr>
+	<tr>
+		<td>RU</td>
+		<td>Russia [Russian Federation]</td>
+	</tr>
+	<tr>
+		<td>RW</td>
+		<td>Rwanda</td>
+	</tr>
+	<tr>
+		<td>WS</td>
+		<td>Samoa</td>
+	</tr>
+	<tr>
+		<td>SM</td>
+		<td>San Marino</td>
+	</tr>
+	<tr>
+		<td>ST</td>
+		<td>Sao Tome and Principe</td>
+	</tr>
+	<tr>
+		<td>SA</td>
+		<td>Saudi Arabia</td>
+	</tr>
+	<tr>
+		<td>XH</td>
+		<td>Scotland</td>
+	</tr>
+	<tr>
+		<td>SN</td>
+		<td>Senegal</td>
+	</tr>
+	<tr>
+		<td>RS</td>
+		<td>Serbia</td>
+	</tr>
+	<tr>
+		<td>SC</td>
+		<td>Seychelles</td>
+	</tr>
+	<tr>
+		<td>SL</td>
+		<td>Sierra Leone</td>
+	</tr>
+	<tr>
+		<td>SG</td>
+		<td>Singapore</td>
+	</tr>
+	<tr>
+		<td>SX</td>
+		<td>Sint Maarten (Dutch part)</td>
+	</tr>
+	<tr>
+		<td>SK</td>
+		<td>Slovakia</td>
+	</tr>
+	<tr>
+		<td>SI</td>
+		<td>Slovenia</td>
+	</tr>
+	<tr>
+		<td>SB</td>
+		<td>Solomon Islands</td>
+	</tr>
+	<tr>
+		<td>SO</td>
+		<td>Somalia</td>
+	</tr>
+	<tr>
+		<td>ZA</td>
+		<td>South Africa</td>
+	</tr>
+	<tr>
+		<td>XV</td>
+		<td>South America not otherwise specified</td>
+	</tr>
+	<tr>
+		<td>GS</td>
+		<td>South Georgia and The South Sandwich Islands</td>
+	</tr>
+	<tr>
+		<td>SS</td>
+		<td>South Sudan</td>
+	</tr>
+	<tr>
+		<td>ES</td>
+		<td>Spain {includes Ceuta, Melilla}</td>
+	</tr>
+	<tr>
+		<td>LK</td>
+		<td>Sri Lanka</td>
+	</tr>
+	<tr>
+		<td>BL</td>
+		<td>St Barthélemy</td>
+	</tr>
+	<tr>
+		<td>SH</td>
+		<td>St Helena, Ascension and Tristan da Cunha</td>
+	</tr>
+	<tr>
+		<td>KN</td>
+		<td>St Kitts and Nevis</td>
+	</tr>
+	<tr>
+		<td>LC</td>
+		<td>St Lucia</td>
+	</tr>
+	<tr>
+		<td>MF</td>
+		<td>St Martin (French Part) [St Martin]</td>
+	</tr>
+	<tr>
+		<td>PM</td>
+		<td>St Pierre and Miquelon</td>
+	</tr>
+	<tr>
+		<td>VC</td>
+		<td>St Vincent and The Grenadines</td>
+	</tr>
+	<tr>
+		<td>SD</td>
+		<td>Sudan</td>
+	</tr>
+	<tr>
+		<td>SR</td>
+		<td>Surinam [Suriname]</td>
+	</tr>
+	<tr>
+		<td>SJ</td>
+		<td>Svalbard and Jan Mayen</td>
+	</tr>
+	<tr>
+		<td>SZ</td>
+		<td>Swaziland</td>
+	</tr>
+	<tr>
+		<td>SE</td>
+		<td>Sweden</td>
+	</tr>
+	<tr>
+		<td>CH</td>
+		<td>Switzerland</td>
+	</tr>
+	<tr>
+		<td>SY</td>
+		<td>Syria [Syrian Arab Republic]</td>
+	</tr>
+	<tr>
+		<td>TW</td>
+		<td>Taiwan [Taiwan, Province of China]</td>
+	</tr>
+	<tr>
+		<td>TJ</td>
+		<td>Tajikistan</td>
+	</tr>
+	<tr>
+		<td>TZ</td>
+		<td>Tanzania [Tanzania, United Republic of]</td>
+	</tr>
+	<tr>
+		<td>TH</td>
+		<td>Thailand</td>
+	</tr>
+	<tr>
+		<td>TG</td>
+		<td>Togo</td>
+	</tr>
+	<tr>
+		<td>TK</td>
+		<td>Tokelau</td>
+	</tr>
+	<tr>
+		<td>TO</td>
+		<td>Tonga</td>
+	</tr>
+	<tr>
+		<td>TT</td>
+		<td>Trinidad and Tobago</td>
+	</tr>
+	<tr>
+		<td>TN</td>
+		<td>Tunisia</td>
+	</tr>
+	<tr>
+		<td>TR</td>
+		<td>Turkey</td>
+	</tr>
+	<tr>
+		<td>TM</td>
+		<td>Turkmenistan</td>
+	</tr>
+	<tr>
+		<td>TC</td>
+		<td>Turks and Caicos Islands</td>
+	</tr>
+	<tr>
+		<td>TV</td>
+		<td>Tuvalu</td>
+	</tr>
+	<tr>
+		<td>UG</td>
+		<td>Uganda</td>
+	</tr>
+	<tr>
+		<td>UA</td>
+		<td>Ukraine</td>
+	</tr>
+	<tr>
+		<td>AE</td>
+		<td>United Arab Emirates</td>
+	</tr>
+	<tr>
+		<td>XK</td>
+		<td>United Kingdom, not otherwise specified</td>
+	</tr>
+	<tr>
+		<td>US</td>
+		<td>United States</td>
+	</tr>
+	<tr>
+		<td>VI</td>
+		<td>United States Virgin Islands [Virgin Islands, U. S.]</td>
+	</tr>
+	<tr>
+		<td>UY</td>
+		<td>Uruguay</td>
+	</tr>
+	<tr>
+		<td>UZ</td>
+		<td>Uzbekistan</td>
+	</tr>
+	<tr>
+		<td>VU</td>
+		<td>Vanuatu</td>
+	</tr>
+	<tr>
+		<td>VA</td>
+		<td>Vatican City [Holy See (Vatican City State)]</td>
+	</tr>
+	<tr>
+		<td>VE</td>
+		<td>Venezuela [Venezuela, Bolivarian Republic of]</td>
+	</tr>
+	<tr>
+		<td>VN</td>
+		<td>Vietnam [Viet Nam]</td>
+	</tr>
+	<tr>
+		<td>XI</td>
+		<td>Wales</td>
+	</tr>
+	<tr>
+		<td>WF</td>
+		<td>Wallis and Futuna</td>
+	</tr>
+	<tr>
+		<td>EH</td>
+		<td>Western Sahara</td>
+	</tr>
+	<tr>
+		<td>YE</td>
+		<td>Yemen</td>
+	</tr>
+	<tr>
+		<td>ZM</td>
+		<td>Zambia</td>
+	</tr>
+	<tr>
+		<td>ZW</td>
+		<td>Zimbabwe</td>
+	</tr>
+</table>
 
 ###Notes
 If a domicile country is unknown, please use code 'ZZ'
@@ -520,7 +1581,7 @@ The current term time accomodation type of student
 For detailed analysis within Learning Analytics/ Data Modelling
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5eTTACCOM.html
+https://www.hesa.ac.uk/collection/c16051/a/TTACCOM
 
 ###Valid Values & Mappings
 
@@ -553,7 +1614,7 @@ Whether parents have higher education qualification
 For detailed analysis within Learning Analytics/ Data Modelling
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5ePARED.html
+https://www.hesa.ac.uk/collection/c16051/a/PARED
 
 ###Valid Values
 
@@ -581,7 +1642,7 @@ This field collects the socio-economic classification of students participating 
 For detailed analysis within Learning Analytics/ Data Modelling
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^SEC.html
+https://www.hesa.ac.uk/collection/c16051/a/SEC
 
 ###Valid Values
 
@@ -682,7 +1743,7 @@ A HESA student identifier unique to each student. It is intended that the identi
 Analytics
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=15051&href=a^_^HUSID.html
+https://www.hesa.ac.uk/collection/c16051/a/HUSID
 
 ###Format of Valid Values
 - First 2 digits:</td><td>Year of entry into provider (last 2 digits of year)
@@ -837,10 +1898,10 @@ For display. Used by Student Success Planner
 
 ###Derivation
 Jisc
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^TTPCODE.html
+https://www.hesa.ac.uk/collection/c16051/a/TTPCODE
 
 ###Valid Values
-See HESA definition
+See [https://www.hesa.ac.uk/collection/c16051/a/TTPCODE](HESA definition for details.)
 
 ###Format
 String (8)
@@ -937,7 +1998,7 @@ This is the unique identification number for the learner's academic or course ye
 For notification and alerts purposes for Learning Analytics SSP and other software tools
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14025&href=a^_^OWNSTAFFID.html
+https://www.hesa.ac.uk/collection/c15025/a/OWNSTAFFID
 
 ###References
 
@@ -956,10 +2017,10 @@ Identifies the postcode of the student's permanent or home address prior to entr
 Analytics 
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=15051&href=a^_^POSTCODE.html
+https://www.hesa.ac.uk/collection/c16051/a/postcode/
 
 ###Valid Values
-See HESA definition
+[https://www.hesa.ac.uk/collection/c16051/a/postcode/](See HESA definition for particulars)
 
 ###Format
 String (8)

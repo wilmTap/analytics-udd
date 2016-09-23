@@ -16,8 +16,8 @@ The providers own ID for the course
 To link relational database tables
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^OWNCOURSEID.html
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^Course_COURSEID.html
+https://www.hesa.ac.uk/collection/c16051/a/owncourseid/
+https://www.hesa.ac.uk/collection/c16054/e/course_courseid/
 
 ###Valid Values
 Any
@@ -36,7 +36,7 @@ Subject coding - using JACS3
 For display purposes
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^SBJCA.html
+https://www.hesa.ac.uk/collection/c16051/a/sbjca/
 
 ###Valid Values
 Valid JACS3 Code. See:
@@ -57,7 +57,7 @@ Course Name or Title
 For display purposes
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^CTITLE.html
+https://www.hesa.ac.uk/collection/c16051/a/ctitle/
 
 ###Valid Value
 Any
@@ -76,7 +76,7 @@ The qualification which the learner/ student is aiming for at the provider
 For display purposes and further analysis
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^COURSEAIM.html
+https://www.hesa.ac.uk/collection/c16051/a/courseaim/
 
 ###Valid Values
 <table>
@@ -1179,10 +1179,10 @@ Details the top level of an institutional structure (e.g. Faculty Details)
 For display purposes and further analysis
 
 ###Derivation
-https://www.hesa.ac.uk/component/studrec/show_file/13041/a%5E_%5ETIER1.html
+https://www.hesa.ac.uk/collection/c16041/a/tier1/
 
 ###Valid Values
-https://www.hesa.ac.uk/component/studrec/show_file/13041/a%5E_%5ETIER1.html
+Any
 
 ###References
 
@@ -1199,10 +1199,10 @@ Details the middle level of an institutional structure (e.g. department details)
 For display purposes and further analysis
 
 ###Derivation
-https://www.hesa.ac.uk/component/studrec/show_file/13041/a%5E_%5ETIER2.html
+https://www.hesa.ac.uk/collection/c16041/a/tier2/
 
 ###Valid Values
-https://www.hesa.ac.uk/component/studrec/show_file/13041/a%5E_%5ETIER2.html
+Any
 
 ###References
 
@@ -1219,10 +1219,10 @@ Details the lower level of an institutional structure (e.g. department details)
 For display purposes and further analysis
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=13041&href=^_^A^_^DEPARTMENT.html
+https://www.hesa.ac.uk/collection/c16041/a/DEPARTMENT
 
 ###Valid Values
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=13041&href=^_^A^_^DEPARTMENT.html
+Any
 
 ###References
 

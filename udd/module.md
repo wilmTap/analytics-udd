@@ -13,7 +13,7 @@ The unique identifier standard across SRS and LMS for the course.
 For analytics and to link module to module_instance
 
 Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^Module_MODID.html
+https://www.hesa.ac.uk/collection/c16051/a/module_modid/
 
 ###Valid Values
 Any
@@ -32,7 +32,7 @@ The actual name of the module
 For display purposes.
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^MTITLE.html
+https://www.hesa.ac.uk/collection/c16051/a/MTITLE
 
 ###Valid Values
 Any
@@ -51,10 +51,10 @@ Module subject - coded using JACS3 subject codes (initially, for HE purposes)
 For display purposes and analytics.
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^MODSBJ.html
+https://www.hesa.ac.uk/collection/c16051/a/modsbj/
 
 ###Valid Values
-Valid JACS3 subject code. See link above.
+Valid [https://www.hesa.ac.uk/support/documentation/jacs](JACS3 subject code).
 
 ###Format
 String (255)
@@ -72,7 +72,7 @@ Number of credits award for the module
 For analytics
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^CRDTPTS.html
+https://www.hesa.ac.uk/collection/c16051/a/CRDTPTS
 
 ###Valid Values
 Any

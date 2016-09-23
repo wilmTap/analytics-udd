@@ -21,7 +21,7 @@ Mode of study (eg part-time or full time)
 For analytics
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^MODE.html
+https://www.hesa.ac.uk/collection/c16051/a/MODE
 
 ###Valid Values & Mappings
 
@@ -73,7 +73,7 @@ This field indicates the year number that the learning aim/ course started. It d
 For analytics
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^COMDATE.html
+https://www.hesa.ac.uk/collection/c16051/a/COMDATE
 
 ###Valid Values
 Any
@@ -92,7 +92,7 @@ This field indicates the year number of the course that the student is currently
 For analytics
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^YEARPRG.html
+https://www.hesa.ac.uk/collection/c16051/a/YEARPRG
 
 ###Valid Values
 Any
@@ -111,7 +111,7 @@ Year number that the student is in since enrolling for a course
 For analytics
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a%5e_%5eYEARSTU.html
+https://www.hesa.ac.uk/collection/c16051/a/YEARSTU
 
 ###Valid Values
 Any
@@ -131,7 +131,7 @@ For analytics (predictive model building) and for presenting analytics.
 
 ###Derivation
 Loosely based on
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=15051&href=a^_^CAMPID.html
+https://www.hesa.ac.uk/collection/c16051/a/CAMPID
 
 ###Valid Values
 Any
