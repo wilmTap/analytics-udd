@@ -2,8 +2,8 @@
 * [MOD_ID](module.md#mod_id) [1]
 * [MOD_INSTANCE_ID](#mod_instance_id) [1]
 * [MOD_PERIOD](#mod_period) [0..1]
-* [MOD_ONLINE](#mod_online) [1]
-* [MOD_ACADEMIC_YEAR](#mod_academic_year) [1]
+* [MOD_ONLINE](#mod_online) [0..1]
+* [MOD_ACADEMIC_YEAR](#mod_academic_year) [0..1]
 * [MOD_OPTIONAL](#mod_optional) [0..1]
 * [MOD_LOCATION](#mod_location) [0..1]
 
@@ -66,6 +66,7 @@ Jisc
 Int
 
 ###Notes
+Omitting this property may hinder the development or use of an effective analytics model.
 
 ##MOD_ACADEMIC_YEAR
 ###Description
@@ -85,7 +86,7 @@ Int
 
 ###Notes
 This is the starting year for the academic year.
-
+Omitting this property may hinder the development or use of an effective analytics model.
 ##MOD_OPTIONAL
 ###Description
 Whether this instance relates to an optional module or not.

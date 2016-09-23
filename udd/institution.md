@@ -1,6 +1,6 @@
 #Institution
 * [TENANT_ID](#tenant_id) [1]
-* [TENANT_NAME](#tenant_name) [1]
+* [TENANT_NAME](#tenant_name) [0..1]
 
 ##TENANT_ID
 ###Description
@@ -37,3 +37,4 @@ Insitution
 String (255)
 
 ###Notes
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.

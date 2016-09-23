@@ -6,13 +6,13 @@
 * [COURSE_ID](course.md#course_id) [1]
 * [WITHDRAWAL_REASON](#withdrawal_reason) [0..1]
 * [WITHDRAWAL_DATE](#withdrawal_date) [0..1]
-* [ENTRY_QUALS](#entry_quals) [1]
+* [ENTRY_QUALS](#entry_quals) [0..1]
 * [ENTRY_POINTS](#entry_points) [0..1]
-* [COURSE_OUTCOME](#course_outcome) [1]
-* [COURSE_GRADE](#course_grade) [1]
+* [COURSE_OUTCOME](#course_outcome) [0..1]
+* [COURSE_GRADE](#course_grade) [0..1]
 * [COURSE_AIM_ATTAINED](#course_aim_attained) [0..1]
 * [COURSE_MARK](#course_mark) [0..1]
-* [COURSE_EXPECTED_END_DATE](#course_expected_end_date) [1]
+* [COURSE_EXPECTED_END_DATE](#course_expected_end_date) [0..1]
 * [COURSE_END_DATE](#course_end_date) [0..1]
 * [COURSE_JOIN_DATE](#course_join_date) [0..1]
 * [COURSE_JOIN_AGE](#course_join_age) [0..1]
@@ -95,7 +95,6 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 <tr><td>97</td><td>Other</td><td></td><td>97</td><td>11</td><td>97  </td></tr>
 <tr><td>98</td><td>Reason not known</td><td></td><td>98</td><td>99</td><td>98  </td></tr>
 <tr><td>99</td><td>Completion of course - result unknown</td><td></td><td>N/A</td><td>98</td><td>N/A</td></tr>
-<tr><td>NULL</td><td>No data</td><td></td><td>NULL</td><td>N/A</td><td>NULL  </td></tr>
 </table>  
 
 ###Format
@@ -198,15 +197,14 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 <tr><td>X02</td><td>Mature student admitted on basis of previous experience and/or admissions test</td><td></td><td>X02</td><td>  	</td></tr>
 <tr><td>X04</td><td>Other qualification level not known</td><td></td><td>X04</td><td>97  </td></tr>
 <tr><td>X05</td><td>Student has no formal qualification</td><td></td><td>X05</td><td>99  </td></tr>
-<tr><td>X06</td><td>Not known</td><td></td><td>X06</td><td>98  </td></tr>
-<tr><td>NULL</td><td>No data</td><td></td><td>NULL</td><td>NULL </td></tr>
+<tr><td>X06</td><td>Not known</td><td></td><td>X06</td><td>98</td></tr>
 </table>
 
 ###Format
 Alphanumeric
 
 ###Notes
-
+Omitting this property may hinder the development or use of an effective analytics model.
 
 ##ENTRY_POINTS
 ###Description
@@ -364,7 +362,7 @@ https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779
 Int
 
 ###Notes
-
+Omitting this property may hinder the development or use of an effective analytics model.
 
 ##COURSE_GRADE
 ###Description
@@ -427,7 +425,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 Int
 
 ###Notes
-
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 ##COURSE_AIM_ATTAINED
 ###Description
@@ -493,7 +491,7 @@ YYYY-MM-DD
 ISO 8601
 
 ###Notes
-
+Omitting this property may hinder the development or use of an effective analytics model.
 
 ##COURSE_END_DATE
 ###Description

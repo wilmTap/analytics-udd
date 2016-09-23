@@ -2,10 +2,10 @@
 * [STUDENT_ID](student.md#student_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1]
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
-* [MODE](#mode) [1]
+* [MODE](#mode) [0..1]
 * [YEAR_COM](#year_com) [0..1] deprecated
-* [YEAR_PRG](#year_prg) [1]
-* [YEAR_STU](#year_stu) [1]
+* [YEAR_PRG](#year_prg) [0..1]
+* [YEAR_STU](#year_stu) [0..1]
 * [COURSE_LOCATION](#course_location) [0..1]
 * [COURSE_INSTANCE_ID](course_instance.md#course_instance_id) [1]
 * [X_COURSE_AVERAGE_MARK](#course_average_mark) [0..1]
@@ -52,7 +52,6 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 <tr><td>74</td><td>Change to dormant status - previously part-time</td><td></td><td>74</td><td>N/A  </td></tr>
 <tr><td>99</td><td>FE students in England</td><td></td><td>99</td><td>N/A  </td></tr>
 <tr><td>98</td><td>Not Known/ Not in Early Statistics/HEIFES population</td><td></td><td>N/A</td><td>N/A</td></tr>
-<tr><td>NULL</td><td>No data</td><td></td><td>NULL</td><td>NULL</td></tr>
 </table>  
 
 ###Format
@@ -63,6 +62,7 @@ Yes (if applicable)
 
 ###Notes
 Mapping based on HESA codeset, and ILE (FE) initial mapping suggested above on ILR field 'PlanLearnHours'.
+Omitting this property may hinder the development or use of an effective analytics model.
 
 
 ##YEAR_COM (deprecated)
@@ -101,7 +101,7 @@ Any
 Int
 
 ###Notes
-
+Omitting this property may hinder the development or use of an effective analytics model.
 
 ##YEAR_STU
 ###Description
@@ -120,7 +120,7 @@ Any
 Int
 
 ###Notes
-
+Omitting this property may hinder the development or use of an effective analytics model.
 
 ##COURSE_LOCATION
 ###Description

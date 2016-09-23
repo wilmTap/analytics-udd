@@ -1,8 +1,8 @@
 #Course
 * [COURSE_ID](#course_id) [1]
-* [SUBJECT](#subject) [1]
-* [TITLE](#title) [1]
-* [COURSE_AIM](#course_aim) [1]
+* [SUBJECT](#subject) [0..1]
+* [TITLE](#title) [0..1]
+* [COURSE_AIM](#course_aim) [0..1]
 * [INST_TIER_1](#inst_tier_1) [0..1]
 * [INST_TIER_2](#inst_tier_2) [0..1]
 * [INST_TIER_3](#inst_tier_3) [0..1]
@@ -46,7 +46,8 @@ https://www.hesa.ac.uk/jacs3
 String (10) - Usually 4 characters, number followed by three digits
 
 ###Notes
-The JACS3 coding will be used here initially, from the HE (HESA) model. Further discussion will be required around this, to discuss subject classifications for FE/ ILR.y
+The JACS3 coding will be used here initially, from the HE (HESA) model. Further discussion will be required around this, to discuss subject classifications for FE/ ILR.
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 ##TITLE
 ###Description
@@ -65,6 +66,7 @@ Any
 String (255)
 
 ###Notes
+Omitting this property could severely impair the functionality of analytics applications such as student apps or dashboards.
 
 ##COURSE_AIM
 ###Description
@@ -1167,6 +1169,7 @@ String (255)
 
 ###Notes
 This field uses the HESA "COURSEAIM" codeset initially - with the addition of new code 'X98' to denote 'No formal qualification aim, below FE level' for FE equivalent denotation to HE code 'X99'. All course levels are denoted here (TBC with FE college, for final implementation). Specific use of the LARS codeset for FE (from ILR) may need to be considered, or a mapping/ amalgamation with the HESA codeset. This is to be discussed in consultation with the FE sector.
+Omitting this property may hinder the development or use of an effective analytics model.
 
 
 ##INST_TIER_1
