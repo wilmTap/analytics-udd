@@ -179,13 +179,13 @@ Omitting this property may hinder the development or use of an effective analyti
 
 ##LEARN_DIF
 ###Description
-This field records whether the learner considers themselves to have a learning difficulty
+This field records whether the learner consider themselves to have a learning difficulty.
 
 ###Purpose
 For detailed analysis or intervention purposes within Learning Analytics eg. Data Insight Tool
 
 ###Derivation
-https://www.hesa.ac.uk/collection/c16051/a/LLDDHEALTHPROB
+https://www.hesa.ac.uk/collection/c15051/a/learndif/
 
 ###Valid Values & Mappings
 
@@ -220,7 +220,7 @@ Whether the student is indicated as being disabled, according to their own self-
 For equal opportunities monitoring within Learning Analytics/ Data Modelling
 
 ###Derivation
-https://www.hesa.ac.uk/collection/c16051/a/DISABLE
+https://www.hesa.ac.uk/collection/c15051/a/disable/
 
 ###Valid Values & Mappings
 
@@ -360,7 +360,7 @@ Whether the student is indicated as being disabled, according to their own self-
 For equal opportunities monitoring within Learning Analytics/ Data Modelling
 
 ###Derivation
-https://www.hesa.ac.uk/collection/c16051/a/DISABLE
+https://www.hesa.ac.uk/collection/c15051/a/disable/
 
 ###Valid Values & Mappings
 
@@ -1901,7 +1901,7 @@ Jisc
 https://www.hesa.ac.uk/collection/c16051/a/TTPCODE
 
 ###Valid Values
-See [https://www.hesa.ac.uk/collection/c16051/a/TTPCODE](HESA definition for details.)
+See [HESA definition for details.](https://www.hesa.ac.uk/collection/c16051/a/TTPCODE)
 
 ###Format
 String (8)
@@ -2020,7 +2020,7 @@ Analytics
 https://www.hesa.ac.uk/collection/c16051/a/postcode/
 
 ###Valid Values
-[https://www.hesa.ac.uk/collection/c16051/a/postcode/](See HESA definition for particulars)
+[See HESA definition for particulars](https://www.hesa.ac.uk/collection/c16051/a/postcode/)
 
 ###Format
 String (8)

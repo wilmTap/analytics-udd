@@ -72,7 +72,9 @@ For analytics
 Based on the ILR codeset used for 'WithdrawReason' - with HESA code '05' utilised. For further information visit:
 
 https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779/ILRSpecification2015_16_v3_July2015.pdf
+
 https://www.hesa.ac.uk/collection/c16051/a/WITHDRAWREASON
+
 https://www.hesa.ac.uk/collection/c16051/a/RSNEND
 
 ###Valid Values & Mappings
@@ -131,7 +133,9 @@ For display & analytics
 
 ###Derivation
 Based on HESA codings for QUALENT3, but merged with specific element of the FE ILR field 'PriorAttain'
+
 https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779/ILRSpecification2015_16_v3_July2015.pdf
+
 https://www.hesa.ac.uk/collection/c16051/a/QUALENT3
 
 ###Valid Values & Mappings
@@ -233,7 +237,9 @@ This field indicates the outcome/ status of the learner's current course or lear
 For analytics
 
 ###Derivation
+
 https://www.hesa.ac.uk/collection/c15051/a/rsnend/
+
 https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779/ILRSpecification2015_16_v3_July2015.pdf
 
 ###Valid Values
@@ -333,12 +339,14 @@ https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779
             <tr>
                 <td>13</td>
                 <td>The learner is continuing or intending to continue the learning activities leading to the learning aim</td>
+                <td> </td>
                 <td>N/A</td>
                 <td>1</td>
             </tr>
             <tr>
                 <td>14</td>
                 <td>Learner has temporarily withdrawn from the aim due to an agreed break in learning</td>
+               <td> </td>
                 <td>N/A</td>
                 <td>6</td>
             </tr>
