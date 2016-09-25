@@ -103,29 +103,167 @@ String (10)
 ###Valid Values & Mappings:  
 
 <table>
-<tr><td>ETHNICITY</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)</td><td>HESA(ETHNIC)</td><td>FEILR(ETHNICITY)</td></tr>
-<tr><td>10</td><td>White</td><td>Gwyn</td><td>10</td><td>31</td></tr>
-<tr><td>13</td><td>White - Scottish</td><td>Gwyn - Alban</td><td>13</td><td>N/A</td></tr>
-<tr><td>51</td><td>Irish</td><td>Gwyddel</td><td>N/A</td><td>32</td></tr>
-<tr><td>14</td><td>Irish Traveller</td><td></td><td>14</td><td>N/A</td></tr>
-<tr><td>15</td><td>Gypsy or Traveller</td><td></td><td>15</td><td>33</td></tr>
-<tr><td>19</td><td>Other White background</td><td>Gwyn Arall</td><td>19</td><td>34</td></tr>
-<tr><td>21</td><td>Black or Black British - Caribbean</td><td></td><td>21</td><td>45</td></tr>
-<tr><td>22</td><td>Black or Black British - African</td><td></td><td>22</td><td>44</td></tr>
-<tr><td>29</td><td>Other Black background</td><td></td><td>29</td><td>46</td></tr>
-<tr><td>31</td><td>Asian or Asian British - Indian</td><td></td><td>31</td><td>39</td></tr>
-<tr><td>32</td><td>Asian or Asian British - Pakistani</td><td></td><td>32</td><td>40</td></tr>
-<tr><td>33</td><td>Asian or Asian British - Bangladeshi</td><td></td><td>33</td><td>41</td></tr>
-<tr><td>34</td><td>Chinese</td><td></td><td>34</td><td>42</td></tr>
-<tr><td>39</td><td>Other Asian background</td><td></td><td>39</td><td>43</td></tr>
-<tr><td>41</td><td>Mixed - White and Black Caribbean</td><td></td><td>41</td><td>35</td></tr>
-<tr><td>42</td><td>Mixed - White and Black African</td><td></td><td>42</td><td>36</td></tr>
-<tr><td>43</td><td>Mixed - White and Asian</td><td></td><td>43</td><td>37</td></tr>
-<tr><td>49</td><td>Other mixed background</td><td></td><td>49</td><td>38</td></tr>
-<tr><td>50</td><td>Arab</td><td></td><td>50</td><td>47</td></tr>
-<tr><td>80</td><td>Other ethnic background</td><td>Cefndir Ethnig Arall</td><td>80</td><td>98</td></tr>
-<tr><td>90</td><td>Not known</td><td>Anhysbys</td><td>90</td><td>N/A</td></tr>
-<tr><td>98</td><td>Information refused</td><td></td><td>98</td><td>99</td></tr>
+            <tr>
+                <td>ETHNICITY</td>
+                <td>DESCRIPTION(ENGLISH)</td>
+                <td>DESCRIPTION(WELSH)</td>
+                <td>HESA(ETHNIC)</td>
+                <td>FEILR(ETHNICITY)</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>White</td>
+                <td>Gwyn</td>
+                <td>10, 12</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>White - Scottish</td>
+                <td>Gwyn - Alban</td>
+                <td>13</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>51</td>
+                <td>Irish</td>
+                <td>Gwyddel</td>
+                <td>11</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Irish Traveller</td>
+                <td></td>
+                <td>14</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Gypsy or Traveller</td>
+                <td></td>
+                <td>15</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Other White background</td>
+                <td>Gwyn Arall</td>
+                <td>19</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Black or Black British - Caribbean</td>
+                <td></td>
+                <td>21</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>Black or Black British - African</td>
+                <td></td>
+                <td>22</td>
+                <td>44</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>Other Black background</td>
+                <td></td>
+                <td>29</td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>Asian or Asian British - Indian</td>
+                <td></td>
+                <td>31</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>Asian or Asian British - Pakistani</td>
+                <td></td>
+                <td>32</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>33</td>
+                <td>Asian or Asian British - Bangladeshi</td>
+                <td></td>
+                <td>33</td>
+                <td>41</td>
+            </tr>
+            <tr>
+                <td>34</td>
+                <td>Chinese</td>
+                <td></td>
+                <td>34</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>39</td>
+                <td>Other Asian background</td>
+                <td></td>
+                <td>39</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td>41</td>
+                <td>Mixed - White and Black Caribbean</td>
+                <td></td>
+                <td>41</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>42</td>
+                <td>Mixed - White and Black African</td>
+                <td></td>
+                <td>42</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td>Mixed - White and Asian</td>
+                <td></td>
+                <td>43</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>49</td>
+                <td>Other mixed background</td>
+                <td></td>
+                <td>49</td>
+                <td>38</td>
+            </tr>
+            <tr>
+                <td>50</td>
+                <td>Arab</td>
+                <td></td>
+                <td>50</td>
+                <td>47</td>
+            </tr>
+            <tr>
+                <td>80</td>
+                <td>Other ethnic background</td>
+                <td>Cefndir Ethnig Arall</td>
+                <td>80</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>90</td>
+                <td>Not known</td>
+                <td>Anhysbys</td>
+                <td>90</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>98</td>
+                <td>Information refused</td>
+                <td></td>
+                <td>98</td>
+                <td>99</td>
+            </tr>
 </table>
 
 Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
