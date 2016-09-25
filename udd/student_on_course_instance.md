@@ -26,32 +26,188 @@ https://www.hesa.ac.uk/collection/c16051/a/MODE
 ###Valid Values & Mappings
 
 <table>
-<tr><td>MODE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)</td><td>HESA(MODE)</td><td>FEILR(PlanLearnHours)  </td></tr>
-<tr><td>1</td><td>Full-time according to funding council definitions</td><td></td><td>1</td><td>PlanLearnHours > 540  </td></tr>
-<tr><td>2</td><td>Other full-time</td><td></td><td>2</td><td>N/A  </td></tr>
-<tr><td>12</td><td>FE students full-time 30 weeks or more</td><td></td><td>12</td><td>N/A  </td></tr>
-<tr><td>13</td><td>FE students full-time 4-29 weeks</td><td></td><td>13</td><td>N/A  </td></tr>
-<tr><td>14</td><td>FE students full-time less than 4 weeks</td><td></td><td>14</td><td>N/A  </td></tr>
-<tr><td>23</td><td>Sandwich (thick) according to funding council definitions</td><td></td><td>23</td><td>N/A  </td></tr>
-<tr><td>24</td><td>Sandwich (thin) according to funding council definitions</td><td></td><td>24</td><td>N/A  </td></tr>
-<tr><td>25</td><td>Other sandwich course/programme</td><td></td><td>25</td><td>N/A  </td></tr>
-<tr><td>31</td><td>Part-time</td><td></td><td>31</td><td>PlanLearnHours &le; 540  </td></tr>
-<tr><td>33</td><td>FE students part-time released from employment</td><td></td><td>33</td><td>N/A  </td></tr>
-<tr><td>34</td><td>FE students part-time not released from employment</td><td></td><td>34</td><td>N/A  </td></tr>
-<tr><td>35</td><td>FE students evening only</td><td></td><td>35</td><td>N/A  </td></tr>
-<tr><td>36</td><td>FE students open or distance learning</td><td></td><td>36</td><td>N/A  </td></tr>
-<tr><td>38</td><td>Structured part-time (providers in Scotland)</td><td></td><td>38</td><td>N/A  </td></tr>
-<tr><td>39</td><td>Other part-time (providers in Scotland)</td><td></td><td>39</td><td>N/A  </td></tr>
-<tr><td>43</td><td>Writing-up - previously full-time</td><td></td><td>43</td><td>N/A  </td></tr>
-<tr><td>44</td><td>Writing-up - previously part-time</td><td></td><td>44</td><td>N/A  </td></tr>
-<tr><td>51</td><td>Sabbatical</td><td></td><td>51</td><td>N/A  </td></tr>
-<tr><td>63</td><td>Dormant - previously full-time</td><td></td><td>63</td><td>N/A  </td></tr>
-<tr><td>64</td><td>Dormant - previously part-time</td><td></td><td>64</td><td>N/A  </td></tr>
-<tr><td>6</td><td>FE students continuous delivery day/daytime</td><td></td><td>65</td><td>N/A  </td></tr>
-<tr><td>73</td><td>Change to dormant status - previously full-time</td><td></td><td>73</td><td>N/A  </td></tr>
-<tr><td>74</td><td>Change to dormant status - previously part-time</td><td></td><td>74</td><td>N/A  </td></tr>
-<tr><td>99</td><td>FE students in England</td><td></td><td>99</td><td>N/A  </td></tr>
-<tr><td>98</td><td>Not Known/ Not in Early Statistics/HEIFES population</td><td></td><td>N/A</td><td>N/A</td></tr>
+            <tr>
+                <td>MODE</td>
+                <td>DESCRIPTION(ENGLISH)</td>
+                <td>DESCRIPTION(WELSH)</td>
+                <td>HESA(MODE)</td>
+                <td>FEILR(PlanLearnHours) </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Full-time according to funding council definitions</td>
+                <td></td>
+                <td>01</td>
+                <td>PlanLearnHours > 540 </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Other full-time</td>
+                <td></td>
+                <td>02</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>FE students full-time 30 weeks or more</td>
+                <td></td>
+                <td>12</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>FE students full-time 4-29 weeks</td>
+                <td></td>
+                <td>13</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>FE students full-time less than 4 weeks</td>
+                <td></td>
+                <td>14</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>Sandwich (thick) according to funding council definitions</td>
+                <td></td>
+                <td>23</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Sandwich (thin) according to funding council definitions</td>
+                <td></td>
+                <td>24</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Other sandwich course/programme</td>
+                <td></td>
+                <td>25</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>Part-time</td>
+                <td></td>
+                <td>31</td>
+                <td>PlanLearnHours &le; 540 </td>
+            </tr>
+            <tr>
+                <td>33</td>
+                <td>FE students part-time released from employment</td>
+                <td></td>
+                <td>33</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>34</td>
+                <td>FE students part-time not released from employment</td>
+                <td></td>
+                <td>34</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>35</td>
+                <td>FE students evening only</td>
+                <td></td>
+                <td>35</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>36</td>
+                <td>FE students open or distance learning</td>
+                <td></td>
+                <td>36</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>38</td>
+                <td>Structured part-time (providers in Scotland)</td>
+                <td></td>
+                <td>38</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>39</td>
+                <td>Other part-time (providers in Scotland)</td>
+                <td></td>
+                <td>39</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td>Writing-up - previously full-time</td>
+                <td></td>
+                <td>43</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>44</td>
+                <td>Writing-up - previously part-time</td>
+                <td></td>
+                <td>44</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>51</td>
+                <td>Sabbatical</td>
+                <td></td>
+                <td>51</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>63</td>
+                <td>Dormant - previously full-time</td>
+                <td></td>
+                <td>63</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>64</td>
+                <td>Dormant - previously part-time</td>
+                <td></td>
+                <td>64</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>FE students continuous delivery day/daytime</td>
+                <td></td>
+                <td>65</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>73</td>
+                <td>Change to dormant status - previously full-time</td>
+                <td></td>
+                <td>73</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>74</td>
+                <td>Change to dormant status - previously part-time</td>
+                <td></td>
+                <td>74</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>99</td>
+                <td>FE students in England</td>
+                <td></td>
+                <td>99</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>98</td>
+                <td>Not Known / Not in Early Statistics / HEIFES population / not applicable</td>
+                <td></td>
+                <td>98</td>
+                <td>N/A</td>
+            </tr>
 </table>  
 
 ###Format
@@ -61,7 +217,7 @@ Int
 Yes (if applicable)
 
 ###Notes
-Mapping based on HESA codeset, and ILE (FE) initial mapping suggested above on ILR field 'PlanLearnHours'.
+Mapping based on HESA codeset, and ILE (FE) initial mapping suggested above on ILR field 'PlanLearnHours'. HESA 2015 'mode' does not have code 98, but HESA 2016 'mode' does.
 Omitting this property may hinder the development or use of an effective analytics model.
 
 
