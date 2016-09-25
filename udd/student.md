@@ -187,21 +187,23 @@ For detailed analysis or intervention purposes within Learning Analytics eg. Dat
 ###Derivation
 https://www.hesa.ac.uk/collection/c15051/a/learndif/
 
+http://dera.ioe.ac.uk/25456/1/ILRSpecification2016_17_v1_Feb2016.pdf
+
 ###Valid Values & Mappings
 
 <table>
-<tr><td>LEARN_DIF</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)</td><td>HESA(LEARNDIF)</td><td>FEILR(LLDDCAT)  </td></tr>
-<tr><td>1</td><td>Moderate learning difficulty</td><td></td><td>1</td><td>10  </td></tr>
-<tr><td>2</td><td>Severe learning difficulty</td><td></td><td>2</td><td>11  </td></tr>
-<tr><td>10</td><td>Dyslexia</td><td></td><td>10</td><td>12  </td></tr>
-<tr><td>11</td><td>Dyscalculia</td><td></td><td>11</td><td>13  </td></tr>
-<tr><td>19</td><td>Other specific learning difficulty</td><td></td><td>19</td><td>94  </td></tr>
-<tr><td>20</td><td>Autism spectrum disorder</td><td></td><td>20</td><td>14  </td></tr>
-<tr><td>90</td><td>Multiple learning difficulties</td><td></td><td>90</td><td>3  </td></tr>
-<tr><td>97</td><td>Other</td><td></td><td>97</td><td>96  </td></tr>
-<tr><td>98</td><td>No learning difficulty</td><td></td><td>98</td><td>N/A  </td></tr>
-<tr><td>99</td><td>Not known / information not provided</td><td></td><td>99</td><td>N/A  </td></tr>
-</table>
+            <tr><td>LEARN_DIF</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)</td><td>HESA 2015 (LEARNDIF)</td><td>HESA 2016 (LLDDHEALTHPROB)</td><td>FEILR 2014 (LLDDCAT)</td><td>FEILR 2016 (LLDDCAT)</td></tr>
+            <tr><td>1</td><td>Moderate learning difficulty</td><td></td><td>01</td><td>10</td><td>10</td><td>10</td></tr>
+            <tr><td>2</td><td>Severe learning difficulty</td><td></td><td>02</td><td>11</td><td>11</td><td>11</td></tr>
+            <tr><td>10</td><td>Dyslexia</td><td></td><td>10</td><td>12</td><td>12</td><td>12</td></tr>
+            <tr><td>11</td><td>Dyscalculia</td><td></td><td>11</td><td>13</td><td>13</td><td>13</td></tr>
+            <tr><td>19</td><td>Other specific learning difficulty</td><td></td><td>19</td><td>94, 96</td><td>94, 96</td><td>94, 96</td></tr>
+            <tr><td>20</td><td>Autism spectrum disorder</td><td></td><td>20</td><td>14</td><td>14</td><td>14</td></tr>
+            <tr><td>90</td><td>Multiple learning difficulties</td><td></td><td>90</td><td>N/A</td><td>2</td><td>N/A</td></tr>
+            <tr><td>97</td><td>Other</td><td></td><td>97</td><td>96, 4, 5, 6, 7, 8, 9, 16, 17, 93, 95, 97</td><td>96, 1, 3, 4, 5, 6, 7, 8, 9, 16, 17, 93, 95, 97</td><td>96, 4, 5, 6, 7, 8, 9, 16, 17, 93, 95, 97</td></tr>
+            <tr><td>98</td><td>No learning difficulty</td><td></td><td>98</td><td>0</td><td>N/A</td><td>N/A</td></tr>
+            <tr><td>99</td><td>Not known / information not provided / prefer not to say</td><td></td><td>99</td><td>98, 99</td><td>98, 99</td><td>98, 99</td></tr>
+        </table>
 
 Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
 
