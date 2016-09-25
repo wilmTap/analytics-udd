@@ -189,7 +189,7 @@ https://www.hesa.ac.uk/collection/c15051/a/learndif/
 
 https://www.hesa.ac.uk/collection/c16051/a/llddhealthprob/
 
-http://dera.ioe.ac.uk/25456/1/ILRSpecification2016_17_v1_Feb2016.pdf
+https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/518675/ILRSpecification2016_17_v2_April2016.pdf
 
 ###Valid Values & Mappings
 
@@ -205,7 +205,7 @@ http://dera.ioe.ac.uk/25456/1/ILRSpecification2016_17_v1_Feb2016.pdf
             <tr><td>97</td><td>Other</td><td></td><td>97</td><td>96, 4, 5, 6, 7, 8, 9, 16, 17, 93, 95, 97</td><td>96, 1, 3, 4, 5, 6, 7, 8, 9, 16, 17, 93, 95, 97</td><td>96, 4, 5, 6, 7, 8, 9, 16, 17, 93, 95, 97</td></tr>
             <tr><td>98</td><td>No learning difficulty</td><td></td><td>98</td><td>0</td><td>N/A</td><td>N/A</td></tr>
             <tr><td>99</td><td>Not known / information not provided / prefer not to say</td><td></td><td>99</td><td>98, 99</td><td>98, 99</td><td>98, 99</td></tr>
-        </table>
+</table>
 
 Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
 
@@ -228,6 +228,8 @@ For equal opportunities monitoring within Learning Analytics/ Data Modelling
 https://www.hesa.ac.uk/collection/c15051/a/disable/
 
 https://www.hesa.ac.uk/collection/c16051/a/disable/
+
+https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/518675/ILRSpecification2016_17_v2_April2016.pdf
 
 ###Valid Values & Mappings
 
@@ -387,6 +389,8 @@ For equal opportunities monitoring within Learning Analytics/ Data Modelling
 https://www.hesa.ac.uk/collection/c15051/a/disable/
 
 https://www.hesa.ac.uk/collection/c16051/a/disable/
+
+https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/518675/ILRSpecification2016_17_v2_April2016.pdf
 
 ###Valid Values & Mappings
 
