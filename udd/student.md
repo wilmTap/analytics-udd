@@ -187,12 +187,14 @@ For detailed analysis or intervention purposes within Learning Analytics eg. Dat
 ###Derivation
 https://www.hesa.ac.uk/collection/c15051/a/learndif/
 
+https://www.hesa.ac.uk/collection/c16051/a/llddhealthprob/
+
 http://dera.ioe.ac.uk/25456/1/ILRSpecification2016_17_v1_Feb2016.pdf
 
 ###Valid Values & Mappings
 
 <table>
-            <tr><td>LEARN_DIF</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)</td><td>HESA 2015 (LEARNDIF)</td><td>HESA 2016 (LLDDHEALTHPROB)</td><td>FEILR 2014 (LLDDCAT)</td><td>FEILR 2016 (LLDDCAT)</td></tr>
+            <tr><td>LEARN_DIF</td><td>DESCRIPTION (ENGLISH)</td><td>DESCRIPTION (WELSH)</td><td>HESA 2015 (LEARNDIF)</td><td>HESA 2016 (LLDDHEALTHPROB)</td><td>FEILR 2014 (LLDDCAT)</td><td>FEILR 2016 (LLDDCAT)</td></tr>
             <tr><td>1</td><td>Moderate learning difficulty</td><td></td><td>01</td><td>10</td><td>10</td><td>10</td></tr>
             <tr><td>2</td><td>Severe learning difficulty</td><td></td><td>02</td><td>11</td><td>11</td><td>11</td></tr>
             <tr><td>10</td><td>Dyslexia</td><td></td><td>10</td><td>12</td><td>12</td><td>12</td></tr>
@@ -215,6 +217,7 @@ If a learner's learning difficulty is unknown, then code '99' should be used for
 Omitting this property may hinder the development or use of an effective analytics model.
 
 ##DISABILITY1
+
 ###Description
 Whether the student is indicated as being disabled, according to their own self-assessment. This will be their primary disability.
 
@@ -227,123 +230,139 @@ https://www.hesa.ac.uk/collection/c15051/a/disable/
 ###Valid Values & Mappings
 
 <table>
-<tr>
-<td>DISABILITY1</td>
-<td>DESCRIPTION(ENGLISH)</td>
-<td>DESCRIPTION(WELSH)</td>
-<td>HESA(DISABLE)</td>
-<td>FEILR(LLDDCat) </td>
-</tr>
-<tr>
-<td>0</td>
-<td>No known disability</td>
-<td>Dim Anabledd</td>
-<td>0</td>
-<td>N/A </td>
-</tr>
-<tr>
-<td>5</td>
-<td>Personal care support</td>
-<td></td>
-<td>5</td>
-<td>N/A </td>
-</tr>
-<tr>
-<td>7</td>
-<td>An unseen disability, e.g. diabetes, epilepsy, asthma</td>
-<td></td>
-<td>7</td>
-<td>N/A </td>
-</tr>
-<tr>
-<td>8</td>
-<td>Two or more impairments and/or disabling medical conditions</td>
-<td></td>
-<td>8</td>
-<td>2 </td>
-</tr>
-<tr>
-<td>51</td>
-<td>A specific learning difficulty such as dyslexia dyspraxia or AD(H)D</td>
-<td></td>
-<td>11</td>
-<td>12 </td>
-</tr>
-<tr>
-<td>53</td>
-<td>A social/communication impairment such as Asperger's syndrome/other autistic
-spectrum disorder</td>
-<td></td>
-<td>53</td>
-<td>15, 1</td>
-</tr>
-<tr>
-<td>54</td>
-<td>A long standing illness or health condition such as cancer HIV diabetes chronic
-heart disease or epilepsy</td>
-<td></td>
-<td>54</td>
-<td>95 </td>
-</tr>
-<tr>
-<td>55</td>
-<td>A mental health condition such as depression schizophrenia or anxiety
-disorder</td>
-<td></td>
-<td>6, 55</td>
-<td>9 </td>
-</tr>
-<tr>
-<td>56</td>
-<td>A physical impairment or mobility issues such as difficulty using arms or using
-a wheelchair or crutches</td>
-<td></td>
-<td>4, 56</td>
-<td>6, 93</td>
-</tr>
-<tr>
-<td>57</td>
-<td>Deaf or a serious hearing impairment</td>
-<td></td>
-<td>3, 57</td>
-<td>5 </td>
-</tr>
-<tr>
-<td>58</td>
-<td>Blind or a serious visual impairment uncorrected by glasses</td>
-<td></td>
-<td>2, 58</td>
-<td>4 </td>
-</tr>
-<tr>
-<td>96</td>
-<td>A disability impairment or medical condition that is not listed above</td>
-<td></td>
-<td>96</td>
-<td>7, 8, 16, 97</td>
-</tr>
-<tr>
-<td>97</td>
-<td>Information refused</td>
-<td></td>
-<td>97</td>
-<td>98 </td>
-</tr>
-<tr>
-<td>98</td>
-<td>Information not sought</td>
-<td></td>
-<td>98</td>
-<td>N/A </td>
-</tr>
-<tr>
-<td>99</td>
-<td>Not known</td>
-<td>Anhysbys</td>
-<td>99</td>
-<td>99 </td>
-</tr>
-</table>  
+            <tr>
+                <td>DISABILITY1</td>
+                <td>DESCRIPTION (ENGLISH)</td>
+                <td>DESCRIPTION (WELSH)</td>
+                <td>HESA 2015 (DISABLE)</td>
+                <td>HESA 2016 (DISABLE)</td>
+                <td>FEILR (LLDDCat) </td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>No known disability</td>
+                <td>Dim Anabledd</td>
+                <td>00</td>
+                <td>00</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Personal care support</td>
+                <td></td>
+                <td>05</td>
+                <td>N/A</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>An unseen disability, e.g. diabetes, epilepsy, asthma</td>
+                <td></td>
+                <td>07</td>
+                <td>N/A</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Two or more impairments and/or disabling medical conditions</td>
+                <td></td>
+                <td>08</td>
+                <td>08</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>51</td>
+                <td>A specific learning difficulty such as dyslexia dyspraxia or AD(H)D</td>
+                <td></td>
+                <td>11</td>
+                <td>51</td>
+                <td>12, 94</td>
+            </tr>
+            <tr>
+                <td>53</td>
+                <td>A social/communication impairment such as Asperger's syndrome/other autistic
+                    spectrum disorder</td>
+                <td></td>
+                <td>53</td>
+                <td>53</td>
+                <td>15, 1, 17</td>
+            </tr>
+            <tr>
+                <td>54</td>
+                <td>A long standing illness or health condition such as cancer HIV diabetes chronic
+                    heart disease or epilepsy</td>
+                <td></td>
+                <td>54</td>
+                <td>54</td>
+                <td>95 </td>
+            </tr>
+            <tr>
+                <td>55</td>
+                <td>A mental health condition such as depression schizophrenia or anxiety
+                    disorder</td>
+                <td></td>
+                <td>06, 55</td>
+                <td>55</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>56</td>
+                <td>A physical impairment or mobility issues such as difficulty using arms or using
+                    a wheelchair or crutches</td>
+                <td></td>
+                <td>4, 56</td>
+                <td>56</td>
+                <td>6, 93</td>
+            </tr>
+            <tr>
+                <td>57</td>
+                <td>Deaf or a serious hearing impairment</td>
+                <td></td>
+                <td>03, 57</td>
+                <td>57</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>58</td>
+                <td>Blind or a serious visual impairment uncorrected by glasses</td>
+                <td></td>
+                <td>02, 58</td>
+                <td>58</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>96</td>
+                <td>A disability impairment or medical condition that is not listed above</td>
+                <td></td>
+                <td>96</td>
+                <td>96</td>
+                <td>7, 8, 16, 97</td>
+            </tr>
+            <tr>
+                <td>97</td>
+                <td>Information refused</td>
+                <td></td>
+                <td>97</td>
+                <td>N/A</td>
+                <td>98 </td>
+            </tr>
+            <tr>
+                <td>98</td>
+                <td>Information not sought</td>
+                <td></td>
+                <td>98</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>99</td>
+                <td>Not known / not provided</td>
+                <td>Anhysbys</td>
+                <td>99</td>
+                <td>N/A</td>
+                <td>99 </td>
+            </tr>
+        </table>
 
 Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
 
@@ -355,6 +374,7 @@ If disability is unknown, code '0' or '99' should be provided
 Omitting this property may hinder the development or use of an effective analytics model.
 
 ##DISABILITY2
+
 ###Description
 Whether the student is indicated as being disabled, according to their own self-assessment. This will be their secondary disability.
 
@@ -367,123 +387,139 @@ https://www.hesa.ac.uk/collection/c15051/a/disable/
 ###Valid Values & Mappings
 
 <table>
-<tr>
-<td>DISABILITY2</td>
-<td>DESCRIPTION(ENGLISH)</td>
-<td>DESCRIPTION(WELSH)</td>
-<td>HESA(DISABLE)</td>
-<td>FEILR(LLDDCat) </td>
-</tr>
-<tr>
-<td>0</td>
-<td>No known disability</td>
-<td>Dim Anabledd</td>
-<td>0</td>
-<td>N/A </td>
-</tr>
-<tr>
-<td>5</td>
-<td>Personal care support</td>
-<td></td>
-<td>5</td>
-<td>N/A </td>
-</tr>
-<tr>
-<td>7</td>
-<td>An unseen disability, e.g. diabetes, epilepsy, asthma</td>
-<td></td>
-<td>7</td>
-<td>N/A </td>
-</tr>
-<tr>
-<td>8</td>
-<td>Two or more impairments and/or disabling medical conditions</td>
-<td></td>
-<td>8</td>
-<td>2 </td>
-</tr>
-<tr>
-<td>51</td>
-<td>A specific learning difficulty such as dyslexia dyspraxia or AD(H)D</td>
-<td></td>
-<td>11</td>
-<td>12 </td>
-</tr>
-<tr>
-<td>53</td>
-<td>A social/communication impairment such as Asperger's syndrome/other autistic
-spectrum disorder</td>
-<td></td>
-<td>53</td>
-<td>15, 1</td>
-</tr>
-<tr>
-<td>54</td>
-<td>A long standing illness or health condition such as cancer HIV diabetes chronic
-heart disease or epilepsy</td>
-<td></td>
-<td>54</td>
-<td>95 </td>
-</tr>
-<tr>
-<td>55</td>
-<td>A mental health condition such as depression schizophrenia or anxiety
-disorder</td>
-<td></td>
-<td>6, 55</td>
-<td>9 </td>
-</tr>
-<tr>
-<td>56</td>
-<td>A physical impairment or mobility issues such as difficulty using arms or using
-a wheelchair or crutches</td>
-<td></td>
-<td>4, 56</td>
-<td>6, 93</td>
-</tr>
-<tr>
-<td>57</td>
-<td>Deaf or a serious hearing impairment</td>
-<td></td>
-<td>3, 57</td>
-<td>5 </td>
-</tr>
-<tr>
-<td>58</td>
-<td>Blind or a serious visual impairment uncorrected by glasses</td>
-<td></td>
-<td>2, 58</td>
-<td>4 </td>
-</tr>
-<tr>
-<td>96</td>
-<td>A disability impairment or medical condition that is not listed above</td>
-<td></td>
-<td>96</td>
-<td>7, 8, 16, 97</td>
-</tr>
-<tr>
-<td>97</td>
-<td>Information refused</td>
-<td></td>
-<td>97</td>
-<td>98 </td>
-</tr>
-<tr>
-<td>98</td>
-<td>Information not sought</td>
-<td></td>
-<td>98</td>
-<td>N/A </td>
-</tr>
-<tr>
-<td>99</td>
-<td>Not known</td>
-<td>Anhysbys</td>
-<td>99</td>
-<td>99 </td>
-</tr>
-</table>  
+            <tr>
+                <td>DISABILITY1</td>
+                <td>DESCRIPTION (ENGLISH)</td>
+                <td>DESCRIPTION (WELSH)</td>
+                <td>HESA 2015 (DISABLE)</td>
+                <td>HESA 2016 (DISABLE)</td>
+                <td>FEILR (LLDDCat) </td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>No known disability</td>
+                <td>Dim Anabledd</td>
+                <td>00</td>
+                <td>00</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Personal care support</td>
+                <td></td>
+                <td>05</td>
+                <td>N/A</td>
+                <td>N/A </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>An unseen disability, e.g. diabetes, epilepsy, asthma</td>
+                <td></td>
+                <td>07</td>
+                <td>N/A</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Two or more impairments and/or disabling medical conditions</td>
+                <td></td>
+                <td>08</td>
+                <td>08</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>51</td>
+                <td>A specific learning difficulty such as dyslexia dyspraxia or AD(H)D</td>
+                <td></td>
+                <td>11</td>
+                <td>51</td>
+                <td>12, 94</td>
+            </tr>
+            <tr>
+                <td>53</td>
+                <td>A social/communication impairment such as Asperger's syndrome/other autistic
+                    spectrum disorder</td>
+                <td></td>
+                <td>53</td>
+                <td>53</td>
+                <td>15, 1, 17</td>
+            </tr>
+            <tr>
+                <td>54</td>
+                <td>A long standing illness or health condition such as cancer HIV diabetes chronic
+                    heart disease or epilepsy</td>
+                <td></td>
+                <td>54</td>
+                <td>54</td>
+                <td>95 </td>
+            </tr>
+            <tr>
+                <td>55</td>
+                <td>A mental health condition such as depression schizophrenia or anxiety
+                    disorder</td>
+                <td></td>
+                <td>06, 55</td>
+                <td>55</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>56</td>
+                <td>A physical impairment or mobility issues such as difficulty using arms or using
+                    a wheelchair or crutches</td>
+                <td></td>
+                <td>4, 56</td>
+                <td>56</td>
+                <td>6, 93</td>
+            </tr>
+            <tr>
+                <td>57</td>
+                <td>Deaf or a serious hearing impairment</td>
+                <td></td>
+                <td>03, 57</td>
+                <td>57</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>58</td>
+                <td>Blind or a serious visual impairment uncorrected by glasses</td>
+                <td></td>
+                <td>02, 58</td>
+                <td>58</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>96</td>
+                <td>A disability impairment or medical condition that is not listed above</td>
+                <td></td>
+                <td>96</td>
+                <td>96</td>
+                <td>7, 8, 16, 97</td>
+            </tr>
+            <tr>
+                <td>97</td>
+                <td>Information refused</td>
+                <td></td>
+                <td>97</td>
+                <td>N/A</td>
+                <td>98 </td>
+            </tr>
+            <tr>
+                <td>98</td>
+                <td>Information not sought</td>
+                <td></td>
+                <td>98</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>99</td>
+                <td>Not known / not provided</td>
+                <td>Anhysbys</td>
+                <td>99</td>
+                <td>N/A</td>
+                <td>99 </td>
+            </tr>
+        </table>
 
 Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
 
