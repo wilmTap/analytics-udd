@@ -213,7 +213,7 @@ Please Note - N/A denotes that no mapping value is applicable (and should not be
 Int
 
 ###Notes
-If a learner's learning difficulty is unknown, then code '99' should be used for those cases
+If a learner's learning difficulty is unknown, then code '99' should be used for those cases.
 Omitting this property may hinder the development or use of an effective analytics model.
 
 ##DISABILITY1
@@ -227,6 +227,8 @@ For equal opportunities monitoring within Learning Analytics/ Data Modelling
 ###Derivation
 https://www.hesa.ac.uk/collection/c15051/a/disable/
 
+https://www.hesa.ac.uk/collection/c16051/a/disable/
+
 ###Valid Values & Mappings
 
 <table>
@@ -362,7 +364,7 @@ https://www.hesa.ac.uk/collection/c15051/a/disable/
                 <td>N/A</td>
                 <td>99 </td>
             </tr>
-        </table>
+</table>
 
 Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
 
@@ -370,7 +372,7 @@ Please Note - N/A denotes that no mapping value is applicable (and should not be
 Int
 
 ###Notes
-If disability is unknown, code '0' or '99' should be provided
+If disability is unknown, code '0' or '99' should be provided.
 Omitting this property may hinder the development or use of an effective analytics model.
 
 ##DISABILITY2
@@ -384,6 +386,8 @@ For equal opportunities monitoring within Learning Analytics/ Data Modelling
 ###Derivation
 https://www.hesa.ac.uk/collection/c15051/a/disable/
 
+https://www.hesa.ac.uk/collection/c16051/a/disable/
+
 ###Valid Values & Mappings
 
 <table>
@@ -519,7 +523,7 @@ https://www.hesa.ac.uk/collection/c15051/a/disable/
                 <td>N/A</td>
                 <td>99 </td>
             </tr>
-        </table>
+</table>
 
 Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
 
