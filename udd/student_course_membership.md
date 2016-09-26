@@ -134,13 +134,13 @@ For display & analytics
 ###Derivation
 Based on HESA codings for QUALENT3, but merged with specific element of the FE ILR field 'PriorAttain'
 
-https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779/ILRSpecification2015_16_v3_July2015.pdf
+https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/518675/ILRSpecification2016_17_v2_April2016.pdf
 
 https://www.hesa.ac.uk/collection/c16051/a/QUALENT3
 
 ###Valid Values & Mappings
 <table>
-<tr><td>ENTRY_QUALS</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)</td><td>HESA(QUALENT3)</td><td>FEILR(PRIORATTAIN)   </td></tr>
+<tr><td>ENTRY_QUALS</td><td>DESCRIPTION (ENGLISH)</td><td>DESCRIPTION (WELSH)</td><td>HESA(QUALENT3)</td><td>FEILR (PRIORATTAIN)</td></tr>
 <tr><td>DUK</td><td>UK doctorate degree</td><td></td><td>DUK</td><td> 	</td></tr>
 <tr><td>DZZ</td><td>Non-UK doctorate degree</td><td></td><td>DZZ</td><td>  	</td></tr>
 <tr><td>D80</td><td>Other qualification at level D</td><td></td><td>D80</td><td>  	</td></tr>
@@ -195,7 +195,7 @@ https://www.hesa.ac.uk/collection/c16051/a/QUALENT3
 <tr><td>R51</td><td>14-19 Foundation Diploma (level 1)</td><td></td><td>R51</td><td>  	</td></tr>
 <tr><td>R52</td><td>Welsh Baccalaureate Foundation Diploma (level 1)</td><td></td><td>R52</td><td>  	</td></tr>
 <tr><td>R80</td><td>Other qualification at level 1</td><td></td><td>R80</td><td>1  </td></tr>
-<tr><td>X07</td><td>(Other) Qualification below level 1</td><td></td><td>NULL</td><td>7  </td></tr>
+<tr><td>X07</td><td>(Other) Qualification below level 1</td><td></td><td>N/A</td><td>7  </td></tr>
 <tr><td>X00</td><td>Higher education (HE) access course Quality Assurance Agency (QAA) recognised</td><td></td><td>X00</td><td>  	</td></tr>
 <tr><td>X01</td><td>Higher education (HE) access course not Quality Assurance Agency (QAA) recognised</td><td></td><td>X01</td><td>  	</td></tr>
 <tr><td>X02</td><td>Mature student admitted on basis of previous experience and/or admissions test</td><td></td><td>X02</td><td>  	</td></tr>

@@ -305,6 +305,13 @@ https://www.hesa.ac.uk/collection/c16051/a/courseaim/
   <td></td>
  </tr>
  <tr>
+  <td>M73</td>
+  <td>Postgraduate Diploma in Education
+  <td></td>
+  <td>M73</td>
+  <td></td>
+ </tr>
+ <tr>
   <td>M76</td>
   <td>Post-registration health and social care qualification at level M</td>
   <td></td>
@@ -1149,7 +1156,7 @@ body</td>
   <td>X98</td>
   <td>No formal qualification aim, below FE level</td>
   <td></td>
-  <td></td>
+  <td>N/A</td>
   <td></td>
  </tr>
  <tr>
@@ -1157,6 +1164,13 @@ body</td>
   <td>No formal qualification aim, below HE level</td>
   <td></td>
   <td>X99</td>
+  <td></td>
+ </tr>
+  <tr>
+  <td>Z99</td>
+  <td>Course aim does not apply</td>
+  <td></td>
+  <td>Z99</td>
   <td></td>
  </tr>
 </table>
