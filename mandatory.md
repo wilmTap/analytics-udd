@@ -31,7 +31,7 @@ These properties are required for the data in the learning record warehouse to f
 - [student_on_course_instance.COURSE_INSTANCE_ID](udd/student_on_course_instance.md#course_instance_id)
 
 
-##Category 2;
+##Category 2
 These properties are needed drive application to function well for all students. They are mostly labels for things, or basic facts about courses. If they are missing from records, the user experience for the relevant learners and the staff that support them could be significantly impaired.
 - [staff.STAFF_ID](udd/staff.md#staff_id)
 - [staff_on_course_instance.STAFF_ID](udd/staff_on_course_instance.md#staff_id)
@@ -63,7 +63,7 @@ These properties are needed drive application to function well for all students.
 
 
 
-Category 3
+##Category 3
 These properties are needed for the analytics models to function well for all students. They are mostly basic facts about courses. If they are missing from records, the user experience for the relevant learners and the staff that support them could be significantly impaired.
 - [student_on_assessment_instance.STUDENT_ID](udd/student_on_assessment_instance.md#student_id)
 - [student_on_assessment_instance.STUDENT_COURSE_MEMBERSHIP_ID](udd/student_on_assessment_instance.md#student_course_membership_id)
@@ -88,7 +88,7 @@ These properties are needed for the analytics models to function well for all st
 - [student_course_membership.COURSE_MARK](udd/student_course_membership.md#course_mark)
 
  
-Category 4.
+##Category 4.
 These properties are used to build a learning analytics model and personalise the outputs. The properties include several facts about learners. Whether these properties should be included in an learning record warehouse upload depends on striking the right balance between the precision and power of the particular analyses that an institution is interested in, and the data protection policies they have. This balance is best determined in discussion.
 
 - [assessment_instance.ASSESS_TYPE_ID](udd/assessment_instance.md#assess_type_id)
