@@ -26,7 +26,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2016-07-06 14:52:06 +0000</string>
+	<string>2016-09-24 01:36:15 +0000</string>
 	<key>Modifier</key>
 	<string>wilbert</string>
 	<key>NotesVisible</key>
@@ -118,6 +118,176 @@
 			<array>
 				<dict>
 					<key>Bounds</key>
+					<string>{{382, 3740}, {98, 27}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>FitText</key>
+					<string>YES</string>
+					<key>Flow</key>
+					<string>Resize</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>b</key>
+							<string>0</string>
+							<key>g</key>
+							<string>0.501961</string>
+							<key>r</key>
+							<string>0</string>
+						</dict>
+						<key>Font</key>
+						<string>Helvetica-Bold</string>
+						<key>Size</key>
+						<real>14</real>
+					</dict>
+					<key>ID</key>
+					<integer>414</integer>
+					<key>Magnets</key>
+					<array>
+						<string>{0, 1}</string>
+						<string>{0, -1}</string>
+						<string>{1, 0}</string>
+						<string>{-1, 0}</string>
+					</array>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Align</key>
+						<integer>0</integer>
+						<key>RTFD</key>
+						<data>
+						BAtzdHJlYW10eXBlZIHoA4QBQISE
+						hBJOU0F0dHJpYnV0ZWRTdHJpbmcA
+						hIQITlNPYmplY3QAhZKEhIQITlNT
+						dHJpbmcBlIQBKwlNQVhfTUFSS1OG
+						hAJpSQEJkoSEhAxOU0RpY3Rpb25h
+						cnkAlIQBaQOShJaWB05TQ29sb3KG
+						koSEhAdOU0NvbG9yAJSEAWMBhARm
+						ZmZmAINzgAA/AAGGkoSWlhBOU1Bh
+						cmFncmFwaFN0eWxlhpKEhIQXTlNN
+						dXRhYmxlUGFyYWdyYXBoU3R5bGUA
+						hIQQTlNQYXJhZ3JhcGhTdHlsZQCU
+						hARDQ0BTAACEhIQHTlNBcnJheQCU
+						mQyShISECU5TVGV4dFRhYgCUhAJD
+						ZgAchpKEo6IAOIaShKOiAFSGkoSj
+						ogBwhpKEo6IAgYwAhpKEo6IAgagA
+						hpKEo6IAgcQAhpKEo6IAgeAAhpKE
+						o6IAgfwAhpKEo6IAgRgBhpKEo6IA
+						gTQBhpKEo6IAgVABhoaBAAiEBFsx
+						Zl2DzcxMPYaShJaWBk5TRm9udIaS
+						hISEBk5TRm9udB6UmRyEBVsyOGNd
+						BgAAABQAAAD//kgAZQBsAHYAZQB0
+						AGkAYwBhAIQBZg6bAJsBmwCbAIaG
+						hg==
+						</data>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
+
+\f0\fs28 \cf2 MAX_MARKS}</string>
+					</dict>
+					<key>TextPlacement</key>
+					<integer>0</integer>
+					<key>Wrap</key>
+					<string>NO</string>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{385, 334.5}, {88, 27}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>FitText</key>
+					<string>YES</string>
+					<key>Flow</key>
+					<string>Resize</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>b</key>
+							<string>0</string>
+							<key>g</key>
+							<string>0.501961</string>
+							<key>r</key>
+							<string>0</string>
+						</dict>
+						<key>Font</key>
+						<string>Helvetica-Bold</string>
+						<key>Size</key>
+						<real>14</real>
+					</dict>
+					<key>ID</key>
+					<integer>413</integer>
+					<key>Magnets</key>
+					<array>
+						<string>{0, 1}</string>
+						<string>{0, -1}</string>
+						<string>{1, 0}</string>
+						<string>{-1, 0}</string>
+					</array>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Align</key>
+						<integer>0</integer>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
+
+\f0\fs28 \cf2 TENANT_ID}</string>
+					</dict>
+					<key>TextPlacement</key>
+					<integer>0</integer>
+					<key>Wrap</key>
+					<string>NO</string>
+				</dict>
+				<dict>
+					<key>Bounds</key>
 					<string>{{27, 2347}, {351, 68}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
@@ -188,9 +358,10 @@
 						TlNWYWx1ZQCUhAEqhIQBZKgAhoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -671,9 +842,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COACH_SCHOOL_ID}</string>
@@ -731,9 +903,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 PHOTO_URL}</string>
@@ -791,9 +964,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOBILE_PHONE}</string>
@@ -851,9 +1025,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 HOME_PHONE}</string>
@@ -911,9 +1086,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 PRIMARY_EMAIL_ADDRESS}</string>
@@ -973,9 +1149,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 POSTCODE}</string>
@@ -1033,9 +1210,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ADDRESS_LINE_4}</string>
@@ -1093,9 +1271,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ADDRESS_LINE_3}</string>
@@ -1153,9 +1332,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ADDRESS_LINE_2}</string>
@@ -1213,9 +1393,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ADDRESS_LINE_1}</string>
@@ -1273,9 +1454,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 FIRST_NAME}</string>
@@ -1333,9 +1515,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 LAST_NAME}</string>
@@ -1393,9 +1576,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 USERNAME}</string>
@@ -1462,9 +1646,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 ENTRY_POSTCODE}</string>
@@ -1533,9 +1718,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c50196\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 TUTOR_STAFF_ID}</string>
@@ -1595,9 +1781,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 PHOTO_URL}</string>
@@ -1657,9 +1844,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOBILE_PHONE}</string>
@@ -1719,9 +1907,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 HOME_PHONE}</string>
@@ -1781,9 +1970,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 PRIMARY_EMAIL_ADDRESS}</string>
@@ -1843,9 +2033,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 POSTCODE}</string>
@@ -1905,9 +2096,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ADDRESS_LINE_4}</string>
@@ -1967,9 +2159,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ADDRESS_LINE_3}</string>
@@ -2029,9 +2222,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ADDRESS_LINE_2}</string>
@@ -2091,9 +2285,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ADDRESS_LINE_1}</string>
@@ -2153,9 +2348,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 FIRST_NAME}</string>
@@ -2215,9 +2411,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 LAST_NAME}</string>
@@ -2277,9 +2474,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 USERNAME}</string>
@@ -2348,9 +2546,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 ASSESS_ACTUAL_GRADE}</string>
@@ -2419,9 +2618,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 COURSE_ID}</string>
@@ -2514,9 +2714,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_INSTANCE_ID}</string>
@@ -2585,9 +2786,10 @@ Student (additional Information)}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_GRADE}</string>
@@ -2675,9 +2877,10 @@ Student (additional Information)}</string>
 						bHVlAJSEASqEhAFkqACGhoY=
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -2767,9 +2970,10 @@ UDD 1.2}</string>
 						bHVlAJSEASqEhAFkqACGhoY=
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -2888,9 +3092,10 @@ UDD 1.1}</string>
 						ZKgAhoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -2961,9 +3166,10 @@ Jisc xAPI recipes}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c100000\c0\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 EVENT_ID}</string>
@@ -3030,9 +3236,10 @@ Jisc xAPI recipes}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c100000\c0\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 EVENT}</string>
@@ -3099,9 +3306,10 @@ Jisc xAPI recipes}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c100000\c0\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_ID}</string>
@@ -3168,9 +3376,10 @@ Jisc xAPI recipes}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c100000\c0\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 STUDENT_ID}</string>
@@ -3238,9 +3447,10 @@ Jisc xAPI recipes}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c100000\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -3434,9 +3644,10 @@ Activity}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_AIM}</string>
@@ -3496,9 +3707,10 @@ Activity}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 TITLE}</string>
@@ -3556,9 +3768,10 @@ Activity}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 SUBJECT}</string>
@@ -3616,9 +3829,10 @@ Activity}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_ID}</string>
@@ -3697,9 +3911,10 @@ Activity}</string>
 						dWUAlIQBKoSEAWSoAIaGhg==
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -4000,9 +4215,10 @@ Course}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 GRADE_DATE}</string>
@@ -4060,9 +4276,10 @@ Course}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 STUDENT_ID}</string>
@@ -4120,9 +4337,10 @@ Course}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 WEIGHT}</string>
@@ -4189,9 +4407,10 @@ Course}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c100000\c0\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 EARNED_POINTS}</string>
@@ -4242,9 +4461,10 @@ Course}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MAX_POINTS}</string>
@@ -4302,9 +4522,10 @@ Course}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 CATEGORY}</string>
@@ -4362,9 +4583,10 @@ Course}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 GRADABLE_OBJECT}</string>
@@ -4422,9 +4644,10 @@ Course}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_INSTANCE_ID}</string>
@@ -4503,9 +4726,10 @@ Course}</string>
 						ZQCUhAEqhIQBZKgAhoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -4674,9 +4898,10 @@ Grade}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_PASS}</string>
@@ -4734,9 +4959,10 @@ Grade}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_GRADE}</string>
@@ -4794,9 +5020,10 @@ Grade}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_OUTCOME}</string>
@@ -4981,9 +5208,10 @@ Grade}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_RETAKE}</string>
@@ -5041,9 +5269,10 @@ Grade}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_INSTANCE_ID}</string>
@@ -5101,9 +5330,10 @@ Grade}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_INSTANCE_ID}</string>
@@ -5163,9 +5393,10 @@ Grade}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 STUDENT_ID}</string>
@@ -5245,9 +5476,10 @@ Grade}</string>
 						bHVlAJSEASqEhAFkqACGhoY=
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -5381,9 +5613,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c100000\c0\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_ENROLLMENT}</string>
@@ -5441,9 +5674,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_END_DATE}</string>
@@ -5501,9 +5735,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_START_DATE}</string>
@@ -5769,9 +6004,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c25098\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_COMPLETED_ATTEMPT}</string>
@@ -5840,9 +6076,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c25098\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_CURRENT_ATTEMPT}</string>
@@ -5911,9 +6148,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c25098\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_CREDITS_ACHIEVED}</string>
@@ -5982,9 +6220,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c25098\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_AGREED_GRADE}</string>
@@ -6053,9 +6292,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c25098\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_ACTUAL_GRADE}</string>
@@ -6124,9 +6364,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c25098\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_FIRST_GRADE}</string>
@@ -6195,9 +6436,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c25098\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_AGREED_MARK}</string>
@@ -6266,9 +6508,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c25098\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_ACTUAL_MARK}</string>
@@ -6337,9 +6580,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c25098\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_FIRST_MARK}</string>
@@ -6399,9 +6643,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_END_DATE}</string>
@@ -6461,9 +6706,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_START_DATE}</string>
@@ -6523,9 +6769,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_RETAKE}</string>
@@ -6594,9 +6841,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c50196\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_RESULT}</string>
@@ -6656,9 +6904,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_INSTANCE_ID}</string>
@@ -6718,9 +6967,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_INSTANCE_ID}</string>
@@ -6789,9 +7039,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c25098\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 STUDENT_COURSE_MEMBERSHIP_SEQ}</string>
@@ -6860,9 +7111,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c25098\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 STUDENT_COURSE_MEMBERSHIP_ID}</string>
@@ -6922,9 +7174,10 @@ Student on a module Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 STUDENT_ID}</string>
@@ -7006,9 +7259,10 @@ Student on a module Instance}</string>
 						bHVlAJSEASqEhAFkqACGhoY=
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -7070,9 +7324,10 @@ student_on_a_module_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_OPTIONAL}</string>
@@ -7130,9 +7385,10 @@ student_on_a_module_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_ACADEMIC_YEAR}</string>
@@ -7192,9 +7448,10 @@ student_on_a_module_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_ONLINE}</string>
@@ -7252,9 +7509,10 @@ student_on_a_module_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_PERIOD}</string>
@@ -7312,9 +7570,10 @@ student_on_a_module_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_INSTANCE_ID}</string>
@@ -7372,9 +7631,10 @@ student_on_a_module_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_ID}</string>
@@ -7454,9 +7714,10 @@ student_on_a_module_instance}</string>
 						AIaGhg==
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -7654,9 +7915,10 @@ Module instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_CREDITS}</string>
@@ -7714,9 +7976,10 @@ Module instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_SUBJECT}</string>
@@ -7774,9 +8037,10 @@ Module instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_NAME}</string>
@@ -7834,9 +8098,10 @@ Module instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_ID}</string>
@@ -7915,9 +8180,10 @@ Module instance}</string>
 						dWUAlIQBKoSEAWSoAIaGhg==
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -8185,9 +8451,10 @@ Module}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_GRADE}</string>
@@ -8245,9 +8512,10 @@ Module}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_OUTCOME}</string>
@@ -8305,9 +8573,10 @@ Module}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ENTRY_POINTS}</string>
@@ -8365,9 +8634,10 @@ Module}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ENTRY_QUALS}</string>
@@ -8425,9 +8695,10 @@ Module}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c100000\c0\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 YEAR_AVERAGE_GRADE}</string>
@@ -8485,9 +8756,10 @@ Module}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c100000\c0\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 COURSE_AVERAGE_GRADE}</string>
@@ -8753,9 +9025,10 @@ Module}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 WITHDRAWAL_DATE}</string>
@@ -8813,9 +9086,10 @@ Module}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 WITHDRAWAL_REASON}</string>
@@ -8873,9 +9147,10 @@ Module}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 YEAR_STU}</string>
@@ -8933,9 +9208,10 @@ Module}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 YEAR_PRG}</string>
@@ -8993,9 +9269,10 @@ Module}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 YEAR_COM}</string>
@@ -9053,9 +9330,10 @@ Module}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MODE}</string>
@@ -9113,9 +9391,10 @@ Module}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_INSTANCE_ID}</string>
@@ -9173,9 +9452,10 @@ Module}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 STUDENT_ID}</string>
@@ -9255,9 +9535,10 @@ Module}</string>
 						ZQCUhAEqhIQBZKgAhoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -9319,9 +9600,10 @@ Student on Course Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_LOCATION}</string>
@@ -9381,9 +9663,10 @@ Student on Course Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 YEAR_STU}</string>
@@ -9443,9 +9726,10 @@ Student on Course Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 YEAR_PRG}</string>
@@ -9505,9 +9789,10 @@ Student on Course Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 YEAR_COM}</string>
@@ -9567,9 +9852,10 @@ Student on Course Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MODE}</string>
@@ -9638,9 +9924,10 @@ Student on Course Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 STUDENT_COURSE_MEMBERSHIP_SEQ}</string>
@@ -9709,9 +9996,10 @@ Student on Course Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 STUDENT_COURSE_MEMBERSHIP_ID}</string>
@@ -9771,9 +10059,10 @@ Student on Course Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 STUDENT_ID}</string>
@@ -9855,9 +10144,10 @@ Student on Course Instance}</string>
 						ZQCUhAEqhIQBZKgAhoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -10084,9 +10374,10 @@ student_on_course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ACADEMIC_YEAR}</string>
@@ -10144,9 +10435,10 @@ student_on_course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 END_DATE}</string>
@@ -10204,9 +10496,10 @@ student_on_course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 START_DATE}</string>
@@ -10264,9 +10557,10 @@ student_on_course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_INSTANCE_ID}</string>
@@ -10326,9 +10620,10 @@ student_on_course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_ID}</string>
@@ -10408,9 +10703,10 @@ student_on_course_instance}</string>
 						AIaGhg==
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -11002,9 +11298,10 @@ Course instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 OVERSEAS}</string>
@@ -11062,9 +11359,10 @@ Course instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 SOCIO_EC}</string>
@@ -11122,9 +11420,10 @@ Course instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 PARENTS_ED}</string>
@@ -11182,9 +11481,10 @@ Course instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 TERMTIME_ACCOM}</string>
@@ -11237,9 +11537,10 @@ Course instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 DOMICILE}</string>
@@ -11297,9 +11598,10 @@ Course instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 DISABILITY2}</string>
@@ -11357,9 +11659,10 @@ Course instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 DISABILITY1}</string>
@@ -11417,9 +11720,10 @@ Course instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 LEARN_DIF}</string>
@@ -11477,9 +11781,10 @@ Course instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 AGE}</string>
@@ -11537,9 +11842,10 @@ Course instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 GENDER}</string>
@@ -11597,9 +11903,10 @@ Course instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ETHNICITY}</string>
@@ -11657,9 +11964,10 @@ Course instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 DOB}</string>
@@ -11717,9 +12025,10 @@ Course instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ULN}</string>
@@ -11777,9 +12086,10 @@ Course instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 STUDENT_ID}</string>
@@ -11858,9 +12168,10 @@ Course instance}</string>
 						bHVlAJSEASqEhAFkqACGhoY=
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -11922,9 +12233,10 @@ Student}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 TENANT_NAME}</string>
@@ -11982,9 +12294,10 @@ Student}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 TENANT_ID}</string>
@@ -12063,9 +12376,10 @@ Student}</string>
 						TlNWYWx1ZQCUhAEqhIQBZKgAhoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -12127,9 +12441,10 @@ Institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MAX_POINTS}</string>
@@ -12189,9 +12504,10 @@ Institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 GRADE_DATE}</string>
@@ -12260,9 +12576,10 @@ Institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 ASSESSMENT_RESULT}</string>
@@ -12331,9 +12648,10 @@ Institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 ASSESSMENT_CURRENT_ATTEMPT}</string>
@@ -12402,9 +12720,10 @@ Institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 ASSESS_AGREED_GRADE}</string>
@@ -12473,9 +12792,10 @@ Institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 ASSESS_ACTUAL_MARK}</string>
@@ -12544,9 +12864,10 @@ Institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 ASSESS_AGREED_MARK}</string>
@@ -12611,9 +12932,10 @@ Institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 ASSESS_RETAKE}</string>
@@ -12682,9 +13004,10 @@ Institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 ASSESS_DUE_DATE}</string>
@@ -12753,9 +13076,10 @@ Institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 ASSESS_SEQ_ID}</string>
@@ -12824,9 +13148,10 @@ Institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 ASSESS_INSTANCE_ID}</string>
@@ -12895,9 +13220,10 @@ Institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_INSTANCE_ID}</string>
@@ -12966,9 +13292,10 @@ Institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 STUDENT_COURSE_MEMBERSHIP_SEQ}</string>
@@ -13037,9 +13364,10 @@ Institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 STUDENT_COURSE_MEMBERSHIP_ID}</string>
@@ -13099,9 +13427,10 @@ Institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 STUDENT_ID}</string>
@@ -13183,9 +13512,10 @@ Institution}</string>
 						VmFsdWUAlIQBKoSEAWSoAIaGhg==
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -13256,9 +13586,10 @@ student_on_assessment_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 COHORT_ID}</string>
@@ -13327,9 +13658,10 @@ student_on_assessment_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 COURSE_END_DATE}</string>
@@ -13398,9 +13730,10 @@ student_on_assessment_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 COURSE_EXPECTED_END_DATE}</string>
@@ -13469,9 +13802,10 @@ student_on_assessment_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 COURSE_MARK}</string>
@@ -13531,9 +13865,10 @@ student_on_assessment_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_AIM_ATTAINED}</string>
@@ -13593,9 +13928,10 @@ student_on_assessment_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_GRADE}</string>
@@ -13655,9 +13991,10 @@ student_on_assessment_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_OUTCOME}</string>
@@ -13717,9 +14054,10 @@ student_on_assessment_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ENTRY_POINTS}</string>
@@ -13779,9 +14117,10 @@ student_on_assessment_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ENTRY_QUALS}</string>
@@ -13841,9 +14180,10 @@ student_on_assessment_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 WITHDRAWAL_DATE}</string>
@@ -13903,9 +14243,10 @@ student_on_assessment_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 WITHDRAWAL_REASON}</string>
@@ -13974,9 +14315,10 @@ student_on_assessment_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 STUDENT_COURSE_MEMBERSHIP_SEQ}</string>
@@ -14045,9 +14387,10 @@ student_on_assessment_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 STUDENT_COURSE_MEMBERSHIP_ID}</string>
@@ -14107,9 +14450,10 @@ student_on_assessment_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 STUDENT_ID}</string>
@@ -14191,9 +14535,10 @@ student_on_assessment_instance}</string>
 						AJSEASqEhAFkqACGhoY=
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -14264,9 +14609,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 HUSID}</string>
@@ -14335,9 +14681,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 VLE_ID}</string>
@@ -14406,9 +14753,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 APPSHIB_ID}</string>
@@ -14468,9 +14816,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 OVERSEAS}</string>
@@ -14530,9 +14879,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 SOCIO_EC}</string>
@@ -14592,9 +14942,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 PARENTS_ED}</string>
@@ -14654,9 +15005,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 TERMTIME_ACCOM}</string>
@@ -14709,9 +15061,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 DOMICILE}</string>
@@ -14771,9 +15124,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 DISABILITY2}</string>
@@ -14833,9 +15187,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 DISABILITY1}</string>
@@ -14895,9 +15250,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 LEARN_DIF}</string>
@@ -14957,9 +15313,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 AGE}</string>
@@ -15028,9 +15385,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c50196\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 SEXID}</string>
@@ -15090,9 +15448,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ETHNICITY}</string>
@@ -15152,9 +15511,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 DOB}</string>
@@ -15214,9 +15574,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ULN}</string>
@@ -15276,9 +15637,10 @@ student_course_membership}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 STUDENT_ID}</string>
@@ -15359,9 +15721,10 @@ student_course_membership}</string>
 						bHVlAJSEASqEhAFkqACGhoY=
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -15432,9 +15795,10 @@ student}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c25098\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 VLE_MOD_ID}</string>
@@ -15503,9 +15867,10 @@ student}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red64\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c25098\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_INSTANCE_ID}</string>
@@ -15587,9 +15952,10 @@ student}</string>
 						hoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -15660,9 +16026,10 @@ module_vle_map}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_LOCATION}</string>
@@ -15722,9 +16089,10 @@ module_vle_map}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_OPTIONAL}</string>
@@ -15784,9 +16152,10 @@ module_vle_map}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_ACADEMIC_YEAR}</string>
@@ -15846,9 +16215,10 @@ module_vle_map}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_ONLINE}</string>
@@ -15906,9 +16276,10 @@ module_vle_map}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_PERIOD}</string>
@@ -15966,9 +16337,10 @@ module_vle_map}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_INSTANCE_ID}</string>
@@ -16026,9 +16398,10 @@ module_vle_map}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_ID}</string>
@@ -16108,9 +16481,10 @@ module_vle_map}</string>
 						AIaGhg==
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -16181,9 +16555,10 @@ module_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 MOD_LEVEL}</string>
@@ -16243,9 +16618,10 @@ module_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_CREDITS}</string>
@@ -16305,9 +16681,10 @@ module_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_SUBJECT}</string>
@@ -16367,9 +16744,10 @@ module_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_NAME}</string>
@@ -16429,9 +16807,10 @@ module_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_ID}</string>
@@ -16512,9 +16891,10 @@ module_instance}</string>
 						dWUAlIQBKoSEAWSoAIaGhg==
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -16576,9 +16956,10 @@ module}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 TENANT_NAME}</string>
@@ -16638,9 +17019,10 @@ module}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 TENANT_ID}</string>
@@ -16721,9 +17103,10 @@ module}</string>
 						TlNWYWx1ZQCUhAEqhIQBZKgAhoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -16785,9 +17168,10 @@ institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 ACADEMIC_YEAR}</string>
@@ -16847,9 +17231,10 @@ institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 END_DATE}</string>
@@ -16909,9 +17294,10 @@ institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 START_DATE}</string>
@@ -16971,9 +17357,10 @@ institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_INSTANCE_ID}</string>
@@ -17033,9 +17420,10 @@ institution}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_ID}</string>
@@ -17117,9 +17505,10 @@ institution}</string>
 						AIaGhg==
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -17190,9 +17579,10 @@ course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 INST_TIER_3}</string>
@@ -17261,9 +17651,10 @@ course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 INST_TIER_2}</string>
@@ -17332,9 +17723,10 @@ course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 INST_TIER_1}</string>
@@ -17394,9 +17786,10 @@ course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_AIM}</string>
@@ -17456,9 +17849,10 @@ course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 TITLE}</string>
@@ -17518,9 +17912,10 @@ course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 SUBJECT}</string>
@@ -17580,9 +17975,10 @@ course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 COURSE_ID}</string>
@@ -17663,9 +18059,10 @@ course_instance}</string>
 						dWUAlIQBKoSEAWSoAIaGhg==
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -17736,9 +18133,10 @@ course}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c50196\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 ASSESS_WEIGHT}</string>
@@ -17807,9 +18205,10 @@ course}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 ASSESS_DETAIL}</string>
@@ -17874,9 +18273,10 @@ course}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c50196\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 ASSESS_TYPE_NAME}</string>
@@ -17943,9 +18343,10 @@ course}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c50196\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 ASSESS_TYPE_ID}</string>
@@ -18014,9 +18415,10 @@ course}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 ASSESS_INSTANCE_ID}</string>
@@ -18076,9 +18478,10 @@ course}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_INSTANCE_ID}</string>
@@ -18160,9 +18563,10 @@ course}</string>
 						hAFkqACGhoY=
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -18344,9 +18748,10 @@ assessment_instance}</string>
 						bHVlAJSEASqEhAFkqACGhoY=
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -18436,9 +18841,10 @@ UDD 1.2}</string>
 						bHVlAJSEASqEhAFkqACGhoY=
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -18630,9 +19036,10 @@ UDD 1.1}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_INSTANCE_ID}</string>
@@ -18692,9 +19099,10 @@ UDD 1.1}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 STAFF_ID}</string>
@@ -18775,9 +19183,10 @@ UDD 1.1}</string>
 						hoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -18840,9 +19249,10 @@ Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 MOD_INSTANCE_ID}</string>
@@ -18902,9 +19312,10 @@ Instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 STAFF_ID}</string>
@@ -18986,9 +19397,10 @@ Instance}</string>
 						KoSEAWSoAIaGhg==
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -19059,9 +19471,10 @@ staff_on_mod_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 COURSE_INSTANCE_ID}</string>
@@ -19121,9 +19534,10 @@ staff_on_mod_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 STAFF_ID}</string>
@@ -19205,9 +19619,10 @@ staff_on_mod_instance}</string>
 						lIQBKoSEAWSoAIaGhg==
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -19278,9 +19693,10 @@ staff_on_course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 DASH_SHIB_ID}</string>
@@ -19349,9 +19765,10 @@ staff_on_course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 HESA_STAFF_ID}</string>
@@ -19420,9 +19837,10 @@ staff_on_course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 PRIMARY_EMAIL_ADDRESS}</string>
@@ -19491,9 +19909,10 @@ staff_on_course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 TITLE}</string>
@@ -19562,9 +19981,10 @@ staff_on_course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 LAST_NAME}</string>
@@ -19633,9 +20053,10 @@ staff_on_course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green128\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c0\c50196\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf2 FIRST_NAME}</string>
@@ -19695,9 +20116,10 @@ staff_on_course_instance}</string>
 						<key>Align</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs28 \cf0 STAFF_ID}</string>
@@ -19778,9 +20200,10 @@ staff_on_course_instance}</string>
 						ZQCUhAEqhIQBZKgAhoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
 \deftab720
 \pard\pardeftab720\sl560\sa321
 
@@ -19899,8 +20322,8 @@ staff}</string>
 					<real>30.666666030883789</real>
 					<key>Points</key>
 					<array>
-						<string>{288.15945126795611, 532.70171293114038}</string>
-						<string>{340.83498888574695, 523.65787709085816}</string>
+						<string>{288.16452722662831, 542.6539946167303}</string>
+						<string>{340.83353687905674, 537.77184807117612}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -20040,8 +20463,8 @@ staff}</string>
 					<integer>333</integer>
 					<key>Points</key>
 					<array>
-						<string>{1076.1667590862094, 471.83336894476935}</string>
-						<string>{1076.1665863085348, 389.10419081882458}</string>
+						<string>{1076.1667582500609, 471.83336894629383}</string>
+						<string>{1076.1666070486383, 403.10419081728901}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -20077,8 +20500,8 @@ staff}</string>
 					<integer>332</integer>
 					<key>Points</key>
 					<array>
-						<string>{950.16649779585555, 346.47803974524516}</string>
-						<string>{897.49987880861306, 346.42530997588011}</string>
+						<string>{950.16675523041317, 349.55745163466668}</string>
+						<string>{897.49983913398012, 347.8659460049314}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -20170,9 +20593,10 @@ staff}</string>
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf0 student_on_assessment_instance}</string>
@@ -20213,9 +20637,10 @@ staff}</string>
 								<key>Align</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs24 \cf0 STUDENT_ID\
@@ -20284,9 +20709,10 @@ MAX_POINTS}</string>
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf0 assessment_instance}</string>
@@ -20298,7 +20724,7 @@ MAX_POINTS}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{950.66649754842388, 304.60419082641789}, {251, 84}}</string>
+							<string>{{950.66649754842388, 304.60419082641789}, {251, 98}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -20327,9 +20753,10 @@ MAX_POINTS}</string>
 								<key>Align</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs24 \cf0 MOD_INSTANCE_ID\
@@ -20337,7 +20764,8 @@ ASSESS_INSTANCE_ID\
 ASSESS_TYPE_ID\
 ASSESS_TYPE_NAME\
 ASSESS_DETAIL\
-ASSESS_WEIGHT}</string>
+ASSESS_WEIGHT\
+MAX_MARKS}</string>
 								<key>VerticalPad</key>
 								<integer>0</integer>
 							</dict>
@@ -20388,9 +20816,10 @@ ASSESS_WEIGHT}</string>
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf0 module_vle_map}</string>
@@ -20431,9 +20860,10 @@ ASSESS_WEIGHT}</string>
 								<key>Align</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs24 \cf0 MOD_INSTANCE_ID\
@@ -20505,8 +20935,8 @@ VLE_MOD_ID}</string>
 					<integer>320</integer>
 					<key>Points</key>
 					<array>
-						<string>{771.49988959657458, 282.77086193449634}</string>
-						<string>{771.49993680869932, 248.70833079926945}</string>
+						<string>{771.49988959653206, 282.77086193449634}</string>
+						<string>{771.49993680846387, 248.70833079926945}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -20681,9 +21111,10 @@ VLE_MOD_ID}</string>
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf0 staff_on_mod_instance}</string>
@@ -20724,9 +21155,10 @@ VLE_MOD_ID}</string>
 								<key>Align</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs24 \cf0 STAFF_ID\
@@ -20781,9 +21213,10 @@ MOD_INSTANCE_ID}</string>
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf0 student_on_a_module_instance}</string>
@@ -20824,9 +21257,10 @@ MOD_INSTANCE_ID}</string>
 								<key>Align</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs24 \cf0 STUDENT_ID\
@@ -20898,9 +21332,10 @@ MOD_COMPLETED_ATTEMPT}</string>
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf0 module_instance}</string>
@@ -20941,9 +21376,10 @@ MOD_COMPLETED_ATTEMPT}</string>
 								<key>Align</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs24 \cf0 MOD_ID\
@@ -21016,9 +21452,10 @@ MOD_LOCATION}</string>
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf0 module}</string>
@@ -21059,9 +21496,10 @@ MOD_LOCATION}</string>
 								<key>Align</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs24 \cf0 MOD_ID\
@@ -21097,8 +21535,8 @@ MOD_LEVEL}</string>
 					<integer>304</integer>
 					<key>Points</key>
 					<array>
-						<string>{466.83312761715064, 671.33331171671546}</string>
-						<string>{466.83325428696935, 716.1666323343959}</string>
+						<string>{466.83312761715007, 671.33331171671546}</string>
+						<string>{466.83325428696736, 716.1666323343959}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -21214,8 +21652,8 @@ MOD_LEVEL}</string>
 					<integer>302</integer>
 					<key>Points</key>
 					<array>
-						<string>{466.83330059402198, 327.9166641235376}</string>
-						<string>{466.83332015239705, 276.70832443237509}</string>
+						<string>{466.83330231654844, 327.9166641235376}</string>
+						<string>{466.83332507344824, 290.70832443237509}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -21273,9 +21711,10 @@ MOD_LEVEL}</string>
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf0 staff}</string>
@@ -21316,9 +21755,10 @@ MOD_LEVEL}</string>
 								<key>Align</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs24 \cf0 STAFF_ID\
@@ -21378,9 +21818,10 @@ DASH_SHIB_ID}</string>
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf0 staff_on_course_instance}</string>
@@ -21421,9 +21862,10 @@ DASH_SHIB_ID}</string>
 								<key>Align</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs24 \cf0 STAFF_ID\
@@ -21478,9 +21920,10 @@ COURSE_INSTANCE_ID}</string>
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf0 student_on_course_instance}</string>
@@ -21521,9 +21964,10 @@ COURSE_INSTANCE_ID}</string>
 								<key>Align</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs24 \cf0 STUDENT_ID\
@@ -21585,9 +22029,10 @@ COURSE_INSTANCE_ID}</string>
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf0 course_instance}</string>
@@ -21628,9 +22073,10 @@ COURSE_INSTANCE_ID}</string>
 								<key>Align</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs24 \cf0 COURSE_ID\
@@ -21757,9 +22203,10 @@ ACADEMIC_YEAR}</string>
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf0 course}</string>
@@ -21771,7 +22218,7 @@ ACADEMIC_YEAR}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{341.33333905537921, 178.20832443237512}, {251, 98}}</string>
+							<string>{{341.33333905537921, 178.20832443237512}, {251, 112}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -21800,9 +22247,10 @@ ACADEMIC_YEAR}</string>
 								<key>Align</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs24 \cf0 COURSE_ID\
@@ -21811,7 +22259,8 @@ TITLE\
 COURSE_AIM\
 INST_TIER_1\
 INST_TIER_2\
-INST_TIER_3}</string>
+INST_TIER_3\
+TENANT_ID}</string>
 								<key>VerticalPad</key>
 								<integer>0</integer>
 							</dict>
@@ -21862,9 +22311,10 @@ INST_TIER_3}</string>
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf0 institution}</string>
@@ -21905,9 +22355,10 @@ INST_TIER_3}</string>
 								<key>Align</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs24 \cf0 TENANT_ID\
@@ -21940,8 +22391,8 @@ TENANT_NAME}</string>
 					<integer>13</integer>
 					<key>Points</key>
 					<array>
-						<string>{162.16648907377203, 294.49999998916303}</string>
-						<string>{162.16644137899775, 322.83333334417136}</string>
+						<string>{162.16666287644492, 294.49999998916303}</string>
+						<string>{162.16666287644492, 322.83333334417136}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -21999,9 +22450,10 @@ TENANT_NAME}</string>
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf0 student}</string>
@@ -22042,9 +22494,10 @@ TENANT_NAME}</string>
 								<key>Align</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs24 \cf0 STUDENT_ID\
@@ -22128,9 +22581,10 @@ ENTRY_POSTCODE}</string>
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf0 student_course_membership}</string>
@@ -22171,9 +22625,10 @@ ENTRY_POSTCODE}</string>
 								<key>Align</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1504
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\fs24 \cf0 STUDENT_ID\
@@ -22292,7 +22747,7 @@ COHORT_ID}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, 2312}, {781, 613}}</string>
+		<string>{{0, 3489}, {795, 628}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>

@@ -6,18 +6,22 @@
 * [COURSE_ID](course.md#course_id) [1]
 * [WITHDRAWAL_REASON](#withdrawal_reason) [0..1]
 * [WITHDRAWAL_DATE](#withdrawal_date) [0..1]
-* [ENTRY_QUALS](#entry_quals) [1]
+* [ENTRY_QUALS](#entry_quals) [0..1]
 * [ENTRY_POINTS](#entry_points) [0..1]
-* [COURSE_OUTCOME](#course_outcome) [1]
-* [COURSE_GRADE](#course_grade) [1]
+* [COURSE_OUTCOME](#course_outcome) [0..1]
+* [COURSE_GRADE](#course_grade) [0..1]
 * [COURSE_AIM_ATTAINED](#course_aim_attained) [0..1]
 * [COURSE_MARK](#course_mark) [0..1]
-* [COURSE_EXPECTED_END_DATE](#course_expected_end_date) [1]
+* [COURSE_EXPECTED_END_DATE](#course_expected_end_date) [0..1]
 * [COURSE_END_DATE](#course_end_date) [0..1]
 * [COURSE_JOIN_DATE](#course_join_date) [0..1]
 * [COURSE_JOIN_AGE](#course_join_age) [0..1]
 * [COHORT_ID](#cohort_id) [0..1]
+* [ACTIVE_MEMBERSHIP](#active_membership) [0..1]
 
+Primary key: ('STUDENT_COURSE_MEMBERSHIP_ID', 'STUDENT_COURSE_MEMBERSHIP_SEQ')
+
+For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
 
 ##STUDENT_COURSE_MEMBERSHIP_ID
 ###Description
@@ -39,7 +43,7 @@ The student_course_membership is designed to deal with the fact that some studen
 
 ##STUDENT_COURSE_MEMBERSHIP_SEQ
 ###Description
-The institution's own unique identifier for the student and the course_instance they are assigned to.
+A sequence indicator that uniquely identifies the combination of the student and the course_instance they are assigned to.
 
 ###Purpose
 To provide a unique course_instance code for a student, for use in joining a student to course_instance/enrolment records
@@ -47,13 +51,16 @@ To provide a unique course_instance code for a student, for use in joining a stu
 ###Derivation
 As defined by the Student Record System.
 
+###Valid Values
+Either a letter or digit that increments for each student - course_instance pair.
+
 ###References
 
 ###Format
 String (255)
 
 ###Notes
-The student_course_membership sequence ID is designed to deal with the fact that some students drop out off or enroll on more than one instance of the same course.
+The student_course_membership sequence ID is designed to deal with the fact that some students drop out off or enroll on more than one instance of the same course. Note that the ACTIVE_MEMBERSHIP property indicates whether this student_course_membership record is the current one.
 
 
 ##WITHDRAWAL_REASON
@@ -67,8 +74,10 @@ For analytics
 Based on the ILR codeset used for 'WithdrawReason' - with HESA code '05' utilised. For further information visit:
 
 https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779/ILRSpecification2015_16_v3_July2015.pdf
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^WITHDRAWREASON.html
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^RSNEND.html
+
+https://www.hesa.ac.uk/collection/c16051/a/WITHDRAWREASON
+
+https://www.hesa.ac.uk/collection/c16051/a/RSNEND
 
 ###Valid Values & Mappings
 <table>
@@ -90,7 +99,6 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 <tr><td>97</td><td>Other</td><td></td><td>97</td><td>11</td><td>97  </td></tr>
 <tr><td>98</td><td>Reason not known</td><td></td><td>98</td><td>99</td><td>98  </td></tr>
 <tr><td>99</td><td>Completion of course - result unknown</td><td></td><td>N/A</td><td>98</td><td>N/A</td></tr>
-<tr><td>NULL</td><td>No data</td><td></td><td>NULL</td><td>N/A</td><td>NULL  </td></tr>
 </table>  
 
 ###Format
@@ -107,7 +115,7 @@ For analytics
 
 ###Derivation
 https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779/ILRSpecification2015_16_v3_July2015.pdf
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^ENDDATE.html
+https://www.hesa.ac.uk/collection/c16051/a/ENDDATE
 
 ###Valid Values
 ISO Date - YYYY-MM-DD
@@ -127,12 +135,14 @@ For display & analytics
 
 ###Derivation
 Based on HESA codings for QUALENT3, but merged with specific element of the FE ILR field 'PriorAttain'
-https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779/ILRSpecification2015_16_v3_July2015.pdf
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^QUALENT3.html
+
+https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/518675/ILRSpecification2016_17_v2_April2016.pdf
+
+https://www.hesa.ac.uk/collection/c16051/a/QUALENT3
 
 ###Valid Values & Mappings
 <table>
-<tr><td>ENTRY_QUALS</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)</td><td>HESA(QUALENT3)</td><td>FEILR(PRIORATTAIN)   </td></tr>
+<tr><td>ENTRY_QUALS</td><td>DESCRIPTION (ENGLISH)</td><td>DESCRIPTION (WELSH)</td><td>HESA(QUALENT3)</td><td>FEILR (PRIORATTAIN)</td></tr>
 <tr><td>DUK</td><td>UK doctorate degree</td><td></td><td>DUK</td><td> 	</td></tr>
 <tr><td>DZZ</td><td>Non-UK doctorate degree</td><td></td><td>DZZ</td><td>  	</td></tr>
 <tr><td>D80</td><td>Other qualification at level D</td><td></td><td>D80</td><td>  	</td></tr>
@@ -187,21 +197,20 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 <tr><td>R51</td><td>14-19 Foundation Diploma (level 1)</td><td></td><td>R51</td><td>  	</td></tr>
 <tr><td>R52</td><td>Welsh Baccalaureate Foundation Diploma (level 1)</td><td></td><td>R52</td><td>  	</td></tr>
 <tr><td>R80</td><td>Other qualification at level 1</td><td></td><td>R80</td><td>1  </td></tr>
-<tr><td>X07</td><td>(Other) Qualification below level 1</td><td></td><td>NULL</td><td>7  </td></tr>
+<tr><td>X07</td><td>(Other) Qualification below level 1</td><td></td><td>N/A</td><td>7  </td></tr>
 <tr><td>X00</td><td>Higher education (HE) access course Quality Assurance Agency (QAA) recognised</td><td></td><td>X00</td><td>  	</td></tr>
 <tr><td>X01</td><td>Higher education (HE) access course not Quality Assurance Agency (QAA) recognised</td><td></td><td>X01</td><td>  	</td></tr>
 <tr><td>X02</td><td>Mature student admitted on basis of previous experience and/or admissions test</td><td></td><td>X02</td><td>  	</td></tr>
 <tr><td>X04</td><td>Other qualification level not known</td><td></td><td>X04</td><td>97  </td></tr>
 <tr><td>X05</td><td>Student has no formal qualification</td><td></td><td>X05</td><td>99  </td></tr>
-<tr><td>X06</td><td>Not known</td><td></td><td>X06</td><td>98  </td></tr>
-<tr><td>NULL</td><td>No data</td><td></td><td>NULL</td><td>NULL </td></tr>
+<tr><td>X06</td><td>Not known</td><td></td><td>X06</td><td>98</td></tr>
 </table>
 
 ###Format
 String (256)
 
 ###Notes
-
+Omitting this property may hinder the development or use of an effective analytics model.
 
 ##ENTRY_POINTS
 ###Description
@@ -230,17 +239,140 @@ This field indicates the outcome/ status of the learner's current course or lear
 For analytics
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^RSNEND.html
+
+https://www.hesa.ac.uk/collection/c16051/a/rsnend/
+
 https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779/ILRSpecification2015_16_v3_July2015.pdf
 
 ###Valid Values
-Any integer
+ <table>
+            <tr>
+                <td>CODE</td>
+                <td>DESCRIPTION (ENGLISH)</td>
+                <td>DESCRIPTION (WELSH)</td>
+                <td>HESA RSNEND code</td>
+                <td>FEILR CompStatus code</td>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Successful completion of course</td>
+                <td> </td>
+                <td>01</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Academic failure/left in bad standing/not permitted to
+                    progress</td>
+                <td> </td>
+                <td>02</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Transferred to another provider</td>
+                <td> </td>
+                <td>03</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Health reasons</td>
+                <td> </td>
+                <td>04</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Death</td>
+                <td> </td>
+                <td>05</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>Financial reasons</td>
+                <td> </td>
+                <td>06</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>07</td>
+                <td>Other personal reasons &amp; dropped out</td>
+                <td> </td>
+                <td>07</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>08</td>
+                <td>Written off after lapse of time</td>
+                <td> </td>
+                <td>08</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>09</td>
+                <td>Exclusion</td>
+                <td> </td>
+                <td>09</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Gone into employment</td>
+                <td> </td>
+                <td>10</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Other</td>
+                <td> </td>
+                <td>11</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Transferred out as part of collaborative supervision arrangements</td>
+                <td> </td>
+                <td>12</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>The learner is continuing or intending to continue the learning activities leading to the learning aim</td>
+                <td> </td>
+                <td>N/A</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Learner has temporarily withdrawn from the aim due to an agreed break in learning</td>
+               <td> </td>
+                <td>N/A</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>98</td>
+                <td>Completion of course - result unknown</td>
+                <td> </td>
+                <td>98</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>99</td>
+                <td>Unknown</td>
+                <td> </td>
+                <td>99</td>
+                <td>N/A</td>
+            </tr>
+        </table>
 
 ###Format
 String (256)
 
 ###Notes
-
+Omitting this property may hinder the development or use of an effective analytics model.
 
 ##COURSE_GRADE
 ###Description
@@ -250,12 +382,12 @@ Class of award achieved by the student on this course_instance. Based on HESA co
 For analytics
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^CLASS.html
+https://www.hesa.ac.uk/collection/c16051/a/CLASS
 
 ###Valid Values
 
 <table>
-<tr><td>COURSE_GRADE</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
+<tr><td>COURSE_GRADE</td><td>DESCRIPTION (ENGLISH)</td><td>DESCRIPTION (WELSH)  </td></tr>
 <tr><td>1</td><td>First class honours</td><td>  	</td></tr>
 <tr><td>2</td><td>Upper second class honours</td><td>  	</td></tr>
 <tr><td>3</td><td>Lower second class honours</td><td> 	</td></tr>
@@ -303,7 +435,7 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
 String (256)
 
 ###Notes
-
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 ##COURSE_AIM_ATTAINED
 ###Description
@@ -313,12 +445,691 @@ The Course Aim the student attained on the course of which they are a member.
 Allowing the analysis of whether a student achieved the award/aim associated with the course of which they are a member.
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^COURSEAIM.html
+https://www.hesa.ac.uk/collection/c16051/a/courseaim/
 
 ###Valid values
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^COURSEAIM.html
-
-Plus additional codes X98 & X99 (see notes below)
+<table>
+			<tr>
+				<td>Code</td>
+				<td>Label</td>
+			</tr>
+			<tr>
+				<td>D00</td>
+				<td>Doctorate degree that meets the criteria for a research-based higher degree</td>
+			</tr>
+			<tr>
+				<td>D01</td>
+				<td>New Route PhD that meets the criteria for a research-based higher degree</td>
+			</tr>
+			<tr>
+				<td>D90</td>
+				<td>Provider credit at level D that can count towards a research-based higher
+					degree</td>
+			</tr>
+			<tr>
+				<td>E00</td>
+				<td>Doctorate degree that does not meet the criteria for a research-based higher
+					degree</td>
+			</tr>
+			<tr>
+				<td>E40</td>
+				<td>National Vocational Qualification (NVQ) at level E</td>
+			</tr>
+			<tr>
+				<td>E43</td>
+				<td>Highly specialist diploma from a professional body</td>
+			</tr>
+			<tr>
+				<td>E90</td>
+				<td>Advanced taught study at level E for provider credit</td>
+			</tr>
+			<tr>
+				<td>L00</td>
+				<td>Masters degree that meets the criteria for a research-based higher degree</td>
+			</tr>
+			<tr>
+				<td>L80</td>
+				<td>Other postgraduate qualification at level L that meets the criteria for a
+					research-based higher degree</td>
+			</tr>
+			<tr>
+				<td>L90</td>
+				<td>Provider credit at level L that can count towards a research-based higher
+					degree</td>
+			</tr>
+			<tr>
+				<td>L91</td>
+				<td>Visiting research students at levels D or L, with formal or informal credit</td>
+			</tr>
+			<tr>
+				<td>L99</td>
+				<td>Research-based higher degree where the student may ultimately study at levels D
+					or L</td>
+			</tr>
+			<tr>
+				<td>M00</td>
+				<td>Masters degree obtained typically by a combination of coursework and
+					thesis/dissertation, that does not meet the criteria for a research-based higher
+					degree</td>
+			</tr>
+			<tr>
+				<td>M01</td>
+				<td>Taught masters degree designed specifically as a training in research methods
+					and intended as a preparation for a research-based higher degree</td>
+			</tr>
+			<tr>
+				<td>M02</td>
+				<td>Masters in Teaching and Learning</td>
+			</tr>
+			<tr>
+				<td>M10</td>
+				<td>Post-experience taught masters degree</td>
+			</tr>
+			<tr>
+				<td>M11</td>
+				<td>Master of Business Administration (MBA)</td>
+			</tr>
+			<tr>
+				<td>M16</td>
+				<td>Pre-registration masters degree leading towards obtaining eligibility to
+					register to practice with a health or social care or veterinary statutory
+					regulatory body</td>
+			</tr>
+			<tr>
+				<td>M22</td>
+				<td>Integrated undergraduate/postgraduate taught masters degree on the
+					enhanced/extended pattern</td>
+			</tr>
+			<tr>
+				<td>M26</td>
+				<td>Integrated undergraduate/postgraduate taught masters degree on the
+					enhanced/extended pattern leading towards obtaining eligibility to register to
+					practice with a health or social care or veterinary statutory regulatory
+					body</td>
+			</tr>
+			<tr>
+				<td>M28</td>
+				<td>Integrated undergraduate/postgraduate taught masters degree on the
+					enhanced/extended pattern leading towards registration with the Architects
+					Registration Board (Part 1 and Part 2 qualification)</td>
+			</tr>
+			<tr>
+				<td>M40</td>
+				<td>Fellowship at level M</td>
+			</tr>
+			<tr>
+				<td>M41</td>
+				<td>Diploma at level M</td>
+			</tr>
+			<tr>
+				<td>M42</td>
+				<td>Advanced professional certificate at level M</td>
+			</tr>
+			<tr>
+				<td>M43</td>
+				<td>National Vocational Qualification (NVQ) at level M</td>
+			</tr>
+			<tr>
+				<td>M44</td>
+				<td>Certificate at level M</td>
+			</tr>
+			<tr>
+				<td>M45</td>
+				<td>Scottish Vocational Qualification (SVQ) 5</td>
+			</tr>
+			<tr>
+				<td>M50</td>
+				<td>Postgraduate bachelors degree at level M obtained typically by a combination of
+					coursework and thesis/dissertation, that does not meet the criteria for a
+					research-based higher degree</td>
+			</tr>
+			<tr>
+				<td>M70</td>
+				<td>Professional taught qualification at level M other than a masters degree</td>
+			</tr>
+			<tr>
+				<td>M71</td>
+				<td>Postgraduate Certificate in Education or Professional Graduate Diploma in
+					Education</td>
+			</tr>
+			<tr>
+				<td>M72</td>
+				<td>Post-registration education qualification at level M other than a masters degree
+					for serving schoolteachers</td>
+			</tr>
+			<tr>
+				<td>M73</td>
+				<td>Postgraduate Diploma in Education</td>
+			</tr>
+			<tr>
+				<td>M76</td>
+				<td>Post-registration health and social care qualification at level M</td>
+			</tr>
+			<tr>
+				<td>M78</td>
+				<td>Taught qualification at level M (where qualification at level H and/or level M
+					is a pre-requisite for course entry) leading towards registration with the
+					Architects Registration Board (Part 3 qualification)</td>
+			</tr>
+			<tr>
+				<td>M79</td>
+				<td>Level 7 Diploma in Teaching in the Lifelong Learning Sector</td>
+			</tr>
+			<tr>
+				<td>M80</td>
+				<td>Other taught qualification at level M</td>
+			</tr>
+			<tr>
+				<td>M86</td>
+				<td>Taught qualification at level M leading towards obtaining eligibility to
+					register to practice with a health or social care or veterinary statutory
+					regulatory body</td>
+			</tr>
+			<tr>
+				<td>M88</td>
+				<td>Taught qualification at level M (where a qualification at level H is a
+					pre-requisite for course entry) leading towards registration with the Architects
+					Registration Board (Part 2 qualification)</td>
+			</tr>
+			<tr>
+				<td>M90</td>
+				<td>Taught work at level M for provider credit</td>
+			</tr>
+			<tr>
+				<td>M91</td>
+				<td>Visiting taught students at levels E or M, with formal or informal credit</td>
+			</tr>
+			<tr>
+				<td>M99</td>
+				<td>Taught work at levels E or M with an unspecified qualification aim</td>
+			</tr>
+			<tr>
+				<td>H00</td>
+				<td>First degree with honours</td>
+			</tr>
+			<tr>
+				<td>H11</td>
+				<td>First degree with honours leading to Qualified Teacher Status (QTS)/registration
+					with a General Teaching Council (GTC)</td>
+			</tr>
+			<tr>
+				<td>H12</td>
+				<td>First degree with honours leading to Early Years Teacher Status (EYTS)</td>
+			</tr>
+			<tr>
+				<td>H16</td>
+				<td>Pre-registration first degree with honours leading towards obtaining eligibility
+					to register to practice with a health or social care or veterinary statutory
+					regulatory body</td>
+			</tr>
+			<tr>
+				<td>H18</td>
+				<td>First degree with honours leading towards registration with the Architects
+					Registration Board (Part 1 qualification)</td>
+			</tr>
+			<tr>
+				<td>H22</td>
+				<td>First degree with honours on the enhanced/extended pattern but at level H</td>
+			</tr>
+			<tr>
+				<td>H23</td>
+				<td>First degree with honours and diploma</td>
+			</tr>
+			<tr>
+				<td>H41</td>
+				<td>Diploma at level H</td>
+			</tr>
+			<tr>
+				<td>H42</td>
+				<td>Certificate at level H</td>
+			</tr>
+			<tr>
+				<td>H43</td>
+				<td>National Vocational Qualification (NVQ) at level H</td>
+			</tr>
+			<tr>
+				<td>H50</td>
+				<td>Postgraduate bachelors degree at level H</td>
+			</tr>
+			<tr>
+				<td>H60</td>
+				<td>Graduate diploma/certificate at level H</td>
+			</tr>
+			<tr>
+				<td>H61</td>
+				<td>Graduate diploma/certificate at level H but where a previous qualification at
+					level H is a pre-requisite for course entry</td>
+			</tr>
+			<tr>
+				<td>H62</td>
+				<td>Pre-registration graduate diploma/certificate leading towards obtaining
+					eligibility to register to practice with a health or social care or veterinary
+					statutory regulatory body</td>
+			</tr>
+			<tr>
+				<td>H70</td>
+				<td>Professional qualification at level H other than a first degree with
+					honours</td>
+			</tr>
+			<tr>
+				<td>H71</td>
+				<td>Professional Graduate Certificate in Education</td>
+			</tr>
+			<tr>
+				<td>H72</td>
+				<td>Professional qualification at level H for serving schoolteachers other than a
+					first degree with honours</td>
+			</tr>
+			<tr>
+				<td>H76</td>
+				<td>Post-registration health and social care qualification at level H other than a
+					first degree with honours</td>
+			</tr>
+			<tr>
+				<td>H78</td>
+				<td>Other qualification at level H (where other qualifications at level H are a
+					pre-requisite for course entry) leading towards registration with the Architects
+					Registration Board (Part 3 qualification)</td>
+			</tr>
+			<tr>
+				<td>H79</td>
+				<td>Level 6 Diploma in Teaching in the Lifelong Learning Sector</td>
+			</tr>
+			<tr>
+				<td>H80</td>
+				<td>Other qualification at level H</td>
+			</tr>
+			<tr>
+				<td>H81</td>
+				<td>Other qualification at level H but where a previous qualification at level H is
+					a pre-requisite for course entry</td>
+			</tr>
+			<tr>
+				<td>H88</td>
+				<td>Qualification at level H (where another qualification at level H is a
+					pre-requisite for course entry) leading towards registration with the Architects
+					Registration Board (Part 2 qualification)</td>
+			</tr>
+			<tr>
+				<td>H90</td>
+				<td>Credits at level H</td>
+			</tr>
+			<tr>
+				<td>H91</td>
+				<td>Visiting students at level H, with formal or informal credit</td>
+			</tr>
+			<tr>
+				<td>H99</td>
+				<td>Taught work at level H with an unspecified qualification aim</td>
+			</tr>
+			<tr>
+				<td>I00</td>
+				<td>Ordinary (non-honours) first degree</td>
+			</tr>
+			<tr>
+				<td>I11</td>
+				<td>Ordinary (non-honours) first degree leading to Qualified Teacher Status
+					(QTS)/registration with a General Teaching Council (GTC)</td>
+			</tr>
+			<tr>
+				<td>I12</td>
+				<td>Ordinary (non-honours) first degree leading to Early Years Teacher Status
+					(EYTS)</td>
+			</tr>
+			<tr>
+				<td>I16</td>
+				<td>Pre-registration ordinary (non-honours) first degree leading towards obtaining
+					eligibility to register to practice with a health or social care or veterinary
+					statutory regulatory body</td>
+			</tr>
+			<tr>
+				<td>I60</td>
+				<td>Graduate diploma/certificate at level I</td>
+			</tr>
+			<tr>
+				<td>I61</td>
+				<td>Graduate diploma/certificate at level I but where a previous qualification at
+					level I or H is a pre-requisite for course entry</td>
+			</tr>
+			<tr>
+				<td>I70</td>
+				<td>Professional qualification at level I other than an ordinary (non-honours) first
+					degree</td>
+			</tr>
+			<tr>
+				<td>I71</td>
+				<td>Qualified Teacher Status (QTS)/registration with a General Teaching Council
+					(GTC) only</td>
+			</tr>
+			<tr>
+				<td>I72</td>
+				<td>Professional qualification at level I for serving schoolteachers</td>
+			</tr>
+			<tr>
+				<td>I73</td>
+				<td>Early Years Teacher Status (EYTS) only</td>
+			</tr>
+			<tr>
+				<td>I74</td>
+				<td>Teaching certificate (trained through the medium of Welsh)</td>
+			</tr>
+			<tr>
+				<td>I76</td>
+				<td>Post-registration health and social care qualification at level I other than an
+					ordinary (non-honours) first degree</td>
+			</tr>
+			<tr>
+				<td>I78</td>
+				<td>Level 5 Diploma in Education and Training (DET)</td>
+			</tr>
+			<tr>
+				<td>I79</td>
+				<td>Level 5 Diploma in Teaching in the Lifelong Learning Sector</td>
+			</tr>
+			<tr>
+				<td>I80</td>
+				<td>Other qualification at level I</td>
+			</tr>
+			<tr>
+				<td>I81</td>
+				<td>Other qualification at level I but where a previous qualification at level I or
+					H is a pre-requisite for course entry</td>
+			</tr>
+			<tr>
+				<td>I90</td>
+				<td>Credits at level I</td>
+			</tr>
+			<tr>
+				<td>I91</td>
+				<td>Visiting students at level I, with formal or informal credit</td>
+			</tr>
+			<tr>
+				<td>I99</td>
+				<td>Taught work at level I with an unspecified qualification aim</td>
+			</tr>
+			<tr>
+				<td>J10</td>
+				<td>Foundation degree</td>
+			</tr>
+			<tr>
+				<td>J16</td>
+				<td>Foundation degree which on completion meets entry requirement for
+					pre-registration health and social care qualification</td>
+			</tr>
+			<tr>
+				<td>J20</td>
+				<td>Diploma of Higher Education (DipHE)</td>
+			</tr>
+			<tr>
+				<td>J26</td>
+				<td>Diploma of Higher Education (DipHE) leading towards obtaining eligibility to
+					register to practice with a health or social care or veterinary statutory
+					regulatory body</td>
+			</tr>
+			<tr>
+				<td>J30</td>
+				<td>Higher National Diploma (HND)</td>
+			</tr>
+			<tr>
+				<td>J41</td>
+				<td>Diploma at level J</td>
+			</tr>
+			<tr>
+				<td>J42</td>
+				<td>Certificate at level J</td>
+			</tr>
+			<tr>
+				<td>J43</td>
+				<td>National Vocational Qualification (NVQ) at level J</td>
+			</tr>
+			<tr>
+				<td>J45</td>
+				<td>Scottish Vocational Qualification (SVQ) 4</td>
+			</tr>
+			<tr>
+				<td>J76</td>
+				<td>Post-registration health and social care qualification at level J</td>
+			</tr>
+			<tr>
+				<td>J80</td>
+				<td>Other qualification at level J</td>
+			</tr>
+			<tr>
+				<td>J90</td>
+				<td>Credits at level J</td>
+			</tr>
+			<tr>
+				<td>J99</td>
+				<td>Taught work at level J with an unspecified qualification aim</td>
+			</tr>
+			<tr>
+				<td>C20</td>
+				<td>Certificate of Higher Education (CertHE)</td>
+			</tr>
+			<tr>
+				<td>C30</td>
+				<td>Higher National Certificate (HNC)</td>
+			</tr>
+			<tr>
+				<td>C41</td>
+				<td>Diploma at level C</td>
+			</tr>
+			<tr>
+				<td>C42</td>
+				<td>Certificate at level C</td>
+			</tr>
+			<tr>
+				<td>C43</td>
+				<td>National Vocational Qualification (NVQ) at level C</td>
+			</tr>
+			<tr>
+				<td>C77</td>
+				<td>Level 4 Preparing to Teach in the Lifelong Learning Sector</td>
+			</tr>
+			<tr>
+				<td>C78</td>
+				<td>Level 4 Certificate in Teaching in the Lifelong Learning Sector</td>
+			</tr>
+			<tr>
+				<td>C80</td>
+				<td>Other qualification at level C</td>
+			</tr>
+			<tr>
+				<td>C90</td>
+				<td>Credits at level C</td>
+			</tr>
+			<tr>
+				<td>C99</td>
+				<td>Taught work at level C with an unspecified qualification aim</td>
+			</tr>
+			<tr>
+				<td>P41</td>
+				<td>Diploma at level P</td>
+			</tr>
+			<tr>
+				<td>P42</td>
+				<td>Certificate at level P</td>
+			</tr>
+			<tr>
+				<td>P43</td>
+				<td>National Vocational Qualification (NVQ) 3</td>
+			</tr>
+			<tr>
+				<td>P45</td>
+				<td>Scottish Vocational Qualification (SVQ) 3</td>
+			</tr>
+			<tr>
+				<td>P50</td>
+				<td>A/AS level</td>
+			</tr>
+			<tr>
+				<td>P55</td>
+				<td>Advanced Higher (Scotland)</td>
+			</tr>
+			<tr>
+				<td>P56</td>
+				<td>Higher (Scotland)</td>
+			</tr>
+			<tr>
+				<td>P70</td>
+				<td>Professional qualification at level 3</td>
+			</tr>
+			<tr>
+				<td>P77</td>
+				<td>Level 3 Preparing to Teach in the Lifelong Learning Sector</td>
+			</tr>
+			<tr>
+				<td>P78</td>
+				<td>Level 3 Certificate in Teaching in the Lifelong Learning Sector</td>
+			</tr>
+			<tr>
+				<td>P80</td>
+				<td>Other qualification at level 3</td>
+			</tr>
+			<tr>
+				<td>P85</td>
+				<td>Diploma in Foundation Studies (Art and Design) at level 3</td>
+			</tr>
+			<tr>
+				<td>P90</td>
+				<td>Credits at level 3</td>
+			</tr>
+			<tr>
+				<td>Q41</td>
+				<td>Diploma at level Q</td>
+			</tr>
+			<tr>
+				<td>Q42</td>
+				<td>Certificate at level Q</td>
+			</tr>
+			<tr>
+				<td>Q43</td>
+				<td>National Vocational Qualification (NVQ) 2</td>
+			</tr>
+			<tr>
+				<td>Q45</td>
+				<td>Scottish Vocational Qualification (SVQ) 2</td>
+			</tr>
+			<tr>
+				<td>Q50</td>
+				<td>GCSE at grade A*-C</td>
+			</tr>
+			<tr>
+				<td>Q56</td>
+				<td>Intermediate 2 (Scotland)</td>
+			</tr>
+			<tr>
+				<td>Q57</td>
+				<td>Standard Grade Credit (Scotland)</td>
+			</tr>
+			<tr>
+				<td>Q70</td>
+				<td>Professional qualification at level 2</td>
+			</tr>
+			<tr>
+				<td>Q80</td>
+				<td>Other qualification at level 2</td>
+			</tr>
+			<tr>
+				<td>Q90</td>
+				<td>Credits at level 2</td>
+			</tr>
+			<tr>
+				<td>R42</td>
+				<td>Certificate at level R</td>
+			</tr>
+			<tr>
+				<td>R43</td>
+				<td>National Vocational Qualification (NVQ) 1</td>
+			</tr>
+			<tr>
+				<td>R45</td>
+				<td>Scottish Vocational Qualification (SVQ) 1</td>
+			</tr>
+			<tr>
+				<td>R50</td>
+				<td>GCSE at grade D-G</td>
+			</tr>
+			<tr>
+				<td>R56</td>
+				<td>Intermediate 1 (Scotland)</td>
+			</tr>
+			<tr>
+				<td>R57</td>
+				<td>Standard Grade General (Scotland)</td>
+			</tr>
+			<tr>
+				<td>R70</td>
+				<td>Professional qualification at level 1</td>
+			</tr>
+			<tr>
+				<td>R80</td>
+				<td>Other qualification at level 1</td>
+			</tr>
+			<tr>
+				<td>R90</td>
+				<td>Credits at level 1</td>
+			</tr>
+			<tr>
+				<td>S42</td>
+				<td>National Vocational Qualification (NVQ) Entry level certificate</td>
+			</tr>
+			<tr>
+				<td>S57</td>
+				<td>Standard Grade Foundation (Scotland)</td>
+			</tr>
+			<tr>
+				<td>S80</td>
+				<td>Other qualification at further education (FE) access level</td>
+			</tr>
+			<tr>
+				<td>S90</td>
+				<td>Credits at further education (FE) access level</td>
+			</tr>
+			<tr>
+				<td>X00</td>
+				<td>Higher education (HE) access course, Quality Assurance Agency (QAA)
+					recognised</td>
+			</tr>
+			<tr>
+				<td>X01</td>
+				<td>Higher education (HE) access course, not Quality Assurance Agency (QAA)
+					recognised</td>
+			</tr>
+			<tr>
+				<td>X41</td>
+				<td>Welsh for Adults Entry level</td>
+			</tr>
+			<tr>
+				<td>X42</td>
+				<td>Welsh for Adults level 1</td>
+			</tr>
+			<tr>
+				<td>X43</td>
+				<td>Welsh for Adults level 2</td>
+			</tr>
+			<tr>
+				<td>X44</td>
+				<td>Welsh for Adults level 3</td>
+			</tr>
+			<tr>
+				<td>X45</td>
+				<td>Welsh for Adults level 4</td>
+			</tr>
+			<tr>
+				<td>X46</td>
+				<td>Welsh for Adults specialist/arbennig</td>
+			</tr>
+			
+			<tr>
+				<td>X99</td>
+				<td>No formal qualification aim, below HE level</td>
+			</tr>
+			<tr>
+				<td>Z99</td>
+				<td>Course aim does not apply</td>
+			</tr>
+		</table>
 
 ###References
 
@@ -326,7 +1137,7 @@ Plus additional codes X98 & X99 (see notes below)
 String (255)
 
 ###Notes
-This field uses the HESA "COURSEAIM" codeset initially - with the addition of new code 'X98' to denote 'No formal qualification aim, below FE level' for FE equivalent denotation to HE code 'X99'. All course levels are denoted here (TBC with FE college, for final implementation). Specific use of the LARS codeset for FE (from ILR) may need to be considered, or a mapping/ amalgamation with the HESA codeset. This is to be discussed in consultation with the FE sector.
+All course levels are denoted here (TBC with FE college, for final implementation). Specific use of the LARS codeset for FE (from ILR) may need to be considered, or a mapping/ amalgamation with the HESA codeset. This is to be discussed in consultation with the FE sector.
 
 
 ##COURSE_MARK
@@ -369,7 +1180,7 @@ YYYY-MM-DD
 ISO 8601 full
 
 ###Notes
-
+Omitting this property may hinder the development or use of an effective analytics model.
 
 ##COURSE_END_DATE
 ###Description
@@ -401,7 +1212,7 @@ Analytics
 
 ###Derivation
 HESA COMDATE
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=15051&href=a^_^COMDATE.html
+https://www.hesa.ac.uk/collection/c16051/a/COMDATE
 
 ###Valid values
 YYYY-MM-DD
@@ -455,3 +1266,67 @@ Any
 String (255)
 
 ###Notes
+
+
+##COHORT_ID
+###Description
+An identifier for a group of students in a year cohort.
+
+###Purpose
+Display and grouping purposes, and but analysis.
+
+###Derivation
+Jisc
+
+###Valid values
+Any
+
+###References
+
+###Format
+String (255)
+
+###Notes
+
+
+##ACTIVE_MEMBERSHIP
+###Description
+Indicates whether the student_course_membership record of which this property is a part is the current student course membership.
+
+###Purpose
+Display purposes.
+
+###Derivation
+Jisc
+
+###Valid values
+ <table>
+            <tr>
+                <td>CODE</td>
+                <td>DESCRIPTION (ENGLISH)</td>
+                <td>DESCRIPTION (WELSH)</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>current</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>not current</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>unknown</td>
+                <td> </td>
+            </tr>
+        </table>
+
+###References
+
+###Format
+String (1)
+
+###Notes
+The student_course_membership record with ACTIVE_MEMBERSHIP=1 also needs to have a STUDENT_COURSE_MEMBERSHIP_SEQ of the highest sequential value of all student_course_membership records with the same STUDENT_ID + STUDENT_COURSE_MEMBERSHIP_ID combination. This record will generally also be the record with the most recent COURSE_JOIN_DATE. This attribute will be compulsory in UDD v1.3.

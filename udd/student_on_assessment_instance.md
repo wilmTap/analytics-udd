@@ -11,14 +11,18 @@
 * [ASSESS_ACTUAL_MARK](#assess_actual_mark) [0..1]
 * [ASSESS_AGREED_GRADE](#assess_agreed_grade) [0..1]
 * [ASSESS_ACTUAL_GRADE](#assess_actual_grade) [0..1]
-* [ASSESSMENT_CURRENT_ATTEMPT](#assessment_current_attempt) [1]
-* [ASSESSMENT_RESULT](#assessment_result) [1]
+* [ASSESSMENT_CURRENT_ATTEMPT](#assessment_current_attempt) [0..1]
+* [ASSESSMENT_RESULT](#assessment_result) [0..1]
 * [GRADE_DATE](#grade_date) [0..1]
 * [MAX_POINTS](#max_points) [0..1]
 * [X_ASSESS_DETAIL](#x_assess_detail) [0..1]
 * [X_MOD_NAME](student_on_a_module_instance.md#x_mod_name) [0..1]
 * [X_MOD_ID](#x_mod_id) [0..1]
 * [X_MOD_ACADEMIC_YEAR](#x_mod_academic_year) [0..1]
+
+Primary key: ('STUDENT_COURSE_MEMBERSHIP_ID', 'STUDENT_COURSE_MEMBERSHIP_SEQ', 'ASSESS_INSTANCE_ID', 'ASSESS_SEQ_ID')
+
+For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
 
 ##ASSESS_SEQ_ID
 ###Description.
@@ -175,7 +179,7 @@ Any
 Integer
 
 ###Notes
-
+Omitting this property may hinder the development or use of an effective analytics model.
 
 ##ASSESSMENT_RESULT
 ###Description.
@@ -200,6 +204,7 @@ String (256)
 
 ###Notes
 Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply because the student hasn't been assessed yet. Code 4 is deprecated because deferral or withdrawal is indicated by WITHDRAWAL_REASON in student_course_membership. 
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 
 ##GRADE_DATE

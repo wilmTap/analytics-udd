@@ -4,11 +4,11 @@
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
 * [COURSE_INSTANCE_ID](course_instance.md#course_instance_id) [1]
 * [MOD_INSTANCE_ID](module_instance.md#mod_instance_id) [1]
-* [MOD_GRADE](#mod_grade) [0..1] (deprecated)
-* [MOD_RESULT](#mod_result) [1]
+* [MOD_GRADE](#mod_grade) [0..1] deprecated
+* [MOD_RESULT](#mod_result) [0..1]
 * [MOD_RETAKE](#mod_retake) [0..1]
-* [MOD_START_DATE](#mod_start_date) [1]
-* [MOD_END_DATE](#mod_end_date) [1]
+* [MOD_START_DATE](#mod_start_date) [0..1]
+* [MOD_END_DATE](#mod_end_date) [0..1]
 * [MOD_FIRST_MARK](#mod_first_mark) [0..1]
 * [MOD_ACTUAL_MARK](#mod_actual_mark) [0..1]
 * [MOD_AGREED_MARK](#mod_agreed_mark) [0..1]
@@ -16,10 +16,14 @@
 * [MOD_ACTUAL_GRADE](#mod_actual_grade) [0..1]
 * [MOD_AGREED_GRADE](#mod_agreed_grade) [0..1]
 * [MOD_CREDITS_ACHIEVED](#mod_credits_achieved) [0..1]
-* [MOD_CURRENT_ATTEMPT](#mod_current_attempt) [1]
+* [MOD_CURRENT_ATTEMPT](#mod_current_attempt) [0..1]
 * [MOD_COMPLETED_ATTEMPT](#mod_completed_attempt) [0..1]
 * [X_MOD_NAME](#x_mod_name) [0..1]
 * [X_MOD_ACADEMIC_YEAR](#x_mod_academic_year) [0..1]
+
+Primary key: ('STUDENT_COURSE_MEMBERSHIP_ID', 'STUDENT_COURSE_MEMBERSHIP_SEQ', 'COURSE_INSTANCE_ID', 'MOD_INSTANCE_ID')
+
+For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
 
 ##MOD_GRADE (deprecated)
 ###Description.
@@ -66,6 +70,7 @@ String (256)
 
 ###Notes
 Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply because the student hasn't been assessed yet. Code 4 is deprecated because deferral or withdrawal is indicated by WITHDRAWAL_REASON in student_course_membership.
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 
 ##MOD_RETAKE
@@ -110,6 +115,7 @@ ISO 8601 Full
 
 ###Notes
 The start and end date of a module_instance MUST align with the start and end date of a course_instance.
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 
 ##MOD_END_DATE
@@ -130,6 +136,7 @@ ISO 8601 Full
 
 ###Notes
 The start and end date of a module_instance MUST align with the start and end date of a course_instance.
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 
 ##MOD_FIRST_MARK
@@ -255,7 +262,7 @@ The number of credits awarded for the module.
 Analytics
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^CRDTPTS.html
+https://www.hesa.ac.uk/collection/c16051/a/crdtpts/
 
 ###Valid Values
 Any
@@ -283,7 +290,7 @@ Any
 Integer
 
 ###Notes
-
+Omitting this property may hinder the development or use of an effective analytics model.
 
 ##MOD_COMPLETED_ATTEMPT
 ###Description

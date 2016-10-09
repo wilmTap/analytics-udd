@@ -46,6 +46,8 @@ An [entity relation diagram of the whole UDD 1.3](diagram.md) provides a one pag
 
 ###[staff_on_mod_instance](udd/staff_on_mod_instance.md)
 
+##Mandatory and optional properties
+The properties of the UDD are required in compliant datasets to different degrees. The [guide to mandatory properties in the UDD](mandatory.md) outlines the different categories of UDD property.
 
 ##Specification development workflow
 The simplest way of contributing to the UDD is as follows:

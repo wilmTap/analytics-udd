@@ -1,11 +1,15 @@
 #assessment_instance
 * [MOD_INSTANCE_ID](module_instance.md#mod_instance_id) [1]
 * [ASSESS_INSTANCE_ID](#assess_instance_id) [1]
-* [ASSESS_TYPE_ID](#assess_type_id) [1]
-* [ASSESS_TYPE_NAME](#assess_type_name) [1]
-* [ASSESS_DETAIL](#assess_detail) [1]
-* [ASSESS_WEIGHT](#assess_weight) [1]
-* [MAX_MARKS](#max_marks) [0-1]
+* [ASSESS_TYPE_ID](#assess_type_id) [0..1]
+* [ASSESS_TYPE_NAME](#assess_type_name) [0..1]
+* [ASSESS_DETAIL](#assess_detail) [0..1]
+* [ASSESS_WEIGHT](#assess_weight) [0..1]
+* [MAX_MARKS](#max_marks) [0..1]
+
+Primary key: ('ASSESS_INSTANCE_ID')
+
+For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
 
 ###Description
 An assessment_instance is any assessed learning activity that is part of a wider module or course that gets a grade and/or mark. The assumption is that an assessment_instance is summative.
@@ -46,7 +50,7 @@ Any
 String (255)
 
 ###Notes
-
+Omitting this property may hinder the development or use of an effective analytics model.
 
 ##ASSESS_TYPE_NAME
 ###Description.
@@ -65,7 +69,7 @@ Any
 String (255)
 
 ###Notes
-
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 ##ASSESS_DETAIL
 ###Description.
@@ -84,6 +88,7 @@ Any
 String (255)
 
 ###Notes
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 ##ASSESS_WEIGHT
 ###Description.
@@ -102,7 +107,7 @@ Jisc
 Decimal
 
 ###Notes
-
+Omitting this property may hinder the development or use of an effective analytics model.
 
 ##MAX_MARKS
 ###Description.

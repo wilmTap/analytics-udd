@@ -1,6 +1,10 @@
 #Institution
 * [TENANT_ID](#tenant_id) [1]
-* [TENANT_NAME](#tenant_name) [1]
+* [TENANT_NAME](#tenant_name) [0..1]
+
+Primary key: ('TENANT_ID')
+
+For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
 
 ##TENANT_ID
 ###Description
@@ -37,3 +41,4 @@ Insitution
 String (255)
 
 ###Notes
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
