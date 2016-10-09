@@ -21,6 +21,8 @@
 
 Primary key: ('STUDENT_COURSE_MEMBERSHIP_ID', 'STUDENT_COURSE_MEMBERSHIP_SEQ')
 
+For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
+
 ##STUDENT_COURSE_MEMBERSHIP_ID
 ###Description
 The institution's own unique identifier for the combination of one student and one course they are enrolled on.

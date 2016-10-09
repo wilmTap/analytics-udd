@@ -7,6 +7,10 @@
 * [ASSESS_WEIGHT](#assess_weight) [0..1]
 * [MAX_MARKS](#max_marks) [0..1]
 
+Primary key: ('ASSESS_INSTANCE_ID')
+
+For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
+
 ###Description
 An assessment_instance is any assessed learning activity that is part of a wider module or course that gets a grade and/or mark. The assumption is that an assessment_instance is summative.
 

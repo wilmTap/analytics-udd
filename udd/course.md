@@ -8,6 +8,10 @@
 * [INST_TIER_3](#inst_tier_3) [0..1]
 * [TENANT_ID](institution.md#tenant_id) [0..1]
 
+Primary key: ('COURSE_ID')
+
+For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
+
 ##COURSE_ID
 ###Description
 The providers own ID for the course

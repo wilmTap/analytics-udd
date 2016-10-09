@@ -9,6 +9,10 @@ An additional data entity
 * [HESA_STAFF_ID](#hesa_staff_id) [0..1]
 * [DASH_SHIB_ID](#dash_shib_id) [0..1]
 
+Primary key: ('STAFF_ID')
+
+For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
+
 ##STAFF_ID
 ###Description
 An institution's unique identifier for a staff member. This could be their username.

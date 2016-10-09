@@ -23,6 +23,8 @@
 
 Primary key: ('STUDENT_COURSE_MEMBERSHIP_ID', 'STUDENT_COURSE_MEMBERSHIP_SEQ', 'COURSE_INSTANCE_ID', 'MOD_INSTANCE_ID')
 
+For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
+
 ##MOD_GRADE (deprecated)
 ###Description.
 Final grade student achieved on the module.

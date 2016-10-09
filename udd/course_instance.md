@@ -5,6 +5,10 @@
 * [END_DATE](#end_date) [0..1]
 * [ACADEMIC_YEAR](#academic_year) [0..1]
 
+Primary key: ('COURSE_INSTANCE_ID')
+
+For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
+
 ##COURSE_INSTANCE_ID
 ###Description
 Institution's identifier for this course_instance

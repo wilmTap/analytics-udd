@@ -7,6 +7,10 @@
 * [MOD_OPTIONAL](#mod_optional) [0..1]
 * [MOD_LOCATION](#mod_location) [0..1]
 
+Primary key: ('MOD_INSTANCE_ID')
+
+For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
+
 ##MOD_INSTANCE_ID
 ###Description
 Institutions unique identifier for this module_instance

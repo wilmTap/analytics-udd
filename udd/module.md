@@ -5,6 +5,10 @@
 * [MOD_CREDITS](#mod_credits) [0..1]
 * [MOD_LEVEL](#mod_level) [0..1]
 
+Primary key: ('MOD_ID')
+
+For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
+
 ##MOD_ID
 ###Description
 The unique identifier standard across SRS and LMS for the course.
