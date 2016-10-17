@@ -64,6 +64,7 @@ These properties are needed drive application to function well for all students.
 
 
 ##Category 3
+
 These properties are needed for the analytics models to function well for all students. They are mostly basic facts about courses. If they are missing from records, the user experience for the relevant learners and the staff that support them could be significantly impaired.
 - [student_on_assessment_instance.STUDENT_ID](udd/student_on_assessment_instance.md#student_id)
 - [student_on_assessment_instance.STUDENT_COURSE_MEMBERSHIP_ID](udd/student_on_assessment_instance.md#student_course_membership_id)
@@ -89,6 +90,7 @@ These properties are needed for the analytics models to function well for all st
 
  
 ##Category 4.
+
 These properties are used to build a learning analytics model and personalise the outputs. The properties include several facts about learners. Whether these properties should be included in an learning record warehouse upload depends on striking the right balance between the precision and power of the particular analyses that an institution is interested in, and the data protection policies they have. This balance is best determined in discussion.
 
 - [assessment_instance.ASSESS_TYPE_ID](udd/assessment_instance.md#assess_type_id)
@@ -100,8 +102,8 @@ These properties are used to build a learning analytics model and personalise th
 - [student.DOB](udd/student.md#dob)
 - [student.ETHNICITY](udd/student.md#ethnicity)
 - [student.SEXID](udd/student.md#sexid)
-- [student.DIFFLEARN1](udd/student.md#difflearn2)
-- [student.DIFFLEARN1](udd/student.md#difflearn2)
+- [student.DIFFLEARN1](udd/student.md#difflearn1)
+- [student.DIFFLEARN2](udd/student.md#difflearn2)
 - [student.DOMICILE](udd/student.md#domicile)
 - [student.TERMTIME_ACCOM](udd/student.md#termtime_accom)
 - [student.PARENTS_ED](udd/student.md#parents_ed)
@@ -121,4 +123,5 @@ These properties are used to build a learning analytics model and personalise th
 - [course.SUBJECT](udd/course.md#subject)
 
 ##Category 5
+
 These properties are optional, but can be useful in building more fine grained analysis models. At the moment, the value of these properties as predictors are usually unknown, but their inclusion can help establish their utility. This category comprises the remainder of the UDD properties.
