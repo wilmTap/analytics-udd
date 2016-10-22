@@ -88,7 +88,7 @@ Integer
 
 ##ASSESS_ACTUAL_MARK
 ###Description.
-The initial mark given for the assessment attempt prior to moderation.
+The mark awarded to the learner after any moderation process, but before any formal confirmation process. Moderation processes typically involve multiple markers, and confirmation processes typically involve external examiners.
 
 ###Purpose
 Analytics
@@ -103,11 +103,12 @@ Jisc
 Decimal
 
 ###Notes
+ASSESS_ACTUAL_MARK should only be part of a UDD compliant dataset if there is a moderation process and if the result of that process is available in the source data. 
 
 
 ##ASSESS_AGREED_MARK
 ###Description.
-The mark agreed for the assessment attempt after moderation.
+The mark recorded after any moderation or confirmation processes, or the only recorded mark if there are no moderation or confirmation processes.
 
 ###Purpose
 Analytics
@@ -122,11 +123,12 @@ Jisc
 Decimal
 
 ###Notes
+ASSESS_AGREED_MARK is expected to be present in any UDD compliant dataset as soon as it becomes available.
 
 
 ##ASSESS_ACTUAL_GRADE
 ###Description.
-The initial grade given for the assessment attempt before moderation.
+The grade awarded to the learner after any moderation process, but before any formal confirmation process. Moderation processes typically involve multiple markers, and confirmation processes typically involve external examiners.
 
 ###Purpose
 Analytics
@@ -141,11 +143,12 @@ Any
 String (255)
 
 ###Notes
+ASSESS_ACTUAL_GRADE should only be part of a UDD compliant dataset if there is a moderation process and if the result of that process is available in the source data.
 
 
 ##ASSESS_AGREED_GRADE
 ###Description.
-The grade agreed for the assessment attempt after moderation.
+The grade recorded after any moderation or confirmation processes, or the only recorded grade if there are no moderation or confirmation processes. 
 
 ###Purpose
 Analytics
@@ -160,6 +163,7 @@ Any
 String (255)
 
 ###Notes
+ASSESS_AGREED_GRADE is expected to be present in any UDD compliant dataset as soon as it becomes available.
 
 
 ##ASSESSMENT_CURRENT_ATTEMPT

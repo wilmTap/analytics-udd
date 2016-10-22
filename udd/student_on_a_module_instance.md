@@ -141,7 +141,7 @@ Omitting this property could impair the functionality of analytics applications 
 
 ##MOD_FIRST_MARK
 ###Description
-The first or initial mark a student achieved on the module.
+The mark awarded by the initial marker prior to any moderation process.
 
 ###Purpose
 Analytics
@@ -156,11 +156,12 @@ Jisc
 Decimal
 
 ###Notes
-
+MOD_FIRST_MARK should only be part of a UDD compliant dataset if there is a moderation process and the input mark is available in the source data.
+If a marking process involves concurrent initial marking, the reconciled result should be recorded in MOD_ACTUAL_MARK.
 
 ##MOD_ACTUAL_MARK
 ###Description
-The mark that was initially given prior to exam board ratification.
+The mark awarded to the learner after any moderation process, but before any formal confirmation process. Moderation processes typically involve multiple markers, and confirmation processes typically involve external examiners.
 
 ###Purpose
 Analytics
@@ -175,11 +176,12 @@ Jisc
 Decimal
 
 ###Notes
+MOD_ACTUAL_MARK should only be part of a UDD compliant dataset if there is a moderation process and if the result of that process is available in the source data.
 
 
 ##MOD_AGREED_MARK
 ###Description
-The mark that was confirmed for a student following exam boards.
+The mark recorded after any moderation or confirmation processes, or the only recorded mark if there are no moderation or confirmation processes. This mark is typically the one used to determine degree classification.
 
 ###Purpose
 Analytics
@@ -194,14 +196,15 @@ Jisc
 Decimal
 
 ###Notes
+MOD_AGREED_MARK is expected to be present in any UDD compliant dataset as soon as it becomes available.
 
 
 ##MOD_FIRST_GRADE
 ###Description
-The first or initial grade a student achieved on the module.
+The grade awarded by the initial marker prior to any moderation process.
 
 ###Purpose
-Analytics
+Analytics. The first grade a student receives on the module is used to help monitor what changes to marks are made during the re-assessment process.
 
 ###Derivation
 Jisc
@@ -213,12 +216,13 @@ Any
 String (255)
 
 ###Notes
-The first grade a student receives on the module is used to help monitor what changes to marks are made during the re-assessment process.
+MOD_FIRST_GRADE should only be part of a UDD compliant dataset if there is a moderation process and the input grade is available in the source data.
+If a marking process involves concurrent initial marking, the reconciled result should be recorded in MOD_ACTUAL_GRADE.
 
 
 ##MOD_ACTUAL_GRADE
 ###Description
-The grade that was initially given prior to exam board ratification.
+The grade awarded to the learner after any moderation process, but before any formal confirmation process. Moderation processes typically involve multiple markers, and confirmation processes typically involve external examiners.
 
 ###Purpose
 Analytics
@@ -233,11 +237,12 @@ Any
 String (255)
 
 ###Notes
+MOD_ACTUAL_GRADE should only be part of a UDD compliant dataset if there is a moderation process and if the result of that process is available in the source data.
 
 
 ##MOD_AGREED_GRADE
 ###Description
-The grade that was confirmed for a student following exam boards.
+The grade recorded after any moderation or confirmation processes, or the only recorded grade if there are no moderation or confirmation processes. This grade is typically the one used to determine degree classification.
 
 ###Purpose
 Analytics
@@ -252,7 +257,7 @@ Any
 String (255)
 
 ###Notes
-
+MOD_AGREED_GRADE is expected to be present in any UDD compliant dataset as soon as it becomes available.
 
 ##MOD_CREDITS_ACHIEVED
 ###Description
