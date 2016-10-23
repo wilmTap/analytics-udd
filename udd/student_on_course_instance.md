@@ -8,8 +8,8 @@
 * [YEAR_STU](#year_stu) [0..1]
 * [COURSE_LOCATION](#course_location) [0..1]
 * [COURSE_INSTANCE_ID](course_instance.md#course_instance_id) [1]
-* [X_COURSE_AVERAGE_MARK](#course_average_mark) [0..1]
-* [X_YEAR_AVERAGE_MARK](#year_average_mark) [0..1]
+* [X_COURSE_AVERAGE_MARK](#x_course_average_mark) [0..1]
+* [X_YEAR_AVERAGE_MARK](#x_year_average_mark) [0..1]
 
 Primary key: ('STUDENT_COURSE_MEMBERSHIP_ID', 'STUDENT_COURSE_MEMBERSHIP_SEQ', 'COURSE_INSTANCE_ID')
 
