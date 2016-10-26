@@ -1,6 +1,6 @@
 #assessment_instance
-* [MOD_INSTANCE_ID](module_instance.md#mod_instance_id) [1] *
-* [ASSESS_INSTANCE_ID](#assess_instance_id) [1]
+* [ASSESS_INSTANCE_ID](#assess_instance_id) [1] *
+* [MOD_INSTANCE_ID](module_instance.md#mod_instance_id) [1] 
 * [ASSESS_TYPE_ID](#assess_type_id) [0..1]
 * [ASSESS_TYPE_NAME](#assess_type_name) [0..1]
 * [ASSESS_DETAIL](#assess_detail) [0..1]
