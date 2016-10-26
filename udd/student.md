@@ -1,5 +1,5 @@
 #Student
-* [STUDENT_ID](#student_id) [1]
+* [STUDENT_ID](#student_id) [1] *
 * [ULN](#uln) [0..1]
 * [DOB](#dob) [0..1]
 * [ETHNICITY](#ethnicity) [0..1]
@@ -33,9 +33,7 @@
 * [TUTOR_STAFF_ID](#tutor_staff_id) [0..1]
 * [ENTRY_POSTCODE](#entry_postcode) [0..1]
 
-Primary key: ('STUDENT_ID')
-
-For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
+\* indicates that the property is the primary key for this entity.
 
 ##STUDENT_ID
 ###Description

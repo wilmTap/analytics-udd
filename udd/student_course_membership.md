@@ -1,8 +1,8 @@
 #student_course_membership
 
+* [STUDENT_COURSE_MEMBERSHIP_ID](#student_course_membership_id) [1] *
+* [STUDENT_COURSE_MEMBERSHIP_SEQ](#student_course_membership_seq) [1] *
 * [STUDENT_ID](student.md#student_id) [1]
-* [STUDENT_COURSE_MEMBERSHIP_ID](#student_course_membership_id) [1]
-* [STUDENT_COURSE_MEMBERSHIP_SEQ](#student_course_membership_seq) [1]
 * [COURSE_ID](course.md#course_id) [1]
 * [WITHDRAWAL_REASON](#withdrawal_reason) [0..1]
 * [WITHDRAWAL_DATE](#withdrawal_date) [0..1] deprecated
@@ -19,9 +19,7 @@
 * [COHORT_ID](#cohort_id) [0..1]
 * [ACTIVE_MEMBERSHIP](#active_membership) [0..1]
 
-Primary key: ('STUDENT_COURSE_MEMBERSHIP_ID', 'STUDENT_COURSE_MEMBERSHIP_SEQ')
-
-For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
+\* indicates that the property is part of a composite primary key for this entity.
 
 ##STUDENT_COURSE_MEMBERSHIP_ID
 ###Description

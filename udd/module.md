@@ -1,13 +1,11 @@
 #Module
-* [MOD_ID](#mod_id) [1]
+* [MOD_ID](#mod_id) [1] *
 * [MOD_NAME](#mod_name) [0..1]
 * [MOD_SUBJECT](#mod_subject) [0..1]
 * [MOD_CREDITS](#mod_credits) [0..1]
 * [MOD_LEVEL](#mod_level) [0..1]
 
-Primary key: ('MOD_ID')
-
-For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
+\* indicates that the property is the primary key for this entity.
 
 ##MOD_ID
 ###Description

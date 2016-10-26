@@ -1,19 +1,18 @@
 #student_on_course_instance
+
+* [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1] *
+* [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1] *
+* [COURSE_INSTANCE_ID](course_instance.md#course_instance_id) [1] *
 * [STUDENT_ID](student.md#student_id) [1]
-* [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1]
-* [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
 * [MODE](#mode) [0..1]
 * [YEAR_COM](#year_com) [0..1] deprecated
 * [YEAR_PRG](#year_prg) [0..1]
 * [YEAR_STU](#year_stu) [0..1]
 * [COURSE_LOCATION](#course_location) [0..1]
-* [COURSE_INSTANCE_ID](course_instance.md#course_instance_id) [1]
 * [X_COURSE_AVERAGE_MARK](#x_course_average_mark) [0..1]
 * [X_YEAR_AVERAGE_MARK](#x_year_average_mark) [0..1]
 
-Primary key: ('STUDENT_COURSE_MEMBERSHIP_ID', 'STUDENT_COURSE_MEMBERSHIP_SEQ', 'COURSE_INSTANCE_ID')
-
-For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
+\* indicates that the property is part of a composite primary key for this entity.
 
 ##MODE
 ###Description

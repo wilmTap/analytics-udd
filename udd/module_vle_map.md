@@ -1,12 +1,10 @@
 # module_VLE_map
 This entity connects a course area in a VLE or LMS with a module.
 
-*  [MOD_INSTANCE_ID](module_instance.md#mod_instance_id) [1]
-*  [VLE_MOD_ID](#vle_mod_id) [1]
+*  [MOD_INSTANCE_ID](module_instance.md#mod_instance_id) [1] *
+*  [VLE_MOD_ID](#vle_mod_id) [1] *
 
-Primary key: ('MOD_INSTANCE_ID', 'VLE_MOD_ID')
-
-For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
+\* indicates that the property is part of a composite primary key for this entity.
 
 ##VLE_MOD_ID
 ###Description

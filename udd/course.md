@@ -1,5 +1,5 @@
 #Course
-* [COURSE_ID](#course_id) [1]
+* [COURSE_ID](#course_id) [1] *
 * [SUBJECT](#subject) [0..1]
 * [TITLE](#title) [0..1]
 * [COURSE_AIM](#course_aim) [0..1]
@@ -8,9 +8,7 @@
 * [INST_TIER_3](#inst_tier_3) [0..1]
 * [TENANT_ID](institution.md#tenant_id) [0..1]
 
-Primary key: ('COURSE_ID')
-
-For more information about which properties are required for particular purposes or under particular conditions, please consult the [guide to mandatory properties in the UDD](../mandatory.md).
+\* indicates that the property is the primary key for this entity.
 
 ##COURSE_ID
 ###Description
