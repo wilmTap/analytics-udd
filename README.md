@@ -47,7 +47,7 @@ An [entity relation diagram of the whole UDD 1.2](diagram.md) provides a one pag
 ###[staff_on_mod_instance](udd/staff_on_mod_instance.md)
 
 ##Mandatory and optional properties
-The properties of the UDD are required in compliant datasets to different degrees. The _Mandatory properties in the UDD guide_ outlines the different categories of UDD property. It is available as both an [Excel](media/UDDmandatoryFieldGuide.xlsx) and [ODF](media/UDDmandatoryFieldGuide.ods) spreadsheets.
+The properties of the UDD are required in compliant datasets to different degrees. The _Mandatory properties in the UDD guide_ outlines the different categories of UDD property. It is available as both [Excel](media/UDDmandatoryFieldGuide.xlsx) and [ODF](media/UDDmandatoryFieldGuide.ods) spreadsheets.
 
 ##Specification development workflow
 The simplest way of contributing to the UDD works as follows:
@@ -61,6 +61,10 @@ The simplest way of contributing to the UDD works as follows:
 You can do all this through the Github GUI, but you're welcome to use any other git tool you prefer.
 
 Particular release versions will get their own branches, but the main branch will always contain the latest agreed release. Releases will be made after the group has come to an agreement.
+
+Versioning is done broadly as follows: major versions (majorVersion.minorVersion.patch) indicate major datamodel changes. Minor versions denote changes that can break applications, such as the deletion of properties that were valid in earlier versions. Patches can include the addition of new properties.
+
+Note that some properties will be marked as 'deprecated'. This means that the property is still valid, but will be removed by the next minor version update.
 
 ##Acknowledgements
 
