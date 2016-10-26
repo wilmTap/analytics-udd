@@ -5,7 +5,7 @@
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](#student_course_membership_seq) [1]
 * [COURSE_ID](course.md#course_id) [1]
 * [WITHDRAWAL_REASON](#withdrawal_reason) [0..1]
-* [WITHDRAWAL_DATE](#withdrawal_date) [0..1]
+* [WITHDRAWAL_DATE](#withdrawal_date) [0..1] deprecated
 * [ENTRY_QUALS](#entry_quals) [0..1]
 * [ENTRY_POINTS](#entry_points) [0..1]
 * [COURSE_OUTCOME](#course_outcome) [0..1]
@@ -118,13 +118,15 @@ https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/449779
 https://www.hesa.ac.uk/collection/c16051/a/ENDDATE
 
 ###Valid Values
-ISO Date - YYYY-MM-DD
+YYYY-MM-DD
 
 ###Format
-Int
+ISO 8601 Date
 
 ###Notes
 Would normally utilise ENDDATE (HE/ HESA) or potentially LearnActEndDate (FE/ ILR - to be confirmed) when relevant fields denote that the learner/ student has withdrawn from the learning aim/ course.
+
+This property is deprecated, use student_course_membership.COURSE_END_DATE and student_course_membership.COURSE_OUTCOME instead.
 
 ##ENTRY_QUALS
 ###Description
