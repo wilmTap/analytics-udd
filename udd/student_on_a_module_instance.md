@@ -1,9 +1,9 @@
 #student_on_a_module_instance
 
 * [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1] *
-* [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1] *
 * [COURSE_INSTANCE_ID](course_instance.md#course_instance_id) [1] *
 * [MOD_INSTANCE_ID](module_instance.md#mod_instance_id) [1] *
+* [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
 * [STUDENT_ID](student.md#student_id) [1]
 * [MOD_GRADE](#mod_grade) [0..1] deprecated
 * [MOD_RESULT](#mod_result) [0..1]

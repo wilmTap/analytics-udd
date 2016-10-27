@@ -1,6 +1,6 @@
 #module_instance
-* [MOD_ID](module.md#mod_id) [1]
 * [MOD_INSTANCE_ID](#mod_instance_id) [1] *
+* [MOD_ID](module.md#mod_id) [1]
 * [MOD_PERIOD](#mod_period) [0..1]
 * [MOD_ONLINE](#mod_online) [0..1]
 * [MOD_ACADEMIC_YEAR](#mod_academic_year) [0..1]

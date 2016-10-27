@@ -1,9 +1,9 @@
 #student_on_assessment_instance
 
 * [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1] *
-* [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1] *
 * [ASSESS_INSTANCE_ID](assessment_instance.md#assess_instance_id) [1] *
 * [ASSESS_SEQ_ID](#assess_seq_id) [1] *
+* [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
 * [MOD_INSTANCE_ID](module_instance.md#mod_instance_id) [1]
 * [STUDENT_ID](student.md#student_id) [1]
 * [ASSESS_DUE_DATE](#assess_due_date) [0..1]

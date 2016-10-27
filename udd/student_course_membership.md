@@ -1,7 +1,7 @@
 #student_course_membership
 
 * [STUDENT_COURSE_MEMBERSHIP_ID](#student_course_membership_id) [1] *
-* [STUDENT_COURSE_MEMBERSHIP_SEQ](#student_course_membership_seq) [1] *
+* [STUDENT_COURSE_MEMBERSHIP_SEQ](#student_course_membership_seq) [1]
 * [STUDENT_ID](student.md#student_id) [1]
 * [COURSE_ID](course.md#course_id) [1]
 * [WITHDRAWAL_REASON](#withdrawal_reason) [0..1]

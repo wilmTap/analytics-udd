@@ -1,6 +1,6 @@
 #course_instance
-* [COURSE_ID](course.md#course_id) [1]
 * [COURSE_INSTANCE_ID](#course_instance_id) [1] *
+* [COURSE_ID](course.md#course_id) [1]
 * [START_DATE](#start_date) [0..1]
 * [END_DATE](#end_date) [0..1]
 * [ACADEMIC_YEAR](#academic_year) [0..1]
