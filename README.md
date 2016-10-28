@@ -47,7 +47,7 @@ An [entity relation diagram of the whole UDD 1.2](diagram.md) provides a one pag
 ###[staff_on_mod_instance](udd/staff_on_mod_instance.md)
 
 ##Mandatory and optional properties
-The properties of the UDD are required in compliant datasets to different degrees. The _Mandatory properties in the UDD guide_ outlines the different categories of UDD property. It is available as both [Excel](media/UDDmandatoryFieldGuide.xlsx) and [ODF](media/UDDmandatoryFieldGuide.ods) spreadsheets.
+The properties of the UDD are required in compliant datasets to different degrees. The _Mandatory properties in the UDD guide_ outlines the different categories of UDD property. It is available as both [Excel](media/UDDmandatoryFieldGuide.xls) and [ODF](media/UDDmandatoryFieldGuide.ods) spreadsheets.
 
 ##Specification development workflow
 The simplest way of contributing to the UDD works as follows:
