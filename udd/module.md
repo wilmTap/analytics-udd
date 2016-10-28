@@ -47,7 +47,7 @@ Omitting this property could impair the functionality of analytics applications 
 
 ##MOD_SUBJECT
 ###Description
-Module subject - coded using JACS3 subject codes (initially, for HE purposes)
+Module subject - coded using JACS3 subject codes
 
 ###Purpose
 For display purposes and analytics.
@@ -55,8 +55,10 @@ For display purposes and analytics.
 ###Derivation
 https://www.hesa.ac.uk/collection/c16051/a/modsbj/
 
+https://www.hesa.ac.uk/support/documentation/jacs
+
 ###Valid Values
-Valid [https://www.hesa.ac.uk/support/documentation/jacs](JACS3 subject code).
+[JACS3 CSV](../media/jacs3-valid-entries.csv)
 
 ###Format
 String (255)

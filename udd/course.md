@@ -32,7 +32,7 @@ HE guidance - this field could relate to actual HESA COURSEID field or the HR in
 
 ##SUBJECT
 ###Description
-Subject coding - using JACS3
+Subject of study coding using JACS3.
 
 ###Purpose
 For display purposes
@@ -40,9 +40,10 @@ For display purposes
 ###Derivation
 https://www.hesa.ac.uk/collection/c16051/a/sbjca/
 
+https://www.hesa.ac.uk/support/documentation/jacs
+
 ###Valid Values
-Valid JACS3 Code. See:
-https://www.hesa.ac.uk/jacs3
+[JACS3 CSV](../media/jacs3-valid-entries.csv)
 
 ###Format
 String (10) - Usually 4 characters, number followed by three digits
