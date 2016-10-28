@@ -5,8 +5,6 @@
 * [ETHNICITY](#ethnicity) [0..1]
 * [SEXID](#sexid) [0..1]
 * [AGE](#age) [0..1]
-* [DIFFLEARN1](#difflearn1) [0..1]
-* [DIFFLEARN2](#difflearn2) [0..1]
 * [LEARN_DIF](#learn_dif) [0..1]
 * [DISABILITY1](#disability1) [0..1]
 * [DISABILITY2](#disability2) [0..1]
@@ -319,537 +317,319 @@ Int
 This will typically auto-calculated on a daily basis, based on field DOB. The LA system will provide this field.
 Omitting this property may hinder the development or use of an effective analytics model.
 
-##DIFFLEARN1
-
-###Description
-This property records whether the learner consider themselves to have a learning difficulty or a condition or disability that could impact their learning. This property records what is meant to be the learner's prime difficulty.
-
-###Purpose
-For longitudinal analysis or intervention purposes, eg. Data Insight Tool
-
-###Derivation
-https://www.hesa.ac.uk/collection/c15051/a/learndif/
-
-https://www.hesa.ac.uk/collection/c16051/a/llddhealthprob/
-
-https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/518675/ILRSpecification2016_17_v2_April2016.pdf
-
-###Valid Values & Mappings
-
-<table>
-    <tr>
-        <td>UDD code</td><td>Description (English)</td><td>Description (Welsh)</td><td>HESA DISABLE 15/16</td><td>HESA DISABLE 16/17</td><td>LLDDHEALTHPROB 16/17</td><td>HESA LEARNDIF 15/16</td><td>ILR 16/17</td>
-    </tr>
-    <tr>
-        <td>1</td><td>No known difficulty</td><td></td><td>00, 97, 98, 99</td><td>00</td><td>0, 98, 99</td><td>98, 99</td><td>98, 99</td>
-    </tr>
-    <tr>
-        <td>2</td><td>Visual impairment</td><td></td><td>02, 58</td><td>58</td><td>4</td><td>N/A</td><td>4</td>
-    </tr>
-    <tr>
-        <td>3</td><td>Hearing impairment</td><td></td><td>03, 57</td><td>57</td><td>5</td><td>N/A</td><td>5</td>
-    </tr>
-    <tr>
-        <td>4</td><td>Mobility impairment</td><td></td><td>04, 56</td><td>56</td><td>6</td><td>N/A</td><td>6</td>
-    </tr>
-    <tr>
-        <td>5</td><td>Health Condition</td><td></td><td>06, 55, 05, 07, 54</td><td>54, 55</td><td>9, 16, 95</td><td>N/A</td><td>9, 16, 95</td>
-    </tr>
-    <tr>
-        <td>6</td><td>Learning and communication challenge</td><td></td><td>10, 11, 51, 53</td><td>51, 53</td><td>8, 10, 11, 12, 13, 14, 15, 17, 94, 96</td><td>01, 02, 10, 11, 19, 20, 90, 97</td><td>1, 3, 8, 10, 11, 12, 13, 14, 15, 17, 94, 96</td>
-    </tr>
-    <tr>
-        <td>7</td><td>Other and multiple difficulties</td><td></td><td>08, 96</td><td>08, 96</td><td>7, 93, 97</td><td>N/A</td><td>2, 7, 93, 97</td>
-    </tr>
-</table>
-
-###Format
-String (256)
-
-###Notes
-If a learner's learning difficulty is unknown, then code '1' should be used for those cases.
-Omitting this property may hinder the development or use of an effective analytics model.
-Note that source values for the DIFFLEARN2 property are recorded in the [LEARN_DIF](#learndif) and [DISABILITY1](#disability1) properties.
-
-##DIFFLEARN2
-
-###Description
-This property records whether the learner consider themselves to have a learning difficulty or a condition or disability that could impact their learning. This property records what is meant to be the learner's secondary difficulty.
-
-###Purpose
-For longitudinal analysis or intervention purposes, eg. Data Insight Tool
-
-###Derivation
-https://www.hesa.ac.uk/collection/c15051/a/learndif/
-
-https://www.hesa.ac.uk/collection/c16051/a/llddhealthprob/
-
-https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/518675/ILRSpecification2016_17_v2_April2016.pdf
-
-###Valid Values & Mappings
-
-<table>
-    <tr>
-        <td>UDD code</td><td>Description (English)</td><td>Description (Welsh)</td><td>HESA DISABLE 15/16</td><td>HESA DISABLE 16/17</td><td>LLDDHEALTHPROB 16/17</td><td>HESA LEARNDIF 15/16</td><td>ILR 16/17</td>
-    </tr>
-    <tr>
-        <td>1</td><td>No known difficulty</td><td></td><td>00, 97, 98, 99</td><td>00</td><td>0, 98, 99</td><td>98, 99</td><td>98, 99</td>
-    </tr>
-    <tr>
-        <td>2</td><td>Visual impairment</td><td></td><td>02, 58</td><td>58</td><td>4</td><td>N/A</td><td>4</td>
-    </tr>
-    <tr>
-        <td>3</td><td>Hearing impairment</td><td></td><td>03, 57</td><td>57</td><td>5</td><td>N/A</td><td>5</td>
-    </tr>
-    <tr>
-        <td>4</td><td>Mobility impairment</td><td></td><td>04, 56</td><td>56</td><td>6</td><td>N/A</td><td>6</td>
-    </tr>
-    <tr>
-        <td>5</td><td>Health Condition</td><td></td><td>06, 55, 05, 07, 54</td><td>54, 55</td><td>9, 16, 95</td><td>N/A</td><td>9, 16, 95</td>
-    </tr>
-    <tr>
-        <td>6</td><td>Learning and communication challenge</td><td></td><td>10, 11, 51, 53</td><td>51, 53</td><td>8, 10, 11, 12, 13, 14, 15, 17, 94, 96</td><td>01, 02, 10, 11, 19, 20, 90, 97</td><td>1, 3, 8, 10, 11, 12, 13, 14, 15, 17, 94, 96</td>
-    </tr>
-    <tr>
-        <td>7</td><td>Other and multiple difficulties</td><td></td><td>08, 96</td><td>08, 96</td><td>7, 93, 97</td><td>N/A</td><td>2, 7, 93, 97</td>
-    </tr>
-</table>
-
-###Format
-String (256)
-
-###Notes
-If a learner's learning difficulty is unknown, then code '1' should be used for those cases.
-Omitting this property may hinder the development or use of an effective analytics model.
-Note that source values for the DIFFLEARN2 property are recorded in the [LEARN_DIF](#learndif) and [DISABILITY2](#disability2) properties.
-
 
 ##LEARN_DIF
 ###Description
-This property holds the source data value of the HESA LEARNDIF field, and the learning difficulty parts of the HESA LLDDHEALTHPROB and FEILR LLDDCat fields. Each of these source values concern self-declared learning difficulties.
+This field records whether a learner consider themselves to have a learning difficulty.
 
 ###Purpose
-For detailed in-year analysis or intervention purposes within Learning Analytics eg. Data Insight Tool. 
+For detailed analysis or intervention purposes within Learning Analytics eg. Data Insight Tool
 
 ###Derivation
-The HESA and FEILR learning difficulty values have been subject to significant change over different years. To find the correct mapping of a given value, determine the academic year of the source data, and the sector to which it pertains (HE - HESA, FE - FEILR).
-
 https://www.hesa.ac.uk/collection/c15051/a/learndif/
 
-https://www.hesa.ac.uk/collection/c16051/a/llddhealthprob/
-
-https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/518675/ILRSpecification2016_17_v2_April2016.pdf
-
 ###Valid Values & Mappings
 
 <table>
-    <tr>
-        <td>DESCRIPTION (ENGLISH)</td>
-        <td>DESCRIPTION (WELSH)</td>
-        <td>HESA 2015 (LEARNDIF)</td>
-        <td>HESA 2016 (LLDDHEALTHPROB)</td>
-        <td>FEILR 2014 (LLDDCAT)</td>
-        <td>FEILR 2016 (LLDDCAT)</td>
-    </tr>
-    <tr>
-        <td>Moderate learning difficulty</td>
-        <td></td>
-        <td>01</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-    </tr>
-    <tr>
-        <td>Severe learning difficulty</td>
-        <td></td>
-        <td>02</td>
-        <td>11</td>
-        <td>11</td>
-        <td>11</td>
-    </tr>
-    <tr>
-        <td>Dyslexia</td>
-        <td></td>
-        <td>10</td>
-        <td>12</td>
-        <td>12</td>
-        <td>12</td>
-    </tr>
-    <tr>
-        <td>Dyscalculia</td>
-        <td></td>
-        <td>11</td>
-        <td>13</td>
-        <td>13</td>
-        <td>13</td>
-    </tr>
-    <tr>
-        <td>Other specific learning difficulty</td>
-        <td></td>
-        <td>19</td>
-        <td>94</td>
-        <td>94</td>
-        <td>94</td>
-    </tr>
-    <tr>
-        <td>Other learning difficulty</td>
-        <td></td>
-        <td>N/A</td>
-        <td>96</td>
-        <td>96</td>
-        <td>96</td>
-    </tr>
-    <tr>
-        <td>Autism spectrum disorder</td>
-        <td></td>
-        <td>20</td>
-        <td>14</td>
-        <td>14</td>
-        <td>14</td>
-    </tr>
-    <tr>
-        <td>Multiple learning difficulties</td>
-        <td></td>
-        <td>90</td>
-        <td>N/A</td>
-        <td>2</td>
-        <td>N/A</td>
-    </tr>
-    <tr>
-        <td>Other learning difficulty</td>
-        <td></td>
-        <td>97</td>
-        <td>96</td>
-        <td>96</td>
-        <td>96</td>
-    </tr>
-    <tr>
-        <td>No learning difficulty</td>
-        <td></td>
-        <td>98</td>
-        <td>0</td>
-        <td>N/A</td>
-        <td>N/A</td>
-    </tr>
-    <tr>
-        <td>Not known / information not provided</td>
-        <td></td>
-        <td>99</td>
-        <td>98</td>
-        <td>98</td>
-        <td>98</td>
-    </tr>
-    <tr>
-        <td>prefer not to say</td>
-        <td></td>
-        <td>N/A</td>
-        <td>99</td>
-        <td>99</td>
-        <td>99</td>
-    </tr>                      
+<tr><td>LEARN_DIF</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)</td><td>HESA 2015/2016 (LEARNDIF)</td><td>FE ILR 2014 (LLDDCAT)</td></tr>
+<tr><td>50</td><td>Moderate learning difficulty</td><td></td><td>01</td><td>10  </td></tr>
+<tr><td>2</td><td>Severe learning difficulty</td><td></td><td>02</td><td>11  </td></tr>
+<tr><td>10</td><td>Dyslexia</td><td></td><td>10</td><td>12  </td></tr>
+<tr><td>11</td><td>Dyscalculia</td><td></td><td>11</td><td>13  </td></tr>
+<tr><td>19</td><td>Other specific learning difficulty</td><td></td><td>19</td><td>94  </td></tr>
+<tr><td>20</td><td>Autism spectrum disorder</td><td></td><td>20</td><td>14  </td></tr>
+<tr><td>90</td><td>Multiple learning difficulties</td><td></td><td>90</td><td>3  </td></tr>
+<tr><td>97</td><td>Other</td><td></td><td>97</td><td>96  </td></tr>
+<tr><td>98</td><td>No learning difficulty</td><td></td><td>98</td><td>N/A  </td></tr>
+<tr><td>1</td><td>Not known / information not provided</td><td></td><td>99</td><td>N/A  </td></tr>
 </table>
-
+  
 
 ###Format
 Int
 
 ###Notes
-Because of the changing nature of this field, it is only really suitable for analyses within a sector or institution, and within an academic year. For use cases outside of that narrow set, use the [DIFFLEARN](#difflearn) property.
+If a learner's learning difficulty is unknown, then code '1' should be used for those cases. 
 
-As of the 2016-2017 academic year, LLDDHEALTHPROB has replaced both LEARNDIF and DISABILITY1 and 2 in the HESA student returns. For that reason, LLDDHEALTHPROB encompasses health conditions and disabilities as well as learning difficulties, which is why HESA LLDDHEALTHPROB codes can be mapped to both UDD LEARNDIF and UDD DISABILITY1 and 2, depending on the exact value. Since LLDDHEALTHPROB is largely derived from FEILR LLDDCAT, the same applies to that element too.
+As of the 2016-2017 academic year, LLDDHEALTHPROB has replaced LEARN_DIF in the HESA student returns. Also, LLDDCAT in FE ILR post 2014 has a different value space. Both of these vocabularies will be supported in a forthcoming field in v1.3. Data with HESA LLDDHEALTHPROB and LLDDCAT in FE ILR post 2014 can't, therefore, be submitted prior to UDD v1.3
 
 ##DISABILITY1
-
 ###Description
-This property holds the source data value of the HESA DISABILITY1 field, and the disability parts of the HESA LLDDHEALTHPROB and FEILR LLDDCat fields. Each of these source values concern self-declared disabilities. The value of this property can be seen as the main disability.
+Whether the student is indicated as being disabled, according to their own self-assessment. This will be their primary disability.
 
 ###Purpose
-For detailed in-year analysis or intervention purposes within Learning Analytics eg. Data Insight Tool. 
+For equal opportunities monitoring within Learning Analytics/ Data Modelling
 
 ###Derivation
-The HESA and FEILR disability values have been subject to significant change over different years. To find the correct mapping of a given value, determine the academic year of the source data, and the sector to which it pertains (HE - HESA, FE - FEILR).
-
 https://www.hesa.ac.uk/collection/c15051/a/disable/
-
-https://www.hesa.ac.uk/collection/c16051/a/disable/
-
-https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/518675/ILRSpecification2016_17_v2_April2016.pdf
 
 ###Valid Values & Mappings
 
 <table>
-    <tr>
-        <td>DESCRIPTION (ENGLISH)</td>
-        <td>DESCRIPTION (WELSH)</td>
-        <td>HESA 2015 (DISABLE)</td>
-        <td>HESA 2016 (DISABLE)</td>
-        <td>FEILR (LLDDCat) </td>
-    </tr>
-    <tr>
-        <td>No known disability</td>
-        <td>Dim Anabledd</td>
-        <td>00</td>
-        <td>00</td>
-        <td>N/A </td>
-    </tr>
-    <tr>
-        <td>Personal care support</td>
-        <td></td>
-        <td>05</td>
-        <td>N/A</td>
-        <td>N/A </td>
-    </tr>
-    <tr>
-        <td>An unseen disability, e.g. diabetes, epilepsy, asthma</td>
-        <td></td>
-        <td>07</td>
-        <td>N/A</td>
-        <td>95</td>
-    </tr>
-    <tr>
+<tr>
+<td>DISABILITY1</td>
+<td>DESCRIPTION (ENGLISH)</td>
+<td>DESCRIPTION (WELSH)</td>
+<td>HESA 2015/2016 (DISABLE)</td>
+<td>FEILR 2014 (LLDDCat) </td>
+</tr>
+<tr>
+<td>0</td>
+<td>No known disability</td>
+<td>Dim Anabledd</td>
+<td>0</td>
+<td>N/A </td>
+</tr>
+<tr>
+<td>5</td>
+<td>Personal care support</td>
+<td></td>
+<td>5</td>
+<td>N/A </td>
+</tr>
+<tr>
+<td>7</td>
+<td>An unseen disability, e.g. diabetes, epilepsy, asthma</td>
+<td></td>
+<td>7</td>
+<td>N/A </td>
+</tr>
+<tr>
+<td>8</td>
 <td>Two or more impairments and/or disabling medical conditions</td>
-        <td></td>
-        <td>08</td>
-        <td>08</td>
-        <td>2</td>
-    </tr>
-    <tr>
-        <td>A specific learning difficulty such as dyslexia dyspraxia or AD(H)D</td>
-        <td></td>
-        <td>11</td>
-        <td>51</td>
-        <td>12</td>
-    </tr>
-    <tr>
-        <td>A social/communication impairment such as Asperger's syndrome/other autistic
-            spectrum disorder</td>
-        <td></td>
-        <td>53</td>
-        <td>53</td>
-        <td>15, 1, 17</td>
-    </tr>
-    <tr>
-        <td>A long standing illness or health condition such as cancer, HIV, diabetes, chronic
-            heart disease or epilepsy</td>
-        <td></td>
-        <td>54</td>
-        <td>54</td>
-        <td>95 </td>
-    </tr>
-    <tr>
-        <td>A mental health condition such as depression schizophrenia or anxiety
-            disorder</td>
-        <td></td>
-        <td>06, 55</td>
-        <td>55</td>
-        <td>9</td>
-    </tr>
-    <tr>
-        <td>A physical impairment or mobility issues such as difficulty using arms or using
-            a wheelchair or crutches</td>
-        <td></td>
-        <td>4, 56</td>
-        <td>56</td>
-        <td>6, 93</td>
-    </tr>
-    <tr>
-        <td>Deaf or a serious hearing impairment</td>
-        <td></td>
-        <td>03, 57</td>
-        <td>57</td>
-        <td>5</td>
-    </tr>
-    <tr>
-        <td>Blind or a serious visual impairment uncorrected by glasses</td>
-        <td></td>
-        <td>02, 58</td>
-        <td>58</td>
-        <td>4</td>
-    </tr>
-    <tr>
-        <td>A disability impairment or medical condition that is not listed above</td>
-        <td></td>
-        <td>96</td>
-        <td>96</td>
-        <td>7, 8, 16, 97</td>
-    </tr>
-    <tr>
-        <td>Information refused</td>
-        <td></td>
-        <td>97</td>
-        <td>N/A</td>
-        <td>98 </td>
-    </tr>
-    <tr>
-        <td>Information not sought</td>
-        <td></td>
-        <td>98</td>
-        <td>N/A</td>
-        <td>N/A</td>
-    </tr>
-    <tr>
-        <td>Not known / not provided</td>
-        <td>Anhysbys</td>
-        <td>99</td>
-        <td>N/A</td>
-        <td>99 </td>
-    </tr>
-</table>
-
-Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
+<td></td>
+<td>8</td>
+<td>2 </td>
+</tr>
+<tr>
+<td>51</td>
+<td>A specific learning difficulty such as dyslexia dyspraxia or AD(H)D</td>
+<td></td>
+<td>11</td>
+<td>12 </td>
+</tr>
+<tr>
+<td>53</td>
+<td>A social/communication impairment such as Asperger's syndrome/other autistic
+spectrum disorder</td>
+<td></td>
+<td>53</td>
+<td>15, 1</td>
+</tr>
+<tr>
+<td>54</td>
+<td>A long standing illness or health condition such as cancer HIV diabetes chronic
+heart disease or epilepsy</td>
+<td></td>
+<td>54</td>
+<td>95 </td>
+</tr>
+<tr>
+<td>55</td>
+<td>A mental health condition such as depression schizophrenia or anxiety
+disorder</td>
+<td></td>
+<td>6, 55</td>
+<td>9 </td>
+</tr>
+<tr>
+<td>56</td>
+<td>A physical impairment or mobility issues such as difficulty using arms or using
+a wheelchair or crutches</td>
+<td></td>
+<td>4, 56</td>
+<td>6, 93</td>
+</tr>
+<tr>
+<td>57</td>
+<td>Deaf or a serious hearing impairment</td>
+<td></td>
+<td>3, 57</td>
+<td>5 </td>
+</tr>
+<tr>
+<td>58</td>
+<td>Blind or a serious visual impairment uncorrected by glasses</td>
+<td></td>
+<td>2, 58</td>
+<td>4 </td>
+</tr>
+<tr>
+<td>96</td>
+<td>A disability impairment or medical condition that is not listed above</td>
+<td></td>
+<td>96</td>
+<td>7, 8, 16, 97</td>
+</tr>
+<tr>
+<td>97</td>
+<td>Information refused</td>
+<td></td>
+<td>97</td>
+<td>98 </td>
+</tr>
+<tr>
+<td>98</td>
+<td>Information not sought</td>
+<td></td>
+<td>98</td>
+<td>N/A </td>
+</tr>
+<tr>
+<td>99</td>
+<td>Not known</td>
+<td>Anhysbys</td>
+<td>99</td>
+<td>99 </td>
+</tr>
+</table>  
 
 ###Format
 Int
 
 ###Notes
-Because of the changing nature of this field, it is only really suitable for analyses within a sector or institution, and within an academic year. For use cases outside of that narrow set, use the [DIFFLEARN](#difflearn) property.
+If disability is unknown, code '0' or '99' should be provided
 
-As of the 2016-2017 academic year, LLDDHEALTHPROB has replaced both LEARNDIF and DISABILITY1 and 2 in the HESA student returns. For that reason, LLDDHEALTHPROB encompasses health conditions and disabilities as well as learning difficulties, which is why HESA LLDDHEALTHPROB codes can be mapped to both UDD LEARNDIF and UDD DISABILITY1 and 2, depending on the exact value. Since LLDDHEALTHPROB is largely derived from FEILR LLDDCAT, the same applies to that element too.
+As of the 2016-2017 academic year, HESA DISABILITY has a different value space in the HESA student returns. Also, LLDDCAT in FE ILR post 2014 has a different value space from later versions. Both of these vocabularies will be supported in a forthcoming field in v1.3. Data with HESA DISABLE and LLDDCAT in FE ILR post 2014 can't, therefore, be submitted prior to UDD v1.3
 
 ##DISABILITY2
-
 ###Description
-This property holds the source data value of the HESA DISABILITY1 field, and the disability parts of the HESA LLDDHEALTHPROB and FEILR LLDDCat fields. Each of these source values concern self-declared disabilities. The value of this property can be seen as their secondary disability.
+Whether the student is indicated as being disabled, according to their own self-assessment. This will be their primary disability.
 
 ###Purpose
-For detailed in-year analysis or intervention purposes within Learning Analytics eg. Data Insight Tool. 
+For equal opportunities monitoring within Learning Analytics/ Data Modelling
 
 ###Derivation
-The HESA and FEILR disability values have been subject to significant change over different years. To find the correct mapping of a given value, determine the academic year of the source data, and the sector to which it pertains (HE - HESA, FE - FEILR).
-
 https://www.hesa.ac.uk/collection/c15051/a/disable/
 
-https://www.hesa.ac.uk/collection/c16051/a/disable/
-
-https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/518675/ILRSpecification2016_17_v2_April2016.pdf
-
 ###Valid Values & Mappings
+
 <table>
-    <tr>
-        <td>DESCRIPTION (ENGLISH)</td>
-        <td>DESCRIPTION (WELSH)</td>
-        <td>HESA 2015 (DISABLE)</td>
-        <td>HESA 2016 (DISABLE)</td>
-        <td>FEILR (LLDDCat) </td>
-    </tr>
-    <tr>
-        <td>No known disability</td>
-        <td>Dim Anabledd</td>
-        <td>00</td>
-        <td>00</td>
-        <td>N/A </td>
-    </tr>
-    <tr>
-        <td>Personal care support</td>
-        <td></td>
-        <td>05</td>
-        <td>N/A</td>
-        <td>N/A </td>
-    </tr>
-    <tr>
-        <td>An unseen disability, e.g. diabetes, epilepsy, asthma</td>
-        <td></td>
-        <td>07</td>
-        <td>N/A</td>
-        <td>95</td>
-    </tr>
-    <tr>
+<tr>
+<td>DISABILITY1</td>
+<td>DESCRIPTION (ENGLISH)</td>
+<td>DESCRIPTION (WELSH)</td>
+<td>HESA 2015/2016 (DISABLE)</td>
+<td>FEILR 2014 (LLDDCat) </td>
+</tr>
+<tr>
+<td>0</td>
+<td>No known disability</td>
+<td>Dim Anabledd</td>
+<td>0</td>
+<td>N/A </td>
+</tr>
+<tr>
+<td>5</td>
+<td>Personal care support</td>
+<td></td>
+<td>5</td>
+<td>N/A </td>
+</tr>
+<tr>
+<td>7</td>
+<td>An unseen disability, e.g. diabetes, epilepsy, asthma</td>
+<td></td>
+<td>7</td>
+<td>N/A </td>
+</tr>
+<tr>
+<td>8</td>
 <td>Two or more impairments and/or disabling medical conditions</td>
-        <td></td>
-        <td>08</td>
-        <td>08</td>
-        <td>2</td>
-    </tr>
-    <tr>
-        <td>A specific learning difficulty such as dyslexia dyspraxia or AD(H)D</td>
-        <td></td>
-        <td>11</td>
-        <td>51</td>
-        <td>12</td>
-    </tr>
-    <tr>
-        <td>A social/communication impairment such as Asperger's syndrome/other autistic
-            spectrum disorder</td>
-        <td></td>
-        <td>53</td>
-        <td>53</td>
-        <td>15, 1, 17</td>
-    </tr>
-    <tr>
-        <td>A long standing illness or health condition such as cancer, HIV, diabetes, chronic
-            heart disease or epilepsy</td>
-        <td></td>
-        <td>54</td>
-        <td>54</td>
-        <td>95 </td>
-    </tr>
-    <tr>
-        <td>A mental health condition such as depression schizophrenia or anxiety
-            disorder</td>
-        <td></td>
-        <td>06, 55</td>
-        <td>55</td>
-        <td>9</td>
-    </tr>
-    <tr>
-        <td>A physical impairment or mobility issues such as difficulty using arms or using
-            a wheelchair or crutches</td>
-        <td></td>
-        <td>4, 56</td>
-        <td>56</td>
-        <td>6, 93</td>
-    </tr>
-    <tr>
-        <td>Deaf or a serious hearing impairment</td>
-        <td></td>
-        <td>03, 57</td>
-        <td>57</td>
-        <td>5</td>
-    </tr>
-    <tr>
-        <td>Blind or a serious visual impairment uncorrected by glasses</td>
-        <td></td>
-        <td>02, 58</td>
-        <td>58</td>
-        <td>4</td>
-    </tr>
-    <tr>
-        <td>A disability impairment or medical condition that is not listed above</td>
-        <td></td>
-        <td>96</td>
-        <td>96</td>
-        <td>7, 8, 16, 97</td>
-    </tr>
-    <tr>
-        <td>Information refused</td>
-        <td></td>
-        <td>97</td>
-        <td>N/A</td>
-        <td>98 </td>
-    </tr>
-    <tr>
-        <td>Information not sought</td>
-        <td></td>
-        <td>98</td>
-        <td>N/A</td>
-        <td>N/A</td>
-    </tr>
-    <tr>
-        <td>Not known / not provided</td>
-        <td>Anhysbys</td>
-        <td>99</td>
-        <td>N/A</td>
-        <td>99 </td>
-    </tr>
-</table>
+<td></td>
+<td>8</td>
+<td>2 </td>
+</tr>
+<tr>
+<td>51</td>
+<td>A specific learning difficulty such as dyslexia dyspraxia or AD(H)D</td>
+<td></td>
+<td>11</td>
+<td>12 </td>
+</tr>
+<tr>
+<td>53</td>
+<td>A social/communication impairment such as Asperger's syndrome/other autistic
+spectrum disorder</td>
+<td></td>
+<td>53</td>
+<td>15, 1</td>
+</tr>
+<tr>
+<td>54</td>
+<td>A long standing illness or health condition such as cancer HIV diabetes chronic
+heart disease or epilepsy</td>
+<td></td>
+<td>54</td>
+<td>95 </td>
+</tr>
+<tr>
+<td>55</td>
+<td>A mental health condition such as depression schizophrenia or anxiety
+disorder</td>
+<td></td>
+<td>6, 55</td>
+<td>9 </td>
+</tr>
+<tr>
+<td>56</td>
+<td>A physical impairment or mobility issues such as difficulty using arms or using
+a wheelchair or crutches</td>
+<td></td>
+<td>4, 56</td>
+<td>6, 93</td>
+</tr>
+<tr>
+<td>57</td>
+<td>Deaf or a serious hearing impairment</td>
+<td></td>
+<td>3, 57</td>
+<td>5 </td>
+</tr>
+<tr>
+<td>58</td>
+<td>Blind or a serious visual impairment uncorrected by glasses</td>
+<td></td>
+<td>2, 58</td>
+<td>4 </td>
+</tr>
+<tr>
+<td>96</td>
+<td>A disability impairment or medical condition that is not listed above</td>
+<td></td>
+<td>96</td>
+<td>7, 8, 16, 97</td>
+</tr>
+<tr>
+<td>97</td>
+<td>Information refused</td>
+<td></td>
+<td>97</td>
+<td>98 </td>
+</tr>
+<tr>
+<td>98</td>
+<td>Information not sought</td>
+<td></td>
+<td>98</td>
+<td>N/A </td>
+</tr>
+<tr>
+<td>99</td>
+<td>Not known</td>
+<td>Anhysbys</td>
+<td>99</td>
+<td>99 </td>
+</tr>
+</table>  
 
 ###Format
 Int
 
 ###Notes
-Because of the changing nature of this field, it is only really suitable for analyses within a sector or institution, and within an academic year. For use cases outside of that narrow set, use the [DIFFLEARN](#difflearn) property.
+If disability is unknown, code '0' or '99' should be provided
 
-As of the 2016-2017 academic year, LLDDHEALTHPROB has replaced both LEARNDIF and DISABILITY1 and 2 in the HESA student returns. For that reason, LLDDHEALTHPROB encompasses health conditions and disabilities as well as learning difficulties, which is why HESA LLDDHEALTHPROB codes can be mapped to both UDD LEARNDIF and UDD DISABILITY1 and 2, depending on the exact value. Since LLDDHEALTHPROB is largely derived from FEILR LLDDCAT, the same applies to that element too.
+As of the 2016-2017 academic year, HESA DISABILITY has a different value space in the HESA student returns. Also, LLDDCAT in FE ILR post 2014 has a different value space from later versions. Both of these vocabularies will be supported in a forthcoming field in v1.3. Data with HESA DISABLE and LLDDCAT in FE ILR post 2014 can't, therefore, be submitted prior to UDD v1.3
 
 ##DOMICILE
 ###Description
