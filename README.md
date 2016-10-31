@@ -1,4 +1,4 @@
-# Jisc Learning Analytics Unified Data Definitions v1.2.4
+# Jisc Learning Analytics Unified Data Definitions v1.2.7
 
 ##Introduction
 The Unified Data Definitions (UDD) of the Jisc analytics project is a vocabulary of the chief data entities of interest to learning analytics: students, courses, modules, etc. as well as their characteristics. The data coded with this vocabulary is typically extracted from the student record system of a particular college or university.
@@ -15,38 +15,39 @@ No particular data format is prescribed yet for UDD data sets, but both JSON and
 An [entity relation diagram of the whole UDD 1.2](diagram.md) provides a one page overview of the specification.
 
 ## Core sections
-###[Assessment instance](udd/assessment_instance.md)
+###[assessment_instance](udd/assessment_instance.md)
 
-###[Course](udd/course.md)
+###[course](udd/course.md)
 
-###[Course instance](udd/course_instance.md)
+###[course_instance](udd/course_instance.md)
 
-###[Institution](udd/institution.md)
+###[institution](udd/institution.md)
 
-###[Module](udd/module.md)
+###[module](udd/module.md)
 
-###[Module instance](udd/module_instance.md)
+###[module_instance](udd/module_instance.md)
 
-###[Module to VLE map](udd/module_vle_map.md)
+###[module_vle_map](udd/module_vle_map.md)
 
-###[Student](udd/student.md)
+###[student](udd/student.md)
 
-###[Student course membership](udd/student_course_membership.md)
+###[student_course_membership](udd/student_course_membership.md)
 
-###[Student on assessment instance](udd/student_on_assessment_instance.md)
+###[student_on_assessment_instance](udd/student_on_assessment_instance.md)
 
-###[Student on module instance](udd/student_on_a_module_instance.md)
+###[student_on_a_module_instance](udd/student_on_a_module_instance.md)
 
-###[Student on course instance](udd/student_on_course_instance.md)
+###[student_on_course_instance](udd/student_on_course_instance.md)
 
 ##Additional sections 
-###[Staff](udd/staff.md)
+###[staff](udd/staff.md)
 
-###[Staff on course instance](udd/staff_on_course_instance.md)
+###[staff_on_course_instance](udd/staff_on_course_instance.md)
 
-###[Staff on module Instance](udd/staff_on_mod_instance.md)
+###[staff_on_mod_instance](udd/staff_on_mod_instance.md)
 
-###[Student (Additional Information)](udd/student_additional.md)
+##Mandatory and optional properties
+The properties of the UDD are required in compliant datasets to different degrees. The _Mandatory properties in the UDD guide_ outlines the different categories of UDD property. It is available as both [Excel](media/UDDmandatoryFieldGuide.xls) and [ODF](media/UDDmandatoryFieldGuide.ods) spreadsheets.
 
 ##Specification development workflow
 The simplest way of contributing to the UDD works as follows:
@@ -60,5 +61,28 @@ The simplest way of contributing to the UDD works as follows:
 You can do all this through the Github GUI, but you're welcome to use any other git tool you prefer.
 
 Particular release versions will get their own branches, but the main branch will always contain the latest agreed release. Releases will be made after the group has come to an agreement.
+
+Versioning is done broadly as follows: major versions (majorVersion.minorVersion.patch) indicate major datamodel changes. Minor versions denote changes that can break applications, such as the deletion of properties that were valid in earlier versions. Patches can include the addition of new properties.
+
+Note that some properties will be marked as 'deprecated'. This means that the property is still valid, but will be removed by the next minor version update.
+
+##Acknowledgements
+
+Many thanks to all contributors who have raised issues, sent pull requests, commented and made suggestions. The UDD specification is the achievement of all of you.
+
+@andrewhickey
+@arc12
+@christoffballard
+@ds10
+@gryglbrt
+@ht2 
+@huwrobertsjisc
+@jfmullaney
+@michaelwebjisc
+@MiroslavKratchounov
+@robwynj
+@ryansmith94
+@sandeepmjay
+@wilmTap
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.

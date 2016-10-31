@@ -1,27 +1,31 @@
-#Student on assessment instance
-* [STUDENT_ID](student.md#student_id) [1]
-* [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1]
+#student_on_assessment_instance
+
+* [STUDENT_COURSE_MEMBERSHIP_ID](student_course_membership.md#student_course_membership_id) [1] *
+* [ASSESS_INSTANCE_ID](assessment_instance.md#assess_instance_id) [1] *
+* [ASSESS_SEQ_ID](#assess_seq_id) [1] *
 * [STUDENT_COURSE_MEMBERSHIP_SEQ](student_course_membership.md#student_course_membership_seq) [1]
 * [MOD_INSTANCE_ID](module_instance.md#mod_instance_id) [1]
-* [ASSESS_INSTANCE_ID](assessment_instance.md#assess_instance_id) [1]
-* [ASSESS_SEQ_ID](#assess_seq_id) [1]
+* [STUDENT_ID](student.md#student_id) [1]
 * [ASSESS_DUE_DATE](#assess_due_date) [0..1]
 * [ASSESS_RETAKE](#assess_retake) [0..1]
 * [ASSESS_AGREED_MARK](#assess_agreed_mark) [0..1]
 * [ASSESS_ACTUAL_MARK](#assess_actual_mark) [0..1]
-* [ASSESS_AGREED_GRADE](#assess_agreed_grade) [1]
-* [ASSESS_ACTUAL_GRADE](#assess_actual_grade) [1]
-* [ASSESSMENT_CURRENT_ATTEMPT](#assessment_current_attempt) [1]
-* [ASSESSMENT_RESULT](#assessment_result) [1]
+* [ASSESS_AGREED_GRADE](#assess_agreed_grade) [0..1]
+* [ASSESS_ACTUAL_GRADE](#assess_actual_grade) [0..1]
+* [ASSESSMENT_CURRENT_ATTEMPT](#assessment_current_attempt) [0..1]
+* [ASSESSMENT_RESULT](#assessment_result) [0..1]
 * [GRADE_DATE](#grade_date) [0..1]
 * [MAX_POINTS](#max_points) [0..1]
 * [X_ASSESS_DETAIL](#x_assess_detail) [0..1]
 * [X_MOD_NAME](student_on_a_module_instance.md#x_mod_name) [0..1]
-* [X_MOD_ID](#X_MOD_ID) [0..1]
+* [X_MOD_ID](#x_mod_id) [0..1]
+* [X_MOD_ACADEMIC_YEAR](#x_mod_academic_year) [0..1]
+
+\* indicates that the property is part of a composite primary key for this entity.
 
 ##ASSESS_SEQ_ID
 ###Description.
-A unique ID to indicate the order of assessments taken by a student on the assessment instance.
+A unique sequence number to indicate the order of assessments taken by a student on the assessment instance.
 
 ###Purpose
 To help identify the latest assessment and the order of assessments for a student, especially for those in reassessment.
@@ -37,7 +41,7 @@ Any
 Integer
 
 ###Notes
-
+The ASSESS_SEQ_ID number needs to increment with the chronological order of assessments.
 
 ##ASSESS_DUE_DATE
 ###Description.
@@ -83,7 +87,7 @@ Integer
 
 ##ASSESS_ACTUAL_MARK
 ###Description.
-The initial mark given for the assessment attempt.
+The mark awarded to the learner after any moderation process, but before any formal confirmation process. Moderation processes typically involve multiple markers, and confirmation processes typically involve external examiners.
 
 ###Purpose
 Analytics
@@ -98,11 +102,12 @@ Jisc
 Decimal
 
 ###Notes
+ASSESS_ACTUAL_MARK should only be part of a UDD compliant dataset if there is a moderation process and if the result of that process is available in the source data. 
 
 
 ##ASSESS_AGREED_MARK
 ###Description.
-The agreed mark for the assessment attempt.
+The mark recorded after any moderation or confirmation processes, or the only recorded mark if there are no moderation or confirmation processes.
 
 ###Purpose
 Analytics
@@ -117,11 +122,12 @@ Jisc
 Decimal
 
 ###Notes
+ASSESS_AGREED_MARK is expected to be present in any UDD compliant dataset as soon as it becomes available.
 
 
 ##ASSESS_ACTUAL_GRADE
 ###Description.
-The actual grade for the assessment attempt.
+The grade awarded to the learner after any moderation process, but before any formal confirmation process. Moderation processes typically involve multiple markers, and confirmation processes typically involve external examiners.
 
 ###Purpose
 Analytics
@@ -136,11 +142,12 @@ Any
 String (255)
 
 ###Notes
+ASSESS_ACTUAL_GRADE should only be part of a UDD compliant dataset if there is a moderation process and if the result of that process is available in the source data.
 
 
 ##ASSESS_AGREED_GRADE
 ###Description.
-The agreed grade for the assessment attempt.
+The grade recorded after any moderation or confirmation processes, or the only recorded grade if there are no moderation or confirmation processes. 
 
 ###Purpose
 Analytics
@@ -155,6 +162,7 @@ Any
 String (255)
 
 ###Notes
+ASSESS_AGREED_GRADE is expected to be present in any UDD compliant dataset as soon as it becomes available.
 
 
 ##ASSESSMENT_CURRENT_ATTEMPT
@@ -174,7 +182,7 @@ Any
 Integer
 
 ###Notes
-
+Omitting this property may hinder the development or use of an effective analytics model.
 
 ##ASSESSMENT_RESULT
 ###Description.
@@ -186,20 +194,20 @@ Analytics
 ###Derivation
 Jisc; student_on_a_module_instance.MOD_RESULT
 
-###Valid Values
 <table>
-<tr><td>ASSESSMENT_RESULT</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
-<tr><td>1</td><td>Yes</td><td>Ie  </td></tr>
-<tr><td>2</td><td>No</td><td>Na  </td></tr>
-<tr><td>3</td><td>Not completed yet</td><td>Dim wedi cwblhau</td></tr>
-<tr><td>4</td><td>Deferred</td><td>Gohiriedig</td></tr>
+<tr><td>MOD_RESULT</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)  </td></tr>
+<tr><td>1</td><td>Pass</td><td>  </td></tr>
+<tr><td>2</td><td>Fail</td><td>  </td></tr>
+<tr><td>3</td><td>Not known</td><td> </td></tr>
+<tr><td>4</td><td>deprecated (was: 'deferred')</td><td> </td></tr>
 </table>  
 
 ###Format
-Integer
+Int
 
 ###Notes
-Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply; because a student withdrew or deferred, for example.
+Code 3 is applied in all cases where the outcome is either not known (yet), or doesn't apply because the student hasn't been assessed yet. Code 4 is deprecated because deferral or withdrawal is indicated by WITHDRAWAL_REASON in student_course_membership. 
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 
 ##GRADE_DATE
@@ -239,7 +247,7 @@ Not specified
 String (256)
 
 ###Notes
-The value can be any alphanumeric used by any type of marking scale. E.g. 80%, B11 or 'excellent'.
+The value can be any alphanumeric used by any type of marking scale. E.g. 80%, B11 or 'excellent'. There is also the similar MAX_MARKS property on assessment_instance, which is for analytic purposes. It only accepts decimal data.
 
 
 ##X_ASSESS_DETAIL
@@ -280,3 +288,23 @@ String (255)
 
 ###Notes
 This data is generated internally from existing data, and does not need to be supplied by an institution.
+
+
+##X_MOD_ACADEMIC_YEAR
+###Description
+An extra implementation optimisation that isn't part of the UDD model. Its value is identical to that of MOD_ACADEMIC_YEAR on the mod_instance identified by the relevant MOD_INSTANCE_ID.
+
+###Purpose
+Analytics
+
+###Derivation
+Jisc
+
+###Valid Values
+4 digit year
+
+###Format
+Int
+
+###Notes
+This is the starting year for the academic year.

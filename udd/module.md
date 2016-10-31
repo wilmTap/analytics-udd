@@ -1,19 +1,21 @@
 #Module
-* [MOD_ID](#mod_id) [1]
-* [MOD_NAME](#mod_name) [1]
-* [MOD_SUBJECT](#mod_subject) [1]
-* [MOD_CREDITS](#mod_credits) [1]
+* [MOD_ID](#mod_id) [1] *
+* [MOD_NAME](#mod_name) [0..1]
+* [MOD_SUBJECT](#mod_subject) [0..1]
+* [MOD_CREDITS](#mod_credits) [0..1]
 * [MOD_LEVEL](#mod_level) [0..1]
+
+\* indicates that the property is the primary key for this entity.
 
 ##MOD_ID
 ###Description
 The unique identifier standard across SRS and LMS for the course.
 
 ###Purpose
-For analytics and to link Module to Module Instance
+For analytics and to link module to module_instance
 
 Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^Module_MODID.html
+https://www.hesa.ac.uk/collection/c16051/a/module_modid/
 
 ###Valid Values
 Any
@@ -32,7 +34,7 @@ The actual name of the module
 For display purposes.
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^MTITLE.html
+https://www.hesa.ac.uk/collection/c16051/a/MTITLE
 
 ###Valid Values
 Any
@@ -41,25 +43,29 @@ Any
 String (255)
 
 ###Notes
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 ##MOD_SUBJECT
 ###Description
-Module subject - coded using JACS3 subject codes (initially, for HE purposes)
+Module subject - coded using JACS3 subject codes
 
 ###Purpose
 For display purposes and analytics.
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^MODSBJ.html
+https://www.hesa.ac.uk/collection/c16051/a/modsbj/
+
+https://www.hesa.ac.uk/support/documentation/jacs
 
 ###Valid Values
-Valid JACS3 subject code. See link above.
+[JACS3 CSV](../media/jacs3-valid-entries.csv)
 
 ###Format
 String (255)
 
 ###Notes
 For FE purposes, it will need be adapted to work with institutions specific codeset for Learning Activities. Details to be confirmed.
+Omitting this property may hinder the development or use of an effective analytics model.
 
 
 ##MOD_CREDITS
@@ -70,7 +76,7 @@ Number of credits award for the module
 For analytics
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^CRDTPTS.html
+https://www.hesa.ac.uk/collection/c16051/a/CRDTPTS
 
 ###Valid Values
 Any
@@ -79,7 +85,7 @@ Any
 Int
 
 ###Notes
-
+Omitting this property may hinder the development or use of an effective analytics model.
 
 ##MOD_LEVEL
 ###Description

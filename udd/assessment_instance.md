@@ -1,20 +1,23 @@
-#Assessment instance
-* [MOD_INSTANCE_ID](module_instance.md#mod_instance_id) [1]
-* [ASSESS_INSTANCE_ID](#assess_instance_id) [1]
-* [ASSESS_TYPE_ID](#assess_type_id) [1]
-* [ASSESS_TYPE_NAME](#assess_type_name) [1]
-* [ASSESS_DETAIL](#assess_detail) [1]
-* [ASSESS_WEIGHT](#assess_weight) [1]
+#assessment_instance
+* [ASSESS_INSTANCE_ID](#assess_instance_id) [1] *
+* [MOD_INSTANCE_ID](module_instance.md#mod_instance_id) [1] 
+* [ASSESS_TYPE_ID](#assess_type_id) [0..1]
+* [ASSESS_TYPE_NAME](#assess_type_name) [0..1]
+* [ASSESS_DETAIL](#assess_detail) [0..1]
+* [ASSESS_WEIGHT](#assess_weight) [0..1]
+* [MAX_MARKS](#max_marks) [0..1]
+
+\* indicates that the property is the primary key for this entity.
 
 ###Description
-An assessment instance is any assessed learning activity that is part of a wider module or course that gets a grade and/or mark. The assumption is that an assessment instance is summative.
+An assessment_instance is any assessed learning activity that is part of a wider module or course that gets a grade and/or mark. The assumption is that an assessment_instance is summative.
 
 ##ASSESS_INSTANCE_ID
 ###Description.
-An institution's unique identifier for an assessment instance
+An institution's unique identifier for an assessment_instance
 
 ###Purpose
-To uniquely identify an assessment instance, and to link it to other entities such as module instances.
+To uniquely identify an assessment_instance, and to link it to other entities such as module instances.
 
 ###Derivation
 Jisc
@@ -45,7 +48,7 @@ Any
 String (255)
 
 ###Notes
-
+Omitting this property may hinder the development or use of an effective analytics model.
 
 ##ASSESS_TYPE_NAME
 ###Description.
@@ -64,7 +67,7 @@ Any
 String (255)
 
 ###Notes
-
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 ##ASSESS_DETAIL
 ###Description.
@@ -83,6 +86,7 @@ Any
 String (255)
 
 ###Notes
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 ##ASSESS_WEIGHT
 ###Description.
@@ -101,3 +105,23 @@ Jisc
 Decimal
 
 ###Notes
+Omitting this property may hinder the development or use of an effective analytics model.
+
+##MAX_MARKS
+###Description.
+The maximum numeric marks that an instructor can allocate to an assessment. Used to indicate the marking scale used for an assignment.
+
+###Purpose
+To enable student performance calculations.
+
+###Derivation
+Jisc
+
+###Valid Values
+Any
+
+###Format
+Decimal
+
+###Notes
+There is also the similar MAX_POINTS property on student_on_assessment_instance, which is for informational purposes. It has more a permissive format and value space.

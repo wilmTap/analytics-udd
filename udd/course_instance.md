@@ -1,16 +1,18 @@
-#Course instance
+#course_instance
+* [COURSE_INSTANCE_ID](#course_instance_id) [1] *
 * [COURSE_ID](course.md#course_id) [1]
-* [COURSE_INSTANCE_ID](#course_instance_id) [1]
-* [START_DATE](#start_date) [1]
-* [END_DATE](#end_date) [1]
-* [ACADEMIC_YEAR](#academic_year) [1]
+* [START_DATE](#start_date) [0..1]
+* [END_DATE](#end_date) [0..1]
+* [ACADEMIC_YEAR](#academic_year) [0..1]
+
+\* indicates that the property is the primary key for this entity.
 
 ##COURSE_INSTANCE_ID
 ###Description
-Institution's identifier for this course instance
+Institution's identifier for this course_instance
 
 ###Purpose
-To link student to course, and course to course instance
+To link student to course, and course to course_instance
 
 ###Derivation
 Jisc
@@ -25,7 +27,7 @@ String (255)
 
 ##START_DATE
 ###Description
-Start date for this course instance
+Start date for this course_instance
 
 ###Purpose
 For analytics
@@ -40,10 +42,11 @@ Date in ISO8601 format - YYYY-MM-DD
 String (255)
 
 ###Notes
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 ##END_DATE
 ###Description
-End date for this course instance
+End date for this course_instance
 
 ##Purpose
 For analytics
@@ -58,10 +61,11 @@ Date in ISO8601 format - YYYY-MM-DD
 String (255)
 
 ###Notes
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 ##ACADEMIC_YEAR
 ###Description
-Academic year to which the course instance relates. 
+Academic year to which the course_instance relates. 
 
 ###Purpose
 For display and analysis purposes
@@ -77,3 +81,4 @@ Int
 
 ###Notes
 Could be derived, but academic year calendars may be different between institutions. This field could also be sourced directly from the SRS.
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
