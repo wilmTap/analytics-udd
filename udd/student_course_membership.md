@@ -1715,7 +1715,7 @@ Jisc
 ###Valid values
  <table>
             <tr>
-                <td>CODE</td>
+                <td>ACTIVE_MEMBERSHIP</td>
                 <td>DESCRIPTION (ENGLISH)</td>
                 <td>DESCRIPTION (WELSH)</td>
             </tr>
