@@ -647,1064 +647,1329 @@ String (2)
 ###Valid Values (No Mappings)
 <table>
 	<tr>
-		<td>Code</td>
-		<td>Label</td>
+		<td>DOMICILE</td>
+		<td>DESCRIPTION (ENGLISH)</td>
+		<td>DESCRIPTION (WELSH)</td>
 	</tr>
 	<tr>
 		<td>AF</td>
 		<td>Afghanistan</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XQ</td>
 		<td>Africa not otherwise specified</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>AX</td>
 		<td>Åland Islands {Ahvenamaa}</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>AL</td>
 		<td>Albania</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>DZ</td>
 		<td>Algeria</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>AS</td>
 		<td>American Samoa</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>AD</td>
 		<td>Andorra</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>AO</td>
 		<td>Angola</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>AI</td>
 		<td>Anguilla</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XX</td>
 		<td>Antarctica and Oceania not otherwise specified</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>AG</td>
 		<td>Antigua and Barbuda</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>AR</td>
 		<td>Argentina</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>AM</td>
 		<td>Armenia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>AW</td>
 		<td>Aruba</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XS</td>
 		<td>Asia (Except Middle East) not otherwise specified</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>AU</td>
 		<td>Australia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>AT</td>
 		<td>Austria</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>AZ</td>
 		<td>Azerbaijan</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BS</td>
 		<td>Bahamas, The</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BH</td>
 		<td>Bahrain</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BD</td>
 		<td>Bangladesh</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BB</td>
 		<td>Barbados</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BY</td>
 		<td>Belarus</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BE</td>
 		<td>Belgium</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BZ</td>
 		<td>Belize</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BJ</td>
 		<td>Benin</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BM</td>
 		<td>Bermuda</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BT</td>
 		<td>Bhutan</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BO</td>
 		<td>Bolivia [Bolivia, Plurinational State of]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BQ</td>
 		<td>Bonaire, Sint Eustatius and Saba</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BA</td>
 		<td>Bosnia and Herzegovina</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BW</td>
 		<td>Botswana</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BR</td>
 		<td>Brazil</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>VG</td>
 		<td>British Virgin Islands [Virgin Islands, British]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BN</td>
 		<td>Brunei [Brunei Darussalam]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BG</td>
 		<td>Bulgaria</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BF</td>
 		<td>Burkina [Burkina Faso]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MM</td>
 		<td>Burma [Myanmar]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BI</td>
 		<td>Burundi</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>KH</td>
 		<td>Cambodia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CM</td>
 		<td>Cameroon</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CA</td>
 		<td>Canada</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>IC</td>
 		<td>Canary Islands</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CV</td>
 		<td>Cape Verde</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XW</td>
 		<td>Caribbean not otherwise specified</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>KY</td>
 		<td>Cayman Islands</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CF</td>
 		<td>Central African Republic</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XU</td>
 		<td>Central America not otherwise specified</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>TD</td>
 		<td>Chad</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XL</td>
 		<td>Channel Islands not otherwise specified</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CL</td>
 		<td>Chile</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CN</td>
 		<td>China</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CX</td>
 		<td>Christmas Island</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CC</td>
 		<td>Cocos (Keeling) Islands</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CO</td>
 		<td>Colombia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>KM</td>
 		<td>Comoros</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CG</td>
 		<td>Congo</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CD</td>
 		<td>Congo (Democratic Republic) [Congo (The Democratic Republic of the)] {formerly Zaire}</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CK</td>
 		<td>Cook Islands</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CR</td>
 		<td>Costa Rica</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>HR</td>
 		<td>Croatia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CU</td>
 		<td>Cuba</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CW</td>
 		<td>Curaçao</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XA</td>
 		<td>Cyprus (European Union)</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XB</td>
 		<td>Cyprus (Non-European Union)</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XC</td>
 		<td>Cyprus not otherwise specified</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CZ</td>
 		<td>Czech Republic</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>DK</td>
 		<td>Denmark</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>DJ</td>
 		<td>Djibouti</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>DM</td>
 		<td>Dominica</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>DO</td>
 		<td>Dominican Republic</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>TL</td>
 		<td>East Timor [Timor Leste]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>EC</td>
 		<td>Ecuador</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>EG</td>
 		<td>Egypt</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SV</td>
 		<td>El Salvador</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XF</td>
 		<td>England</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GQ</td>
 		<td>Equatorial Guinea</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>ER</td>
 		<td>Eritrea</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>EE</td>
 		<td>Estonia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>ET</td>
 		<td>Ethiopia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XP</td>
 		<td>Europe not otherwise specified</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>EU</td>
 		<td>European Union not otherwise specified</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>FK</td>
 		<td>Falkland Islands [Falkland Islands (Malvinas)]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>FO</td>
 		<td>Faroe Islands</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>FJ</td>
 		<td>Fiji</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>FI</td>
 		<td>Finland</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>FR</td>
 		<td>France {includes Corsica}</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GF</td>
 		<td>French Guiana</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>PF</td>
 		<td>French Polynesia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GA</td>
 		<td>Gabon</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GM</td>
 		<td>Gambia, The</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GE</td>
 		<td>Georgia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>DE</td>
 		<td>Germany</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GH</td>
 		<td>Ghana</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GI</td>
 		<td>Gibraltar</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GR</td>
 		<td>Greece</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GL</td>
 		<td>Greenland</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GD</td>
 		<td>Grenada</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GP</td>
 		<td>Guadeloupe</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GU</td>
 		<td>Guam</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GT</td>
 		<td>Guatemala</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GG</td>
 		<td>Guernsey</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GN</td>
 		<td>Guinea</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GW</td>
 		<td>Guinea-Bissau</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GY</td>
 		<td>Guyana</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>HT</td>
 		<td>Haiti</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>HN</td>
 		<td>Honduras</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>HK</td>
 		<td>Hong Kong (Special Administrative Region of China) [Hong Kong]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>HU</td>
 		<td>Hungary</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>IS</td>
 		<td>Iceland</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>IN</td>
 		<td>India</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>ID</td>
 		<td>Indonesia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>IR</td>
 		<td>Iran [Iran, Islamic Republic of]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>IQ</td>
 		<td>Iraq</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>IE</td>
 		<td>Ireland</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>IM</td>
 		<td>Isle of Man</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>IL</td>
 		<td>Israel</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>IT</td>
 		<td>Italy {Includes Sardinia, Sicily}</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CI</td>
 		<td>Ivory Coast [Côte D'ivoire]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>JM</td>
 		<td>Jamaica</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>JP</td>
 		<td>Japan</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>JE</td>
 		<td>Jersey</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>JO</td>
 		<td>Jordan</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>KZ</td>
 		<td>Kazakhstan</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>KE</td>
 		<td>Kenya</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>KI</td>
 		<td>Kiribati</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>KP</td>
 		<td>Korea (North) [Korea, Democratic People's Republic of]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>KR</td>
 		<td>Korea (South) [Korea, Republic of]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>QO</td>
 		<td>Kosovo</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>KW</td>
 		<td>Kuwait</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>KG</td>
 		<td>Kyrgyzstan</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>LA</td>
 		<td>Laos [Lao People's Democratic Republic]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>LV</td>
 		<td>Latvia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>LB</td>
 		<td>Lebanon</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>LS</td>
 		<td>Lesotho</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>LR</td>
 		<td>Liberia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>LY</td>
 		<td>Libya</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>LI</td>
 		<td>Liechtenstein</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>LT</td>
 		<td>Lithuania</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>LU</td>
 		<td>Luxembourg</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MO</td>
 		<td>Macao (Special Administrative Region of China) [Macao]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MK</td>
 		<td>Macedonia [Macedonia, The Former Yugoslav Republic of]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MG</td>
 		<td>Madagascar</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MW</td>
 		<td>Malawi</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MY</td>
 		<td>Malaysia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MV</td>
 		<td>Maldives</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>ML</td>
 		<td>Mali</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MT</td>
 		<td>Malta</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MH</td>
 		<td>Marshall Islands</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MQ</td>
 		<td>Martinique</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MR</td>
 		<td>Mauritania</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MU</td>
 		<td>Mauritius</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>YT</td>
 		<td>Mayotte</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MX</td>
 		<td>Mexico</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>FM</td>
 		<td>Micronesia [Micronesia, Federated States of]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XR</td>
 		<td>Middle East not otherwise specified</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MD</td>
 		<td>Moldova [Moldova, Republic of]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MC</td>
 		<td>Monaco</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MN</td>
 		<td>Mongolia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>ME</td>
 		<td>Montenegro</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MS</td>
 		<td>Montserrat</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MA</td>
 		<td>Morocco</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MZ</td>
 		<td>Mozambique</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>NA</td>
 		<td>Namibia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>NR</td>
 		<td>Nauru</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>NP</td>
 		<td>Nepal</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>NL</td>
 		<td>Netherlands</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>AN</td>
 		<td>Netherlands Antilles</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>NC</td>
 		<td>New Caledonia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>NZ</td>
 		<td>New Zealand</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>NI</td>
 		<td>Nicaragua</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>NE</td>
 		<td>Niger</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>NG</td>
 		<td>Nigeria</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>NU</td>
 		<td>Niue</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>NF</td>
 		<td>Norfolk Island</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XT</td>
 		<td>North America not otherwise specified</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XG</td>
 		<td>Northern Ireland</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MP</td>
 		<td>Northern Mariana Islands</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>NO</td>
 		<td>Norway</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>ZZ</td>
 		<td>Not known</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>PS</td>
 		<td>Occupied Palestinian Territories [Palestine, State of] {formerly West Bank (including East Jerusalem) and Gaza Strip}</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>OM</td>
 		<td>Oman</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>PK</td>
 		<td>Pakistan</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>PW</td>
 		<td>Palau</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>PA</td>
 		<td>Panama</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>PG</td>
 		<td>Papua New Guinea</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>PY</td>
 		<td>Paraguay</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>PE</td>
 		<td>Peru</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>PH</td>
 		<td>Philippines</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>PN</td>
 		<td>Pitcairn, Henderson, Ducie and Oeno Islands [Pitcairn]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>PL</td>
 		<td>Poland</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>PT</td>
 		<td>Portugal {includes Madeira, Azores}</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>PR</td>
 		<td>Puerto Rico</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>QA</td>
 		<td>Qatar</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>RE</td>
 		<td>Réunion</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>RO</td>
 		<td>Romania</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>RU</td>
 		<td>Russia [Russian Federation]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>RW</td>
 		<td>Rwanda</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>WS</td>
 		<td>Samoa</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SM</td>
 		<td>San Marino</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>ST</td>
 		<td>Sao Tome and Principe</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SA</td>
 		<td>Saudi Arabia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XH</td>
 		<td>Scotland</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SN</td>
 		<td>Senegal</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>RS</td>
 		<td>Serbia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SC</td>
 		<td>Seychelles</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SL</td>
 		<td>Sierra Leone</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SG</td>
 		<td>Singapore</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SX</td>
 		<td>Sint Maarten (Dutch part)</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SK</td>
 		<td>Slovakia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SI</td>
 		<td>Slovenia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SB</td>
 		<td>Solomon Islands</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SO</td>
 		<td>Somalia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>ZA</td>
 		<td>South Africa</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XV</td>
 		<td>South America not otherwise specified</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>GS</td>
 		<td>South Georgia and The South Sandwich Islands</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SS</td>
 		<td>South Sudan</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>ES</td>
 		<td>Spain {includes Ceuta, Melilla}</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>LK</td>
 		<td>Sri Lanka</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>BL</td>
 		<td>St Barthélemy</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SH</td>
 		<td>St Helena, Ascension and Tristan da Cunha</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>KN</td>
 		<td>St Kitts and Nevis</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>LC</td>
 		<td>St Lucia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>MF</td>
 		<td>St Martin (French Part) [St Martin]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>PM</td>
 		<td>St Pierre and Miquelon</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>VC</td>
 		<td>St Vincent and The Grenadines</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SD</td>
 		<td>Sudan</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SR</td>
 		<td>Surinam [Suriname]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SJ</td>
 		<td>Svalbard and Jan Mayen</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SZ</td>
 		<td>Swaziland</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SE</td>
 		<td>Sweden</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>CH</td>
 		<td>Switzerland</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>SY</td>
 		<td>Syria [Syrian Arab Republic]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>TW</td>
 		<td>Taiwan [Taiwan, Province of China]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>TJ</td>
 		<td>Tajikistan</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>TZ</td>
 		<td>Tanzania [Tanzania, United Republic of]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>TH</td>
 		<td>Thailand</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>TG</td>
 		<td>Togo</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>TK</td>
 		<td>Tokelau</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>TO</td>
 		<td>Tonga</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>TT</td>
 		<td>Trinidad and Tobago</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>TN</td>
 		<td>Tunisia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>TR</td>
 		<td>Turkey</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>TM</td>
 		<td>Turkmenistan</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>TC</td>
 		<td>Turks and Caicos Islands</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>TV</td>
 		<td>Tuvalu</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>UG</td>
 		<td>Uganda</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>UA</td>
 		<td>Ukraine</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>AE</td>
 		<td>United Arab Emirates</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XK</td>
 		<td>United Kingdom, not otherwise specified</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>US</td>
 		<td>United States</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>VI</td>
 		<td>United States Virgin Islands [Virgin Islands, U. S.]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>UY</td>
 		<td>Uruguay</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>UZ</td>
 		<td>Uzbekistan</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>VU</td>
 		<td>Vanuatu</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>VA</td>
 		<td>Vatican City [Holy See (Vatican City State)]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>VE</td>
 		<td>Venezuela [Venezuela, Bolivarian Republic of]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>VN</td>
 		<td>Vietnam [Viet Nam]</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>XI</td>
 		<td>Wales</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>WF</td>
 		<td>Wallis and Futuna</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>EH</td>
 		<td>Western Sahara</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>YE</td>
 		<td>Yemen</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>ZM</td>
 		<td>Zambia</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>ZW</td>
 		<td>Zimbabwe</td>
+		<td></td>
 	</tr>
 </table>
 
