@@ -38,7 +38,7 @@
 The institution's own unique identifier of the student. In the case or event of requiring to provide anonymous data for trial/ evaluation purposes with JISC, institutions should use a suitable method or algorithm (which can be reversed by that institution, for evaluation purposes thereafter) to ensure that this studentid provided is different to that actual ID held locally.
 
 ###Purpose
-To identify the student across multiple records within an institution
+To identify the student across multiple records within an institution.
 
 ###Derivation
 https://www.hesa.ac.uk/collection/c16051/a/OWNSTU
@@ -67,7 +67,7 @@ Skills Funding Agency: See https://www.gov.uk/government/publications/lrs-unique
 String (10)
 
 ###Notes
-The ULN can be provided as an additional point of reference, however the STUDENT_ID will always take precedence as the unique learner/ student identifier
+The ULN can be provided as an additional point of reference, however the STUDENT_ID will always take precedence as the unique learner/ student identifier.
 
 
 ##DOB
@@ -86,12 +86,13 @@ https://www.hesa.ac.uk/collection/c16051/a/BIRTHDTE
 ISO8601 format of YYYY-MM-DD
 
 ###Notes
-A date of birth of 2099-12-31 can be provided on a temporary basis.
+If date of birth is not known or not supplied, this property should be omitted.
 Omitting this property may hinder the development or use of an effective analytics model.
+This property is used to calculate AGE.
 
 ##ETHNICITY
 ###Description
-This field records the ethnicity of the student, on the basis of their own self-assessment
+This field records the ethnicity of the student, on the basis of their own self-assessment.
 
 ###Purpose
 To allow equal opportunities monitoring, within detailed learning analytics/ data modelling.
@@ -268,18 +269,18 @@ String (10)
             </tr>
 </table>
 
-Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
+Please Note - N/A denotes that no mapping value is applicable and the ETHNICITY property should be omitted.
 
 ###Notes
-Where any ethnicity details are unknown, this field must be coded with '90'
+If ethnicity data is not supplied, this property should be omitted.
 Omitting this property may hinder the development or use of an effective analytics model.
 
 ##SEXID
 ###Description
-To record a Learner's current sex, on the basis of their own self-assessment
+To record a Learner's current sex, on the basis of their own self-assessment.
 
 ###Purpose
-For equal opportunities monitoring within learning analytics / data modelling
+For equal opportunities monitoring within learning analytics / data modelling.
 
 ###Derivation
 https://www.hesa.ac.uk/collection/c16051/a/SEXID
@@ -297,10 +298,10 @@ Int
 <tr><td>4</td><td>Unknown</td><td>Anhysbys</td><td>N/A</td><td>N/A</td></tr>
 </table>
 
-Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)   
+Please Note - N/A denotes that no mapping value is applicable and the SEXID property should be omitted.   
 
 ###Notes
-If the sex is unknown, return code '4' in all cases
+If sexid data is not supplied, this property should be omitted.
 Omitting this property may hinder the development or use of an effective analytics model.
 
 ##AGE
@@ -308,22 +309,21 @@ Omitting this property may hinder the development or use of an effective analyti
 The current age of the learner/ student
 
 ###Purpose
-To be used purely for display purposes within the Learning Analytics software suite
+To be used purely for display purposes within the Learning Analytics software suite.
 
 ###Format
 Int
 
 ###Notes
-This will typically auto-calculated on a daily basis, based on field DOB. The LA system will provide this field.
-Omitting this property may hinder the development or use of an effective analytics model.
+This will typically auto-calculated on a daily basis, based on DOB property. The LA system will provide this field.
 
 
 ##LEARN_DIF
 ###Description
-This field records whether a learner consider themselves to have a learning difficulty.
+This field records whether a learner considers themselves to have a learning difficulty.
 
 ###Purpose
-For detailed analysis or intervention purposes within Learning Analytics eg. Data Insight Tool
+For detailed analysis or intervention purposes within Learning Analytics eg. Data Insight Tool.
 
 ###Derivation
 https://www.hesa.ac.uk/collection/c15051/a/learndif/
@@ -349,7 +349,7 @@ https://www.hesa.ac.uk/collection/c15051/a/learndif/
 Int
 
 ###Notes
-If a learner's learning difficulty is unknown, then code '1' should be used for those cases. 
+If the learner's learning difficulty data is not supplied, this property should be omitted.
 
 As of the 2016-2017 academic year, LLDDHEALTHPROB has replaced LEARN_DIF in the HESA student returns. Also, LLDDCAT in FE ILR post 2014 has a different value space. Both of these vocabularies will be supported in a forthcoming field in v1.3. Data with HESA LLDDHEALTHPROB and LLDDCAT in FE ILR post 2014 can't, therefore, be submitted prior to UDD v1.3
 
@@ -358,7 +358,7 @@ As of the 2016-2017 academic year, LLDDHEALTHPROB has replaced LEARN_DIF in the 
 Whether the student is indicated as being disabled, according to their own self-assessment. This will be their primary disability.
 
 ###Purpose
-For equal opportunities monitoring within Learning Analytics/ Data Modelling
+For equal opportunities monitoring within Learning Analytics/ Data Modelling.
 
 ###Derivation
 https://www.hesa.ac.uk/collection/c15051/a/disable/
@@ -488,7 +488,7 @@ a wheelchair or crutches</td>
 Int
 
 ###Notes
-If disability is unknown, code '0' or '99' should be provided
+If the learner's disability data is not supplied, this property should be omitted.
 
 As of the 2016-2017 academic year, HESA DISABILITY has a different value space in the HESA student returns. Also, LLDDCAT in FE ILR post 2014 has a different value space from later versions. Both of these vocabularies will be supported in a forthcoming field in v1.3. Data with HESA DISABLE and LLDDCAT in FE ILR post 2014 can't, therefore, be submitted prior to UDD v1.3
 
@@ -497,7 +497,7 @@ As of the 2016-2017 academic year, HESA DISABILITY has a different value space i
 Whether the student is indicated as being disabled, according to their own self-assessment. This will be their primary disability.
 
 ###Purpose
-For equal opportunities monitoring within Learning Analytics/ Data Modelling
+For equal opportunities monitoring within Learning Analytics/ Data Modelling.
 
 ###Derivation
 https://www.hesa.ac.uk/collection/c15051/a/disable/
@@ -627,16 +627,16 @@ a wheelchair or crutches</td>
 Int
 
 ###Notes
-If disability is unknown, code '0' or '99' should be provided
+If the learner's disability data is not supplied, this property should be omitted.
 
 As of the 2016-2017 academic year, HESA DISABILITY has a different value space in the HESA student returns. Also, LLDDCAT in FE ILR post 2014 has a different value space from later versions. Both of these vocabularies will be supported in a forthcoming field in v1.3. Data with HESA DISABLE and LLDDCAT in FE ILR post 2014 can't, therefore, be submitted prior to UDD v1.3
 
 ##DOMICILE
 ###Description
-This field holds the country code of the student's permanent home address prior to entry to the course. It is not necessarily the correspondence address of the student.
+This property holds the country code of the student's permanent home address prior to entry to the course. It is not necessarily the correspondence address of the student.
 
 ###Purpose
-For detailed analysis within Learning Analytics/ Data Modelling
+For detailed analysis within Learning Analytics/ Data Modelling.
 
 ###Derivation
 https://www.hesa.ac.uk/collection/c16051/a/DOMICILE
@@ -1706,10 +1706,14 @@ String (2)
 		<td>ZW</td>
 		<td>Zimbabwe</td>
 	</tr>
+	<tr>
+		<td>ZZ</td>
+		<td>Unknown</td>
+	</tr>
 </table>
 
 ###Notes
-If a domicile country is unknown, please use code 'ZZ'
+If domicile country data is not supplied, this property should be omitted.
 Omitting this property may hinder the development or use of an effective analytics model.
 
 ##TERMTIME_ACCOM
@@ -1717,7 +1721,7 @@ Omitting this property may hinder the development or use of an effective analyti
 The current term time accomodation type of student
 
 ###Purpose
-For detailed analysis within Learning Analytics/ Data Modelling
+For detailed analysis within Learning Analytics/ Data Modelling.
 
 ###Derivation
 https://www.hesa.ac.uk/collection/c16051/a/TTACCOM
@@ -1736,21 +1740,21 @@ https://www.hesa.ac.uk/collection/c16051/a/TTACCOM
 <tr><td>9</td><td>Private-sector halls</td><td></td><td>9</td><td>N/A  </td></tr>
 </table>   
 
-Please Note - N/A denotes that no mapping value is applicable (and should not be confused with NULL)  
+Please Note - N/A denotes that no mapping value is applicable (it should not be confused with NULL), and this property should be omitted.
 
 ###Format
 Int
 
 ###Notes
-If the type is unknown, code '5' should be used
+If current term time accomodation type data is not supplied, this property should be omitted.
 Omitting this property may hinder the development or use of an effective analytics model.
 
 ##PARENTS_ED
 ###Description
-Whether parents have higher education qualification
+Whether parents have higher education qualification.
 
 ###Purpose
-For detailed analysis within Learning Analytics/ Data Modelling
+For detailed analysis within Learning Analytics/ Data Modelling.
 
 ###Derivation
 https://www.hesa.ac.uk/collection/c16051/a/PARED
@@ -1770,15 +1774,15 @@ https://www.hesa.ac.uk/collection/c16051/a/PARED
 Int
 
 ###Notes
-Where this is unknown, the code '8' should be provided. This information may not be available for FE/ ILR institutions, and only HE.
+If parents higher education qualification data is not supplied, this property should be omitted.  This information may not be available for FE/ ILR institutions, and only HE.
 Omitting this property may hinder the development or use of an effective analytics model.
 
 ##SOCIO_EC
 ###Description
-This field collects the socio-economic classification of students participating in HE if 21 or over at the start of their course or parental classification if under 21
+This property collects the socio-economic classification of students participating in HE if 21 or over at the start of their course or parental classification if under 21.
 
 ###Purpose
-For detailed analysis within Learning Analytics/ Data Modelling
+For detailed analysis within Learning Analytics/ Data Modelling.
 
 ###Derivation
 https://www.hesa.ac.uk/collection/c16051/a/SEC
@@ -1802,16 +1806,17 @@ https://www.hesa.ac.uk/collection/c16051/a/SEC
 Int
 
 ###Notes
-Where this is unknown, the code '9' should be provided. This information may not be available for FE/ ILR institutions, and only HE.
+If the socio-economic classification data is not supplied, this property should be omitted.
+This information may not be available for FE/ ILR institutions, and only HE.
 Omitting this property may hinder the development or use of an effective analytics model.
 
 
 ##OVERSEAS
 ###Description
-Whether the student is classified as a home student (UK), or European (EU) or as Overseas (rest of the world)
+Whether the student is classified as a home student (UK), or European (EU) or as Overseas (rest of the world).
 
 ###Purpose
-For detailed analysis within Learning Analytics/ Data Modelling
+For detailed analysis within Learning Analytics/ Data Modelling.
 
 ###Derivation
 Jisc
@@ -1830,7 +1835,8 @@ Jisc
 Int
 
 ###Notes
-If this value is unknown, then code '99' should be used. The mapping for these fields could be done using the Nationality indicator, or other relevant source within the HESA/ student records system database.
+If this student classification data is not supplied, this property should be omitted.
+The mapping for these fields could be done using the Nationality indicator, or other relevant source within the HESA/ student records system database.
 Omitting this property may hinder the development or use of an effective analytics model.
 
 
