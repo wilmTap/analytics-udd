@@ -15,7 +15,9 @@ code_lists = {'en':{}, 'cy':{}}
 # NB1 the first column MUST be the code and MUST contain a unique name for the code list.
 # NB2 English and Welsh description headers must match pattern (below)
 # This fails with a ValueError if there are duplicate values in index_col.
-for file_name in os.listdir("."):
+file_names = os.listdir(".")
+file_names.sort()
+for file_name in file_names:
     if file_name.endswith(".md"):
         try:
             df_list = pd.read_html(file_name, header=0)#, index_col=0)
