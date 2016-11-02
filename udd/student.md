@@ -332,7 +332,7 @@ https://www.hesa.ac.uk/collection/c15051/a/learndif/
 
 <table>
 <tr><td>LEARN_DIF</td><td>DESCRIPTION(ENGLISH)</td><td>DESCRIPTION(WELSH)</td><td>HESA 2015/2016 (LEARNDIF)</td><td>FE ILR 2014 (LLDDCAT)</td></tr>
-<tr><td>50</td><td>Moderate learning difficulty</td><td></td><td>01</td><td>10  </td></tr>
+<tr><td>1</td><td>Moderate learning difficulty</td><td></td><td>01</td><td>10  </td></tr>
 <tr><td>2</td><td>Severe learning difficulty</td><td></td><td>02</td><td>11  </td></tr>
 <tr><td>10</td><td>Dyslexia</td><td></td><td>10</td><td>12  </td></tr>
 <tr><td>11</td><td>Dyscalculia</td><td></td><td>11</td><td>13  </td></tr>
@@ -341,7 +341,7 @@ https://www.hesa.ac.uk/collection/c15051/a/learndif/
 <tr><td>90</td><td>Multiple learning difficulties</td><td></td><td>90</td><td>3  </td></tr>
 <tr><td>97</td><td>Other</td><td></td><td>97</td><td>96  </td></tr>
 <tr><td>98</td><td>No learning difficulty</td><td></td><td>98</td><td>N/A  </td></tr>
-<tr><td>1</td><td>Not known / information not provided</td><td></td><td>99</td><td>N/A  </td></tr>
+<tr><td>99</td><td>Not known / information not provided</td><td></td><td>99</td><td>N/A  </td></tr>
 </table>
   
 
