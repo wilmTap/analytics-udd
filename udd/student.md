@@ -2142,7 +2142,7 @@ Not specified
 String (256)
 
 ###Notes
-Note that this is not a universal user ID; there maybe several VLEs, or records from other types of tools.
+Note that this is not a universal user ID; there may be several VLEs, or records from other types of tools.
 
 
 ##HUSID
