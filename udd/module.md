@@ -9,7 +9,7 @@
 
 ##MOD_ID
 ###Description
-The unique identifier standard across SRS and LMS for the course.
+The unique identifier standard across SRS and LMS for the module.
 
 ###Purpose
 For analytics and to link module to module_instance

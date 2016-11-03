@@ -28,7 +28,7 @@ Any
 String (255)
 
 ###Notes
-HE guidance - this field could relate to actual HESA COURSEID field or the HR institution's OWNCOURSEID field for cross-referencing purposes.
+HE guidance - this field could relate to actual HESA COURSEID field or the HE institution's OWNCOURSEID field for cross-referencing purposes.
 
 ##SUBJECT
 ###Description
