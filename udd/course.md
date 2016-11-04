@@ -1,12 +1,14 @@
 #Course
-* [COURSE_ID](#course_id) [1]
-* [SUBJECT](#subject) [1]
-* [TITLE](#title) [1]
-* [COURSE_AIM](#course_aim) [1]
+* [COURSE_ID](#course_id) [1] *
+* [SUBJECT](#subject) [0..1]
+* [TITLE](#title) [0..1]
+* [COURSE_AIM](#course_aim) [0..1]
 * [INST_TIER_1](#inst_tier_1) [0..1]
 * [INST_TIER_2](#inst_tier_2) [0..1]
 * [INST_TIER_3](#inst_tier_3) [0..1]
 * [TENANT_ID](institution.md#tenant_id) [0..1]
+
+\* indicates that the property is the primary key for this entity.
 
 ##COURSE_ID
 ###Description
@@ -16,8 +18,8 @@ The providers own ID for the course
 To link relational database tables
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^OWNCOURSEID.html
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^Course_COURSEID.html
+https://www.hesa.ac.uk/collection/c16051/a/owncourseid/
+https://www.hesa.ac.uk/collection/c16054/e/course_courseid/
 
 ###Valid Values
 Any
@@ -26,27 +28,29 @@ Any
 String (255)
 
 ###Notes
-HE guidance - this field could relate to actual HESA COURSEID field or the HR institution's OWNCOURSEID field for cross-referencing purposes.
+HE guidance - this field could relate to actual HESA COURSEID field or the HE institution's OWNCOURSEID field for cross-referencing purposes.
 
 ##SUBJECT
 ###Description
-Subject coding - using JACS3
+Subject of study coding using JACS3.
 
 ###Purpose
 For display purposes
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^SBJCA.html
+https://www.hesa.ac.uk/collection/c16051/a/sbjca/
+
+https://www.hesa.ac.uk/support/documentation/jacs
 
 ###Valid Values
-Valid JACS3 Code. See:
-https://www.hesa.ac.uk/jacs3
+[JACS3 CSV](../media/jacs3-valid-entries.csv)
 
 ###Format
 String (10) - Usually 4 characters, number followed by three digits
 
 ###Notes
-The JACS3 coding will be used here initially, from the HE (HESA) model. Further discussion will be required around this, to discuss subject classifications for FE/ ILR.y
+The JACS3 coding will be used here initially, from the HE (HESA) model. Further discussion will be required around this, to discuss subject classifications for FE/ ILR.
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 ##TITLE
 ###Description
@@ -56,7 +60,7 @@ Course Name or Title
 For display purposes
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^CTITLE.html
+https://www.hesa.ac.uk/collection/c16051/a/ctitle/
 
 ###Valid Value
 Any
@@ -65,6 +69,7 @@ Any
 String (255)
 
 ###Notes
+Omitting this property could severely impair the functionality of analytics applications such as student apps or dashboards.
 
 ##COURSE_AIM
 ###Description
@@ -74,7 +79,7 @@ The qualification which the learner/ student is aiming for at the provider
 For display purposes and further analysis
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&href=a^_^COURSEAIM.html
+https://www.hesa.ac.uk/collection/c16051/a/courseaim/
 
 ###Valid Values
 <table>
@@ -300,6 +305,13 @@ https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=14051&hre
   <td>Post-registration education qualification at level M other than a masters degree for serving schoolteachers</td>
   <td></td>
   <td>M72</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>M73</td>
+  <td>Postgraduate Diploma in Education
+  <td></td>
+  <td>M73</td>
   <td></td>
  </tr>
  <tr>
@@ -1147,7 +1159,7 @@ body</td>
   <td>X98</td>
   <td>No formal qualification aim, below FE level</td>
   <td></td>
-  <td></td>
+  <td>N/A</td>
   <td></td>
  </tr>
  <tr>
@@ -1155,6 +1167,13 @@ body</td>
   <td>No formal qualification aim, below HE level</td>
   <td></td>
   <td>X99</td>
+  <td></td>
+ </tr>
+  <tr>
+  <td>Z99</td>
+  <td>Course aim does not apply</td>
+  <td></td>
+  <td>Z99</td>
   <td></td>
  </tr>
 </table>
@@ -1167,6 +1186,7 @@ String (255)
 
 ###Notes
 This field uses the HESA "COURSEAIM" codeset initially - with the addition of new code 'X98' to denote 'No formal qualification aim, below FE level' for FE equivalent denotation to HE code 'X99'. All course levels are denoted here (TBC with FE college, for final implementation). Specific use of the LARS codeset for FE (from ILR) may need to be considered, or a mapping/ amalgamation with the HESA codeset. This is to be discussed in consultation with the FE sector.
+Omitting this property may hinder the development or use of an effective analytics model.
 
 
 ##INST_TIER_1
@@ -1176,10 +1196,10 @@ Details the top level of an institutional structure (e.g. Faculty Details)
 For display purposes and further analysis
 
 ###Derivation
-https://www.hesa.ac.uk/component/studrec/show_file/13041/a%5E_%5ETIER1.html
+https://www.hesa.ac.uk/collection/c16041/a/tier1/
 
 ###Valid Values
-https://www.hesa.ac.uk/component/studrec/show_file/13041/a%5E_%5ETIER1.html
+Any
 
 ###References
 
@@ -1196,10 +1216,10 @@ Details the middle level of an institutional structure (e.g. department details)
 For display purposes and further analysis
 
 ###Derivation
-https://www.hesa.ac.uk/component/studrec/show_file/13041/a%5E_%5ETIER2.html
+https://www.hesa.ac.uk/collection/c16041/a/tier2/
 
 ###Valid Values
-https://www.hesa.ac.uk/component/studrec/show_file/13041/a%5E_%5ETIER2.html
+Any
 
 ###References
 
@@ -1216,10 +1236,10 @@ Details the lower level of an institutional structure (e.g. department details)
 For display purposes and further analysis
 
 ###Derivation
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=13041&href=^_^A^_^DEPARTMENT.html
+https://www.hesa.ac.uk/collection/c16041/a/DEPARTMENT
 
 ###Valid Values
-https://www.hesa.ac.uk/index.php?option=com_studrec&task=show_file&mnl=13041&href=^_^A^_^DEPARTMENT.html
+Any
 
 ###References
 

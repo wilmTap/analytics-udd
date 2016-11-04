@@ -1,9 +1,11 @@
 #course_instance
+* [COURSE_INSTANCE_ID](#course_instance_id) [1] *
 * [COURSE_ID](course.md#course_id) [1]
-* [COURSE_INSTANCE_ID](#course_instance_id) [1]
-* [START_DATE](#start_date) [1]
-* [END_DATE](#end_date) [1]
-* [ACADEMIC_YEAR](#academic_year) [1]
+* [START_DATE](#start_date) [0..1]
+* [END_DATE](#end_date) [0..1]
+* [ACADEMIC_YEAR](#academic_year) [0..1]
+
+\* indicates that the property is the primary key for this entity.
 
 ##COURSE_INSTANCE_ID
 ###Description
@@ -40,6 +42,7 @@ Date in ISO8601 format - YYYY-MM-DD
 String (255)
 
 ###Notes
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 ##END_DATE
 ###Description
@@ -58,6 +61,7 @@ Date in ISO8601 format - YYYY-MM-DD
 String (255)
 
 ###Notes
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.
 
 ##ACADEMIC_YEAR
 ###Description
@@ -77,3 +81,4 @@ Int
 
 ###Notes
 Could be derived, but academic year calendars may be different between institutions. This field could also be sourced directly from the SRS.
+Omitting this property could impair the functionality of analytics applications such as student apps or dashboards.

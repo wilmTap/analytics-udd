@@ -15,7 +15,9 @@ code_lists = {'en':{}, 'cy':{}}
 # NB1 the first column MUST be the code and MUST contain a unique name for the code list.
 # NB2 English and Welsh description headers must match pattern (below)
 # This fails with a ValueError if there are duplicate values in index_col.
-for file_name in os.listdir("."):
+file_names = os.listdir(".")
+file_names.sort()
+for file_name in file_names:
     if file_name.endswith(".md"):
         try:
             df_list = pd.read_html(file_name, header=0)#, index_col=0)
@@ -24,16 +26,18 @@ for file_name in os.listdir("."):
                 df.columns = [c.replace('DESCRIPTION', '').lstrip().rstrip().upper().replace('(ENGLISH)', 'en').replace('(WELSH)', 'cy') for c in df.columns.values]
             for df in df_list:
                 index_col = df.columns.values[0]
-				#remove NULL as a code and re-type index (pandas forces cols with NA to np.float64)
+                if index_col == "CODE":
+                    raise Exception("Markdown contains a table header containing the word 'CODE' rather than an attribute name in {}".format(file_name))
+                #remove NULL as a code and re-type index (pandas forces cols with NA to np.float64)
 				# this could be avoided if the UDD doc didn;t include NULL in code list table
                 df.dropna(subset=[index_col], inplace=True)
                 if df[index_col].dtype == np.float64:
                     df[index_col] = df[index_col].astype(int).astype(str)
                 df.set_index(index_col, inplace=True)
                 #
-				for lang_code in code_lists.keys():
+                for lang_code in code_lists.keys():
                     if not (lang_code in df.columns.values):
-                        raise Exception("Failed to find column for language {}.".format(lang_code))        
+                        raise Exception("Failed to find column for language {} for attribute {} in file {}.".format(lang_code, index_col, file_name))
                     code_lists[lang_code][df.index.name] = json.loads(df[lang_code].T.to_json())
             print "{} processed\n".format(file_name)
         except ValueError as e:
